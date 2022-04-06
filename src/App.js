@@ -1,10 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
+import Home from './components/home/Home.jsx'
 
 function App() {
   return (
     <div className="App">
-      <h1> leman shirindi</h1>
+      <Home/>
+
+      
     </div>
   );
 }
