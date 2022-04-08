@@ -1,0 +1,41 @@
+.borderImg{
+    height: 500px;
+    box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
+    position: relative;
+}
+.money{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+   margin-top: 20px;
+}
+.uptext{
+    display: flex;
+    font-family: 'Cormorant';
+    font-size: 22px;
+    font-weight: 700;
+}
+.element{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    
+    width: 80%;
+    height: 10vh;
+}
+.heart{
+    position: absolute;
+right: 0;
+}
+.money{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+}
+.leftvector, .rightvector{
+   margin-bottom: 60%;
+}
+  
