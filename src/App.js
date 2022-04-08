@@ -1,12 +1,19 @@
-import './App.css';
-import Home from './components/home/Home.jsx'
 
+import './style.css'
+import './App.css';
+import HomePage from './component/HomePage/HomePage';
+import Arrival from './component/Arrivals/Arrival';
+import Shop from './component/Shop/Shop';
+import Winter from './component/Winter/Winter';
+import Collection from './component/Collection/Collection';
 function App() {
   return (
     <div className="App">
-      <Home/>
-
-      
+     <HomePage/>
+     <Arrival/>
+     <Shop/>
+     <Winter/>
+    <Collection/>
     </div>
   );
 }
