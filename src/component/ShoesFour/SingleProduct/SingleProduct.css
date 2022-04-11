@@ -1,0 +1,18 @@
+.man {
+    padding: 2% 10%;
+    margin: 0 auto;
+}
+
+.grid {
+    width: 50%;
+    border: 1px solid red;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ 
+}
+
+.filteredImage {
+    padding: 0 10%;
+}

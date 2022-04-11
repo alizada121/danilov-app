@@ -1,0 +1,89 @@
+.GreenShop{
+    width: 100%;
+}
+
+.GreenShop-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.GreenShop-part1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+    background-color: #001C08;
+    ;
+}
+
+.GreenShop-part1-text{
+    width: 70%;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    position: relative ;
+   
+    
+}
+
+.GreenShop-part1-text h1{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 25px;
+    color: #FCFCFC;
+}
+
+.GreenShop-part1-text p{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFAF8;
+    width: 70%;
+   
+}
+
+.GreenShop-part1-button{
+    align-items: left;
+    width: 50%;
+   
+    left: 0;
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+}
+
+
+
+.GreenShop-part1-button button{
+    background-color: #001C08;
+    border: 1px solid white;
+}
+
+.GreenShop-part1-button p{
+    font-family: 'Cormorant';
+    font-style: normal;
+   
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFAF8;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.GreenShop-part2{
+   
+    width: 50%;
+}
+
+.GreenShop-part2 img{
+    width: 100%;
+    height: 100%;
+}
