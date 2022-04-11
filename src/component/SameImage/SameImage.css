@@ -1,0 +1,10 @@
+.imageCont{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    background-color: #E5E5E5;
+}
+.activeimg img,.activeimg3 img{
+    
+     width: 80%;
+}

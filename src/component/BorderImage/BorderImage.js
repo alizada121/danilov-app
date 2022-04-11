@@ -4,11 +4,11 @@ import heart from '../../Images/heart.svg';
 import leftvector from '../../Images/leftvector.svg'
 import rightvector from '../../Images/rightvector.svg'
 import shoe2 from '../../Images/remove2.png';
-const Borderimage =()=>{
+const Borderimage =({setImgC})=>{
     return(
-        <div className="borderImg">
+        <div className={`borderImg ${setImgC && 'activeimg2'} `}>
                     <img className="leftvector" src={leftvector}/>
-                   <img className="shoe2" src={shoe2}/>  
+                   <img className={`shoe2 ${setImgC && 'activeshoe2'} `} src={shoe2}/>  
                    <img className="rightvector"  src={rightvector}/>
                    <div className="element">
                        <img className="heart" src={heart}/>
