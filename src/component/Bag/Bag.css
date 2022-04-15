@@ -1,0 +1,23 @@
+.bottomBag{
+    padding: 2% 10% 2% 10%;
+}
+.marginD{
+    margin-top: 100px;
+    /* display: flex; */
+    width: 100%;
+}
+.flexRight{
+    display: flex;
+}
+.padRight{
+    margin-top: 60px;
+}
+.order{
+    font-family: 'Cormorant';
+font-size: 30px;
+font-weight: 400;
+/* line-height: 50px; */
+letter-spacing: 0em;
+text-align: left;
+
+}

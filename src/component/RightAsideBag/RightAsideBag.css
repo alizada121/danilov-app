@@ -1,0 +1,62 @@
+.rightAsideBag{
+    border: 1px solid gray;
+    /* margin-left: 3%; */
+    width: 400px;
+    /* align-items: center; */
+    /* padding-top: 20px; */
+}
+.free{
+    /* border: 1px solid blue; */
+    text-align: left;
+    margin: 20px 10px ;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.discount{
+    display: flex;
+    /* margin: 10px 20px 0 10px ; */
+    justify-content: space-between;
+   
+}
+.divdiscount{
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    margin: 20px 10px ;
+    width: 90%;
+}
+.discount1{
+    margin: 20px 10px ;
+    width: 90%;
+    /* text-align: center; */
+}
+.total{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.one{
+    font-family: 'Cormorant';
+font-size: 22px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+margin-top: 20px;
+}
+.two{
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+margin-top: 20px;
+}
+.three{
+    font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+margin-top: 20px;
+}

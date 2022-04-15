@@ -9,7 +9,10 @@ import Collection from './component/Collection/Collection';
 import WinterCollection from './component/WinterCollection/WinterCollection';
 import ShoesFour from './component/ShoesFour/ShoesFour';
 import Footer from './component/Footer/Footer';
-import SingleProduct from './component/ShoesFour/SingleProduct/SingleProduct';
+import SingleProduct from './component/SingleProduct/SingleProduct';
+import About from './component/About/About';
+import Bag from './component/Bag/Bag';
+import Delivery from './component/Delivery/Delivery';
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,9 @@ function App() {
     <ShoesFour/>
     <Footer/>
     <SingleProduct/>
+    <About/>
+    <Bag/>
+    <Delivery/>
     </div>
   );
 }
