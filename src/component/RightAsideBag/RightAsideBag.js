@@ -1,7 +1,7 @@
 import React from "react";
 import '../RightAsideBag/RightAsideBag.css';
 import Button from '../Button/Button';
-const RightAsideBag=()=>{
+const RightAsideBag=({showButton})=>{
     return(
         <div className="rightAsideBag">
             <div className="free">
@@ -29,7 +29,14 @@ const RightAsideBag=()=>{
                 </div>
                     
                  </div>
-                 <Button btnclass={false} />
+                {
+                    showButton &&  <Button btnclass={false} /> 
+                }
+                      
+                    
+                   
+               
+               
               
              </div>
     )

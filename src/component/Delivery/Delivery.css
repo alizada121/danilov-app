@@ -2,7 +2,7 @@
     padding: 2% 8%;
 }
 .inputSide1{
-    width: 50%; 
+    width: 80%; 
 }
 .inputSide{
     /* border :1px solid gray; */
@@ -15,7 +15,7 @@
     margin-top: 20px;
 }
 .email{
-    width: 50%;
+    width: 80%;
 }
 .email6{
     width: 100%;
@@ -36,7 +36,7 @@ letter-spacing: 0em;
 .acc{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
 }
 .acc1{
     display: flex;
@@ -118,4 +118,11 @@ color: red;
 .checkbox{
     text-align: left;
     margin-top: 10px;
+}
+.flexDelivery{
+    display: flex;
+    justify-content: space-between;
+}
+.leftDeliver{
+    width: 100%;
 }

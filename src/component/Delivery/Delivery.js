@@ -2,15 +2,19 @@ import React from "react";
 import '../Delivery/Delivery.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
-import Button from '../Button/Button'
-const Delivery = ({btnclass }) => {
+import Button from '../Button/Button';
+import SameCard from '../SameCard/SameCard';
+import Footer from "../Footer/Footer";
+const Delivery = ({btnclass, showButton }) => {
    
     return (
         <div >
             <HeaderBlack />
             <div className="deliveryDiv">
                 <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery 1'} />
-                <div className="inputSide">
+                <div className="flexDelivery">
+                    <div className="leftDeliver" >
+                   <div className="inputSide">
                     <p className="contact">Contact</p>
                     <div className="acc">
                         <p className="add">Email address </p>
@@ -74,12 +78,16 @@ const Delivery = ({btnclass }) => {
                            
                             <label htmlFor="scales">Save this informations for a future fast checkout</label>
                     </div>
-                    <Button btnclass={true}/>
+                    <Button btnclass={true} />
+                </div> 
                 </div>
-            
+                   
+              <SameCard showButton={false} /> 
+                </div>
+               
 
             </div>
-
+         <Footer/>
         </div>
     )
 }
