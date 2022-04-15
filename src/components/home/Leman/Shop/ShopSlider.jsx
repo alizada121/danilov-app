@@ -11,7 +11,7 @@ import ShopSlider5 from "../../../../assets/shopSlider5.png"
 import vectorUp from "../../../../assets/Vector-up.png"
 import vectorDown from "../../../../assets/Vector -down.png"
 import line from "../../../../assets/Line 3.png"
-import Card from "./Card.jsx"
+import Card from "../../../Card/Card.jsx"
 
 import data from "../../../../Data.json"
 
@@ -36,6 +36,8 @@ function ShopSlider() {
                     desc={item.desc} 
                     img={item.img}
                     key={item.name}
+                    
+
                     />
                 )
             })}

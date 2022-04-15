@@ -1,7 +1,8 @@
 import React from 'react'
-import blackHeart from "../../../../assets/blackHeart.png"
-import vectorLeft from "../../../../assets/vectorLeft.png"
-import vectorRight from "../../../../assets/vectorRight.png"
+import blackHeart from "../../assets/blackHeart.png"
+import vectorLeft from "../../assets/vectorLeft.png"
+import vectorRight from "../../assets/vectorRight.png"
+import "../Card/Card.css"
 
 function Card(props) {
     console.log(props);

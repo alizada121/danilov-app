@@ -1,0 +1,134 @@
+.Profile2-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Profile2-header{
+    margin-top: 2%;
+}
+
+.Profile2{
+    width: 100%;
+}
+
+.Profile2-heading-nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Profile2-heading-nav p{
+    margin: 0;
+    margin-right: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;      
+    color: #000000;
+    margin-bottom: 2%;
+
+}
+
+.Profile2-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.Profile2-heading{
+    width: 100%;
+    position: relative;
+}
+
+.Profile2-heading-first {
+    width: auto;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-size: 29px;
+    color: #1B1B1B;
+    text-align: left;
+}
+
+.Profile2-heading-first h1{
+    margin: 0;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.Profile2-heading-line-container{
+    width: 77%;
+   
+    position: relative;
+    margin-top: 4%;
+    
+}
+
+
+.Profile2-heading-line{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border: 0.5px solid #000000;
+    height: 0;
+    background-color: #000000;
+}
+.Profile2-heading-logOut{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 70px;
+    position: absolute;
+    right: 0%;
+    margin-bottom: 1%;
+    bottom: 10%;
+}
+
+.Profile2-heading-logOut p {
+    margin: 0;
+    margin-right: 10px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+
+}
+
+.Profile2-profile-container{
+    width: 60%;
+    margin-bottom: 20%;
+}
+
+.Profile2-owner h1{
+    text-align: left;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #1B1B1B;
+}
+
+.Profile2-owner-info-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.owner-info{
+    border: 1px solid black;
+    width: 49%;
+}
+
+.owner-info p{
+    margin: 2%;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1B1B1B;
+
+
+}
+
