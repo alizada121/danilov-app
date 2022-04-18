@@ -1,8 +1,10 @@
 .deliveryDiv{
+
     padding: 2% 10%;
 }
 .inputSide1{
     width: 80%; 
+
 }
 .inputSide{
     /* border :1px solid gray; */
@@ -15,7 +17,9 @@
     margin-top: 20px;
 }
 .email{
+
     width: 80%;
+
 }
 .email6{
     width: 100%;
@@ -118,6 +122,7 @@ color: red;
 .checkbox{
     text-align: left;
     margin-top: 10px;
+
 }
 .flexDelivery{
     display: flex;

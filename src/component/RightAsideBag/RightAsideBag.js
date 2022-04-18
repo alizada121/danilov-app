@@ -1,7 +1,9 @@
 import React from "react";
 import '../RightAsideBag/RightAsideBag.css';
 import Button from '../Button/Button';
+
 const RightAsideBag=({showButton})=>{
+
     return(
         <div className="rightAsideBag">
             <div className="free">
@@ -24,6 +26,7 @@ const RightAsideBag=({showButton})=>{
             </div>
             <div className="discount1">
                 <div className="total">
+
                     <p className="oneone">Total</p>
                      <p className="threethree" >1 476$</p> 
                 </div>
@@ -36,8 +39,7 @@ const RightAsideBag=({showButton})=>{
                     
                    
                
-               
-              
+
              </div>
     )
 }

@@ -2,15 +2,18 @@ import React from "react";
 import '../Delivery/Delivery.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
+
 import Button from '../Button/Button';
 import SameCard from '../SameCard/SameCard';
 import Footer from "../Footer/Footer";
 const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,setSpan}) => {
   
+
     return (
         <div >
             <HeaderBlack />
             <div className="deliveryDiv">
+
                 <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery '}  titlespan={'1'} setSpan={true}/>
                 <div className="flexDelivery">
                     <div className="leftDeliver" >
@@ -121,6 +124,7 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
 
             </div>
             <Footer />
+
         </div>
     )
 }

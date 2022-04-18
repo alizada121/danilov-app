@@ -7,6 +7,7 @@ const SameCard=({showButton})=>{
         <p className="order">Order summary</p>
 
         <RightAsideBag showButton={showButton} />
+
     </div>
     )
 }

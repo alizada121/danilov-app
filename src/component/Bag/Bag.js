@@ -20,7 +20,9 @@ const Bag = ({ text, border,showButton }) => {
                         <ShoppingBag setLine={!line} />
                     </div>
 
+
                     <SameCard showButton={true}/>
+
                 </div>
               
             </div>
