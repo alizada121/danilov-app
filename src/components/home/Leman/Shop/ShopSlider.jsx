@@ -36,7 +36,7 @@ function ShopSlider() {
                     desc={item.desc} 
                     img={item.img}
                     key={item.name}
-                    
+                    faiz= 'otuz'
 
                     />
                 )

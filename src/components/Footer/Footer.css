@@ -140,6 +140,9 @@
     .lastPart ul{
         padding: 0;
     }
+    .lastPart ul li {
+        font-size: 9px;
+    }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
 
@@ -182,6 +185,9 @@
     .lastPart ul{
         padding: 0;
     }
+    .lastPart ul li {
+        font-size: 10px;
+    }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
     .just{
@@ -222,6 +228,9 @@
     }
     .lastPart ul{
         padding: 0;
+    }
+    .lastPart ul li {
+        font-size: 12px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {}

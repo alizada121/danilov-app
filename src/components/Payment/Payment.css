@@ -405,3 +405,197 @@
     transition: 0.4s;
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .Payment-details{
+        width: 100%;
+    }
+    .Payment-info {
+        flex-direction: column;
+    }
+
+    .Payment-Card-row{
+        flex-direction: column;
+    }
+
+    .Card-input{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Card-input-s{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Payment-Card-row-submit{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Payment-info {
+        width: 100%;
+    }
+
+    .Payment-Card-row-submit p{
+        width: 100%;
+        margin-bottom: 7%;
+        font-weight: 600;
+    }
+
+    .Card-input-submit{
+        width: 100%;
+    }
+
+    .Order-summary-container {
+        width: 100%;
+    }
+
+    .Payment-success {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .Payment-success p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 15px;
+
+    }
+
+    .Payment-success button {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .Payment-details{
+        width: 100%;
+    }
+    .Payment-info {
+        flex-direction: column;
+    }
+
+    .Payment-Card-row{
+        flex-direction: column;
+    }
+
+    .Card-input{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Card-input-s{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Payment-Card-row-submit{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Payment-info {
+        width: 100%;
+    }
+
+    .Payment-Card-row-submit p{
+        width: 100%;
+        margin-bottom: 7%;
+        font-weight: 600;
+    }
+
+    .Card-input-submit{
+        width: 100%;
+    }
+
+    .Order-summary-container {
+        width: 100%;
+    }
+
+    .Payment-success {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .Payment-success p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 15px;
+
+    }
+
+    .Payment-success button {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .Payment-details{
+        width: 100%;
+    }
+    .Payment-info {
+        flex-direction: column;
+    }
+
+    .Payment-Card-row{
+        flex-direction: column;
+    }
+
+    .Card-input{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .Card-input-s{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .Payment-Card-row-submit{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Payment-info {
+        width: 100%;
+    }
+
+    .Payment-Card-row-submit p{
+        width: 80%;
+        margin-bottom: 7%;
+        font-weight: 600;
+    }
+
+    .Card-input-submit{
+        width: 80%;
+    }
+    .Order-summary-container {
+        width: 100%;
+    }
+    .Payment-success {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .Payment-success p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 15px;
+
+    }
+
+    .Payment-success button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .Card-input-s {
+        width: 30%;
+    }
+
+    .Payment-Card-row p {
+        font-size: 14px;
+    }
+
+    .Order-summary-container h1 {
+        font-size: 28px;
+    }
+}

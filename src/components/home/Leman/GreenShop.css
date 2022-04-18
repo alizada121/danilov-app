@@ -132,6 +132,92 @@
         margin-right: 0;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {}
-@media screen and (min-width: 414px) and (max-width: 768px) {}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+
+    .GreenShop-container{
+        flex-direction: column-reverse;
+    }
+
+    .GreenShop-part1{
+        width: 100%;
+    }
+
+    .GreenShop-part2{
+        width: 100%;
+        background-color: #001C08;
+    }
+
+    .GreenShop-part1-text{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .GreenShop-part1-text p{
+        width: 100%;
+    }
+
+    .GreenShop-part1-text h1{
+        font-size: 65px;
+    }
+
+    .GreenShop-part1-button{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .GreenShop-part1-button button{
+        width: 100%;
+    }
+
+    .GreenShop-part1-button p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+    .GreenShop-container{
+        flex-direction: column-reverse;
+    }
+
+    .GreenShop-part1{
+        width: 100%;
+    }
+
+    .GreenShop-part2{
+        width: 100%;
+        background-color: #001C08;
+    }
+
+    .GreenShop-part1-text{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .GreenShop-part1-text p{
+        width: 100%;
+    }
+
+    .GreenShop-part1-text h1{
+        font-size: 65px;
+    }
+
+    .GreenShop-part1-button{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .GreenShop-part1-button button{
+        width: 100%;
+    }
+
+    .GreenShop-part1-button p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {}

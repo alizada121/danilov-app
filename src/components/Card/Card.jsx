@@ -7,12 +7,12 @@ import "../Card/Card.css"
 function Card(props) {
     console.log(props);
   return (
-    <div className='ShopSlider-card'>
+    <div className={` ${props.faiz} ShopSlider-card`}>
     <div className='shopSlider-blackHeart'>
       <img src={blackHeart}></img>
     </div>
 
-    <div className='card-info'>
+    <div className= "card-info">
        <div className='card-name'>
         <div className='card-name-main'>
            <h1>{props.name}</h1>

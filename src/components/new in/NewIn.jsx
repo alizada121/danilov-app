@@ -55,6 +55,7 @@ function NewIn() {
                     desc={item.desc} 
                     img={item.img}
                     key={item.name}
+                    faiz='iyirmi'
                     />
                 )
             })}

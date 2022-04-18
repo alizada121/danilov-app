@@ -132,3 +132,76 @@
 
 }
 
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .Profile2-owner h1 {
+        font-size: 24px;
+    }
+
+    .Profile2-owner-info-container {
+        flex-direction: column;
+    }
+
+    .owner-info{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Profile2-profile-container{
+        width: 100%;
+        margin-bottom: 60%;
+    }
+    .owner-info p {
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+
+    .Profile2-owner h1 {
+        font-size: 24px;
+    }
+
+    .Profile2-owner-info-container {
+        flex-direction: column;
+    }
+
+    .owner-info{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Profile2-profile-container{
+        width: 100%;
+        margin-bottom: 60%;
+    }
+    .owner-info p {
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+    .Profile2-owner h1 {
+        font-size: 24px;
+    }
+
+    .Profile2-owner-info-container {
+        flex-direction: column;
+    }
+
+    .owner-info{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Profile2-profile-container{
+        width: 100%;
+        margin-bottom: 60%;
+    }
+    .owner-info p {
+        font-weight: 600;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .owner-info p {
+        font-size: 12px;
+    }
+}

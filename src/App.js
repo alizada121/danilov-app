@@ -13,11 +13,11 @@ import Payment from './components/Payment/Payment';
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      {/* <NewIn/> */}
+      <Home/>
+      <NewIn/>
       {/* <Header/> */}
       {/* <Contact/> */}
-      <Footer/>
+      {/* <Footer/> */}
       {/* <Profile1/> */}
       {/* <Profile2/> */}
       {/* <Payment/> */}
