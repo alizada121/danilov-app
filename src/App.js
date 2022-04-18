@@ -13,21 +13,23 @@ import SingleProduct from './component/SingleProduct/SingleProduct';
 import About from './component/About/About';
 import Bag from './component/Bag/Bag';
 import Delivery from './component/Delivery/Delivery';
+import Login from './component/Login/Login';
 function App() {
   return (
     <div className="App">
-     <HomePage/>
-     <Arrival/>
+     {/* <HomePage/> */}
+     {/* <Arrival/> */}
      <Shop/>
-     <Winter/>
-    <Collection/>
-    <WinterCollection/>
-    <ShoesFour/>
-    <Footer/>
-    <SingleProduct/>
-    <About/>
-    <Bag/>
-    <Delivery/>
+     {/* <Winter/> */}
+    {/* <Collection/> */}
+    {/* <WinterCollection/> */}
+    {/* <ShoesFour/> */}
+    {/* <Footer/> */}
+    {/* <SingleProduct/> */}
+    {/* <About/> */}
+    {/* <Bag/> */}
+    {/* <Delivery/> */}
+    {/* <Login/> */}
     </div>
   );
 }

@@ -24,8 +24,8 @@ const RightAsideBag=({showButton})=>{
             </div>
             <div className="discount1">
                 <div className="total">
-                    <p className="one">Total</p>
-                     <p className="three" >1 476$</p> 
+                    <p className="oneone">Total</p>
+                     <p className="threethree" >1 476$</p> 
                 </div>
                     
                  </div>

@@ -11,8 +11,8 @@ const Arrival =()=>{
                  <div className="brownImg"><img src={shoe}/></div> 
              
                <div className="blueImg" >
-                     <div>
-                         <img src={shoe2}/> 
+                     <div className="blabla">
+                         <img className="blueImage" src={shoe2}/> 
                      </div>
                   
                     <div className="texttwo">

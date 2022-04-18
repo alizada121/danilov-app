@@ -44,4 +44,51 @@
  .distance_box:hover img {
     transform: translateX(20px);
  }  
+ @media only screen and (max-width:  1000px) {
+    .middle{
+        margin-top: 30%;
+    }
+    
+  }
+  @media only screen and (max-width:  900px) {
+    .disco{
+        display: none;
+    }
+    .middle_p{
+        margin-bottom: 50px;
+    }
+  }
  
+  @media only screen and (max-width:  800px) {
+    .homePage{
+        background-image: url('../../Images/smallScreen.png');
+        height: 160vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    } 
+      .thunder{
+       
+        margin: 0 auto;
+        text-align: center;
+    }
+    .middle{
+        margin-top: 40%;
+    }
+    
+  }
+  @media only screen and (max-width:  600px) {
+   
+   .thunder{
+       font-size: 42px;
+   }
+   .middle{
+    margin-top: 80%;
+}
+  }
+.upImg{
+    position: absolute;
+    bottom:-40%;
+      transform: translateX(-50%);
+}

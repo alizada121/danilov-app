@@ -36,7 +36,11 @@ right: 0;
     font-weight: 400;
 }
 .leftvector, .rightvector{
-   margin-bottom: 60%;
+   margin-top: 70%;
+   position: absolute;
+}
+.rightvector{
+    transform: translateX(-20px);
 }
 .activeimg2 {
     width:25% ;
@@ -46,3 +50,9 @@ right: 0;
 
     width: 80%;
 }
+@media only screen and (max-width: 1200px) {
+    .borderImg{
+        height: 400px;
+       
+    }
+ }
