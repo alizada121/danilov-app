@@ -1,0 +1,30 @@
+.middlepart{
+    height: 100vh;
+    padding: 5% 10%;
+    background-color: #E5E5E5;
+}
+
+.nazvanie{
+    margin-top: 4%;
+    position: relative;
+}
+.summ{
+    font-size: 22px;
+    font-family: 'Cormorant';
+    font-weight: 700;
+    color: #F0F0F0;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.kollekci{
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: 'Cormorant';
+    color: white;
+}
+.whitetext{
+    position: absolute;
+    top: 40%;
+  left: 20%;
+}

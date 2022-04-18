@@ -1,3 +1,4 @@
+
 // import { Header } from 'tar';
 import './App.css';
 import Home from './components/home/Home.jsx'
@@ -10,9 +11,25 @@ import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
 
 
+
+import './style.css'
+import './App.css';
+import HomePage from './component/HomePage/HomePage';
+import Arrival from './component/Arrivals/Arrival';
+import Shop from './component/Shop/Shop';
+import Winter from './component/Winter/Winter';
+import Collection from './component/Collection/Collection';
+import WinterCollection from './component/WinterCollection/WinterCollection';
+import ShoesFour from './component/ShoesFour/ShoesFour';
+import Footer from './component/Footer/Footer';
+import SingleProduct from './component/SingleProduct/SingleProduct';
+import About from './component/About/About';
+import Bag from './component/Bag/Bag';
+import Delivery from './component/Delivery/Delivery';
 function App() {
   return (
     <div className="App">
+
       <Home/>
       <NewIn/>
       {/* <Header/> */}
@@ -22,7 +39,20 @@ function App() {
       {/* <Profile2/> */}
       {/* <Payment/> */}
 
-      
+
+     <HomePage/>
+     <Arrival/>
+     <Shop/>
+     <Winter/>
+    <Collection/>
+    <WinterCollection/>
+    <ShoesFour/>
+    <Footer/>
+    <SingleProduct/>
+    <About/>
+    <Bag/>
+    <Delivery/>
+
     </div>
   );
 }

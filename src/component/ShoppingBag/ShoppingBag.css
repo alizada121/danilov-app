@@ -1,0 +1,167 @@
+.rightBagUp{
+    width: 100%;
+
+}
+.tagP{
+    display: flex;
+    justify-content: space-between;
+}
+.flexPtag{
+    display: flex;
+    flex-direction: column;
+ 
+    margin-bottom: 60px;
+}
+.alignText{
+    text-align: left;
+    display: flex;
+}
+.sizep{
+   text-align: left;
+   font-family: 'Cormorant';
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+margin-bottom: 10px;
+}
+
+.fourteen{
+    padding: 15% 20%;
+    border: 1px solid black;
+}
+.emptyButton{
+    padding: 35% 40%;
+    background-color:  black;
+    border: none;
+    outline: none;
+}
+.centered{
+    display: flex;
+    align-items: center;
+  
+
+}
+.sizePart1 ,.sizePart2 {
+  
+    width: 10%;
+}
+.sizePart3{
+   /* border: 1px solid rgb(199, 28, 56); */
+   width: 40%;
+   display: flex;
+  justify-content: space-around;
+  margin-left: 8%;
+}
+.flexflex{
+    display: flex;
+}
+.sizePart2{
+    margin-left: 15%;
+}
+.minusB {
+    padding:10% 18%;
+    border: 1px solid black;
+}
+.plusB{
+    padding:11% 18%;
+    border: 1px solid black;
+}
+.decrease ,.encrease{
+    width: 100%;
+}
+.decrease{
+    display: flex;
+    align-items: flex-end;
+}
+.numbers{
+    font-family: 'Montserrat';
+font-size: 25px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+/* text-align: center; */
+
+    margin-right: 10%;
+    margin-top: 20%;
+}
+.sizePart4{
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   width: 30%;
+}
+.hearheart{
+    margin-right: 10%;
+}
+.bottomline{
+    margin-left: 7px;
+}
+.info{
+    font-family: 'Cormorant';
+font-size: 22px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+}
+.info1{
+    font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+}
+
+.stockout{
+font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.stockin{
+    font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+.any{
+    font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: right;
+}
+.sizep1{
+    font-family: 'Cormorant';
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+margin-bottom: 10px;
+}
+.leftBag{
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    display: flex;
+    /* margin-top: 100px; */
+    width: 100%;
+}
+.rightBagUp{
+    margin-left: 40px;
+}
+.sizePart4distance{
+    margin-left: 100px;
+}
+.borderBtm{
+    border-bottom: 1px solid gray;
+}
+
+.myBag{
+    display: flex;
+    width: 95%;
+}
