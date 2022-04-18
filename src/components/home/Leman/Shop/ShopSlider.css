@@ -46,108 +46,11 @@
     justify-content: space-between;
 }
 
-.ShopSlider-card{
-    width: 30%;
-    border-radius: 10px;
-    /* border: 1px solid red; */
-     box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    
 }
-
-.shopSlider-blackHeart{
-   margin-left: 80%;
-   margin-top: 10%;
-}
-
-.card-info{
-    width: 80%;
-    margin-left: 10%;
-    margin-right:10% ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-name-main h1{
-    font-family: 'Cormorant';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
-    color: #000000;
-    margin-top: 30%;
-    margin-bottom: 0;
-}
-
-.card-name{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.card-name-para h4{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;
-
-}
-
-.card-price{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;
-
-}
-
-.card-img-container{
-   
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-   align-items: center;
-}
-
-.card-img{
-    /* margin-left: 5%; */
-    width: 100%;
-}
-
-.card-img img{
-    width: 100%;
-}
-
-.vector-left{
-    margin-left: 10px;
-    cursor: pointer;
-
-}
-
-.vector-right{
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.card-navigation-container{
-    margin-left: 5%;
-    height: 100%;
-}
-
-.vector-line{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.vector-up{
-    transform: translateY(-70px);
-}
-
-.vector-down{
-    transform: translateY(70px);
-}
-
+@media screen and (min-width: 370px) and (max-width: 414px) {}
+@media screen and (min-width: 414px) and (max-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}

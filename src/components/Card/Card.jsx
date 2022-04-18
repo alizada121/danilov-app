@@ -1,17 +1,18 @@
 import React from 'react'
-import blackHeart from "../../../../assets/blackHeart.png"
-import vectorLeft from "../../../../assets/vectorLeft.png"
-import vectorRight from "../../../../assets/vectorRight.png"
+import blackHeart from "../../assets/blackHeart.png"
+import vectorLeft from "../../assets/vectorLeft.png"
+import vectorRight from "../../assets/vectorRight.png"
+import "../Card/Card.css"
 
 function Card(props) {
     console.log(props);
   return (
-    <div className='ShopSlider-card'>
+    <div className={` ${props.faiz} ShopSlider-card`}>
     <div className='shopSlider-blackHeart'>
       <img src={blackHeart}></img>
     </div>
 
-    <div className='card-info'>
+    <div className= "card-info">
        <div className='card-name'>
         <div className='card-name-main'>
            <h1>{props.name}</h1>
