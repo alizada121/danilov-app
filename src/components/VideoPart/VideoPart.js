@@ -1,7 +1,7 @@
 import React from "react";
-import '../VideoPart/VideoPart';
-import '../VideoPart/VideoPart.css';
-import Footer from '../Footer/Footer'
+import './VideoPart';
+import './VideoPart.css';
+import Footer from '../../components/Footer/Footer'
 const VideoPart=()=>{
     return(
         <div className="videoContainer">

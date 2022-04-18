@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import HeaderBlack from "../HeaderBlack/HeaderBlack";
-import '../Collection/Collection.css'
+import './Collection.css'
 import ImageHeader from "../ImageHeader/ImageHeader";
 import brownShoes from '../../Images/brownShoes.jpg'
-import SameImage from "../SameImage/SameImage";
+import SameImage from "../../component/SameImage/SameImage";
+import WinterCollection from "../home/Shirin/WinterCollection/WinterCollection";
+import ShoesFour from "../ShoesFour/ShoesFour";
+import Footer from "../Footer/Footer";
 
 
 
@@ -31,6 +34,12 @@ const Collection = () => {
 
       </div>
       <SameImage imgc={imgc} setImgC={!imgc} />
+
+      <WinterCollection/>
+
+      <ShoesFour/>
+
+      <Footer/>
 
     </div>
   )

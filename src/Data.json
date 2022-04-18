@@ -22,6 +22,14 @@
         "img":"http://localhost:3000/static/media/shopSlider3.9cf552bdf6e7bc5c36c4.png"
     
     },
+    {
+        "name":"aggash",
+        "price":"800$",
+        "desc":"description1",
+        "img":"http://localhost:3000/static/media/shopSlider1.e9c0316f761ea5301a00.png"
+    
+    },
+
    
 
     {

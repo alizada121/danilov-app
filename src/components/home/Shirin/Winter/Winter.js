@@ -1,10 +1,10 @@
 import React from "react";
 import '../Winter/Winter.css';
-import remove4 from '../../Images/remove4.png';
-import remove5 from '../../Images/remove5.png';
-import prev from '../../Images/prev.svg';
-import next from '../../Images/next.svg';
-import line2 from '../../Images/Line 2.svg';
+import remove4 from '../../../../Images/remove4.png';
+import remove5 from '../../../../Images/remove5.png';
+import prev from '../../../../Images/prev.svg';
+import next from '../../../../Images/next.svg';
+import line2 from '../../../../Images/Line 2.svg';
 const Winter = () => {
     return (
         <div className="winterCollection">

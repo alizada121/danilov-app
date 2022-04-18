@@ -1,7 +1,7 @@
 
 // import { Header } from 'tar';
 import './App.css';
-import Home from './components/home/Home.jsx'
+import Home from './components/home/Leman/Home.jsx'
 import NewIn from './components/new in/NewIn';
 import Header from './components/Header/Header';
 import Contact from './components/contact/Contact';
@@ -11,49 +11,46 @@ import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
 
 
-
+import Collection from './components/Collection/Collection'
+import SingleProduct from './components/SingleProduct/SingleProduct';
+import About from './components/About/About';
+import Bag from './components/Bag/Bag'
+import Delivery from './components/Delivery/Delivery';
+import Login from './components/Login/Login';
 import './style.css'
-import HomePage from './component/HomePage/HomePage';
-import Arrival from './component/Arrivals/Arrival';
-import Shop from './component/Shop/Shop';
-import Winter from './component/Winter/Winter';
-import Collection from './component/Collection/Collection';
-import WinterCollection from './component/WinterCollection/WinterCollection';
-import ShoesFour from './component/ShoesFour/ShoesFour';
-import Footer from './component/Footer/Footer';
-import SingleProduct from './component/SingleProduct/SingleProduct';
-import About from './component/About/About';
-import Bag from './component/Bag/Bag';
-import Delivery from './component/Delivery/Delivery';
-import Login from './component/Login/Login';
+// import HomePage from './components/home/Shirin/HomePage/HomePage';
+// import Arrival from './component/Arrivals/Arrival';
+// import Shop from './components/home/Shirin/Shop/Shop';
+// import Winter from './component/Winter/Winter';
+// import Collection from './components/Collection/Collection';
+// import WinterCollection from './components/home/Shirin/WinterCollection/WinterCollection';
+// import ShoesFour from './component/ShoesFour/ShoesFour';
+
+
+// import SingleProduct from './component/SingleProduct/SingleProduct';
+// import About from './components/About/About';
+// import Bag from './components/Bag/Bag';
+// import Delivery from './components/Delivery/Delivery';
+// import Login from './components/Login/Login';
 
 function App() {
   return (
     <div className="App">
 
-      <Home/>
-      <NewIn/>
-      {/* <Header/> */}
+      {/* <Home/> */}
+      {/* <Collection/> */}
+      {/* <NewIn/> */}
+      {/* <SingleProduct/> */}
+      {/* <About/> */}
       {/* <Contact/> */}
-      {/* <Footer/> */}
+      {/* <Bag/> */}
+      {/* <Delivery/> */}
+      {/* <Login/> */}
       {/* <Profile1/> */}
       {/* <Profile2/> */}
       {/* <Payment/> */}
 
-
-     <HomePage/>
-     <Arrival/>
-     <Shop/>
-     <Winter/>
-    <Collection/>
-    <WinterCollection/>
-    <ShoesFour/>
-    <Footer/>
-    <SingleProduct/>
-    <About/>
-    <Bag/>
-    <Delivery/>
-
+      <Footer/>
 
     </div>
   );

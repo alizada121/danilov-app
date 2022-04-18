@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
-import "../../../src/style.css"
-import Header from "../Header/Header";
-import '../HomePage/HomePage.css'
-import line from '../../Images/Vector1.svg'
-import upImg from '../../Images/upImg.svg'
+// import "./"
+import Header from "../../Header/Header";
+import './HomePage.css'
+import line from '../../../Images/Vector1.svg'
+import upImg from '../../../Images/upImg.svg'
+
+import Arrival from "./Arrivals/Arrival";
+import Shop from "./Shop/Shop";
+import WinterCollection from "./WinterCollection/WinterCollection";
+import Winter from "./Winter/Winter";
 
 function debounce(fn, ms) {
     let timer
@@ -56,6 +61,11 @@ const HomePage = () => {
         {(dimensions.width < 800) && <div className="arrow" >
             <img className="upImg" src={upImg}/>
         </div>}
+
+        <Arrival/>
+        <Shop/>
+        <WinterCollection/>
+        <Winter/>
     </>
 }
 export default HomePage

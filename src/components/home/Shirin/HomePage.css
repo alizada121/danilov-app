@@ -6,7 +6,7 @@
   
 }
 .homePage{
-    background-image: url('../../Images/BackgImg.svg');
+    background-image: url('../../../Images/BackgImg.svg');
     height: 100vh;
     /* width: 100vw; */
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
  
   @media only screen and (max-width:  800px) {
     .homePage{
-        background-image: url('../../Images/smallScreen.png');
+        background-image: url('../../../Images/smallScreen.png');
         height: 160vh;
         width: 100vw;
         background-repeat: no-repeat;

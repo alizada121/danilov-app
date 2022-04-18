@@ -1,11 +1,11 @@
 import React ,{useState} from "react";
-import '../About/About.css';
+import './About.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
 import danilov1 from '../../Images/danilov1.png';
 import danilov2 from '../../Images/danilov2.png'
 import VideoPart from "../VideoPart/VideoPart";
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 const About = ()=>{
     const [text , setText]=useState(false)
     const [border ,setBorder]=useState(false)
