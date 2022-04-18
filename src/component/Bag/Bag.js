@@ -5,7 +5,7 @@ import ImageHeader from "../ImageHeader/ImageHeader";
 import ShoppingBag from "../ShoppingBag/ShoppingBag";
 import Footer from '../Footer/Footer'
 import SameCard from "../SameCard/SameCard";
-const Bag = ({ text, border , btnclass}) => {
+const Bag = ({ text, border,showButton }) => {
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);
   
@@ -19,7 +19,10 @@ const Bag = ({ text, border , btnclass}) => {
                         <ShoppingBag setButton={!button} />
                         <ShoppingBag setLine={!line} />
                     </div>
-                    <SameCard/>
+
+
+                    <SameCard showButton={true}/>
+
                 </div>
               
             </div>

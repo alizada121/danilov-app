@@ -1,11 +1,13 @@
 import React from "react";
 import '../SameCard/SameCard';
 import RightAsideBag from '../RightAsideBag/RightAsideBag';
-const SameCard=()=>{
+const SameCard=({showButton})=>{
     return(
         <div className="padRight">
         <p className="order">Order summary</p>
-        <RightAsideBag />
+
+        <RightAsideBag showButton={showButton} />
+
     </div>
     )
 }

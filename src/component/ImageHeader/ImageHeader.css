@@ -15,12 +15,14 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    /* width: 100%; */
 }
 .collect{
     font-size: 70px;
     font-family: 'Cormorant';
     font-weight: 600;
     line-height: 50px;
+    /* width: 26%; */
 }
 
 .imageHeader{
@@ -36,6 +38,7 @@ width: 25%;
 .flextext{
     display: flex;
     flex-direction: column;
+    /* width: 74%; */
 
     /* justify-content: space-around; */
     /* width: 100%; */
@@ -43,4 +46,9 @@ width: 25%;
 .activeBorder{
     border-bottom: 1px solid black;
     margin-bottom: 1%;
+
+}
+.borderspan{
+    border: 1px solid gray;
+
 }

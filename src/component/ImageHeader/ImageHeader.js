@@ -1,7 +1,9 @@
 import React ,{useState} from "react";
 import '../ImageHeader/ImageHeader.css';
 import line2 from '../../Images/Line 000.svg';
-const ImageHeader=({title , titleH1 , setText, imagetext ,setBorder})=>{
+
+const ImageHeader=({title , titleH1 ,titlespan , setText, imagetext ,setBorder ,setSpan})=>{
+
     
    
     return(
@@ -9,8 +11,12 @@ const ImageHeader=({title , titleH1 , setText, imagetext ,setBorder})=>{
         <p className="home">{title}</p>
        
      <div className="coll">
-      
-         <h1 className="collect">{titleH1}</h1>
+
+         <h1 className="collect">{titleH1}
+         {setSpan &&  <span className="borderspan">{titlespan}</span>  }
+        
+         </h1>
+
           <div className="flextext">
        {
                                     (() => {

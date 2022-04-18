@@ -13,7 +13,6 @@ import Payment from './components/Payment/Payment';
 
 
 import './style.css'
-import './App.css';
 import HomePage from './component/HomePage/HomePage';
 import Arrival from './component/Arrivals/Arrival';
 import Shop from './component/Shop/Shop';
@@ -26,6 +25,8 @@ import SingleProduct from './component/SingleProduct/SingleProduct';
 import About from './component/About/About';
 import Bag from './component/Bag/Bag';
 import Delivery from './component/Delivery/Delivery';
+import Login from './component/Login/Login';
+
 function App() {
   return (
     <div className="App">
@@ -52,6 +53,7 @@ function App() {
     <About/>
     <Bag/>
     <Delivery/>
+
 
     </div>
   );
