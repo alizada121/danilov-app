@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import Header from '../Header/Header'
 import down from "../../assets/Vector.svg"
 
@@ -10,7 +10,15 @@ import "./NewIn.css"
 import Footer from '../Footer/Footer'
 
 
-function NewIn() {
+function NewIn({dimensions}) {
+  const [slice2,setSlice2]=useState();
+  useEffect(()=>{
+    if(dimensions.width < 1024) setSlice2(2)
+    else setSlice2(4)
+},[dimensions.width])
+  
+
+
   return (
     <div className='newIn-general'>
       <div className='newIn-header'>
@@ -48,7 +56,7 @@ function NewIn() {
           <div className='newIn-body'>
             <div className='newIn-body-row'>
 
-            {data.slice(0,4).map((item) => {
+            {data.slice(0,slice2).map((item) => {
                 return (
                     <Card name={item.name} 
                     price={item.price}
@@ -64,7 +72,7 @@ function NewIn() {
 
             <div className='newIn-body-row'>
 
-            {data.slice(0,4).map((item) => {
+            {data.slice(0,slice2).map((item) => {
                 return (
                     <Card name={item.name} 
                     price={item.price}
@@ -81,7 +89,7 @@ function NewIn() {
 
             <div className='newIn-body-row'>
 
-            {data.slice(0,4).map((item) => {
+            {data.slice(0,slice2).map((item) => {
                 return (
                     <Card name={item.name} 
                     price={item.price}

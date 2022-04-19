@@ -2,11 +2,11 @@ import React from 'react'
 import HomeLeman from './HomeLeman'
 import HomePage from '../Shirin/HomePage'
 
-function Home() {
+function Home({dimensions}) {
   return (
     <div className='Home'>
-        <HomePage/>
-        <HomeLeman/>
+        {/* <HomePage/> */}
+        <HomeLeman dimensions={dimensions}/>
       
 
 

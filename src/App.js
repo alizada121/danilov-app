@@ -1,4 +1,4 @@
-
+import {useEffect,useState} from 'react';
 // import { Header } from 'tar';
 import './App.css';
 import Home from './components/home/Leman/Home.jsx'
@@ -18,39 +18,55 @@ import Bag from './components/Bag/Bag'
 import Delivery from './components/Delivery/Delivery';
 import Login from './components/Login/Login';
 import './style.css'
-// import HomePage from './components/home/Shirin/HomePage/HomePage';
-// import Arrival from './component/Arrivals/Arrival';
-// import Shop from './components/home/Shirin/Shop/Shop';
-// import Winter from './component/Winter/Winter';
-// import Collection from './components/Collection/Collection';
-// import WinterCollection from './components/home/Shirin/WinterCollection/WinterCollection';
-// import ShoesFour from './component/ShoesFour/ShoesFour';
 
-
-// import SingleProduct from './component/SingleProduct/SingleProduct';
-// import About from './components/About/About';
-// import Bag from './components/Bag/Bag';
-// import Delivery from './components/Delivery/Delivery';
-// import Login from './components/Login/Login';
+function debounce(fn, ms) {
+  let timer
+  return _ => {
+    clearTimeout(timer)
+    timer = setTimeout(_ => {
+      timer = null
+      fn.apply(this, arguments)
+    }, ms)
+  };
+}
 
 function App() {
+  const [dimensions, setDimensions] = useState({ 
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
+  useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    }, 1000)
+
+    window.addEventListener('resize', debouncedHandleResize)
+
+    return _ => {
+      window.removeEventListener('resize', debouncedHandleResize)
+    
+}
+  })
   return (
     <div className="App">
 
-      {/* <Home/> */}
+      {/* <Home dimensions ={dimensions}/> */}
       {/* <Collection/> */}
-      {/* <NewIn/> */}
+      {/* <NewIn dimensions={dimensions}/> */}
       {/* <SingleProduct/> */}
       {/* <About/> */}
       {/* <Contact/> */}
       {/* <Bag/> */}
       {/* <Delivery/> */}
       {/* <Login/> */}
-      {/* <Profile1/> */}
-      {/* <Profile2/> */}
-      {/* <Payment/> */}
+      <Profile1/>
+      <Profile2/>
+      <Payment/>
 
-      <Footer/>
+      {/* <Footer/> */}
 
     </div>
   );

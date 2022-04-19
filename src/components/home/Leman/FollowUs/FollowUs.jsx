@@ -10,7 +10,7 @@ function FollowUs() {
 
        <div className='FollowUs-left'> 
          <div className='FollowUs-heading'>
-          <h4>follow us on</h4>
+          <h4>follow us on</h4> 
           <h1>Instagram</h1>
 
          </div>

@@ -1,10 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cormorant', serif;
   
-}
+} */
 .homePage{
     background-image: url('../../../Images/BackgImg.svg');
     height: 100vh;

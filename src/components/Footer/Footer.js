@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="just">
                     <div className="footer-row1">
                     <ul>
-                        <li><b>About us</b></li>
+                        <li>About us</li>
                         <li>Our story</li>
                         <li>Process we follow</li>
                         <li>Our Gallery</li>

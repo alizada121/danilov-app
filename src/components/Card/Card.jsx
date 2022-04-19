@@ -5,7 +5,7 @@ import vectorRight from "../../assets/vectorRight.png"
 import "../Card/Card.css"
 
 function Card(props) {
-    console.log(props);
+    // console.log(props);
   return (
     <div className={` ${props.faiz} ShopSlider-card`}>
     <div className='shopSlider-blackHeart'>

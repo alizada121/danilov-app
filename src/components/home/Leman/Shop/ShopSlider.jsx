@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import "../Shop/ShopSlider.css"
 import blackHeart from "../../../../assets/blackHeart.png"
 import vectorLeft from "../../../../assets/vectorLeft.png"
@@ -17,7 +17,20 @@ import data from "../../../../Data.json"
 
 
 
-function ShopSlider() {
+function ShopSlider({dimensions}) {
+
+    const [slice,setSlice]=useState(3);
+
+    useEffect(()=>{
+        if(dimensions.width < 1024) setSlice(1)
+        else setSlice(3)
+    },[dimensions.width])
+   console.log(dimensions)
+
+    
+
+   
+   
   return (
     <div className='ShopSlider-container'>
         <div className='ShopSlider-container-heading'>
@@ -29,14 +42,16 @@ function ShopSlider() {
 
         <div className='ShopSlider-slider'>
             <div className='ShopSlider-slider-part1'>
-            {data.slice(0,3).map((item) => {
+            {data.slice(0,slice).map((item) => {
                 return (
-                    <Card name={item.name} 
+                    <Card 
+                    name={item.name} 
                     price={item.price}
                     desc={item.desc} 
                     img={item.img}
-                    key={item.name}
+                    key={Math.random()}
                     faiz= 'otuz'
+
 
                     />
                 )
