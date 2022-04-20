@@ -122,6 +122,8 @@ color: red;
 .checkbox{
     text-align: left;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 
 }
 .flexDelivery{

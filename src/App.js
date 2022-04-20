@@ -5,7 +5,7 @@ import Home from './components/home/Home.jsx'
 import NewIn from './components/new in/NewIn';
 import Header from './components/Header/Header';
 import Contact from './components/contact/Contact';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import Profile1 from './components/Profile/Profile1';
 import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
@@ -30,7 +30,10 @@ import Login from './component/Login/Login';
 function App() {
   return (
     <div className="App">
-
+<HomePage/>
+<Arrival/>
+<Shop/>
+ <Winter/>
       <Home/>
       <NewIn/>
       {/* <Header/> */}
@@ -39,12 +42,12 @@ function App() {
       {/* <Profile1/> */}
       {/* <Profile2/> */}
       {/* <Payment/> */}
+   
 
-
-     <HomePage/>
-     <Arrival/>
-     <Shop/>
-     <Winter/>
+     
+     
+     
+    
     <Collection/>
     <WinterCollection/>
     <ShoesFour/>
@@ -54,7 +57,7 @@ function App() {
     <Bag/>
     <Delivery/>
 
-
+    <Login/>
     </div>
   );
 }
