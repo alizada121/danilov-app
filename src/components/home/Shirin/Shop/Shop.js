@@ -1,7 +1,7 @@
 import React from "react";
-import '../Shop/Shop.css';
+import './Shop.css';
 
-import SameImage from "../SameImage/SameImage";
+import SameImage from "../../../../component/SameImage/SameImage";
 const Shop =()=>{
     return (
          <div className="pageShop">

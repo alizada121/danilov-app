@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import '../Bag/Bag.css';
+import './Bag.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
-import ShoppingBag from "../ShoppingBag/ShoppingBag";
-import Footer from '../Footer/Footer'
-import SameCard from "../SameCard/SameCard";
+import ShoppingBag from "../../component/ShoppingBag/ShoppingBag";
+import Footer from '../../components/Footer/Footer'
+import SameCard from "../../component/SameCard/SameCard";
 const Bag = ({ text, border,showButton }) => {
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);

@@ -1,11 +1,11 @@
 import React from "react";
-import '../Delivery/Delivery.css';
+import './Delivery.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
 
-import Button from '../Button/Button';
-import SameCard from '../SameCard/SameCard';
-import Footer from "../Footer/Footer";
+import Button from '../../component/Button/Button';
+import SameCard from '../../component/SameCard/SameCard';
+import Footer from "../../components/Footer/Footer";
 const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,setSpan}) => {
   
 

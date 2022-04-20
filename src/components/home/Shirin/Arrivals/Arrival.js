@@ -1,8 +1,8 @@
 import React from "react";
-import shoe from '../../Images/shoes.svg'
-import shoe2 from '../../Images/remove0.png'
-import '../Arrivals/Arrival.css';
-import line from '../../Images/Linear.svg'
+import shoe from '../../../../Images/shoes.svg'
+import shoe2 from '../../../../Images/remove0.png'
+import '.././Arrivals/Arrival.css';
+import line from '../../../../Images/Linear.svg'
 const Arrival =()=>{
     return <>
          <div className="arr">

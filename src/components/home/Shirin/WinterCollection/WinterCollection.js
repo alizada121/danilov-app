@@ -1,6 +1,6 @@
 import React from "react";
-import '../WinterCollection/WinterCollection.css';
-import remove4 from '../../Images/remove4.png';
+import './WinterCollection.css';
+import remove4 from '../../../../Images/remove4.png';
 const WinterCollection = () => {
     return (
         <div className="collectionWinter">

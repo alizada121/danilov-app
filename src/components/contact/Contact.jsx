@@ -42,9 +42,9 @@ function Contact() {
         <div className='contact-info'>
             <h3>Opening hours</h3>
             <p  style={{margin: "0"}}>Monday-Saturday</p>
-            <p style={{margin: "0"}}>11am - 7pm</p>
+            <p style={{marginBottom: "4%"}}>11am - 7pm</p>
             <p style={{marginBottom: "0"}}>Sunday</p> 
-            <p style={{margin: "0"}}> 12am - 6pm</p>
+            <p style={{marginBottom: "10%"}}> 12am - 6pm</p>
 
             <h3>Address</h3>
             <p>Nunc scelerisque diam hac euismod tristique. Nec elit gravida tempor ac nec.</p>

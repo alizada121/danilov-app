@@ -1,7 +1,7 @@
-
+import {useEffect,useState} from 'react';
 // import { Header } from 'tar';
 import './App.css';
-import Home from './components/home/Home.jsx'
+import Home from './components/home/Leman/Home.jsx'
 import NewIn from './components/new in/NewIn';
 import Header from './components/Header/Header';
 import Contact from './components/contact/Contact';
@@ -11,53 +11,62 @@ import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
 
 
-
+import Collection from './components/Collection/Collection'
+import SingleProduct from './components/SingleProduct/SingleProduct';
+import About from './components/About/About';
+import Bag from './components/Bag/Bag'
+import Delivery from './components/Delivery/Delivery';
+import Login from './components/Login/Login';
 import './style.css'
-import HomePage from './component/HomePage/HomePage';
-import Arrival from './component/Arrivals/Arrival';
-import Shop from './component/Shop/Shop';
-import Winter from './component/Winter/Winter';
-import Collection from './component/Collection/Collection';
-import WinterCollection from './component/WinterCollection/WinterCollection';
-import ShoesFour from './component/ShoesFour/ShoesFour';
-import Footer from './component/Footer/Footer';
-import SingleProduct from './component/SingleProduct/SingleProduct';
-import About from './component/About/About';
-import Bag from './component/Bag/Bag';
-import Delivery from './component/Delivery/Delivery';
-import Login from './component/Login/Login';
+
+function debounce(fn, ms) {
+  let timer
+  return _ => {
+    clearTimeout(timer)
+    timer = setTimeout(_ => {
+      timer = null
+      fn.apply(this, arguments)
+    }, ms)
+  };
+}
 
 function App() {
+  const [dimensions, setDimensions] = useState({ 
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
+  useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    }, 1000)
+
+    window.addEventListener('resize', debouncedHandleResize)
+
+    return _ => {
+      window.removeEventListener('resize', debouncedHandleResize)
+    
+}
+  })
   return (
     <div className="App">
-<HomePage/>
-<Arrival/>
-<Shop/>
- <Winter/>
-      <Home/>
-      <NewIn/>
-      {/* <Header/> */}
+
+      {/* <Home dimensions ={dimensions}/> */}
+      {/* <Collection/> */}
+      {/* <NewIn dimensions={dimensions}/> */}
+      {/* <SingleProduct/> */}
+      {/* <About/> */}
       {/* <Contact/> */}
+      {/* <Bag/> */}
+      {/* <Delivery/> */}
+      {/* <Login/> */}
+      <Profile1/>
+      <Profile2/>
+      <Payment/>
+
       {/* <Footer/> */}
-      {/* <Profile1/> */}
-      {/* <Profile2/> */}
-      {/* <Payment/> */}
-   
-
-     
-     
-     
-    
-    <Collection/>
-    <WinterCollection/>
-    <ShoesFour/>
-    <Footer/>
-    <SingleProduct/>
-    <About/>
-    <Bag/>
-    <Delivery/>
-
-    <Login/>
     </div>
   );
 }
