@@ -62,9 +62,9 @@ function App() {
       {/* <Bag/> */}
       {/* <Delivery/> */}
       {/* <Login/> */}
-      <Profile1/>
-      <Profile2/>
-      <Payment/>
+      {/* <Profile1/> */}
+      {/* <Profile2/> */}
+      {/* <Payment/> */}
 
       {/* <Footer/> */}
 

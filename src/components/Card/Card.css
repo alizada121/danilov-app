@@ -116,3 +116,25 @@
     transform: translateY(70px);
 }
 
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .otuz {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .otuz {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .otuz {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .otuz {
+        width: 100%;
+    }
+}
+

@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import "../Shop/ShopSlider.css"
 import blackHeart from "../../../../assets/blackHeart.png"
 import vectorLeft from "../../../../assets/vectorLeft.png"
+import longLine from "../../../../assets/longLine.png"
 import vectorRight from "../../../../assets/vectorRight.png"
 import ShopSlider1 from "../../../../assets/shopSlider1.png"
 import ShopSlider2 from "../../../../assets/shopSlider2.png"
@@ -78,6 +79,27 @@ function ShopSlider({dimensions}) {
 
                 <div className='vector-down'>
                     <img src={vectorDown}></img>
+                </div>
+                
+
+            </div>
+
+            <div className='card-navigation-mobile-cont'>
+
+                <div className='vector-left'>
+                    <img src={vectorLeft}>
+                    </img>
+
+                </div>
+
+                <div className='line-vector'>
+                    <img src={longLine}></img>
+
+                </div>
+
+                <div className='vector-right'>
+                    <img  src={vectorRight}></img>
+
                 </div>
                 
 
