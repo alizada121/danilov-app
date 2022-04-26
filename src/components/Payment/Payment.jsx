@@ -1,9 +1,18 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import "../Payment/Payment.css"
 
 function Payment() {
+    const infoRef=useRef();
+    const succesRef=useRef();
+
+    const paymentProceed=()=>{
+
+        infoRef.current.style.display="none"
+        succesRef.current.style.display="flex"
+
+    }
   return  <div className='Payment-container'>
   <div className='Payment'>
       <div className='Payment-header'>
@@ -27,7 +36,7 @@ function Payment() {
          </div>  
       </div>
 
-      <div className='Payment-info'>
+      <div className='Payment-info' ref={infoRef}>
           <div className='Payment-details'>
               <h1>Payment details</h1>
 
@@ -60,13 +69,13 @@ function Payment() {
 
                       </div>
 
-
+ 
 
                   </div>
 
                   <div className='Payment-Card-row-submit'>
                       <p>Previous step</p>
-                      <div className='Card-input-submit'>
+                      <div className='Card-input-submit' onClick={paymentProceed}>
                          <input type="button" value="Proceed to payment"></input>
 
                       </div>
@@ -121,7 +130,7 @@ function Payment() {
 
        </div>  
 
-       <div className='Payment-success-container'>
+       <div className='Payment-success-container' ref={succesRef}>
            <div className='Payment-success'>
                <h1>Payment Confirmed</h1>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh condimentum lacus, duis 

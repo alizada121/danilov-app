@@ -5,7 +5,7 @@ import HomePage from '../Shirin/HomePage'
 function Home({dimensions}) {
   return (
     <div className='Home'>
-        {/* <HomePage/> */}
+        <HomePage/>
         <HomeLeman dimensions={dimensions}/>
       
 

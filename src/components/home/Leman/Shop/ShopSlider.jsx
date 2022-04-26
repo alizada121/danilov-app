@@ -1,4 +1,5 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,useRef} from 'react'
+
 import "../Shop/ShopSlider.css"
 import blackHeart from "../../../../assets/blackHeart.png"
 import vectorLeft from "../../../../assets/vectorLeft.png"
@@ -18,22 +19,47 @@ import data from "../../../../Data.json"
 
 
 
-function ShopSlider({dimensions}) {
 
-    const [slice,setSlice]=useState(3);
+
+
+function ShopSlider({dimensions}) {
+    const [slice1,setSlice1]=useState(0);
+    const [slice2,setSlice2]=useState(3);
+    const additionValue=3
+    const Slider1Ref=useRef();
+    const Slider2Ref=useRef();
+    const Slider3Ref=useRef();
+    const generalSliderRef=useRef();
 
     useEffect(()=>{
-        if(dimensions.width < 1024) setSlice(1)
-        else setSlice(3)
+        if(dimensions.width < 1024) setSlice2(1)
+        else setSlice2(3)
     },[dimensions.width])
    console.log(dimensions)
 
-    
+    const  upFunc1=()=>{
+       
+      
+    }
+
+    const downFunc1=()=>{
+       
+
+    }
 
    
    
   return (
+
+   
+
+
+    
+
+    
     <div className='ShopSlider-container'>
+       
+         
         <div className='ShopSlider-container-heading'>
             <h1>
                 Shop
@@ -41,35 +67,36 @@ function ShopSlider({dimensions}) {
 
         </div>
 
-        <div className='ShopSlider-slider'>
-            <div className='ShopSlider-slider-part1'>
-            {data.slice(0,slice).map((item) => {
-                return (
-                    <Card 
-                    name={item.name} 
-                    price={item.price}
-                    desc={item.desc} 
-                    img={item.img}
-                    key={Math.random()}
-                    faiz= 'otuz'
+        <div className='ShopSlider-slider' >
+
+           <div className='ShopSlider-slider-itself' ref={generalSliderRef}>
+                <div className='ShopSlider-slider-part1' ref={Slider1Ref} >
+                {data.slice(slice1,slice2).map((item) => {
+                    return (
+                        <Card 
+
+                        name={item.name} 
+                        price={item.price}
+                        desc={item.desc} 
+                        img={item.img}
+                        key={Math.random()}
+                        faiz= 'otuz'
 
 
-                    />
-                )
-            })}
+                        />
+                    )
+                })}
 
-            </div>
+                </div>
 
-            <div className='ShopSlider-slider-part2'>
 
-            </div>
+               
+          </div>
+           
 
-            <div className='ShopSlider-slider-part3'>
-        
-            </div>
-
+            
             <div className='card-navigation-container'>
-                <div className='vector-up'>
+                <div className='vector-up' onClick={upFunc1}>
                     <img src={vectorUp}></img>
                 </div>
 
@@ -77,7 +104,7 @@ function ShopSlider({dimensions}) {
                     <img src={line}></img>
                 </div>
 
-                <div className='vector-down'>
+                <div className='vector-down'  onClick={downFunc1}>
                     <img src={vectorDown}></img>
                 </div>
                 

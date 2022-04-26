@@ -1,58 +1,244 @@
-.borderImg{
+.borderImg {
     height: 500px;
     box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
     position: relative;
 }
-.money{
+
+.money {
     display: flex;
     justify-content: space-between;
 }
-.bottom{
+
+.bottom {
     display: flex;
     flex-direction: column;
-   margin-top: 20px;
+    margin-top: 20px;
 }
-.uptext{
+
+.uptext {
     display: flex;
     font-family: 'Cormorant';
     font-size: 22px;
     font-weight: 700;
 }
-.element{
+
+.element {
     position: absolute;
     top: 5%;
     left: 10%;
-    
+
     width: 80%;
     height: 10vh;
 }
-.heart{
+
+.heart {
     position: absolute;
-right: 0;
+    right: 0;
 }
-.money{
+
+.money {
     font-family: 'Montserrat';
     font-size: 15px;
     font-weight: 400;
 }
-.leftvector, .rightvector{
-   margin-top: 70%;
-   position: absolute;
+
+.leftvector,
+.rightvector {
+    margin-top: 70%;
+    position: absolute;
 }
-.rightvector{
+
+.rightvector {
     transform: translateX(-20px);
 }
+
 .activeimg2 {
-    width:25% ;
+    width: 25%;
     height: 300px;
 }
-.activeshoe2{
+
+.activeshoe2 {
 
     width: 80%;
 }
-@media only screen and (max-width: 1200px) {
-    .borderImg{
-        height: 400px;
-       
+
+@media only screen and (max-width: 2000px) {
+
+    .leftvector1 {
+        margin-top: 40%;
+
     }
- }
+
+    #shoesmiddle {
+        margin-top: -10%;
+
+    }
+
+    .rightvector1 {
+        margin-top: 40%;
+
+    }
+
+    #idRandom {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .leftvector1 {
+        margin-top: 60%;
+
+    }
+
+    #shoesmiddle {
+        margin-top: 5%;
+
+    }
+
+    .rightvector1 {
+        margin-top: 60%;
+
+    }
+
+    #idRandom {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+c#shoesmiddle {
+        width: 60%;
+    }
+    .leftvector1,
+    .rightvector1 {
+        margin-top: 45%;
+    }
+    
+    #idRandom {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1360px) {
+.leftvector1{
+    left: 6%;
+}
+   
+    
+    .rightvector1 {
+        right: 5%;
+    }
+    
+  
+}
+
+@media only screen and (max-width: 1200px) {
+    .borderImg {
+        height: 300px;
+
+    }
+
+    .leftvector,
+    .rightvector {
+        margin-top: 60%;
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+
+  .shoesmiddle{
+      margin-top: 20%;
+     
+  }
+  }
+@media only screen and (max-width: 820px) {
+    .borderImg {
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .leftvector {
+        top: -50%;
+        left: 20%;
+    }
+
+    .rightvector {
+        top: -50%;
+        right: 20%;
+    }
+
+    .heart {
+        width: 5%;
+    }
+
+    .bottom {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .leftvector {
+        top: -40%;
+
+    }
+
+    .rightvector {
+        top: -40%;
+
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .bottom {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .leftvector {
+        top: -20%;
+
+    }
+
+    .rightvector {
+        top: -20%;
+
+    }
+
+    .borderimgdist {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .leftvector {
+        top: -15%;
+
+    }
+
+    .rightvector {
+        top: -15%;
+        right: 15%;
+    }
+
+    .heart {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .borderimgdist {
+        margin-top: 20%;
+    }
+
+    .leftvector {
+        top: -5%;
+
+    }
+
+    .rightvector {
+        top: -5%;
+        right: 10%;
+    }
+}

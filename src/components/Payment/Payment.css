@@ -11,7 +11,7 @@
     justify-content: space-between;
     margin-top: 5%;
     margin-bottom: 20%;
-    
+    transition: 1s;
 }
 
 .Payment-header{
@@ -319,6 +319,8 @@
    width: 100%;
    margin-top: 5%;
    margin-bottom: 15%;
+   transition: 1s;
+   display: none;
     
 }
 

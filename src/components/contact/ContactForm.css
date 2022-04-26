@@ -37,13 +37,13 @@ label p{
 
 input{
     border:  0.5px solid #473c36;
-    height: 40px;
+    /* height: 40px; */
     background: #E5E5E5;
 }
 
 .Submit{
     margin-top:5%;
-    height: 40px;
+    /* height: 40px; */
     background: #463227;
     color: #F0F0F0;
     font-family: 'Cormorant';

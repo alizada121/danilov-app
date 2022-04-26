@@ -1,4 +1,5 @@
 import React ,{useState} from "react";
+import {Link} from "react-router-dom"
 import '../ImageHeader/ImageHeader.css';
 import line2 from '../../Images/Line 000.svg';
 
@@ -8,7 +9,10 @@ const ImageHeader=({title , titleH1 ,titlespan , setText, imagetext ,setBorder ,
    
     return(
         <div className="imageHeader">
-        <p className="home">{title}</p>
+        
+            <p className="home">{title}</p>
+           
+        
        
      <div className="coll">
 

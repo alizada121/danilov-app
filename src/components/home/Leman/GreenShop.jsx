@@ -8,8 +8,8 @@ function GreenShop() {
         <div className='GreenShop-container'>
             <div className='GreenShop-part1'>
                 <div className='GreenShop-part1-text'>
-                    <h1>Shop</h1>
-                    <p>Lacus elit amet volutpat pulvinar. Ultrices placerat ut semper a in nisl, a cursus</p>
+                    <h1 className='GreenShop-header'>Shop</h1>
+                    <p className='GreenShop-para'>Lacus elit amet volutpat pulvinar. Ultrices placerat ut semper a in nisl, a cursus</p>
 
                     <div className='GreenShop-part1-button'>
                     <button><p>Buy Now</p></button>

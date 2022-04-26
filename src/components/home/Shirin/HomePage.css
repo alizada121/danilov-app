@@ -1,17 +1,17 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cormorant', serif;
   
-} */
+}
 .homePage{
     background-image: url('../../../Images/BackgImg.svg');
     height: 100vh;
     /* width: 100vw; */
     background-repeat: no-repeat;
     background-size: cover;
-   
+    overflow: hidden;
 }
 .middle{
     margin-top: 15%;
@@ -92,3 +92,7 @@
     bottom:-40%;
       transform: translateX(-50%);
 }
+
+
+
+

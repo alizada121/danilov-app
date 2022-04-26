@@ -6,13 +6,19 @@ import danilov1 from '../../Images/danilov1.png';
 import danilov2 from '../../Images/danilov2.png'
 import VideoPart from "../VideoPart/VideoPart";
 import Footer from "../../components/Footer/Footer";
+// import { Header } from "tar";
+import Header from "../Header/Header"
 const About = ()=>{
     const [text , setText]=useState(false)
     const [border ,setBorder]=useState(false)
     return(
         <div>
-             <HeaderBlack/>
+            <div className="about-header">
+                <Header/>
+            </div>
+            
              <div className="aboutBottom">
+                 
                    <ImageHeader title={'Home  /  About us '} titleH1={'Abous us'} setBorder={!border} setText={!text} imagetext={'Emalatxana'}/>
                    <div className="danilovimg">
                        <div className="danilov1img">
@@ -39,7 +45,10 @@ const About = ()=>{
                    <hr/>
              </div>
            <VideoPart/>
-           <Footer/>
+           <div className="about-footer">
+               <Footer/>
+           </div>
+           
         </div>
     )
 }

@@ -39,11 +39,15 @@
     width: 100%;
 }
 .ShopSlider-slider-part1{
+    margin-bottom: 5%;
     width: 95%;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    transition: 1s;
+    opacity: 1;
 }
 
 .card-navigation-mobile-cont{
@@ -73,6 +77,10 @@
      margin-bottom: 4%;
      width: 100%;
 }
+
+/*//////////////Slider/////////////////*/
+
+
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
 

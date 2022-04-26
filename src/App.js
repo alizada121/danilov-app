@@ -1,17 +1,17 @@
 import {useEffect,useState} from 'react';
+import {Route,Switch,Redirect} from "react-router-dom"
 // import { Header } from 'tar';
 import './App.css';
 import Home from './components/home/Leman/Home.jsx'
 import NewIn from './components/new in/NewIn';
 import Header from './components/Header/Header';
 import Contact from './components/contact/Contact';
-// import Footer from './components/Footer/Footer';
 import Profile1 from './components/Profile/Profile1';
 import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
+import Collection from './Collection/Collection';
 
-
-import Collection from './components/Collection/Collection'
+//Shirin
 import SingleProduct from './components/SingleProduct/SingleProduct';
 import About from './components/About/About';
 import Bag from './components/Bag/Bag'
@@ -52,21 +52,56 @@ function App() {
   })
   return (
     <div className="App">
+      <Switch>
+        <Route exact path="/">
+           <Home dimensions ={dimensions}/>
+        </Route>
 
-      {/* <Home dimensions ={dimensions}/> */}
-      {/* <Collection/> */}
-      {/* <NewIn dimensions={dimensions}/> */}
-      {/* <SingleProduct/> */}
-      {/* <About/> */}
-      {/* <Contact/> */}
-      {/* <Bag/> */}
-      {/* <Delivery/> */}
-      {/* <Login/> */}
-      {/* <Profile1/> */}
-      {/* <Profile2/> */}
-      {/* <Payment/> */}
+        <Route exact path="/collection">
+          <Collection  dimensions ={dimensions}/>
+        </Route> 
 
-      {/* <Footer/> */}
+        <Route exact path="/newIn">
+           <NewIn dimensions={dimensions}/>
+        </Route>
+
+        <Route exact path="/singleProduct">
+            <SingleProduct/>
+        </Route>  
+
+        <Route exact path="/about">
+          <About/>
+        </Route>
+
+        <Route exact path="/contact">
+             <Contact/>
+        </Route>
+
+        <Route exact path="/bag">
+            <Bag/>
+        </Route>
+
+        <Route exact path="/delivery">
+          <Delivery/>
+        </Route>
+
+        <Route exact path="/login">
+            <Login/>
+        </Route>
+
+        <Route exact path="/signUp">
+            <Profile1/>
+        </Route>
+
+        <Route exact path="/profile2">
+            <Profile2/>
+        </Route>
+
+      <Route exact path="/payment">
+        <Payment/>
+      </Route>
+
+      </Switch>
     </div>
   );
 }
