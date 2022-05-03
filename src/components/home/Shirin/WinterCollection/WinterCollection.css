@@ -1,0 +1,26 @@
+.collectionWinter{
+    display: flex;
+    background-color: #E5E5E5;
+    padding-top: 100px;
+}
+.colwin{
+    width: 50%;
+}
+.magna{
+    width: 40%;
+}
+.twenty{
+    font-size: 50px;
+    font-family: 'Cormorant';
+    line-height: 60px;
+    font-weight: 600;
+}
+.odio{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #463227;
+  margin-top: 40px;
+}
+

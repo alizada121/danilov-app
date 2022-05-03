@@ -1,0 +1,177 @@
+.header-container{
+    /* width: 80%;
+    margin-left: 10%;
+    margin-right:10%; */
+}
+
+#black-container{
+    padding: 0;
+}
+
+
+.header-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.header-left{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.header-left li{ 
+    list-style: none;
+    
+}
+
+.header-left a{
+    text-decoration: none;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.header-logo{
+    width: 33%;
+   
+}
+.header-logo img{
+    width: 70%;
+}
+
+
+.header-right{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.header-right li{ 
+    list-style: none;
+}
+
+.header-left li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B1B1B;
+}
+
+.header-right li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B1B1B;
+}
+
+.header-right li img{
+        width: 100%;
+}
+
+
+.header-left li img{
+    width: 100%;
+}
+
+.header-hamburger{
+    width: 25%;
+    display: none;
+}
+
+.header-bag{
+    width: 25%;
+    display: none;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .header-left{
+        display: none;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .header-hamburger{
+        display: block;
+    }
+
+    .header-bag{
+        display: block;
+    }
+
+    .header-logo{
+        width: 45%;
+    }
+
+    
+
+
+
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .header-left{
+        display: none;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .header-hamburger{
+        display: block;
+    }
+
+    .header-bag{
+        display: block;
+    }
+
+    .header-logo{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .header-left{
+        display: none;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .header-hamburger{
+        display: block;
+    }
+
+    .header-bag{
+        display: block;
+    }
+
+    .header-logo{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-logo{
+        margin-top: 2%;
+    }
+}
+
+

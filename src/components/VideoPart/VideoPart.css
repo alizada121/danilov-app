@@ -1,0 +1,50 @@
+.headerVideo{
+    font-family: 'Cormorant';
+font-size: 70px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 30px;
+
+}
+.videoContainer{
+    padding: 0 8%;
+}
+.header2{
+    font-family:'Montserrat' ;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #463227;
+width: 50%;
+}
+.green{
+    height: 40vh;
+    background-color: #001C08;
+     padding: 50px ;
+     margin-bottom: 450px;
+}
+.integer{
+    font-family: 'Cormorant';
+font-size: 60px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+color:  #FCFCFC;
+
+}
+.whiteText{
+    font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color: #FCFCFC;
+margin-top: 30px;
+width: 90%;
+}

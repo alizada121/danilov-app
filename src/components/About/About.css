@@ -1,0 +1,35 @@
+.aboutBottom{
+    padding: 5% 8% ;
+}
+.danilovimg{
+    display: flex;
+}
+.danilov1img{
+    margin-right: 2%;
+}
+.danilov1img , .danilov2img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+}
+.ante{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 25px;
+    color: #463227;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.odio{
+    color: #463227;
+font-size: 26px;
+line-height: 25px;
+font-weight: 500;
+font-family: 'Montserrat';
+text-align: left;
+margin-bottom: 100px;
+}

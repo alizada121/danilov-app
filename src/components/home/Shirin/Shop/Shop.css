@@ -1,0 +1,47 @@
+.shopping{
+    font-size: 100px;
+    font-family: 'Cormorant';
+    font-weight: 600;
+
+}
+.pageShop{
+    padding-top: 100px;
+    background-color: #E5E5E5;
+    height: 120vh;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 15% auto;
+}
+@media only screen and (max-width: 1200px) {
+   .pageShop{
+       height: 80vh;
+   }
+  }
+  @media only screen and (max-width: 850px) {
+    .shopping{
+        font-size: 42px;
+    }
+   }
+@media only screen and (max-width: 400px) {
+    .arrows{
+        margin-top: -30%;
+        width: 100%;
+    }
+    .arrmidle{
+        width: 50%;
+    }
+  }
+
+
+
+
+
+
+
+

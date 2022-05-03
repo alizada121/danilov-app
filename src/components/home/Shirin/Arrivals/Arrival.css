@@ -1,0 +1,161 @@
+.arr{
+    /* display: flex; */
+    overflow: hidden;
+   padding-top: 5%;
+   background-color: #E5E5E5;
+   height: 110vh;
+    /* position: relative; */
+    position: relative;
+}
+.imageContainer{
+    display: flex;
+    margin: 0 -180px 0 0;
+}
+.newArrivals{
+    font-size: 100px;
+    margin-left: 37%;
+}
+.brownImg{
+    width: 40%;
+    position: relative;
+} 
+.brownImg img{
+    right: 0;
+    position: absolute;
+    /* height: 100vh; */
+}
+
+.blueImg{
+    display: flex;
+}
+.texttwo{
+    position: absolute;
+    font-size: 22px;
+    color:#463227;
+margin-top: 23%;
+ width: 30%;
+ text-align: left;
+ margin-left: 2%;
+
+}
+.lacus{
+    font-family: 'Cormorant'
+}
+.seeAll{
+margin-left: 90%;
+    width: 50%;
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.see{
+    margin-left: 1%;
+    transition: transform 0.4s;
+}
+ .twice:hover img {
+    transform: translateX(20px);
+ }  
+ @media only screen and (max-width: 1000px) {
+    .texttwo{
+        margin-top: 30%;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .brownImg{
+        display: none;
+    }
+    .newArrivals{
+        margin: 0 auto;
+    }
+    .blueImage{
+        margin-left: 5%;
+    }
+    .imageContainer{
+        margin-top: 10%;
+    }
+    .texttwo{
+        width: 80%;
+        margin-top: 40%;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    
+    .texttwo{
+       
+        margin-top: 50%;
+    }
+    .seeAll{
+        margin-left: 80%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .newArrivals{
+        font-size: 42px;
+    }
+    .blueImage{
+        margin-left: 0;
+    }
+    .lacus{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 512px) {
+   
+    .blueImage{
+        margin-left: -30px;
+    }
+    .seeAll{
+        margin-left: 60%;
+       
+    }
+    .blueImage{
+        width: 90%;
+    }
+    
+    .blueImage{
+        margin-left: -90px;
+    }
+   
+  }
+  @media only screen and (max-width: 380px) {
+    .blueImage{
+        margin-left: -125px;
+    }
+    .seeAll{
+        width: 60%;
+    }
+    
+  }
+  @media only screen and (max-width: 320px) {
+    .blueImage{
+        margin-left: -90px;
+    }
+    .texttwo{
+        margin-top:50% ;
+    }
+    .blabla{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .seeAll{
+        width: 80%;
+        margin-left: 40%;
+    }
+  }
+  @media only screen and (max-width: 250px) {
+    .blabla{
+        width: 70%;
+    }
+    .blueImage{
+        margin-left: -70px;
+    }
+  }
+  @media only screen and (max-width: 220px) {
+    .seeAll{
+        width: 90%;
+        margin-left: 30%;
+    }
+  }
+
+  
