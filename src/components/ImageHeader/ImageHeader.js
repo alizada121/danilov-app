@@ -34,7 +34,7 @@ const ImageHeader=({title , titleH1 ,titlespan , setText, imagetext ,setBorder ,
                                 }
      
        
-       <img  className={` ${setText && 'distance'} `} src={line2} /> 
+       {/* <img  className={` ${setText && 'distance'} `} src={line2} />  */}
         </div>
      </div>
      </div>

@@ -18,12 +18,12 @@ function HomeLeman({dimensions}) {
 
   return (
     <div className='HomeLeman'>
-        {/* <GreenShop/> */}
+        <GreenShop/>
         <ShopSlider dimensions={dimensions}/>
-        {/* <FollowUs/> */}
-        {/* <div className='homepage-footer'>
+        <FollowUs/>
+        <div className='homepage-footer'>
                   <Footer/>
-        </div> */}
+        </div>
 
     </div>
   )

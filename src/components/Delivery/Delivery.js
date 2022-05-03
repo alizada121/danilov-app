@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import './Delivery.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
@@ -6,15 +6,43 @@ import ImageHeader from "../ImageHeader/ImageHeader";
 import Button from '../../component/Button/Button';
 import SameCard from '../../component/SameCard/SameCard';
 import Footer from "../../components/Footer/Footer";
-const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,setSpan}) => {
+function debounce(fn, ms) {
+    let timer
+    return _ => {
+      clearTimeout(timer)
+      timer = setTimeout(_ => {
+        timer = null
+        fn.apply(this, arguments)
+      }, ms)
+    };
+  }
+const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
   
-
+    const [dimensions, setDimensions] = React.useState({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+      useEffect(() => {
+        const debouncedHandleResize = debounce(function handleResize() {
+          setDimensions({
+            height: window.innerHeight,
+            width: window.innerWidth
+          })
+        }, 1000)
+    
+        window.addEventListener('resize', debouncedHandleResize)
+    
+        return _ => {
+          window.removeEventListener('resize', debouncedHandleResize)
+    
+        }
+      })
+    
     return (
         <div >
-            <HeaderBlack />
+            {/* <HeaderBlack dimensions={dimensions}/> */}
             <div className="deliveryDiv">
-
-                <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery '}  titlespan={'1'} setSpan={true}/>
+                <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery '} setWitdhh={true} titlespan={'1'} setSpan={true}/>
                 <div className="flexDelivery">
                     <div className="leftDeliver" >
                         <div className="inputSide">
@@ -23,7 +51,7 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                 <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                     <div className="acc">
                                         <p className="add">Email address {showing ? '/Number' : ""}</p>
-                                        {!showing &&  <p className="add">Do you have an account?<span className="add1">Login</span></p>
+                                        {!showing &&  <p className="add22">Do you have an account?<span className="add1">Login</span></p>
                                         }
                                       
                                     </div>
@@ -32,14 +60,12 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                         <input type="email" placeholder="namesurname@email.com" id="email" name="email"></input>
                                     </div>
                                 </div>
-
-
                                 {showPassword &&
                                     <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                         <div className="acc">
                                         <p className="add">Password </p>
                                         {
-                                           !showing && <p className="add">Do you have an account?<span className="add1">Login</span></p>
+                                           !showing && <p className="add " >Do you have an account?<span className="add1">Login</span></p>
                                         }
                                        
                                           
@@ -49,14 +75,8 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                             <input type="password" placeholder="........." id="email" name="password"></input>
                                         </div>
                                     </div>
-
-
                                 }
-
-
-
                             </div>
-
                         </div>
                         <div className="inputSide1">
                             <p className="contact1">Shipping info</p>
@@ -64,7 +84,7 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                 <div className="name">
                                     <p className="same">Name</p>
                                     <label htmlFor="name"></label>
-                                    <input type="name" placeholder="name" id="name" name="name"></input>
+                                    <input type="name" placeholder="name" id="name"name="name"></input>
                                 </div>
                                 <div className="surname">
                                     <p className="same">Surname</p>
@@ -85,7 +105,6 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                 </div>
                             </div>
                             <div className="inputSide">
-
                                 <div className="acc1">
                                     <p className="add">Adress </p>
                                     {
@@ -99,10 +118,8 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                                 </div>
                             </div>
                             <div className="inputSide11">
-
                                 <div className="acc">
                                     <p className="add">Phone </p>
-
                                 </div>
                                 <div className="email6">
                                     <label htmlFor="email"></label>
@@ -111,20 +128,15 @@ const Delivery = ({ btnclass, showButton, showPassword ,textHeader1 ,showing ,se
                             </div>
                             <div className="checkbox">
                                 <input type="checkbox" id="scales" name="scales"></input>
-
                                 <label htmlFor="scales">Save this informations for a future fast checkout</label>
                             </div>
                             <Button btnclass={true} />
                         </div>
                     </div>
-
                     <SameCard showButton={false} />
                 </div>
-
-
             </div>
-            <Footer />
-
+            {/* <Footer /> */}
         </div>
     )
 }

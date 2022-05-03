@@ -1,26 +1,8 @@
 .aboutBottom{
-   width: 80%;
-   margin-left: 10%;
-   margin-right: 10%;
-   
-}
-
-.about-footer{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.about-header{
-    width: 80%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 5% 8% ;
 }
 .danilovimg{
     display: flex;
-
 }
 .danilov1img{
     margin-right: 2%;

@@ -1,10 +1,8 @@
 .deliveryDiv{
-
     padding: 2% 10%;
 }
 .inputSide1{
     width: 80%; 
-
 }
 .inputSide{
     /* border :1px solid gray; */
@@ -17,9 +15,7 @@
     margin-top: 20px;
 }
 .email{
-
     width: 80%;
-
 }
 .email6{
     width: 100%;
@@ -59,7 +55,7 @@ letter-spacing: 0em;
     outline: none;
     border: 1px solid red;
 }
-.add{
+.add,.add2{
     font-family: 'Montserrat';
 font-size: 16px;
 font-weight: 500;
@@ -69,13 +65,13 @@ text-align: left;
 }
 .add1{
     font-family: 'Montserrat';
-font-size: 15px;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: 0em;
-margin-left: 5px;
-
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-left: 5px;
 }
+
 .contact1{
     text-align: left;
     margin-bottom: 40px;
@@ -124,11 +120,11 @@ color: red;
     margin-top: 10px;
     display: flex;
     align-items: center;
-
 }
 .flexDelivery{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 .leftDeliver{
     width: 100%;
@@ -153,3 +149,39 @@ color: red;
 .differenAdres input{
     border: 1px solid gray;
 }
+@media only screen and (max-width: 900px) {
+   .deliveryDiv{
+       padding: 0;
+       
+   }
+   .leftDeliver{
+       margin: 0 10%;
+   }
+   
+   .flexDelivery{
+    display: flex;
+    flex-direction: column;
+   }
+   .add22{
+       transform: translate(0px, 50px);
+   }
+}
+@media only screen and (max-width: 1115px) {
+.emailPass{
+    display: block;
+}
+.differenPass{
+    width:80%;
+}
+ }
+@media only screen and (max-width: 400px) {
+    .add{
+        /* width: 60%; */
+    }
+    
+    .add22{
+        transform: translate(0px, 75px);
+        width: 80%;
+        /* margin-top: 30px; */
+    }
+ }

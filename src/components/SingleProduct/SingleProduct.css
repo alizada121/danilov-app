@@ -2,7 +2,6 @@
     padding: 2% 10%;
     margin: 0 auto;
 }
-
 .grid {
     width: 760px;
     /* border: 1px solid red; */
@@ -10,76 +9,78 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
- 
 }
-.rightAside{
+.rightAside {
     width: 600px;
     margin-left: 5%;
 }
 .filteredImage {
- display: flex;
- margin-top: 60px;
- margin-bottom: 280px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 280px;
+    /* overflow: hidden; */
 }
-.positionDiv{
+.positionDiv {
     width: 100%;
     border: 1px solid grey;
-  
 }
-.positionDiv img{
-   width: 101%;
-   
+.positionDiv img {
+    width: 101%;
 }
-.rightText{
+.rightText {
     font-size: 18px;
     font-family: 'Montserrat';
     color: #463227;
-   font-weight: 400;
-   text-align: left;
-   width: 80%;
+    font-weight: 400;
+    text-align: left;
+    width: 80%;
 }
-.colorButton1 ,.colorButton2,.colorButton3,.colorButton4 ,.colorButton5 {
-    border:1px solid black;
-   padding: 2% 3%;
-   margin-right: 2%;
-   margin-top: 2%;
+.colorButton1,
+.colorButton2,
+.colorButton3,
+.colorButton4,
+.colorButton5 {
+    border: 1px solid black;
+    padding: 2% 3%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
-.colorButton1{
+.colorButton1 {
     background-color: #463227;
 }
-.colorButton2{
+.colorButton2 {
     background-color: black;
 }
 .colorButton4 {
     background-color: #000E88;
 }
-.colorButton5{
-    background-color:  #0F4711;
-    
+.colorButton5 {
+    background-color: #0F4711;
 }
-.sizeDivText{
+.sizeDivText {
     display: flex;
     width: 70%;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.colorFilter{
+.colorFilter {
     text-align: left;
     margin-top: 30px;
 }
-.sizeButton{
-    border:1px solid black;
+.sizeButton {
+    border: 1px solid black;
     padding: 1% 2%;
     margin-right: 3%;
-   background-color: transparent;
+    background-color: transparent;
 }
-.sizeDiv ,.bag{
+.sizeDiv,
+.bag {
     text-align: left;
 }
-.sizeFilter{
+.sizeFilter {
     margin-top: 50px;
 }
-.borderText{
+.borderText {
     border-bottom: 1px solid gray;
 }
 .minus {
@@ -88,40 +89,40 @@
     outline: none;
     border: 1px solid black;
 }
-.bag{
+.bag {
     margin-top: 50px;
 }
-.qty{
+.qty {
     margin-bottom: 10px;
 }
-.minus ,.zero{
+.minus,
+.zero {
     margin-right: 20px;
 }
-.plus{
+.plus {
     padding: 1% 2.2%;
     background-color: transparent;
     outline: none;
     border: 1px solid black;
 }
-.dollar{
+.dollar {
     display: flex;
     width: 40%;
     /* justify-content: space-around; */
-
     margin-top: 50px;
 }
-.priceDollar{
-    margin-right:40px ;
-    font-size: 22px;
-    font-family: 'Cormorant';
-    font-weight: 600 ;
-}
-.priceDollar1{
+.priceDollar {
+    margin-right: 40px;
     font-size: 22px;
     font-family: 'Cormorant';
     font-weight: 600;
 }
-.brownButton{
+.priceDollar1 {
+    font-size: 22px;
+    font-family: 'Cormorant';
+    font-weight: 600;
+}
+.brownButton {
     background-color: #463227;
     padding: 1% 6%;
     outline: none;
@@ -132,12 +133,80 @@
     font-family: 'Cormorant';
     font-weight: 600;
 }
-.whiteButton{
+.whiteButton {
     padding: 0.8% 6%;
     color: #463227;
     background-color: transparent;
-    border: 1px solid #463227 ;
+    border: 1px solid #463227;
 }
-.fsz{
- font-size: 20px;
+.fsz {
+    font-size: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .fff {
+        margin-top: 30%;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .nazVan {
+        /* display: flex; */
+        text-align: left;
+    }
+    .common {
+        padding: 0 10%;
+    }
+    .arrows1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .arrmidle1 {
+        width: 70%;
+    }
+    .chooseSize {
+        text-align: left;
+        margin-top: 30px;
+    }
+    .chooseSize input {
+        background-color: #E5E5E5;
+        ;
+        width: 97%;
+        padding: 1% 0 1% 0;
+        border: 1px solid gray;
+    }
+    .nazvannaz {
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+    .dollaramount {
+        font-family: ' Montserrat';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .linearr {
+        transform: translate(-20px ,4px);
+    }
+}
+.sss{
+    filter: blur(3px);
+    /* background-color: rgba(0, 0, 0, 0.75); */
+}
+@media only screen and (max-width: 500px) {
+   .linearr{
+    /* transform: translate(350px ,-25px); */
+    position: fixed;
+    z-index: 999;
+   }
+   .chooseInput{
+       margin-bottom: 40px;
+   }
 }

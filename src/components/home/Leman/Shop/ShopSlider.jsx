@@ -1,5 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import gsap from 'gsap'
 import "../Shop/ShopSlider.css"
 import blackHeart from "../../../../assets/blackHeart.png"
 import vectorLeft from "../../../../assets/vectorLeft.png"
@@ -17,6 +18,12 @@ import Card from "../../../Card/Card.jsx"
 
 import data from "../../../../Data.json"
 
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination } from "swiper";
+import { Navigation } from "swiper";
+
 
 
 
@@ -31,6 +38,9 @@ function ShopSlider({dimensions}) {
     const Slider3Ref=useRef();
     const generalSliderRef=useRef();
 
+    const [counter,setCounter]=useState(0);
+   
+
     useEffect(()=>{
         if(dimensions.width < 1024) setSlice2(1)
         else setSlice2(3)
@@ -38,23 +48,63 @@ function ShopSlider({dimensions}) {
    console.log(dimensions)
 
     const  upFunc1=()=>{
+      
+        // setCounter(counter+1)
+        // console.log(counter)
+        // //conterle
+       
+
+        // if(counter==0){
+            
+        //     gsap.fromTo(Slider1Ref.current,{yPercent:"0",ease: "power2.out"}, { yPercent:"-100",ease: "power2.out"});
+        //     gsap.to(Slider2Ref.current, { y:"0",ease: "power2.out"});
+        // }
+
+        // if(counter==1){
+           
+        //     gsap.to(Slider2Ref.current, { yPercent:"-150",ease: "power2.out"});
+        //     gsap.to(Slider3Ref.current, { y:"0",ease: "power2.out"});
+           
+
+        // }  
+
+        // if(counter>1){
+           
+        //    setCounter(2)
+           
+
+        // }  
+
+
+        
+
+
        
       
     }
 
     const downFunc1=()=>{
-       
+    //     setCounter(counter-1)
+    //     console.log(counter)
+
+    //    if(counter==2){
+    //     gsap.to(Slider3Ref.current, { yPercent:"150",ease: "power2.out"});
+    //     gsap.to(Slider2Ref.current, { yPercent:"0",ease: "power2.out"});
+    //    }
+
+    //    if(counter==1){
+    //     gsap.to(Slider2Ref.current, { yPercent:"150",ease: "power2.out"});
+    //     gsap.to(Slider1Ref.current, { yPercent:"0",ease: "power2.out"});
+    //    }
+
+      
+
 
     }
 
    
    
   return (
-
-   
-
-
-    
 
     
     <div className='ShopSlider-container'>
@@ -66,10 +116,17 @@ function ShopSlider({dimensions}) {
             </h1>
 
         </div>
-
-        <div className='ShopSlider-slider' >
+        <Swiper
+                    direction={"vertical"}
+                loop={true}
+                navigation={true} modules={[Navigation]}
+                className="mySwiper"
+        >
+         <div className='ShopSlider-slider' >
 
            <div className='ShopSlider-slider-itself' ref={generalSliderRef}>
+          
+                <SwiperSlide>
                 <div className='ShopSlider-slider-part1' ref={Slider1Ref} >
                 {data.slice(slice1,slice2).map((item) => {
                     return (
@@ -87,29 +144,67 @@ function ShopSlider({dimensions}) {
                     )
                 })}
 
-                </div>
+                </div></SwiperSlide>
 
+                <SwiperSlide><div className='ShopSlider-slider-part1 part2' ref={Slider2Ref} >
+                {data.slice(3,6).map((item) => {
+                    return (
+                        <Card 
+
+                        name={item.name} 
+                        price={item.price}
+                        desc={item.desc} 
+                        img={item.img}
+                        key={Math.random()}
+                        faiz= 'otuz'
+
+
+                        />
+                    )
+                })}
+
+                </div></SwiperSlide>
+
+                <SwiperSlide><div className='ShopSlider-slider-part1 part3' ref={Slider3Ref} >
+                {data.slice(6,9).map((item) => {
+                    return (
+                        <Card 
+
+                        name={item.name} 
+                        price={item.price}
+                        desc={item.desc} 
+                        img={item.img}
+                        key={Math.random()}
+                        faiz= 'otuz'
+
+
+                        />
+                    )
+                })}
+               
+
+                </div> </SwiperSlide>
+         
 
                
           </div>
+         
            
 
             
             <div className='card-navigation-container'>
-                <div className='vector-up' onClick={upFunc1}>
-                    <img src={vectorUp}></img>
-                </div>
-
-                <div className='vector-line'>
+            <div className="swiper-button-prev "> </div>
+            <div className='vector-line'>
                     <img src={line}></img>
-                </div>
+            </div>
+            <div className="swiper-button-next "></div>
 
-                <div className='vector-down'  onClick={downFunc1}>
-                    <img src={vectorDown}></img>
-                </div>
                 
 
-            </div>
+               
+                
+
+          </div> 
 
             <div className='card-navigation-mobile-cont'>
 
@@ -132,7 +227,7 @@ function ShopSlider({dimensions}) {
 
             </div>
 
-        </div>
+        </div></Swiper> 
 
     </div>
   )

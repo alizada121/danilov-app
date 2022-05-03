@@ -1,8 +1,6 @@
 import React from "react";
-import './Login.css';
-
+import '../Login/Login.css';
 import Delivery from "../Delivery/Delivery";
-
 const Login =({showPassword ,textHeader1})=>{
     return(
         <div>
@@ -11,4 +9,4 @@ const Login =({showPassword ,textHeader1})=>{
         </div>
     )
 }
-export  default Login 
+export  default Login

@@ -5,9 +5,7 @@ const SameCard=({showButton})=>{
     return(
         <div className="padRight">
         <p className="order">Order summary</p>
-
         <RightAsideBag showButton={showButton} />
-
     </div>
     )
 }
