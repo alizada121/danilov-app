@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    
 }
 
 .ShopSlider-container{
@@ -13,7 +14,12 @@
     margin-top: 15%;
     /* margin-bottom: 15%; */
     width: 100%;
+    /* display: none; */
     
+}
+
+.swiper-web-cont{
+    display: block;
 }
 .ShopSlider-container-heading{
     margin-bottom: 10%;
@@ -93,21 +99,17 @@
     display: flex;
     flex-direction: column;
 }
-
 .ShopSlider-slider-part1{
     position: absolute;
     width: 90%;
     margin-left: 5%;
     margin-top: 10%;
 }
-
 .part2{
     transform: translateY(150%);
 }
-
 .part3{
     transform: translateY(150%);
-
 } */
 
 .swiper-button-prev {
@@ -214,6 +216,10 @@
 
 }
 
+.swiper-mob-cont{
+    display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 370px) {
 
     .ShopSlider-container-heading h1{
@@ -232,7 +238,42 @@
     .card-navigation-container{
         display: none;
     }
-    
+
+    .swiper-mob-cont{
+        display: block;
+    }
+
+    .swiper-web-cont{
+        display: none;
+    }
+
+   /************* NAVIGATION ************/
+
+
+   .swiper-button-prev {
+    bottom: -12% !important;
+    top: 80% !important;
+   transform: rotate(180deg); 
+   left: 10% !important;
+   right: 80% !important;
+
+    /* right: auto !important;
+    top: inherit !important;
+    bottom: -20% !important;
+    left: 9% !important; */
+}
+
+.swiper-button-next {
+    bottom: -10% !important;
+    top: 75% !important;
+   /* transform: rotate(180deg);  */
+   right: 10% !important;
+   left: 80% !important;
+   transform: rotate(0deg);
+
+}
+
+   
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
 
@@ -252,6 +293,41 @@
     .card-navigation-container{
         display: none;
     }
+
+    .swiper-mob-cont{
+        display: block;
+    }
+
+    .swiper-web-cont{
+        display: none;
+    }
+
+     /************* NAVIGATION ************/
+
+
+     .swiper-button-prev {
+        bottom: -12% !important;
+        top: 80% !important;
+       transform: rotate(180deg); 
+       left: 10% !important;
+       right: 80% !important;
+
+        /* right: auto !important;
+        top: inherit !important;
+        bottom: -20% !important;
+        left: 9% !important; */
+    }
+
+    .swiper-button-next {
+        bottom: -10% !important;
+        top: 75% !important;
+       /* transform: rotate(180deg);  */
+       right: 10% !important;
+       left: 80% !important;
+       transform: rotate(0deg);
+
+    }
+
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
 
@@ -276,6 +352,41 @@
         margin-bottom: 1%;
     }
 
+    .swiper-mob-cont{
+        display: block;
+    }
+
+    .swiper-web-cont{
+        display: none;
+    }
+
+     /************* NAVIGATION ************/
+
+
+     .swiper-button-prev {
+        bottom: -12% !important;
+        top: 80% !important;
+       transform: rotate(180deg); 
+       left: 10% !important;
+       right: 80% !important;
+
+        /* right: auto !important;
+        top: inherit !important;
+        bottom: -20% !important;
+        left: 9% !important; */
+    }
+
+    .swiper-button-next {
+        bottom: -10% !important;
+        top: 75% !important;
+       /* transform: rotate(180deg);  */
+       right: 10% !important;
+       left: 80% !important;
+       transform: rotate(0deg);
+
+    }
+
+
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .ShopSlider-container-heading h1{
@@ -297,6 +408,40 @@
 
     .line-vector img{
         margin-bottom: 0%;
+    }
+
+    .swiper-mob-cont{
+        display: block;
+    }
+
+    .swiper-web-cont{
+        display: none;
+    }
+
+    /************* NAVIGATION ************/
+
+
+    .swiper-button-prev {
+        bottom: -12% !important;
+        top: 80% !important;
+       transform: rotate(180deg); 
+       left: 10% !important;
+       right: 80% !important;
+
+        /* right: auto !important;
+        top: inherit !important;
+        bottom: -20% !important;
+        left: 9% !important; */
+    }
+
+    .swiper-button-next {
+        bottom: -10% !important;
+        top: 75% !important;
+       /* transform: rotate(180deg);  */
+       right: 10% !important;
+       left: 80% !important;
+       transform: rotate(0deg);
+
     }
 
 }
