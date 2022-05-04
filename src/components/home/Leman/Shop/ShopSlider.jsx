@@ -28,7 +28,6 @@ import { Navigation } from "swiper";
 
 
 
-
 function ShopSlider({dimensions}) {
     const [slice1,setSlice1]=useState(0);
     const [slice2,setSlice2]=useState(3);
@@ -116,10 +115,6 @@ function ShopSlider({dimensions}) {
             </h1>
 
         </div>
-
-        <div className='swiper-web-cont'>
-
-       
         <Swiper
                     direction={"vertical"}
                 loop={true}
@@ -184,96 +179,33 @@ function ShopSlider({dimensions}) {
 
                         />
                     )
-                })} 
-                
-           
+                })}
                
 
                 </div> </SwiperSlide>
          
-           
+
+               
           </div>
-          <div className='vector-line'>
-                <h1>
-                    salam
-                </h1>
+         
+           
+
+            
+            <div className='card-navigation-container'>
+            <div className="swiper-button-prev "> </div>
+            <div className='vector-line'>
                     <img src={line}></img>
             </div>
+            <div className="swiper-button-next "></div>
+
+                
+
                
-            
-          
+                
 
-          
+          </div> 
 
-        </div></Swiper>  
-         </div>
-
-        
-      
-        <div className='swiper-mob-cont'>
-  <Swiper navigation={true} modules={[Navigation]}   loop={true} className="mySwiper">
-
-        <SwiperSlide> <div className='mobile-card'>
-                {data.slice(0,1).map((item) => {
-                    return (
-                        <Card 
-
-                        name={item.name} 
-                        price={item.price}
-                        desc={item.desc} 
-                        img={item.img}
-                        key={Math.random()}
-                        faiz= 'otuz'
-
-
-                        />
-                    )
-                })} 
-
-
-            </div></SwiperSlide>
-
-            <SwiperSlide> <div className='mobile-card'>
-                {data.slice(1,2).map((item) => {
-                    return (
-                        <Card 
-
-                        name={item.name} 
-                        price={item.price}
-                        desc={item.desc} 
-                        img={item.img}
-                        key={Math.random()}
-                        faiz= 'otuz'
-
-
-                        />
-                    )
-                })} 
-
-
-            </div></SwiperSlide>
-
-            <SwiperSlide> <div className='mobile-card'>
-                {data.slice(2,3).map((item) => {
-                    return (
-                        <Card 
-
-                        name={item.name} 
-                        price={item.price}
-                        desc={item.desc} 
-                        img={item.img}
-                        key={Math.random()}
-                        faiz= 'otuz'
-
-
-                        />
-                    )
-                })} 
-
-
-            </div></SwiperSlide>
-
-             <div className='card-navigation-mobile-cont'>
+            <div className='card-navigation-mobile-cont'>
 
                 <div className='vector-left'>
                     <img src={vectorLeft}>
@@ -293,13 +225,9 @@ function ShopSlider({dimensions}) {
                 
 
             </div>
-             </Swiper>
-        </div>
-       
 
+        </div></Swiper> 
 
-        
-       
     </div>
   )
 }
