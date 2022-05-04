@@ -1,6 +1,21 @@
 .aboutBottom{
     padding: 5% 8% ;
 }
+
+.about-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 3%;
+}
+
+.about-footer{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    
+}
 .danilovimg{
     display: flex;
 }
