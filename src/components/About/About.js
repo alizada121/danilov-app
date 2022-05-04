@@ -6,6 +6,7 @@ import danilov1 from '../../Images/danilov1.png';
 import danilov2 from '../../Images/danilov2.png'
 import VideoPart from "../VideoPart/VideoPart";
 import Footer from "../../components/Footer/Footer";
+import Header  from "../Header/Header";
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -43,6 +44,7 @@ const About = ({setWitdhh})=>{
         <div>
           <div className="about-header">
              {/* <HeaderBlack dimensions={dimensions} /> */}
+             <Header/>
           </div>
             
              <div className="aboutBottom">
@@ -72,7 +74,10 @@ const About = ({setWitdhh})=>{
                    <hr/>
              </div>
            <VideoPart/>
-           <Footer/>
+           <div className="about-footer">
+             <Footer/>
+           </div>
+           
         </div>
     )
 }
