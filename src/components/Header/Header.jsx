@@ -12,8 +12,8 @@ const Header = () => {
     <div className="header-container">
         <div className="header-new">
             <ul className="header-left">
-                <li><img src={instaBlack} /></li>
-                <li><img src={fbBlack} /></li>
+            <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"><li><img src={instaBlack} /></li></a>
+            <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"> <li><img src={fbBlack} /></li></a>
 
                 <Link to="/about">              
                 <li className="text">About us</li>

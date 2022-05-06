@@ -97,7 +97,7 @@ function ShopSlider({dimensions}) {
     //     gsap.to(Slider1Ref.current, { yPercent:"0",ease: "power2.out"});
     //    }
 
-      
+        
 
 
     }

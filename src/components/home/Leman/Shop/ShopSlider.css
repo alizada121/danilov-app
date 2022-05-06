@@ -22,7 +22,7 @@
     display: block;
 }
 .ShopSlider-container-heading{
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .ShopSlider-container-heading h1{
@@ -156,7 +156,8 @@
 
 .swiper {
     width: 100%;
-    height: 700px;
+    height: 600px;
+    margin-bottom: 10%;
    
   }
   

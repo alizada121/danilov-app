@@ -1,9 +1,12 @@
 import React from "react";
-import './Footer.css';
-import insta from '../../assets/insta-black.png';
-import fb from '../../assets/fb-black.png'
-import bg1 from "../../assets/bg-pic1.png"
-const Footer = () => {  
+import './FooterWhite.css';
+// import insta from '../../assets/insta-black.png';
+// import fb from '../../assets/fb-black.png'
+import insta from "../assets/instaWhite2.svg"
+import fb from "../assets/Fbwhite.svg"
+
+import bg1 from "../assets/bg-pic1.png"
+const FooterWhite = () => {  
     return (
         <div className="foot">
 
@@ -11,8 +14,8 @@ const Footer = () => {
                 <img src={bg1}></img>
 
             </div> */}
-            <div className="footer">
-                <div className="just">
+            <div className="footer" id="footerWhite">
+                <div className="just" id="whitejust">
                     <div className="footer-row1">
                     <ul>
                         <li>About us</li>
@@ -47,7 +50,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"><img className="insta" src={insta} /></a>
                             </div>
                             <div className="footer-fb">
-                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={fb}  /></a>
+                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={fb}   /></a>
                             </div>
                            
                         </div>
@@ -56,7 +59,7 @@ const Footer = () => {
                     </ul>
                     </div>   
                 </div>
-                <div className="lastPart">
+                <div className="lastPart" id="white-lastPart">
                     <ul>
                         <li>@ 2022 All Rights Reserved</li>
                         <li>By CLARADIX STUDIO</li>
@@ -68,4 +71,4 @@ const Footer = () => {
         </div>
     )
 }
-export default Footer
+export default FooterWhite

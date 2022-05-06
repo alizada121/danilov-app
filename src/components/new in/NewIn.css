@@ -3,7 +3,9 @@
 }
 
 
-
+.newIn-header{
+    margin-top: 2%;
+}
 .newIn-general{
     width: 80%;
     margin-left: 10%;
@@ -79,13 +81,17 @@
     width: 30px;
     position: absolute;
     right: 5%;
-    bottom: 10%;
+    bottom: 13%;
 }
 
 .newIn-heading-filter p {
     margin: 0;
     margin-right: 10px;
 
+}
+
+.newIn-heading-filter p {
+    margin-bottom: 5px;
 }
 
 
