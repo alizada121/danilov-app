@@ -2,6 +2,7 @@ import React from 'react'
 import instagram from "../../../../assets/instagram.png"
 import brown from "../../../../assets/brownShoes.png"
 import gradient from "../../../../assets/gradient.png"
+
 import "../FollowUs/FollowUs.css"
 function FollowUs() {
   return (
