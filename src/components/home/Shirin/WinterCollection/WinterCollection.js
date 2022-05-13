@@ -38,7 +38,7 @@ const WinterCollection = () => {
         }
       })
     return (
-        <>
+        <div>
         {(dimensions.width > 820) &&
           <div className="collectionWinter">
             <div><img className="colwin" src={remove4}/></div>
@@ -52,7 +52,7 @@ const WinterCollection = () => {
         }
         {(dimensions.width < 820) &&   <Winter/>}
       
-        </>
+        </div>
         
     )
 }

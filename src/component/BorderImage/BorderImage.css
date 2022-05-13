@@ -1,7 +1,26 @@
 .borderImg {
     height: 500px;
-    box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
     position: relative;
+}
+.element{
+    display: none;
+}
+.borderImg:hover{
+     box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
+}
+.borderImg:hover >.element{
+       display: block;
+}
+.rightvector ,.leftvector{
+    display: none;
+}
+
+.borderImg:hover .rightvector{
+    display: inline-block;
+}
+
+.borderImg:hover .leftvector{
+    display: inline-block;
 }
 
 .money {
@@ -108,7 +127,7 @@
 
 @media only screen and (max-width: 1400px) {
 
-c#shoesmiddle {
+#shoesmiddle {
         width: 60%;
     }
     .leftvector1,
@@ -138,9 +157,14 @@ c#shoesmiddle {
         height: 300px;
 
     }
-
+    .borderImg:hover .next{
+        margin-top: 18%;
+    }
+    .borderImg:hover .prev{
+        margin-top: 18%;
+    }
     .leftvector,
-    .rightvector {
+    .rightvector{
         margin-top: 60%;
     }
 }
@@ -153,18 +177,31 @@ c#shoesmiddle {
   }
   }
 @media only screen and (max-width: 820px) {
+
+    .element{
+        display: block;
+    }
+  .rightvector ,.leftvector{
+      display: block;
+  }
     .borderImg {
         box-shadow: none;
         width: 100%;
     }
-
+    .borderImg:hover{
+        box-shadow: none;
+    }
+    .element{
+        width: 63%;
+        left:20% ;
+    }
     .leftvector {
-        top: -50%;
+        top: -70%;
         left: 20%;
     }
 
     .rightvector {
-        top: -50%;
+        top: -70%;
         right: 20%;
     }
 
@@ -179,12 +216,12 @@ c#shoesmiddle {
 
 @media only screen and (max-width: 670px) {
     .leftvector {
-        top: -40%;
+        top: -60%;
 
     }
 
     .rightvector {
-        top: -40%;
+        top: -60%;
 
     }
 }
@@ -193,16 +230,25 @@ c#shoesmiddle {
     .bottom {
         margin-top: 20px;
     }
-}
-
-@media only screen and (max-width: 500px) {
     .leftvector {
-        top: -20%;
+        top: -50%;
 
     }
 
     .rightvector {
-        top: -20%;
+        top: -50%;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .leftvector {
+        top: -40%;
+
+    }
+
+    .rightvector {
+        top: -40%;
 
     }
 
@@ -213,12 +259,14 @@ c#shoesmiddle {
 
 @media only screen and (max-width: 400px) {
     .leftvector {
-        top: -15%;
+        top: -10%;
 
     }
-
+    .shoe2{
+        margin-top:20%;
+    }
     .rightvector {
-        top: -15%;
+        top: -10%;
         right: 15%;
     }
 

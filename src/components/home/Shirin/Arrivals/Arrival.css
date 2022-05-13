@@ -1,161 +1,268 @@
-.arr{
+.arr {
     /* display: flex; */
     overflow: hidden;
-   padding-top: 5%;
-   background-color: #E5E5E5;
-   height: 110vh;
+    padding-top: 5%;
+    background-color: #E5E5E5;
+    height: 110vh;
     /* position: relative; */
-    position: relative;
+    /* position: relative; */
 }
-.imageContainer{
+
+.imageContainer {
     display: flex;
     margin: 0 -180px 0 0;
 }
-.newArrivals{
+
+.newArrivals {
     font-size: 100px;
     margin-left: 37%;
 }
-.brownImg{
+
+.distance {
+    color: black;
+}
+
+.brownImg {
     width: 40%;
     position: relative;
-} 
-.brownImg img{
+}
+
+.brownImg img {
     right: 0;
     position: absolute;
     /* height: 100vh; */
 }
 
-.blueImg{
+.blueImg {
     display: flex;
 }
-.texttwo{
+
+.texttwo {
     position: absolute;
     font-size: 22px;
-    color:#463227;
-margin-top: 23%;
- width: 30%;
- text-align: left;
- margin-left: 2%;
+    color: #463227;
+    margin-top: 23%;
+    width: 30%;
+    text-align: left;
+    margin-left: 2%;
 
 }
-.lacus{
+
+.twice {
+    position: relative;
+    right: -350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    /* margin-left:60%; */
+}
+
+.lacus {
     font-family: 'Cormorant'
 }
-.seeAll{
-margin-left: 90%;
-    width: 50%;
-    margin-top: 20%;
+
+.divS1 {
+    border-bottom: 1px solid black;
+    margin-bottom: 2.2%;
+    margin-right: -1.1%;
+    width: 20%;
+    transition: 0.3s ease all;
+}
+
+.twice:hover .divS1 {
+    width: 25%;
+    transition: 0.3s ease all;
+}
+
+.seeAll {
+    /* margin-left: 90%; */
+    /* width: 50%; */
+    /* margin-top: 20%; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
-.see{
-    margin-left: 1%;
-    transition: transform 0.4s;
+
+.anyW1 {
+    display: flex;
+    margin-left: 4%;
+    width: 300px;
+
 }
- .twice:hover img {
-    transform: translateX(20px);
- }  
- @media only screen and (max-width: 1000px) {
-    .texttwo{
+
+@media only screen and (max-width: 1300px) {
+    .seeAll {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1036px) {
+    .seeAll {
+
+ width: 50%;}
+   .twice{
+       right: -250px;
+   }
+   .divS1{
+       margin-bottom: 3.2%;
+   }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .texttwo {
         margin-top: 30%;
     }
-  }
-  @media only screen and (max-width: 960px) {
-    .brownImg{
+}
+
+@media only screen and (max-width: 960px) {
+    .brownImg {
         display: none;
     }
-    .newArrivals{
+    .twice{
+        right: -200px;
+    }
+    .seeAll{
+        width: 10%;
+    }
+    .divS1{
+        margin-bottom: 2.2%;
+    }
+    .newArrivals {
         margin: 0 auto;
     }
-    .blueImage{
+
+    .blueImage {
         margin-left: 5%;
     }
-    .imageContainer{
+
+    .imageContainer {
         margin-top: 10%;
     }
-    .texttwo{
+
+    .texttwo {
         width: 80%;
         margin-top: 40%;
     }
-  }
-  @media only screen and (max-width: 620px) {
-    
-    .texttwo{
-       
+}
+@media only screen and (max-width: 890px) {
+.anyW1{
+    margin-left:-6% ;
+}
+   
+    .seeAll {
+   width: 30%;
+    }
+}
+@media only screen and (max-width: 620px) {
+
+    .texttwo {
+
         margin-top: 50%;
     }
-    .seeAll{
-        margin-left: 80%;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .newArrivals{
+}
+
+@media only screen and (max-width: 600px) {
+    .newArrivals {
         font-size: 42px;
     }
-    .blueImage{
+
+    .blueImage {
         margin-left: 0;
     }
-    .lacus{
+
+    .lacus {
         width: 90%;
     }
-  }
-  @media only screen and (max-width: 512px) {
-   
-    .blueImage{
+}
+
+@media only screen and (max-width: 512px) {
+
+    .blueImage {
         margin-left: -30px;
     }
-    .seeAll{
-        margin-left: 60%;
-       
-    }
-    .blueImage{
-        width: 90%;
-    }
-    
-    .blueImage{
-        margin-left: -90px;
-    }
-   
-  }
-  @media only screen and (max-width: 380px) {
-    .blueImage{
-        margin-left: -125px;
-    }
-    .seeAll{
-        width: 60%;
-    }
-    
-  }
-  @media only screen and (max-width: 320px) {
-    .blueImage{
-        margin-left: -90px;
-    }
-    .texttwo{
-        margin-top:50% ;
-    }
-    .blabla{
-        width: 80%;
-    }
-  }
-  @media only screen and (max-width: 300px) {
-    .seeAll{
-        width: 80%;
-        margin-left: 40%;
-    }
-  }
-  @media only screen and (max-width: 250px) {
-    .blabla{
-        width: 70%;
-    }
-    .blueImage{
-        margin-left: -70px;
-    }
-  }
-  @media only screen and (max-width: 220px) {
-    .seeAll{
-        width: 90%;
-        margin-left: 30%;
-    }
+
+  .divS1{
+      margin-left: 4%;
   }
 
+    .blueImage {
+        width: 90%;
+    }
+
+    .blueImage {
+        margin-left: -90px;
+    }
+
+}
+@media only screen and (max-width: 430px) {
+
+
+.blueImage {
+        margin-left: -125px;
+    }
+
+   
+
+}
+@media only screen and (max-width: 400px) {
   
+    .divS1{
+        margin-left: 10%;
+        margin-bottom:2.8% ;
+    }
+   
+
+}
+@media only screen and (max-width: 380px) {
+    .blueImage {
+        margin-left: -125px;
+    }
+
+   
+    .seeAll {
+        width: 40%;
+         }
+.twice{
+    right: -160px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .blueImage {
+        margin-left: -90px;
+    }
+
+    .texttwo {
+        margin-top: 50%;
+    }
+
+    .blabla {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .seeAll {
+        width: 80%;
+        /* margin-left: 40%; */
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .blabla {
+        width: 70%;
+    }
+
+    .blueImage {
+        margin-left: -70px;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+    .seeAll {
+        width: 90%;
+        /* margin-left: 30%; */
+    }
+}

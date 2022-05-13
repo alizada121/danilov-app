@@ -4,7 +4,6 @@ import './FooterWhite.css';
 // import fb from '../../assets/fb-black.png'
 import insta from "../../assets/instaWhite2.svg"
 import fb from "../../assets/Fbwhite.svg"
-// import slama from "../../assets"
 
 import bg1 from "../../assets/bg-pic1.png"
 const FooterWhite = () => {  
