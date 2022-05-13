@@ -14,14 +14,25 @@
    margin-right: 10%;
    margin-left: 10%; */
 
-   background-image: url(../../assets/bg-pic1.png);
+   
 }
 
-ul li:first-child{
+#footerWhite{
+    background-image: url(../../assets/bg-pic1.png);
+}
+
+.first-row1 ul li:first-child{
     /* color: red !important; */
     font-weight: 600 !important;
     font-size: 19px !important;
 }
+
+.first-row2 ul li:first-child{
+    /* color: red !important; */
+    font-weight: 600 !important;
+    font-size: 19px !important;
+}
+
 
 
 ul li{
