@@ -23,7 +23,15 @@ function HomeLeman({dimensions}) {
         <ShopSlider dimensions={dimensions}/>
         <FollowUs/>
         <div className='homepage-footer'>
-                  <FooterWhite/>
+          <div className='homepage-footer-white'>
+              <FooterWhite/>
+          </div>
+
+          <div className='homepage-footer-black'>
+            <Footer/>
+          </div>
+                  
+                  
         </div>
 
     </div>
