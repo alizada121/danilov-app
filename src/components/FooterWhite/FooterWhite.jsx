@@ -2,10 +2,10 @@ import React from "react";
 import './FooterWhite.css';
 // import insta from '../../assets/insta-black.png';
 // import fb from '../../assets/fb-black.png'
-import insta from "../assets/instaWhite2.svg"
-import fb from "../assets/Fbwhite.svg"
+import insta from "../../assets/instaWhite2.svg"
+import fb from "../../assets/Fbwhite.svg"
 
-import bg1 from "../assets/bg-pic1.png"
+import bg1 from "../../assets/bg-pic1.png"
 const FooterWhite = () => {  
     return (
         <div className="foot">

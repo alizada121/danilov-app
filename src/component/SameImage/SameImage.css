@@ -6,6 +6,60 @@
    overflow: hidden;
    /* position: relative; */
 }
+.picture{
+  position: relative;
+}
+.borderImg:hover .rightvector{
+  display: inline-block;
+}
+
+.borderImg:hover .leftvector{
+  display: inline-block;
+}
+.leftvector,
+.rightvector {
+    /* margin-top: 19.3%; */
+    position: absolute;
+    /* top:50%; */
+    transform: translateY(-50%);
+    z-index: 999;
+    display: none;
+}
+.rightvector{
+  right: 0;
+}
+.next ,.prev{
+ display: none;
+  position: absolute;
+  top: 50%;
+}
+.next{
+  right: 0;
+}
+.prev{
+  left: 0;
+}
+.borderImg:hover .prev{
+  display: inline-block;
+}
+.borderImg:hover .next{
+  display: inline-block;
+}
+.shoe2:hover .rightvector {
+  display: inline-block;
+}
+.shoe2:hover .leftvector{
+  display: inline-block;
+}
+.shoe2:hover .rightvect {
+  display: inline-block;
+}
+.shoe2:hover .leftvect{
+  display: inline-block;
+}
+.image1:hover ,.image3:hover{
+  box-shadow: 4px 5px 49px -3px rgba(179, 174, 174, 0.82);
+}
 .activeimg img,.activeimg3 img{
     
      width: 80%;
@@ -23,10 +77,12 @@
     }
   }
 @media only screen and (max-width: 1200px) {
-   .image1 img,.image3 img ,.shoe2{
-       width: 90%;
+   .picture,.image3 img ,.shoe2{
+       width: 77%;
    }
-
+   .next ,.prev{
+     top: 40%;
+   }
 }
 @media only screen and (max-width: 1200px) {
    .act{
@@ -41,11 +97,20 @@
     }
 
   }
+  @media only screen and (max-width: 900px) {
+    .next ,.prev{
+      top: 30%;
+    }
+    
+  }
 @media only screen and (max-width: 820px) {
    .image1 ,.image3{
        display: none;
    }
    .shoe2{
        width: 50%;
+   }
+   .rightvector{
+     right: auto;
    }
  }
