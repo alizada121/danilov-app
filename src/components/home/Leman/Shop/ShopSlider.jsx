@@ -116,8 +116,16 @@ function ShopSlider({dimensions}) {
             </h1>
 
         </div>
+       
 
         <div className='swiper-web-cont'>
+        <svg className="line-vector" width="2" height="210" viewBox="0 0 2 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <line x1="0.75" y1="-2.18557e-08" x2="0.750006" y2="210" stroke="#1B1B1B" stroke-width="1.5"/>
+        </svg>
+
+                
+                
+               
 
        
         <Swiper
@@ -127,6 +135,8 @@ function ShopSlider({dimensions}) {
                 className="mySwiper"
         >
          <div className='ShopSlider-slider' >
+
+        
 
            <div className='ShopSlider-slider-itself' ref={generalSliderRef}>
           
@@ -148,7 +158,10 @@ function ShopSlider({dimensions}) {
                     )
                 })}
 
-                </div></SwiperSlide>
+                </div>
+                
+                
+</SwiperSlide>
 
                 <SwiperSlide><div className='ShopSlider-slider-part1 part2' ref={Slider2Ref} >
                 {data.slice(3,6).map((item) => {
@@ -211,7 +224,7 @@ function ShopSlider({dimensions}) {
         
       
         <div className='swiper-mob-cont'>
-  <Swiper navigation={true} modules={[Navigation]}   loop={true} className="mySwiper">
+  <Swiper navigation={true} modules={[Navigation]}   loop={true}  noSwiping= {true} onlyExternal={ true} noSwipingClass= "swiper-slide" className="mySwiper">
 
         <SwiperSlide> <div className='mobile-card'>
                 {data.slice(0,1).map((item) => {
@@ -281,10 +294,7 @@ function ShopSlider({dimensions}) {
 
                 </div>
 
-                <div className='line-vector'>
-                    <img src={longLine}></img>
-
-                </div>
+               
 
                 <div className='vector-right'>
                     <img  src={vectorRight}></img>
@@ -294,11 +304,14 @@ function ShopSlider({dimensions}) {
 
             </div>
              </Swiper>
-        </div>
+
+           
        
-
-
         
+       
+ </div> 
+
+       
        
     </div>
   )

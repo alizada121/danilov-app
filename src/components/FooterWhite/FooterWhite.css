@@ -17,6 +17,16 @@
    background-image: url(../../assets/bg-pic1.png);
 }
 
+ul li:first-child{
+    /* color: red !important; */
+    font-weight: 600 !important;
+    font-size: 19px !important;
+}
+
+
+ul li{
+    cursor: pointer;
+}
 
 .foot{
     position: relative;
