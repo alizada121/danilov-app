@@ -5,7 +5,7 @@ import GreenShop from './GreenShop'
 import ShopSlider from './Shop/ShopSlider'
 import FollowUs from './FollowUs/FollowUs'
 import Footer from '../../Footer/Footer'
-import FooterWhite from '../../../FooterWhite/FooterWhite'
+import FooterWhite from '../../FooterWhite/FooterWhite'
 function HomeLeman({dimensions}) {
   // const [isMobile,setIsMobile] = useState(false)
 

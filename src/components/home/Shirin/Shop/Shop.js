@@ -3,7 +3,7 @@ import '../Shop/Shop.css';
 import arrowLeft from "../../../../Images/leftvector.svg"
 // import arrowMiddle from "../../../../Images/Line 000.svg"
 import arrowRight from "../../../../Images/rightvector.svg"
-
+import last from '../../../../Images/lastt.svg'
 
 import SameImage from "../../../../component/SameImage/SameImage";
 
@@ -44,7 +44,7 @@ const Shop =({ setDist })=>{
             <SameImage  setDist={false} />
             {(dimensions.width < 820) && <div className="arrows" >
                <img src={arrowLeft}/>
-               {/* <img className="arrmidle" src={arrowMiddle}/> */}
+               <img className="arrmidle" src={last}/>
                <img src={arrowRight}/>
         </div>}
     </div>

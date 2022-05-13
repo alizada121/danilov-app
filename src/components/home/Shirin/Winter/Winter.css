@@ -25,6 +25,15 @@
     color: #463227;
 
 }
+
+.slide{
+    transition-duration:  1s ease ;
+    opacity: 0;
+}
+.slide.active{
+    opacity: 1;
+    transition-duration:  1s
+}
 .slider{
     display: flex;
   justify-content: space-between;

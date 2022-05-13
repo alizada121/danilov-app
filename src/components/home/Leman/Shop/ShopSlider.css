@@ -78,9 +78,18 @@
     width: 24%;
 }
 .line-vector {
-    width: 49%;
+    /* width: 49%; */
+    /* position: fixed; */
   
    
+
+}
+
+.swiper-button-next::before{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
 
 }
 
@@ -88,6 +97,13 @@
      margin-bottom: 4%;
      width: 100%;
 }
+
+.line-vector{
+    position: absolute;
+    right: 48px;
+    bottom: 247px;
+}
+
 
 /*//////////////Slider/////////////////*/
 
@@ -128,12 +144,15 @@
       width: 70px;
       height: 13px;
       content: "" !important;
+      background-repeat: no-repeat;
+
 
   }
 
   .swiper-button-next::after{
     font-family: 'Times New Roman', Times, serif !important;
     background-image: url(../../../../Images/Vectorright.svg) !important;
+    background-repeat: no-repeat;
     width: 70px;
     height: 13px;
     content: "" !important;
@@ -142,7 +161,12 @@
     position: static !important;
     left: auto !important;
     right: 0% !important;
-    bottom:5% !important;
+    bottom: -30% !important;
+  }
+
+  .swiper-button-next::before{
+      width: 20px;
+      height: 20px;
   }
   .slider-main {
     position: relative;
@@ -185,7 +209,7 @@
   .swiper-button-next,
 .swiper-button-prev {
    
-    padding: 30px;
+    padding-right: 30px;
     color: #000 !important;
     fill: black !important;
     stroke: black !important;
@@ -221,6 +245,16 @@
     display: none;
 }
 
+
+.line-vector{
+    position: absolute;
+    transform: translateY(92%);
+    fill: rgb(31, 30, 30);
+    right: 50px;
+    z-index: 999;
+    bottom: unset;
+}
+
 @media screen and (min-width: 320px) and (max-width: 370px) {
 
     .ShopSlider-container-heading h1{
@@ -246,6 +280,7 @@
 
     .swiper-web-cont{
         display: none;
+        position: relative;
     }
 
    /************* NAVIGATION ************/
