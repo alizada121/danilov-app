@@ -9,10 +9,7 @@
     
 }
 
-.ShopSlider-card:hover{
-    box-shadow: 0px 2px 20px -3px rgb(179 174 174 / 53%);
-    transition: 0.4s;
-}
+
 
 .shopSlider-blackHeart{
     width: 70%;
@@ -172,7 +169,8 @@
     display: flex;
     flex-direction: row;
     overflow-x:hidden ;
-    width: 200px;
+    /* width: 200px; */
+    margin-bottom: 20%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
@@ -180,20 +178,94 @@
     .otuz {
         width: 100%;
     }
+
+    .swiper-mobile-cont{
+        width: 100%;
+    }
+
+    .card-images{
+        width: 100%;
+    }
+
+    .card-hover{
+        opacity: 1;
+        
+    }
+
+    .vector-left, .vector-right{
+        opacity: 1;
+    }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
     .otuz {
         width: 100%;
     }
+
+    .swiper-mobile-cont{
+        width: 100%;
+    }
+
+    .card-images{
+        width: 100%;
+    }
+
+    .card-hover{
+        opacity: 1;
+    }
+
+    .vector-left, .vector-right{
+        opacity: 1;
+    }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 414px) and (max-width: 740px) {
     .otuz {
         width: 100%;
     }
+
+    .swiper-mobile-cont{
+        width: 100%;
+    }
+
+    .card-images{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+    .card-hover{
+        opacity: 1;
+    }
+
+    .vector-left, .vector-right{
+        opacity: 1;
+    }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 740px) and (max-width: 1024px) {
     .otuz {
         width: 100%;
+    }
+
+    .swiper-mobile-cont{
+        width: 100%;
+    }
+
+    .card-images{
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .card-hover{
+        opacity: 1;
+    }
+
+    .vector-left, .vector-right{
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .ShopSlider-card:hover{
+        box-shadow: 0px 2px 20px -3px rgb(179 174 174 / 53%);
+        transition: 0.4s;
     }
 }
 
