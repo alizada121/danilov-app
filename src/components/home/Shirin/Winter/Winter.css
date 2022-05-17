@@ -9,6 +9,12 @@
     font-weight: 600;
     line-height: 25px;
 }
+.sliders_image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .winterTextDiv{
    /* height: 30vh; */
    display: flex;
@@ -65,7 +71,7 @@
    @media only screen and (max-width: 820px) {
     .winterCollection{
         margin-bottom: 0;
-        height: 75vh;
+        height: 80vh;
     }
      }
    @media only screen and (max-width: 650px) {

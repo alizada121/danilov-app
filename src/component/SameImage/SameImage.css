@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     padding-top: 3%;
     background-color: #E5E5E5;
-   overflow: hidden;
+   /* overflow: hidden; */
    /* position: relative; */
 }
 .picture{
@@ -28,16 +28,24 @@
 .rightvector{
   right: 0;
 }
+.vectorr{
+  margin-left: 20% ;
+margin-top: 20% !important;
+}
+.vectorrnext{
+  margin-right: 20% ;
+  margin-top: 20% !important;
+}
 .next ,.prev{
  display: none;
   position: absolute;
   top: 50%;
 }
 .next{
-  right: 0;
+  right: 20px;
 }
 .prev{
-  left: 0;
+  left: 20px;
 }
 .borderImg:hover .prev{
   display: inline-block;
