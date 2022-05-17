@@ -1,42 +1,33 @@
 .arr {
-    /* display: flex; */
     overflow: hidden;
     padding-top: 5%;
     background-color: #E5E5E5;
     height: 110vh;
-    /* position: relative; */
-    /* position: relative; */
+    position: relative;
 }
-
 .imageContainer {
     display: flex;
     margin: 0 -180px 0 0;
 }
-
 .newArrivals {
     font-size: 100px;
     margin-left: 37%;
 }
-
 .distance {
     color: black;
 }
-
 .brownImg {
     width: 40%;
     position: relative;
 }
-
 .brownImg img {
     right: 0;
     position: absolute;
     /* height: 100vh; */
 }
-
 .blueImg {
     display: flex;
 }
-
 .texttwo {
     position: absolute;
     font-size: 22px;
@@ -45,9 +36,7 @@
     width: 30%;
     text-align: left;
     margin-left: 2%;
-
 }
-
 .twice {
     position: relative;
     right: -350px;
@@ -56,7 +45,6 @@
     align-items: center;
     text-align: center;
     margin-top: 15%;
-    /* margin-left:60%; */
 }
 
 .lacus {

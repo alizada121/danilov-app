@@ -48,3 +48,33 @@ font-family: 'Montserrat';
 text-align: left;
 margin-bottom: 100px;
 }
+@media only screen and (max-width: 1700px) {
+   .onee{
+       margin-top: 5%;
+   }
+}
+@media only screen and (max-width: 1600px) {
+    .onee{
+        margin-top: 3%;
+    }
+ }
+@media only screen and (max-width: 1500px) {
+    .onee{
+        margin-top: 4%;
+    }
+ }
+@media only screen and (max-width: 1306px) {
+    .onee{
+        margin-top: 46px;
+    }
+ }
+ @media only screen and (max-width: 1206px) {
+    .onee{
+        margin-top: 13%;
+    }
+ }
+ @media only screen and (max-width: 1120px) {
+    .onee{
+        margin-top: 17%;
+    }
+ }

@@ -10,6 +10,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.mesafe{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .rightAside {
     width: 600px;
     margin-left: 5%;

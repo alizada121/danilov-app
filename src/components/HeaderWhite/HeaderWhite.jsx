@@ -7,6 +7,7 @@ import liFive from '../../Images/Group 124.svg';
 import liSix from '../../Images/Group.svg';
 import small from '../../Images/smallScreen1.svg';
 import twoLine from '../../Images/twoLine.svg';
+import insta from '../../Images/pp.svg'
 import '../HeaderWhite/HeaderWhite.css'
 import Data from "../../Data.json"
 const HeaderWhite = ({ dimensions }) => {
@@ -71,7 +72,7 @@ const HeaderWhite = ({ dimensions }) => {
         {(dimensions.width > 800) && <div className="header">
             <ul className="header_ul_one" id="white">
                <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <li><img src={liOne} /></li></a>
-                <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img src={liTwo} /></li></a>
+                <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img className="insta" src={insta} /></li></a>
                 <Link to="/about">
                  <li className="text">About us</li>
                 </Link>

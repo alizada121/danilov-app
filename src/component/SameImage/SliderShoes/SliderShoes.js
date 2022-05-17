@@ -4,8 +4,9 @@ import leftvector from '../../../Images/leftvector.svg'
 import rightvector from '../../../Images/rightvector.svg'
 import qara from '../../../Images/qara.svg';
 import heart from '../../../Images/heart.svg';
-import '../SameImage.css'
-const  SliderShoes=({ setImgC, setDist })=> {
+import '../SameImage.css';
+
+const  SliderShoes=({ setImgC, setDist , vector})=> {
     const [current, setCurrent] = useState(0);
     const length = dataSlider.length
     const nextSlide = () => {
@@ -32,7 +33,8 @@ const  SliderShoes=({ setImgC, setDist })=> {
     <div className={`borderImg ${setImgC && 'activeimg2'}`} id={`${setDist && 'idRandom'}`}>
 
     <div className="borderimgdist">
-        <img className="prev" src={leftvector} onClick={prevSlide} />
+
+        <img className={`prev ${vector && 'vectorr'}`} src={leftvector} onClick={prevSlide} />
 
         {dataSlider.map((obj, index) => {
             return (
@@ -47,7 +49,7 @@ const  SliderShoes=({ setImgC, setDist })=> {
 
 
 
-        <img className="next" src={rightvector} onClick={nextSlide} />
+        <img className={`next ${vector && 'vectorrnext'}`}  src={rightvector} onClick={nextSlide} />
     </div>
 
     <div className={`element ${setDist && 'element1'} `}>
