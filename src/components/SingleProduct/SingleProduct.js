@@ -56,7 +56,7 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
     return (
 <>
         <div className={`main ${menuOpen && 'sss'} `}>
-            {/* <HeaderBlack dimensions={dimensions} /> */}
+             <HeaderBlack dimensions={dimensions} /> 
             <div className="man">
                 <ImageHeader setWitdhh={true} title={'Home  /  Man  /  SS ‘22 Collection '} titleH1={'Nazvanie'} />
             </div>
@@ -143,8 +143,10 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                     </div>
                 }
             </>
-         
-            {/* <Footer/> */}
+         <div  className="mesafe">
+          <Footer/> 
+         </div>
+           
         </div>
  <PopUp menuOpen={menuOpen}/>
  </>

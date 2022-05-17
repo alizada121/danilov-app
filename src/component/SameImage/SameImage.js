@@ -22,7 +22,14 @@ function debounce(fn, ms) {
     };
 }
 
-const SameImage = ({ setImgC, setDist }) => {
+const SameImage = ({ setImgC, setDist ,vector }) => {
+    const [current, setCurrent] = useState(0);
+    let counter = true
+    const blackSrc=(e)=>{
+       e.target.src = counter ? qara : heart
+       counter = !!!counter
+    }
+    
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
@@ -67,32 +74,35 @@ const SameImage = ({ setImgC, setDist }) => {
             }
 
             {(dimensions.width <= 820) &&
+               
+                
+                     <SliderShoes vector={true}/>
+              
+                // <div className={`borderImg ${setImgC && 'activeimg2'}`} id={`${setDist && 'idRandom'}`}>
 
-                <div className={`borderImg ${setImgC && 'activeimg2'}`} id={`${setDist && 'idRandom'}`}>
+                //     <div className="borderimgdist">
+                //         <img className={`leftvector ${setDist && 'leftvector1'}`} src={leftvector} />
+                //         <img className={`shoe2 ${setImgC && 'activeshoe2'}  ${setDist && 'shoesmiddle'}`} src={shoe2} />
+                //         <img className={`rightvector ${setDist && 'rightvector1'}`} src={rightvector} />
+                //     </div>
 
-                    <div className="borderimgdist">
-                        <img className={`leftvector ${setDist && 'leftvector1'}`} src={leftvector} />
-                        <img className={`shoe2 ${setImgC && 'activeshoe2'}  ${setDist && 'shoesmiddle'}`} src={shoe2} />
-                        <img className={`rightvector ${setDist && 'rightvector1'}`} src={rightvector} />
-                    </div>
+                //     <div className={`element ${setDist && 'element1'} `}>
+                //         <img className="heart" src={heart} onClick={blackSrc} />
+                //         <div className="bottom">
+                //             <div className="uptext">
+                //                 <p>Demedim</p>
+                //             </div>
 
-                    <div className={`element ${setDist && 'element1'} `}>
-                        <img className="heart" src={heart} />
-                        <div className="bottom">
-                            <div className="uptext">
-                                <p>Demedim</p>
-                            </div>
-
-                            <div className="money">
-                                <p>Dedim</p>
-                                <span> bir qerar ver</span>
-                            </div>
-                        </div>
+                //             <div className="money">
+                //                 <p>Dedim</p>
+                //                 <span> bir qerar ver</span>
+                //             </div>
+                //         </div>
 
 
-                    </div>
+                //     </div>
 
-                </div>
+                // </div>
 
             }
 

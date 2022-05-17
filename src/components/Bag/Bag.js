@@ -40,7 +40,7 @@ const Bag = ({ text, border, showButton, setWitdhh }) => {
     })
     return (
         <div>
-            {/* <HeaderBlack dimensions={dimensions}/> */}
+             <HeaderBlack dimensions={dimensions}/> 
             <div className="bottomBag">
                 {/* <ImageHeader title={'Home  /  Bag'} titleH1={'My bag'} setText={!text} setWitdhh={true}  setBorder={border} imagetext={'Continue shopping'} /> */}
                 {(dimensions.width > 1000) &&
@@ -124,7 +124,10 @@ const Bag = ({ text, border, showButton, setWitdhh }) => {
                     
                 }
             </div>
-            {/* <Footer/> */}
+            <div className="mesafe">
+             <Footer/> 
+            </div>
+           
         </div>
     )
 }

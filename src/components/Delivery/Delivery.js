@@ -40,7 +40,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
     
     return (
         <div >
-            {/* <HeaderBlack dimensions={dimensions}/> */}
+             <HeaderBlack dimensions={dimensions}/> 
             <div className="deliveryDiv">
                 <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery '} setWitdhh={true} titlespan={'1'} setSpan={true}/>
                 <div className="flexDelivery">
@@ -136,7 +136,10 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
                     <SameCard showButton={false} />
                 </div>
             </div>
-            {/* <Footer /> */}
+            <div className="mesafe">
+             <Footer /> 
+            </div>
+            
         </div>
     )
 }

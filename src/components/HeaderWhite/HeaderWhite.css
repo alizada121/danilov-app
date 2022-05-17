@@ -12,7 +12,9 @@
     align-items: center;
   
   }
-  
+  .insta{
+    background-color: transparent;
+  }
   .header_ul_one li,
   .header_ul_two li {
     margin-right: 30px;

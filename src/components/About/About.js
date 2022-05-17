@@ -52,7 +52,7 @@ const About = ({setWitdhh})=>{
                    <div className="danilovimg">
                        <div className="danilov1img">
                            <p className="odio">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
-                           <img src={danilov1}/>
+                           <img src={danilov1} className='onee'/>
                            <p className="ante">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. 
                                Id aliquam ante eu tellus tristique quam magna non. 
                                 sapien purus massa neque nibh quis tempus natoque in.
