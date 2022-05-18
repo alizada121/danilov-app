@@ -41,10 +41,11 @@ const About = ({setWitdhh})=>{
     }
       })
     return(
-        <div>
+        <div> 
+         <HeaderBlack dimensions={dimensions} />
           <div className="about-header">
-             {/* <HeaderBlack dimensions={dimensions} /> */}
-             <Header/>
+          
+             
           </div>
             
              <div className="aboutBottom">

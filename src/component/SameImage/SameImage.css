@@ -3,8 +3,8 @@
     justify-content: space-evenly;
     padding-top: 3%;
     background-color: #E5E5E5;
-   /* overflow: hidden; */
-   /* position: relative; */
+width: 90%;
+margin:0 auto
 }
 .picture{
   position: relative;
@@ -46,6 +46,12 @@ margin-top: 20% !important;
 }
 .prev{
   left: 20px;
+}
+.borderImg:hover{
+  transition: 1s ease all;
+}
+.borderImg{
+  transition: 1s ease all;
 }
 .borderImg:hover .prev{
   display: inline-block;

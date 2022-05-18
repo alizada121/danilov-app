@@ -42,7 +42,7 @@ const Bag = ({ text, border, showButton, setWitdhh }) => {
         <div>
              <HeaderBlack dimensions={dimensions}/> 
             <div className="bottomBag">
-                {/* <ImageHeader title={'Home  /  Bag'} titleH1={'My bag'} setText={!text} setWitdhh={true}  setBorder={border} imagetext={'Continue shopping'} /> */}
+                <ImageHeader title={'Home  /  Bag'} titleH1={'My bag'} setText={!text} setWitdhh={true}  setBorder={border} imagetext={'Continue shopping'} /> 
                 {(dimensions.width > 1000) &&
                     <div className="flexRight">
                         <div className="marginD">
