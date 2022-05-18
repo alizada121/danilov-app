@@ -44,6 +44,53 @@
     margin-left: 30;
   
   }
+
+  /* SEARCH */
+.search{
+  display: flex;
+  flex-direction: row;
+}
+.searchInput{
+    background-color: transparent;
+    border: #FFFAF8 2px solid;
+    margin-right: 15px;
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 0;
+    opacity: 0;
+}
+
+.fileteredShoes-cont{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+
+}
+
+.fileteredShoes-cont p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  
+  
+  /* bg2 */
+ 
+  color: #FFFAF8;
+}
+
+.elebele{
+  margin-right: 10px;
+}
+
+.closeSearch{
+  display: none;
+}
   
   @media only screen and (max-width: 950px) {
     .header {

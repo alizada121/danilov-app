@@ -70,7 +70,7 @@ ul li{
 }
 .just ul li:first-child{
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 500 !important;
     font-family: 'Montserrat';
     line-height: 25px;
     margin-bottom:15px;

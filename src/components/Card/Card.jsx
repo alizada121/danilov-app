@@ -17,7 +17,7 @@ function Card(props) {
 
      const hoverOn=()=>{
        hoverAttachents1.current.style.opacity="1"
-       leftRef.current.style.opacity="0"
+       leftRef.current.style.opacity="1"
        rightRef.current.style.opacity="1"
 
      }
@@ -43,8 +43,8 @@ function Card(props) {
       gsap.to(img1.current, { xPercent:0});
       gsap.to(img2.current, { xPercent:0});
 
-      leftRef.current.style.opacity="0"
-      rightRef.current.style.opacity="1"
+      // leftRef.current.style.opacity="0"
+      // rightRef.current.style.opacity="1"
      
 
      
@@ -54,8 +54,8 @@ function Card(props) {
       gsap.to(img1.current, { xPercent:-100});
       gsap.to(img2.current, { xPercent:-100});
 
-      leftRef.current.style.opacity="1"
-      rightRef.current.style.opacity="0"
+      // leftRef.current.style.opacity="1"
+      // rightRef.current.style.opacity="0"
 
   
     

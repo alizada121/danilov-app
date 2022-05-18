@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef,useState,useEffect} from "react";
 import {Link} from "react-router-dom"
 import liOne from '../../Images/Group 125.svg';
 import liTwo from '../../Images/Vector.svg';
@@ -9,7 +9,64 @@ import small from '../../Images/smallScreen1.svg';
 import twoLine from '../../Images/twoLine.svg';
 import insta from '../../Images/pp.svg'
 import '../HeaderWhite/HeaderWhite.css'
+import Data from "../../Data.json"
 const HeaderWhite = ({ dimensions }) => {
+
+    const searchRef=useRef();
+    const inputRef=useRef();
+    const closeSearchRef=useRef();
+    const lupaRef=useRef();
+    const filetedContRef=useRef();
+
+    const [value,setValue]=useState("");
+    const [filteredShoes,setFilteredShoes]=useState();
+    const [shoes,setShoes]=useState();
+    const [map,setMap]=useState();
+
+    
+
+    const openInput=()=>{
+        inputRef.current.style.opacity="1"
+        inputRef.current.style.width="100%"
+        closeSearchRef.current.style.display="block"
+        lupaRef.current.style.display="none"
+        
+    }
+
+    const closeInput=()=>{
+        // closeSearchRef.current.style.color="red"
+        // closeSearchRef.current.style.opacity="0"
+        closeSearchRef.current.style.display="none"
+        inputRef.current.style.width="0"
+       
+       
+
+    }
+
+    const searchValue=(e)=>{
+        setValue(e.target.value)
+        console.log(value)
+         if(value.length > 0){
+            filetedContRef.current.style.display="none";
+         }else{
+            filetedContRef.current.style.display="block";
+
+         }
+
+       
+    }
+
+    useEffect(()=>{
+        
+        let result=[]
+
+       result= Data.filter(shoes =>shoes.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())) ;
+
+          setFilteredShoes(result)
+    },[value,shoes])
+
+
+    
     return <>
 
         {(dimensions.width > 800) && <div className="header">
@@ -32,10 +89,38 @@ const HeaderWhite = ({ dimensions }) => {
                 <Link to="/signUp">
                 <li className="text" >Profile</li>
                 </Link>
-                <li ><img src={liFive} /></li>
+
+                <div className="search" ref={searchRef} onClick={openInput}> 
+                <li ref={lupaRef}><img src={liFive} /></li>   
+                <li className="closeSearch" ref={closeSearchRef} onClick={closeInput}>X</li>      
+
+                <div className="elebele">
+                     <input placeholder="search" type="search" ref={inputRef} className="searchInput" value={value} onChange={searchValue}></input>  
+                             <div className="fileteredShoes-cont" ref={filetedContRef}>
+
+
+                                {filteredShoes && filteredShoes.map((e)=>{
+                                    return(
+                                     <p > {e.name}</p>
+                                    )
+                                })}
+
+                           </div>       
+                     </div>
+
+                </div>  
+               
+
+              
+                
+              
+
+
                 <li ><img src={liSix} /></li>
 
             </ul>
+
+
         </div>}
         {(dimensions.width < 800) && <div className="header">
             <div className="wtdh">
