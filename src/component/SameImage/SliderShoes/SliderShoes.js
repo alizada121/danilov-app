@@ -28,7 +28,7 @@ const  SliderShoes=({ setImgC, setDist , vector})=> {
        counter = !!!counter
     }
   return (
-    <div>
+    <div className='witdhDiv'>
     
     <div className={`borderImg ${setImgC && 'activeimg2'}`} id={`${setDist && 'idRandom'}`}>
 

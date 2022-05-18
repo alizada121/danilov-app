@@ -13,7 +13,7 @@
   
   }
   .insta{
-    background-color: transparent;
+  margin-left: -15px;
   }
   .header_ul_one li,
   .header_ul_two li {
@@ -49,6 +49,7 @@
 .search{
   display: flex;
   flex-direction: row;
+  margin-right: -30px;
 }
 .searchInput{
     background-color: transparent;
@@ -58,8 +59,8 @@
     display: flex;
     flex-direction: column;
 
-    width: 0;
-    opacity: 0;
+    width: 100%;
+    opacity: 1;
 }
 
 .fileteredShoes-cont{
@@ -91,7 +92,23 @@
 .closeSearch{
   display: none;
 }
-  
+
+.active-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.active-search{
+  display: flex;
+}
+
+.deactive-search{
+  display: none;
+}
+
+.deactive-header{
+  display: none;
+}
   @media only screen and (max-width: 950px) {
     .header {
       padding: 10% 5%;

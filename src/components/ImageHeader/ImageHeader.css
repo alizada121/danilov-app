@@ -12,14 +12,15 @@
 }
 .after{
     border-bottom:1px solid gray ;
-    width: 82%;
-    margin-left: 280px;
+    width: 74%;
+    margin-left: 250px;
 }
 .different{
     font-size: 18px;
     font-weight: 500;
     font-family: 'Montserrat';
     line-height: 25px;
+   
 }
 .after{
     border-bottom: 1px solid gray;
@@ -45,7 +46,7 @@
     /* padding-right: 10%; */
 }
 .different{
-margin-left: 70%;
+margin-right: 20%;
 /* margin-bottom: 2%; */
 width: 25%;
 }

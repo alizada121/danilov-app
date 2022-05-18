@@ -12,29 +12,29 @@ function ContactForm() {
 
 
         <div className='ContactForm'>
-        <form>
+        <form className='contactForm-form'>
          
            <label>
-            <p>Name</p>
-           <input placeholder='Name'></input>
+            <p className='label-p'>Name</p>
+           <input placeholder='Name' className='input-contact'></input>
            </label>
 
          
 
          
            <label>
-            <p>Email address / Phone number</p>
-           <input placeholder='Email address / Phone number'></input>
+            <p className='label-p'>Email address / Phone number</p>
+           <input placeholder='Email address / Phone number' className='input-contact'></input>
           </label>
         
 
          
            <label>
-            <p>Text here</p>
-           <input placeholder='Text here'></input>
+            <p className='label-p'>Text here</p>
+           <input placeholder='Text here' className='input-contact'></input>
            </label>
 
-           <input type="submit" value="Submit" className='Submit' />
+           <input type="submit" value="Submit" className='Submit-contact' />
 
         </form>
         </div>

@@ -11,6 +11,9 @@ margin-bottom: 30px;
 .videoContainer{
     padding: 0 8%;
 }
+.green_yazi{
+    /* margin: 0  0 0 10%; */
+}
 .header2{
     font-family:'Montserrat' ;
 font-size: 18px;
@@ -35,7 +38,7 @@ line-height: 50px;
 letter-spacing: 0em;
 text-align: center;
 color:  #FCFCFC;
-
+  
 }
 .whiteText{
     font-family: 'Montserrat';
@@ -46,5 +49,6 @@ letter-spacing: 0em;
 text-align: center;
 color: #FCFCFC;
 margin-top: 30px;
-width: 90%;
+width: 70%;
+margin: 5%  0 0 15%;
 }

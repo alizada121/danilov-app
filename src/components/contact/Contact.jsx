@@ -44,14 +44,14 @@ function Contact() {
           <p style={{ margin: "0" }}>Monday-Saturday</p>
           <p style={{ marginBottom: "4%" }}>11am - 7pm</p>
           <p style={{ marginBottom: "0" }}>Sunday</p>
-          <p style={{ marginBottom: "10%" }}> 12am - 6pm</p>
+          <p style={{ marginBottom: "15%" }}> 12am - 6pm</p>
 
           <h3>Address</h3>
           <p>Nunc scelerisque diam hac euismod tristique. Nec elit gravida tempor ac nec.</p>
 
           <h3>Support</h3>
-          <p>hello@danilov.az</p>
-          <p>(+994 55) 674 66 74</p>
+          <p style={{ marginBottom: "3%" }}>hello@danilov.az</p>
+          <p >(+994 55) 674 66 74</p>
 
 
         </div>
