@@ -7,7 +7,7 @@ import liFive from '../../Images/Group 124.svg';
 import liSix from '../../Images/Group.svg';
 import small from '../../Images/smallScreen1.svg';
 import twoLine from '../../Images/twoLine.svg';
-import insta from '../../Images/pp.svg'
+import insta from '../../Images/facee.png'
 import '../HeaderWhite/HeaderWhite.css'
 import Data from "../../Data.json"
 const HeaderWhite = ({ dimensions }) => {
@@ -96,13 +96,18 @@ const HeaderWhite = ({ dimensions }) => {
                 <li className="text">Man</li>
                 </Link>
             </ul>
-            
-            
-            <img src={liFour} />
-            
+
+            <Link to="/">
+             <img src={liFour} />
+            </Link>
+          
+
+
             <ul className="header_ul_two "  id="white">
 
+
                 <div    className={!activeHeader ? "active-header" : "deactive-header"} >
+
 
                 
                   <Link to="/newIn" ref={newinRef}>
@@ -140,10 +145,14 @@ const HeaderWhite = ({ dimensions }) => {
               
                 
               
-                <Link to="/bag">
 
-                <li ><img src={liSix} /></li>
+
+                <Link to="/bag">
+                 <li ><img src={liSix} /></li>
                 </Link>
+               
+
+
             </ul>
 
 

@@ -1,14 +1,19 @@
 import React,{useState,useEffect} from 'react'
-import Header from "../components/Header/Header"
+
 import "../Collection/Collection.css"
 import Card from '../components/Card/Card'
 import data from "../Data.json"
 import WinterCollection from '../components/home/Shirin/WinterCollection/WinterCollection'
 import vectorRight from "../assets/Vector (15).png"
 import Footer from '../components/Footer/Footer'
+
+import HeaderBlack from '../components/HeaderBlack/HeaderBlack'
+
+function Collection({dimensions}) {
+
   
 
-function Collection() {
+
 
     // const [slice1,setSlice1]=useState(0);
     // const [slice2,setSlice2]=useState(4);
@@ -20,11 +25,15 @@ function Collection() {
    
 
   return (
+<>
+    <HeaderBlack dimensions={dimensions}/>
+
     <div className='collection-general'>
+   
         <div className='collection'>
-            <div className='collection-header'>
-                <Header/>
-            </div>
+           
+             
+          
 
             <div className='collection-heading-cont'>
                 <div className='collection-nav'>
@@ -48,7 +57,7 @@ function Collection() {
             <div className='collection-bg'>
 
                 <div className='collection-text'>
-                    <p>Spring & Summer ‘22</p>
+                    <p className ='summer'>Spring & Summer ‘22</p>
                     <h1>Nazvanie Kollekcii</h1>
 
                 </div>
@@ -121,7 +130,7 @@ function Collection() {
         </div>
 
     </div>
-  )
+    </>)
 }
 
 export default Collection

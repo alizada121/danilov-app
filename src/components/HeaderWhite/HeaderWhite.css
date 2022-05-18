@@ -13,7 +13,7 @@
   
   }
   .insta{
-    background-color: transparent;
+  margin-left: -15px;
   }
   .header_ul_one li,
   .header_ul_two li {
@@ -49,6 +49,7 @@
 .search{
   display: flex;
   flex-direction: row;
+  margin-right: -30px;
 }
 .searchInput{
     background-color: transparent;

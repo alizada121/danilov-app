@@ -1,5 +1,5 @@
 .aboutBottom{
-    padding: 5% 8% ;
+    padding: 5% 10% ;
 }
 
 .about-header{
@@ -38,6 +38,7 @@
     color: #463227;
     margin-top: 40px;
     margin-bottom: 70px;
+    width: 90%;
 }
 .odio{
     color: #463227;
@@ -60,7 +61,7 @@ margin-bottom: 100px;
  }
 @media only screen and (max-width: 1500px) {
     .onee{
-        margin-top: 4%;
+        margin-top: 8%;
     }
  }
 @media only screen and (max-width: 1306px) {

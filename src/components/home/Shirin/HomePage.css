@@ -43,7 +43,9 @@
 .widthEncrease{
     display: flex;
 }
-
+.distance_box{
+  cursor: pointer;
+}
 
 .anyW{
     display:flex;
