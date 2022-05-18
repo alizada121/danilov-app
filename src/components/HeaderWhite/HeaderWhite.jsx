@@ -17,27 +17,43 @@ const HeaderWhite = ({ dimensions }) => {
     const closeSearchRef=useRef();
     const lupaRef=useRef();
     const filetedContRef=useRef();
+    const profileRef=useRef();
+    const newinRef=useRef();
+
+    const activeHeaderRef=useRef();
+    const activeSearchRef=useRef();
+
+
 
     const [value,setValue]=useState("");
     const [filteredShoes,setFilteredShoes]=useState();
     const [shoes,setShoes]=useState();
     const [map,setMap]=useState();
+    const [activeHeader,setActiveHeader]=useState(false);
+    const [activeInput,setActiveInput]=useState(true);
 
     
 
     const openInput=()=>{
-        inputRef.current.style.opacity="1"
-        inputRef.current.style.width="100%"
-        closeSearchRef.current.style.display="block"
-        lupaRef.current.style.display="none"
+        setActiveHeader(!activeHeader)
+        setActiveInput(!activeInput)
+    //    setActiveHeader(false)
+        // inputRef.current.style.opacity="1"
+        // inputRef.current.style.width="100%"
+        
+        // lupaRef.current.style.display="none"
+        // newinRef.current.style.display="none"
+        // profileRef.current.style.display="none"
         
     }
 
     const closeInput=()=>{
         // closeSearchRef.current.style.color="red"
         // closeSearchRef.current.style.opacity="0"
-        closeSearchRef.current.style.display="none"
-        inputRef.current.style.width="0"
+        // closeSearchRef.current.style.display="none"
+        // inputRef.current.style.width="0"
+
+
        
        
 
@@ -69,7 +85,7 @@ const HeaderWhite = ({ dimensions }) => {
     
     return <>
 
-        {(dimensions.width > 800) && <div className="header">
+        {(dimensions.width > 800) && <div className="header"   onClick={closeInput} >
             <ul className="header_ul_one" id="white">
                <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <li><img src={liOne} /></li></a>
                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img className="insta" src={insta} /></li></a>
@@ -80,30 +96,35 @@ const HeaderWhite = ({ dimensions }) => {
                 <li className="text">Man</li>
                 </Link>
             </ul>
+
             <Link to="/">
              <img src={liFour} />
             </Link>
           
 
+
             <ul className="header_ul_two "  id="white">
-                <Link to="/newIn">
-                <li className="text">What’s New</li>
-                </Link>
-                <Link to="/signUp">
-                <li className="text" >Profile</li>
-                </Link>
 
-                <div className="search" ref={searchRef} onClick={openInput}> 
+
+                <div    className={!activeHeader ? "active-header" : "deactive-header"} >
 
 
                 
-                
-                  <li ref={lupaRef}><img src={liFive} /></li>  
-             
-                  
-              
-                <li className="closeSearch" ref={closeSearchRef} onClick={closeInput}>X</li>      
+                  <Link to="/newIn" ref={newinRef}>
+                  <li className="text" >What’s New</li>
+                  </Link>
+                  <Link to="/signUp">
+                  <li className="text" ref={profileRef}>Profile</li>
+                  </Link>
 
+                  <div className="search" ref={searchRef} onClick={openInput}> 
+                  <li ref={lupaRef}><img src={liFive} /></li>   
+                </div>  
+                </div>
+
+                <div className={!activeInput ? "active-search" : "deactive-search"} >
+
+               
                 <div className="elebele">
                      <input placeholder="search" type="search" ref={inputRef} className="searchInput" value={value} onChange={searchValue}></input>  
                              <div className="fileteredShoes-cont" ref={filetedContRef}>
@@ -117,18 +138,20 @@ const HeaderWhite = ({ dimensions }) => {
 
                            </div>       
                      </div>
-
-                </div>  
+             </div>
+                
                
 
               
                 
               
 
+
                 <Link to="/bag">
                  <li ><img src={liSix} /></li>
                 </Link>
                
+
 
             </ul>
 
@@ -149,11 +172,12 @@ const HeaderWhite = ({ dimensions }) => {
             </div>
           
             <img className="sizeImg" src={liFour} />
-
+            
             <ul className="header_ul_two">
                 <li ><img src={small} /></li>
 
             </ul>
+            
         </div>}
     </>
 }

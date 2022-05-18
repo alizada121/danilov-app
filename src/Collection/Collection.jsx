@@ -1,14 +1,19 @@
 import React,{useState,useEffect} from 'react'
-import Header from "../components/Header/Header"
+
 import "../Collection/Collection.css"
 import Card from '../components/Card/Card'
 import data from "../Data.json"
 import WinterCollection from '../components/home/Shirin/WinterCollection/WinterCollection'
-import vectorRight from "../Images/rightvector.svg"
+import vectorRight from "../assets/Vector (15).png"
 import Footer from '../components/Footer/Footer'
+
 import HeaderBlack from '../components/HeaderBlack/HeaderBlack'
 
 function Collection({dimensions}) {
+
+  
+
+
 
     // const [slice1,setSlice1]=useState(0);
     // const [slice2,setSlice2]=useState(4);
