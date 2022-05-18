@@ -1,9 +1,9 @@
-form{
+.ContactForm-form{
     display: flex;
     flex-direction: column;
 }
 
-label{
+ label{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -25,7 +25,7 @@ label{
 
 }
 
-label p{
+.input-contact{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -33,30 +33,46 @@ label p{
     line-height: 25px;
     color: #1B1B1B;
     margin-bottom: 0;
+    padding: 1% 1%;
+    margin-bottom: 4%;
 }
 
-input{
+.ContactForm-form input{
     border:  0.5px solid #473c36;
     /* height: 40px; */
     background: #E5E5E5;
+   
 }
 
-.Submit{
+.Submit-contact{
     margin-top:5%;
     /* height: 40px; */
     background: #463227;
     color: #F0F0F0;
     font-family: 'Cormorant';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 20px;
-border: none;
-transition: 0.6s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    border: none;
+    transition: 0.6s;
+
+width: 100%;
+    padding: 2% 0%;
 
 }
 
-.Submit:hover{
+.label-p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1B1B1B;
+
+}
+
+.Submit-contact:hover{
    color: #463227;
     background: #F0F0F0;
     transition: 0.6s;

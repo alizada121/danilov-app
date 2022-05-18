@@ -4,9 +4,9 @@ import "../Collection/Collection.css"
 import Card from '../components/Card/Card'
 import data from "../Data.json"
 import WinterCollection from '../components/home/Shirin/WinterCollection/WinterCollection'
-import vectorRight from "../Images/rightvector.svg"
+import vectorRight from "../assets/Vector (15).png"
 import Footer from '../components/Footer/Footer'
-
+  
 
 function Collection() {
 

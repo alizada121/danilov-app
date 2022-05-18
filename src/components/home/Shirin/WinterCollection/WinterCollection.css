@@ -10,11 +10,12 @@
 .magna{
     width: 40%;
 }
-.twenty{
+.twenty h1{
     font-size: 50px;
     font-family: 'Cormorant';
     line-height: 60px;
     font-weight: 600;
+    text-align: left;
 }
 .odio{
     font-size: 18px;
