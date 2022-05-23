@@ -42,7 +42,7 @@
 }
 
 .newIn-heading-first {
-    width: auto;
+    width: 22.5%;
     font-family: 'Cormorant';
     font-style: normal;
     font-size: 30px;
@@ -57,7 +57,7 @@
 }
 
 .newIn-heading-line-container{
-    width: 77%;
+    width: 78%;
    
     position: relative;
     margin-top: 4%;
@@ -82,11 +82,17 @@
     position: absolute;
     right: 5%;
     bottom: 13%;
+    transform: translateY(-2px);
+}
+
+.newIn-heading-filter img{
+    width: 12px;
 }
 
 .newIn-heading-filter p {
     margin: 0;
     margin-right: 10px;
+    font-family: 'Montserrat';
 
 }
 

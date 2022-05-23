@@ -6,19 +6,21 @@
 }
 .colwin{
     width: 50%;
+    margin-right: 10%;
 }
 .magna{
     width: 40%;
 }
 .twenty h1{
-    font-size: 50px;
+    width: 100%;
+    font-size: 58px;
     font-family: 'Cormorant';
     line-height: 60px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: left;
 }
 .odio{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     font-weight: 400;
     font-family: 'Montserrat';

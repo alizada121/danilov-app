@@ -59,6 +59,11 @@
     letter-spacing: -0.05em;
     margin-left: 10%;
     color: #606060;
+    
+}
+
+.FollowUs-danilov a{
+    text-decoration: none;
 }
 
 .FollowUs-danilov img{
@@ -102,7 +107,7 @@
     text-align: left;
     width: 74%;
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 10%;
 }
 

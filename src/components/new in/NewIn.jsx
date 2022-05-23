@@ -8,6 +8,7 @@ import data from "../../Data.json"
 import Card from '../Card/Card'
 import "./NewIn.css"
 import Footer from '../Footer/Footer'
+import HeaderBlack from "../HeaderBlack/HeaderBlack"
 
 
 function NewIn({dimensions}) {
@@ -16,15 +17,20 @@ function NewIn({dimensions}) {
     if(dimensions.width < 1024) setSlice2(2)
     else setSlice2(4)
 },[dimensions.width])
+
+
   
 
 
   return (
-    <div className='newIn-general'>
-      <div className='newIn-header'>
-        <Header/>
+    <>
+
+    <div className='newIn-header'>
+        <HeaderBlack dimensions={dimensions}/>
 
       </div>
+    <div className='newIn-general'>
+     
 
       <div className='newIn-container'>
         <div className='newIn-heading-container'>
@@ -132,6 +138,7 @@ function NewIn({dimensions}) {
       </div>
 
     </div>
+    </>
   )
 }
 

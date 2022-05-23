@@ -2,6 +2,7 @@ import React from 'react'
 import instagram from "../../../../assets/instagram.png"
 import brown from "../../../../assets/brownShoes.png"
 import gradient from "../../../../assets/gradient.png"
+import { Link } from 'react-router-dom/cjs/react-router-dom'
 
 import "../FollowUs/FollowUs.css"
 function FollowUs() {
@@ -15,14 +16,17 @@ function FollowUs() {
           <h1>Instagram</h1>
 
          </div>
-
+        
+        
            <div className='FollowUs-danilov'>
-             <p>@danilov_baku</p>
-             <img src={instagram}></img>
+           <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <p>@danilov_baku</p>
+             <img src={instagram}></img></a>
       
       
            </div>
-        </div>
+        </div> 
+        
+      
 
       
         

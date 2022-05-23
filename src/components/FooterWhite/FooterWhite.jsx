@@ -62,7 +62,7 @@ const FooterWhite = () => {
                 <div className="lastPart" id="white-lastPart">
                     <ul>
                         <li>@ 2022 All Rights Reserved</li>
-                        <li>By CLARADIX STUDIO</li>
+                        <a href="https://www.claradix.com" target="_blank"><li>By CLARADIX STUDIO</li></a>
                         <li>Privacy Policy</li>
                     </ul>
                 </div>

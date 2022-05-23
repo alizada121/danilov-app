@@ -12,9 +12,9 @@
     align-items: center;
   
   }
-  .insta{
+  /* .insta{
   margin-left: -15px;
-  }
+  } */
   .header_ul_one li,
   .header_ul_two li {
     margin-right: 30px;
@@ -89,6 +89,9 @@
   margin-right: 10px;
 }
 
+.elebele input{
+  padding: 2% 1%;
+}
 .closeSearch{
   display: none;
 }
@@ -96,6 +99,7 @@
 .active-header{
   display: flex;
   flex-direction: row;
+  margin-right: 15px;
 }
 
 .active-search{

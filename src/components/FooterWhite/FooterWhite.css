@@ -121,7 +121,8 @@ ul li{
     font-family: 'Inter';
     
 }
-.lastPart {
+#white-lastPart a{
+    text-decoration: none;
   
 }
 

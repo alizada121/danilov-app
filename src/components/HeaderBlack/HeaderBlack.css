@@ -21,9 +21,11 @@ li{
 .distanc{
   margin-left: -15px
 }
-.headerBlack_ul_one li,
+.headerBlack_ul_one li{
+  margin-right: 28px;
+}
 .headerBlack_ul_two li{
-    margin-right: 30px;
+  margin-left: 30px;
 }
 .headerBlack_ul_two{
     display: flex;

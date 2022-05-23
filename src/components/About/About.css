@@ -1,5 +1,5 @@
 .aboutBottom{
-    padding: 5% 10% ;
+    padding: 0% 10% ;
 }
 
 .about-header{
@@ -8,7 +8,7 @@
     width: 80%;
     margin-top: 3%;
 }
-
+  
 .about-footer{
 
     margin-left: 10%;
@@ -36,18 +36,32 @@
     font-family: 'Montserrat';
     line-height: 25px;
     color: #463227;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    width: 90%;
+    margin-top: 15%;
+    margin-bottom: 7%;
+    width: 75%;
+}
+
+.ante1{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 25px;
+    color: #463227;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    width: 79%;
+
 }
 .odio{
     color: #463227;
-font-size: 26px;
+font-size: 20px;
 line-height: 25px;
 font-weight: 500;
 font-family: 'Montserrat';
 text-align: left;
-margin-bottom: 100px;
+/* margin-bottom: 100px; */
+margin-bottom: 18%;
 }
 @media only screen and (max-width: 1700px) {
    .onee{

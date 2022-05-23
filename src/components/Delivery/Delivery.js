@@ -46,7 +46,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
                 <div className="flexDelivery">
                     <div className="leftDeliver" >
                         <div className="inputSide">
-                            <p className="contact">{textHeader1 ? "Login" : "Contact"}</p>
+                            <p className="contact11">{textHeader1 ? "Login" : "Contact"}</p>
                             <div className="emailPass">
                                 <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                     <div className="acc">

@@ -2,15 +2,24 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import "../Profile/Profile2.css"
+import HeaderBlack from '../HeaderBlack/HeaderBlack'
 
 function Profile2() {
+
+  const [dimensions, setDimensions] = React.useState({
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
   return (
-    <div className='Profile2-container'>
-        <div className='Profile2'>
-            <div className='Profile2-header'>
-                <Header/>
+    <>
+    <div className='Profile2-header'>
+            <HeaderBlack dimensions={dimensions}/>
+
 
             </div>
+    <div className='Profile2-container'>
+        <div className='Profile2'>
+            
 
           <div className='Profile2-heading-container'>
           <div className='Profile2-heading-nav'>
@@ -71,6 +80,7 @@ function Profile2() {
 
         </div>
     </div>
+    </>
   )
 }
 
