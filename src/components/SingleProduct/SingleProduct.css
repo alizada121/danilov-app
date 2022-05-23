@@ -2,10 +2,14 @@
     padding: 2% 10%;
     margin: 0 auto;
 }
+
+
 .grid {
-    width: 600px;
+    /* width: 600px; */
+    width: 55%;
+
     /* border: 1px solid red; */
-    height: 80vh;
+    /* height: 80vh; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -32,6 +36,7 @@ text-align: left;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5% !important;
 }
 .rightAside {
     width: 600px;
@@ -40,8 +45,10 @@ text-align: left;
 .filteredImage {
     display: flex;
     margin-top: 60px;
-    margin-bottom: 280px;
+    /* margin-bottom: 280px; */
     /* overflow: hidden; */
+
+    margin-bottom: 10%;
 }
 .positionDiv {
     width: 100%;
@@ -64,7 +71,8 @@ text-align: left;
 .colorButton4,
 .colorButton5 {
     border: 1px solid black;
-    padding: 2% 3%;
+    width: 8%;
+    padding: 3% 0%;
     margin-right: 2%;
     margin-top: 2%;
 }
@@ -173,14 +181,14 @@ text-align: center;
 }
 .priceDollar {
     margin-right: 40px;
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Cormorant';
     font-weight: 600;
 }
 .priceDollar1 {
     font-size: 22px;
-    font-family: 'Cormorant';
-    font-weight: 600;}
+    font-family: 'Montserrat';
+    font-weight: 400;}
 #whht{
     color: white;
     font-family: 'Cormorant';
@@ -191,18 +199,29 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+
+.buttons{
+    
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
 .brownButton {
+    width: 46%;
     background-color: #463227;
-    padding: 1% 6%;
+    padding: 3% 6%;
     outline: none;
     border: none;
     color: white ;
-    margin: 50px 50px 0 0;
+    /* margin: 50px 50px 0 0; */
     /* font-size: 30px; */
     font-family: 'Cormorant';
-    font-weight: 300;
+    font-weight: 600
 }
 .whiteButton {
+    width: 46%;
     padding: 0.8% 6%;
     color: #463227;
     background-color: transparent;
@@ -217,6 +236,7 @@ text-align: center;
 }
 .fsz {
     /* font-size: 20px; */
+    font-weight: 600;
 }
 @media only screen and (max-width: 1000px) {
     .fff {

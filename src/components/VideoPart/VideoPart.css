@@ -9,7 +9,7 @@ margin-bottom: 30px;
 
 }
 .videoContainer{
-    padding: 0 8%;
+    padding: 5% 10%;
 }
 .green_yazi{
     /* margin: 0  0 0 10%; */
@@ -22,10 +22,10 @@ line-height: 25px;
 letter-spacing: 0em;
 text-align: left;
 color: #463227;
-width: 50%;
+width: 39%;
 }
 .green{
-    height: 40vh;
+    
     background-color: #001C08;
      padding: 50px ;
      margin-bottom: 450px;
@@ -49,6 +49,6 @@ letter-spacing: 0em;
 text-align: center;
 color: #FCFCFC;
 margin-top: 30px;
-width: 70%;
-margin: 5%  0 0 15%;
+width: 68%;
+margin: 3%  0 5% 15%;
 }

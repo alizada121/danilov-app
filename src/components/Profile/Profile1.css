@@ -4,9 +4,6 @@
     margin-right: 10%;
 }
 
-.Profile1-header{
-    margin-top: 2%;
-}
 
 .Profile1{
     width: 100%;
@@ -16,6 +13,10 @@
     display: flex;
     flex-direction: row;
     
+}
+
+.Profile1-signUp-form{
+    margin-top: 5%;
 }
 
 .Profile1-heading-nav p{
@@ -42,7 +43,7 @@
 }
 
 .Profile1-heading-first {
-    width: auto;
+    width: 13%;
     font-family: 'Cormorant';
     font-style: normal;
     font-size: 30px;
@@ -57,7 +58,7 @@
 }
 
 .Profile1-heading-line{
-    width: 77%;
+    width: 87%;
     border: 0.5px solid #000000;
     height: 0;
     background-color: #000000;
@@ -69,12 +70,14 @@
 .Profile1-signUp-container{
     width: 60%;
     margin-bottom: 15%;
+  
     /* border: 1px solid black; */
 }
 
 .Profile1-signUp-heading{
     display: flex;
     flex-direction: row;
+    margin-top: 3%;
 }
 
 .Profile1-signUp-heading p{
@@ -107,6 +110,7 @@
     flex-direction: row;
     justify-content: space-between;
    
+   
 }
 
 .row{
@@ -114,6 +118,7 @@
     flex-direction: column;
     width: 49%;
     text-align: left;
+    margin-top: 3%;
     
 }
 
@@ -121,7 +126,7 @@
     margin: 0;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 156% */
@@ -133,6 +138,7 @@
 
 .row input{
     border: 0.5px solid #766e6e;
+    padding: 2% 1%;
 
 }
 .button-row{
@@ -145,7 +151,7 @@
 
 .button-row input{
     width: 49%;
-    margin-top: 2%;
+    margin-top: 5%;
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 500;
@@ -159,6 +165,7 @@
     background-color: #463227;
     color: #F0F0F0;
     transition: 0.6s;
+    padding: 1% 1%;
 }
 
 .button-row input:hover{
@@ -170,8 +177,7 @@
 
 .button-row p{
     margin: 0;
-    text-align: left !important;
-    margin-left: 10%;
+    margin-right: 6%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -181,11 +187,13 @@
 
 
     color: #424242;
+    margin-top: 2%;
 
 }
 
 .button-row span{
     font-weight: 800;
+    font-family: 'Montserrat';
 
 }
 

@@ -2,6 +2,7 @@ import React,{useRef} from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import "../Payment/Payment.css"
+import HeaderBlack from '../HeaderBlack/HeaderBlack'
 
 function Payment() {
     const infoRef=useRef();
@@ -11,12 +12,22 @@ function Payment() {
 
         infoRef.current.style.display="none"
         succesRef.current.style.display="flex"
-
+  
     }
-  return  <div className='Payment-container'>
+
+    const [dimensions, setDimensions] = React.useState({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+  return <>
+  <div className='Profile1-header'>
+            <HeaderBlack dimensions={dimensions}/>
+
+        </div>
+   <div className='Payment-container'>
   <div className='Payment'>
       <div className='Payment-header'>
-          <Header/>
+      
 
       </div>
 
@@ -62,7 +73,7 @@ function Payment() {
                           <input placeholder='Name Surname'></input>
 
                       </div>
-
+  
                       <div className='Card-input-s'>
                           <p>CVV</p>
                           <input placeholder='123'></input>
@@ -102,8 +113,8 @@ function Payment() {
 
                    <div className='Order-subtotal'>
                        <div className='subtotal-row'>
-                           <h5>Subtotal</h5>
-                           <h5>1 466$</h5>
+                           <h5 style={{fontWeight:600}}>Subtotal</h5>
+                           <h5   className='normal' style={{fontWeight:600}}>1 466$</h5>
                        </div>
                        <div className='subtotal-row'>
                            <p>Discount</p>
@@ -118,7 +129,7 @@ function Payment() {
 
                    <div className='Order-total'>
                        <h4>Total</h4>
-                       <h4>1 476$</h4>
+                       <h4 className='normal'>1 476$</h4>
 
                    </div>
 
@@ -166,7 +177,7 @@ function Payment() {
 
 
 </div>
-
+</>
 }
 
 export default Payment

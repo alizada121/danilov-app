@@ -1,15 +1,34 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Header from '../Header/Header'
 import "../contact/Contact.css"
 import ContactForm from './ContactForm'
 import Footer from "../Footer/Footer"
+import HeaderBlack from "../HeaderBlack/HeaderBlack"
 
+
+function debounce(fn, ms) {
+  let timer
+  return _ => {
+    clearTimeout(timer)
+    timer = setTimeout(_ => {
+      timer = null
+      fn.apply(this, arguments)
+    }, ms)
+  };
+}
 function Contact() {
+
+  const [dimensions, setDimensions] = React.useState({
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
   return (
+    <>
+    <HeaderBlack dimensions={dimensions}/>
     <div className='contact-general'>
-      <div className='contact-header'>
-        <Header />
-      </div>
+      
+      
+     
 
       <div className='contact-heading-container'>
         <div className='contact-heading-nav'>
@@ -40,8 +59,8 @@ function Contact() {
         </div>
 
         <div className='contact-info'>
-          <h3>Opening hours</h3>
-          <p style={{ margin: "0" }}>Monday-Saturday</p>
+          <h3 style={{ marginTop: "0" }}>Opening hours</h3>
+          <p style={{ margin: "0" }}>Monday-  Saturday</p>
           <p style={{ marginBottom: "4%" }}>11am - 7pm</p>
           <p style={{ marginBottom: "0" }}>Sunday</p>
           <p style={{ marginBottom: "15%" }}> 12am - 6pm</p>
@@ -68,6 +87,7 @@ function Contact() {
 
 
     </div>
+    </>
   )
 }
 

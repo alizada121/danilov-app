@@ -49,7 +49,7 @@ const About = ({setWitdhh})=>{
           </div>
             
              <div className="aboutBottom">
-                   <ImageHeader title={'Home  /  About us '} titleH1={'Abous us'} setBorder={!border} setText={!text} imagetext={'Emalatxana'}  setWitdhh={true}/>
+                   <ImageHeader title={'Home  /  About us '} titleH1={'About us'} setBorder={!border} setText={!text} imagetext={'Emalatxana'}  setWitdhh={true}/>
                    <div className="danilovimg">
                        <div className="danilov1img">
                            <p className="odio">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
@@ -60,7 +60,7 @@ const About = ({setWitdhh})=>{
                                  Eget est amet tellus justo faucibus.</p>
                        </div>
                        <div className="danilov2img">
-                       <p className="ante">Vitae, odio adipiscing aenean tortor diam,
+                       <p className="ante1">Vitae, odio adipiscing aenean tortor diam,
                             vitae amet volutpat urna. Id aliquam ante eu tellus tristique
                              quam magna non. Tortor sapien purus massa neque nibh quis tempus 
                              natoque in. Eget est amet tellus justo faucibus.</p>

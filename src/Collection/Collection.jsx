@@ -37,8 +37,8 @@ function Collection({dimensions}) {
 
             <div className='collection-heading-cont'>
                 <div className='collection-nav'>
-                    <p>Home</p>
-                    <p>/Collection</p>
+                    <p>Home </p>
+                    <p> / Collection</p>
                 </div>
 
                 <div className='collection-heading'>
