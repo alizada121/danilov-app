@@ -4,7 +4,8 @@ import removeBag from '../../Images/removeBag.png';
 import bottomLine from '../../Images/bottomLine.png';
 import sizeHeart from '../../Images/sizeHeart.svg';
 import sizeDelete from '../../Images/sizeDelete.svg';
-
+import ustegel from '../../Images/ustegel.png';
+import cixilsin from '../../Images/cixilsin.png'
 const ShoppingBag=({setButton ,setLine})=>{
     return(
         <div className="myBag">
@@ -45,14 +46,14 @@ const ShoppingBag=({setButton ,setLine})=>{
                     <div className="sizePart3">
                         <div className="encrease">
                             <p className="sizep1">QTY</p>
-                             <button className="minusB">-</button>
+                             <button className="minusB"><img src={cixilsin}/></button>
                         </div>
                         <div className="numbers">
                               <p>1</p>
                         </div>
                            
                              <div className="decrease">
-                               <button className="plusB">+</button>  
+                               <button className="plusB"><img src={ustegel}/></button>  
                              </div>
                          
                     </div>   
