@@ -16,7 +16,7 @@ function debounce(fn, ms) {
       }, ms)
     };
   }
-const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
+const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
   
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
@@ -57,7 +57,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
                                     </div>
                                     <div className="email">
                                         <label htmlFor="email"></label>
-                                        <input type="email" placeholder="namesurname@email.com" id="email" name="email"></input>
+                                        <input type="email" className={`${editInput && 'lastEdit'} `} placeholder="namesurname@email.com" id="email" name="email"></input>
                                     </div>
                                 </div>
                                 {showPassword &&
@@ -72,7 +72,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
                                         </div>
                                         <div className="email">
                                             <label htmlFor="password"></label>
-                                            <input type="password" placeholder="........." id="email" name="password"></input>
+                                            <input type="password" className={`${editInput && 'lastEdit'} `}  placeholder="***********" id="email" name="password"></input>
                                         </div>
                                     </div>
                                 }
@@ -127,7 +127,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing }) => {
                                 </div>
                             </div>
                             <div className="checkbox">
-                                <input type="checkbox" id="scales" name="scales"></input>
+                                <input className="chchck" type="checkbox" id="scales" name="scales"></input>
                                 <label htmlFor="scales">Save this informations for a future fast checkout</label>
                             </div>
                             <Button btnclass={true} />

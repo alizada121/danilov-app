@@ -42,10 +42,10 @@ margin-top: 20% !important;
   top: 50%;
 }
 .next{
-  right: 20px;
+  right: 12px;
 }
 .prev{
-  left: 20px;
+  left: 12px;
 }
 .borderImg:hover{
   transition: 1s ease all;
@@ -128,3 +128,15 @@ margin-top: 20% !important;
      right: auto;
    }
  }
+ @media only screen and (max-width: 500px) {
+  .next ,.prev{
+    top: 20%;
+  }
+  
+}
+@media only screen and (max-width: 400px) {
+  .next ,.prev{
+    top: 45%;
+  }
+  
+}

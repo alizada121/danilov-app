@@ -1,12 +1,12 @@
 import React from "react";
 import '../RightAsideBag/RightAsideBag.css';
 import Button from '../Button/Button';
-const RightAsideBag=({showButton})=>{
+const RightAsideBag=({showButton ,changeStyle})=>{
     return(
-        <div className="rightAsideBag">
+        <div className={`rightAsideBag ${changeStyle && 'cc'}`}>
             <div className="free">
                   <p className="one">Delivery</p>
-                   <p className="two">Free Express: 10$</p>
+                   <p className="two">Free <span className="ghgh">Express</span> : 10$</p>
             </div>
             <div className="divdiscount">
                   <div className="discount">
@@ -17,7 +17,7 @@ const RightAsideBag=({showButton})=>{
                      <p className="two">Discount</p>
                      <p className="two">0.00$</p>
                  </div>
-                 <div className="discount">
+                 <div className="discount" id='discount'>
                      <p className="two">Delivery</p>
                      <p className="two">10$</p>
                  </div>
@@ -30,7 +30,7 @@ const RightAsideBag=({showButton})=>{
                     
                  </div>
                 {
-                    showButton &&  <Button btnclass={false} /> 
+                    showButton &&  <Button btnclass={false} changeStyle={true} /> 
                 }
                       
                     

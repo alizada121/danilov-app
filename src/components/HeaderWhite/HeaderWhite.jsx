@@ -155,7 +155,7 @@ const HeaderWhite = ({ dimensions }) => {
 
 
                 <Link to="/bag">
-                 <li ><img src={liSix} /></li>
+                 <li  className='shopbag'><img src={liSix}/></li>
                 </Link>
                
 
