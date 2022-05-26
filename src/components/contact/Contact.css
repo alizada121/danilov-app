@@ -1,4 +1,4 @@
-.contact-general{
+.contact-general,.Contact-footer{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -103,11 +103,27 @@
     color: #463227;
 }
 
+.contact-followUs{
+    display: none;
+}
+
 
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .contact-general{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
 
+    .Contact-footer{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     .contact{
         flex-direction: column;
     }
@@ -118,6 +134,9 @@
 
     .contact-info{
         width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+
     }
 
     .contact-heading-first {
@@ -135,12 +154,27 @@
 
     .contact-heading-nav p {
         font-size: 10px;
+    }
+
+    .contact-followUs{
+        display: block;
     }
 
    
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
+    .contact-general{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
 
+    .Contact-footer{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .contact{
         flex-direction: column;
     }
@@ -151,6 +185,9 @@
 
     .contact-info{
         width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+
     }
 
     .contact-heading-first {
@@ -170,10 +207,27 @@
         font-size: 10px;
     }
 
+    .contact-followUs{
+        display: block;
+    }
+
+
 
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
+    .contact-general{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
 
+
+    .Contact-footer{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .contact{
         flex-direction: column;
     }
@@ -184,6 +238,8 @@
 
     .contact-info{
         width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     
     }
     .contact-heading-first {
@@ -196,10 +252,20 @@
         margin-top: 9%;
     }    
 
-    
+    .contact-followUs{
+        display: block;
+    }
 
 
 
 
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-general, .Contact-footer{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
+    
+}

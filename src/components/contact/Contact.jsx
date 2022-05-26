@@ -4,6 +4,7 @@ import "../contact/Contact.css"
 import ContactForm from './ContactForm'
 import Footer from "../Footer/Footer"
 import HeaderBlack from "../HeaderBlack/HeaderBlack"
+import FollowUs from '../home/Leman/FollowUs/FollowUs'
 
 
 function debounce(fn, ms) {
@@ -77,16 +78,22 @@ function Contact() {
 
       </div>
 
-      <div className='Contact-footer'>
-        <Footer />
-
-      </div>
+     
 
 
 
 
 
     </div>
+     <div className='contact-followUs'>
+        <FollowUs/>
+
+      </div>
+
+      <div className='Contact-footer'>
+        <Footer />
+
+      </div>
     </>
   )
 }

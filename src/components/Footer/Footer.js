@@ -3,6 +3,7 @@ import './Footer.css';
 import insta from '../../assets/insta-black.png';
 import fb from '../../assets/fb-black.png'
 import bg1 from "../../assets/bg-pic1.png"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Footer = () => {  
     return (
         <div className="foot">
@@ -59,9 +60,20 @@ const Footer = () => {
                 <div className="lastPart">
                     <ul>
                         <li>@ 2022 All Rights Reserved</li>
-                        <li>By CLARADIX STUDIO</li>
+                        <a href="https://claradix.com/#/welcome" target="_blank">
+                        <li className="claradix">By CLARADIX STUDIO</li>
+                        </a>
                         <li>Privacy Policy</li>
                     </ul>
+
+                   
+                </div>
+
+                <div className="claradix-mobile-cont">
+                     <a href="https://claradix.com/#/welcome" className="claradix-mobile" target="_blank">
+                        <p >By CLARADIX STUDIO </p>
+                    </a>
+                        
                 </div>
             </div>
 

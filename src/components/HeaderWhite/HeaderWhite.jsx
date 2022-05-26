@@ -19,24 +19,31 @@ const HeaderWhite = ({ dimensions }) => {
     const filetedContRef=useRef();
     const profileRef=useRef();
     const newinRef=useRef();
+    const ulTwoRef=useRef();
 
     const activeHeaderRef=useRef();
     const activeSearchRef=useRef();
 
 
 
-    const [value,setValue]=useState("");
+    const [value,setValue]=useState('');
     const [filteredShoes,setFilteredShoes]=useState();
     const [shoes,setShoes]=useState();
     const [map,setMap]=useState();
     const [activeHeader,setActiveHeader]=useState(false);
     const [activeInput,setActiveInput]=useState(true);
+    const [activeWidth,setActiveWidth]=useState(true)
 
     
 
     const openInput=()=>{
         setActiveHeader(!activeHeader)
         setActiveInput(!activeInput)
+        setActiveWidth(!activeInput)
+        
+
+
+
     //    setActiveHeader(false)
         // inputRef.current.style.opacity="1"
         // inputRef.current.style.width="100%"
@@ -60,26 +67,22 @@ const HeaderWhite = ({ dimensions }) => {
     }
 
     const searchValue=(e)=>{
-        setValue(e.target.value)
-        console.log(value)
-         if(value.length > 0){
-            filetedContRef.current.style.display="none";
-         }else{
-            filetedContRef.current.style.display="block";
-
-         }
-
-       
+         setValue(e.target.value)
     }
 
     useEffect(()=>{
         
         let result=[]
-
-       result= Data.filter(shoes =>shoes.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())) ;
-
+        if(value.length > 0) {
+            result = Data.filter(shoes =>shoes.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())) ;
+            filetedContRef.current.style.display="block";
+        }else {
+            result = []
+            
+            filetedContRef.current.style.display="none";
+        }
           setFilteredShoes(result)
-    },[value,shoes])
+    },[value])
 
 
     
@@ -103,7 +106,7 @@ const HeaderWhite = ({ dimensions }) => {
           
 
 
-            <ul className="header_ul_two "  id="white">
+            <ul  className={!activeWidth? "active-width" : "header_ul_two"} id="white" ref={ulTwoRef}>
 
 
                 <div    className={!activeHeader ? "active-header" : "deactive-header"} >
@@ -126,11 +129,15 @@ const HeaderWhite = ({ dimensions }) => {
 
                
                 <div className="elebele">
-                     <input placeholder="search" type="search" ref={inputRef} className="searchInput" value={value} onChange={searchValue}></input>  
+                     <input placeholder="Search" type="search" ref={inputRef} className="searchInput" value={value} onChange={searchValue}>
+                     
+                        </input> 
+                        <div className="input-lupa"><img src={liFive} /></div> 
+                   
                              <div className="fileteredShoes-cont" ref={filetedContRef}>
 
 
-                                {filteredShoes && filteredShoes.map((e)=>{
+                                 {filteredShoes && filteredShoes.map((e)=>{
                                     return(
                                      <p > {e.name}</p>
                                     )

@@ -169,14 +169,16 @@ function Payment() {
 
   
 
-   <div className='Payment-footer'>
-               <Footer/>
-
-      </div>
+   
 
 
 
 </div>
+
+<div className='Payment-footer'>
+               <Footer/>
+
+      </div>
 </>
 }
 
