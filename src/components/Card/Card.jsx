@@ -5,6 +5,7 @@ import vectorRight from "../../assets/vectorRight.png"
 import "../Card/Card.css"
 import ShopSlider from '../home/Leman/Shop/ShopSlider'
 import whiteHeart from "../../assets/whiteHeart.svg"
+
  
 import gsap from 'gsap'
 function Card(props) {
@@ -43,16 +44,20 @@ function Card(props) {
       gsap.to(img1.current, { xPercent:0});
       gsap.to(img2.current, { xPercent:0});
 
-      // leftRef.current.style.opacity="0"
-      // rightRef.current.style.opacity="1"
-     
+      
+
+      
 
      
     }
 
     const Slider2=()=>{
+
+     
       gsap.to(img1.current, { xPercent:-100});
       gsap.to(img2.current, { xPercent:-100});
+
+      
 
       // leftRef.current.style.opacity="1"
       // rightRef.current.style.opacity="0"

@@ -80,13 +80,12 @@
     color: black;
 }
 
-.lastPart ul li:nth-child(2){
-    font-family: 'Inter';
-    
+.lastPart a{
+    text-decoration: none;
+    font-family: 'Inter' !important;
 }
-.lastPart {
-  
-}
+
+
 
 .footer-row1{
     display: flex;
@@ -126,6 +125,15 @@
         margin-right: 5%;
     }
 
+    .lastPart {
+        /* width: 90%;
+        padding-left: 5%; */
+    }
+
+
+    .claradix{
+        display: none;
+    }
     .footer-row1{
         width: 100%;
         display:flex;
@@ -135,6 +143,7 @@
     .footer-row1 ul{
         padding: 0;
         width: 100%;
+        margin-bottom: 10%;
     }
 
     .footer-row2{
@@ -167,9 +176,9 @@
 
     .just{
         flex-direction: row;
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .footer-row1{
@@ -182,6 +191,7 @@
         padding: 0;
         width: 100%;
         /* padding-top: 10% !important ; */
+        margin-bottom: 10%;
     }
 
     .footer-row2{
@@ -214,9 +224,9 @@
 @media screen and (min-width: 414px) and (max-width: 768px) {
     .just{
         flex-direction: row;
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .footer-row1{
@@ -228,6 +238,7 @@
     .footer-row1 ul{
         padding: 0;
         width: 100%;
+        margin-bottom: 10%;
     }
 
     .footer-row2{
@@ -259,11 +270,12 @@
 
     .just{
         flex-direction: row;
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
+   
     .footer-row1{
         width: 100%;
         display:flex;
@@ -273,6 +285,7 @@
     .footer-row1 ul{
         padding: 0;
         width: 100%;
+        margin-bottom: 10%;
     }
 
     .footer-row2{

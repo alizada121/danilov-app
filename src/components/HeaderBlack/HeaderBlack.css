@@ -41,22 +41,24 @@ li{
      margin-left: 30px;
    font-family: "Montserrat"
 };
+
+
 @media only screen and (max-width: 950px) {
   .headerBlack {
-    padding: 10% 5%;
+    padding:5% 5%;
   }
  
 }
 @media only screen and (max-width: 900px) {
   .headerBlack {
-    padding: 10% 5%;
+    padding: 5% 5%;
   }
 
  
 }
 @media only screen and (max-width: 850px) {
   .headerBlack {
-    padding: 10% 1%;
+    padding: 5% 5%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -66,13 +68,13 @@ li{
 }
 @media only screen and (max-width: 500px) {
   .headerBlack {
-    padding: 10% 1% ;
+    padding: 5% 5% ;
   }
 
 }
 @media only screen and (max-width: 450px) {
   .headerBlack {
-    padding: 10% 3% ;
+    padding: 5% 5% ;
   }
   .headerBlack_ul_two li{
     margin-right: 0;

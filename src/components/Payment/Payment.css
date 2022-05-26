@@ -52,7 +52,7 @@
 }
 
 .Payment-heading-first {
-    width: 17%;
+    width: auto;
     font-family: 'Cormorant';
     font-style: normal;
     font-size: 30px;
@@ -485,6 +485,11 @@
     .Payment-success button {
         width: 80%;
     }
+
+    .Order-summary-container{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
     .Payment-details{
@@ -544,6 +549,11 @@
 
     .Payment-success button {
         width: 80%;
+    }
+
+    .Order-summary-container{
+        margin-top: 20%;
+        margin-bottom: 10%;
     }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
@@ -605,6 +615,11 @@
         font-size: 18px;
     }
 
+
+    .Order-summary-container{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .Card-input-s {
@@ -618,4 +633,27 @@
     .Order-summary-container h1 {
         font-size: 28px;
     }
+
+    .Order-summary-container{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .Payment-footer{
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }
+
+@media screen and (min-width: 1024px){
+    .Payment-footer{
+
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+}
+
+

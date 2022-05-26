@@ -21,6 +21,10 @@
    
   }
 
+  .header_ul_one{
+    width: 30%;
+  }
+
   #white li{
     color: white;
     
@@ -53,12 +57,12 @@
 }
 .searchInput{
     background-color: transparent;
-    border: #FFFAF8 2px solid;
+    border: #FFFAF8 0.5px solid;
     margin-right: 15px;
     
     display: flex;
     flex-direction: column;
-
+    font-size: 17px;
     width: 100%;
     opacity: 1;
 }
@@ -87,10 +91,26 @@
 
 .elebele{
   margin-right: 10px;
+  width: 100%;
+  position: relative;
 }
 
+.input-lupa{
+  position: absolute;
+    top: 20%;
+    right: 4%;
+}
+
+
 .elebele input{
-  padding: 2% 1%;
+  padding: 1% 2%;
+ 
+}
+
+.elebele input::placeholder{
+  color: #E2E2E2;
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 .closeSearch{
   display: none;
@@ -104,6 +124,8 @@
 
 .active-search{
   display: flex;
+  width: 100%;
+  margin-right: 2%;
 }
 
 .deactive-search{
@@ -112,6 +134,14 @@
 
 .deactive-header{
   display: none;
+}
+
+.active-width{
+  width: 40%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 30px;
 }
   @media only screen and (max-width: 950px) {
     .header {
