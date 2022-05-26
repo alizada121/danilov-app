@@ -25,9 +25,12 @@
     color: white;
     
   }
-
+  .shopbag{
+    margin-right: 0;
+}
   #white a{
     text-decoration: none;
+    
   }
   
   .header_ul_two {
@@ -129,6 +132,10 @@
   @media only screen and (max-width: 850px) {
     .header {
       padding: 10% 1%;
+    }
+    .shopbag{
+      margin-right: 0 !important;
+    
     }
   }
   @media only screen and (max-width: 800px) {

@@ -36,6 +36,7 @@
 .contact11{
     text-align: left;
     margin-bottom: 40px;
+    margin-top: 40px;
     font-family: 'Cormorant';
 font-size: 30px;
 font-weight: 700;
@@ -51,6 +52,9 @@ letter-spacing: 0em;
     display: flex;
     justify-content: space-between;
     /* width: 50%; */
+}.lastEdit{
+    width: 98% !important;
+    padding: 2% 2% !important;
 }
 .email input {
     width: 100%;
@@ -60,6 +64,7 @@ letter-spacing: 0em;
     font-size: 17px;
     font-family: 'Montserrat';
 }
+
 .email1 input {
     width: 100%;
     
@@ -98,13 +103,13 @@ text-align: left;
 
 .contact1{
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Cormorant';
 font-size: 30px;
 font-weight: 700;
 line-height: 50px;
 letter-spacing: 0em;
-margin-top: 60px;
+margin-top: 90px;
 }
 .nameandsur{
     /* border: 1px solid blue; */
@@ -152,6 +157,23 @@ color: red;
     display: flex;
     align-items: center;
 }
+.checkbox label{
+    margin-left: 10px;
+}
+.chchck{
+  font-size: 80px;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
+
 .flexDelivery{
     display: flex;
     justify-content: space-between;
@@ -165,7 +187,11 @@ color: red;
 
 .padRight{
     width: 30%;
-    margin-top: 9%;
+    margin-top: 14%;
+}
+.elave{
+    width: 50%;
+    margin-top: 5%;
 }
 .emailPass{
     display: flex;
@@ -206,6 +232,30 @@ color: red;
 .rightAsideBag{
     width: 100%;
 }
+@media only screen and (max-width: 2000px) {
+  .elave{
+      margin-top: 3.2%;
+  }
+  
+ }
+ @media only screen and (max-width: 1800px) {
+    .elave{
+        margin-top: 4%;
+    }
+    
+   } 
+   @media only screen and (max-width: 1500px) {
+    .elave{
+        margin-top: 5%;
+    }
+    
+   }
+   @media only screen and (max-width: 1300px) {
+    .elave{
+        margin-top: 5.4%;
+    }
+    
+   } 
 @media only screen and (max-width: 900px) {
    .deliveryDiv{
        padding: 0;

@@ -128,11 +128,7 @@
     margin-top: 10%;
 }
 
-@media only screen and (max-width: 1025px) {
-    .collection-text {
-        padding-top: 18%;
-    }
-}
+
 
 @media only screen and (max-width: 800px) {
     .collection-text {
@@ -140,7 +136,7 @@
     }
 
     .collection-bg {
-        background-position: center;
+        /* background-position: center; */
         height: 40vh;
     }
 }

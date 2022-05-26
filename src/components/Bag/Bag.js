@@ -19,7 +19,7 @@ function debounce(fn, ms) {
         }, ms)
     };
 }
-const Bag = ({ text, border, showButton, setWitdhh }) => {
+const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);
     const [dimensions, setDimensions] = React.useState({
@@ -49,7 +49,7 @@ const Bag = ({ text, border, showButton, setWitdhh }) => {
                             <ShoppingBag setButton={!button} />
                             <ShoppingBag setLine={!line} />
                         </div>
-                        <SameCard showButton={true} />
+                        <SameCard showButton={true} changeStyle={true} />
                     </div>
                 }
                 {(dimensions.width < 1000) &&
@@ -118,7 +118,7 @@ const Bag = ({ text, border, showButton, setWitdhh }) => {
                                  </div>
                          </div>
                     </div>
-                  <SameCard showButton={true}/>
+                  <SameCard showButton={true} changeStyle={true}/>
                 
                 </>
                     
