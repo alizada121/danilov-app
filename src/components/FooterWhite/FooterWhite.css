@@ -17,6 +17,16 @@
    
 }
 
+.footerHome{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+    border-top: 1px solid black;
+    top:0;
+    height: 100vh;
+
+}
+
 #footerWhite{
     background-image: url(../../assets/bg-pic1.png);
 }
@@ -93,6 +103,7 @@ ul li{
 
 .lastPart{
     margin-bottom: 1%;
+
 }
 
 #white-lastPart{
@@ -103,6 +114,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    align-items: baseline;
     
 }
 #white-lastPart ul li{
@@ -135,6 +147,10 @@ ul li{
 }
 
 .footer-row1 ul{
+    width: 49%;
+}
+
+.footer-row2 ul{
     width: 49%;
 }
 
@@ -228,7 +244,12 @@ ul li{
     .footer-contact{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
     }
+
+   
+  
 
     .lastPart{
         border-bottom: 2px solid black;
@@ -296,6 +317,8 @@ ul li{
     .footer-contact{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
     }
     .lastPart{
         border-bottom: 2px solid black;
@@ -362,6 +385,8 @@ ul li{
     .footer-contact{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 35%;
     }
     .lastPart{
         border-bottom: 2px solid black;
@@ -427,6 +452,8 @@ ul li{
     .footer-contact{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 25%;
     }
    
 

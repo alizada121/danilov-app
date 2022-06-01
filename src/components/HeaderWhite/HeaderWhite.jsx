@@ -10,6 +10,8 @@ import twoLine from '../../Images/twoLine.svg';
 import insta from '../../Images/facee.png'
 import '../HeaderWhite/HeaderWhite.css'
 import Data from "../../Data.json"
+
+import useOutsideClick from "../useOutsideClick"
 const HeaderWhite = ({ dimensions }) => {
 
     const searchRef=useRef();
@@ -20,6 +22,7 @@ const HeaderWhite = ({ dimensions }) => {
     const profileRef=useRef();
     const newinRef=useRef();
     const ulTwoRef=useRef();
+    const SearchRef=useRef();
 
     const activeHeaderRef=useRef();
     const activeSearchRef=useRef();
@@ -34,7 +37,14 @@ const HeaderWhite = ({ dimensions }) => {
     const [activeInput,setActiveInput]=useState(true);
     const [activeWidth,setActiveWidth]=useState(true)
 
-    
+    useOutsideClick(filetedContRef, () => {
+       filetedContRef.current.style.display="none";
+       console.log("salamsss")
+       
+       
+        
+
+      });
 
     const openInput=()=>{
         setActiveHeader(!activeHeader)
@@ -128,8 +138,8 @@ const HeaderWhite = ({ dimensions }) => {
                 <div className={!activeInput ? "active-search" : "deactive-search"} >
 
                
-                <div className="elebele">
-                     <input placeholder="Search" type="search" ref={inputRef} className="searchInput" value={value} onChange={searchValue}>
+                <div className="elebele" ref={SearchRef}>
+                     <input placeholder="Search" type="text" ref={inputRef} className="searchInput" value={value} onChange={searchValue}>
                      
                         </input> 
                         <div className="input-lupa"><img src={liFive} /></div> 

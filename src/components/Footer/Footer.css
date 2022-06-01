@@ -32,12 +32,12 @@
 }
 
 .just{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10%;
-    margin-top: 2%;
+    margin-top: 0%;
 
 }
 .just ul li:first-child{
@@ -49,7 +49,7 @@
 }
 .just ul li{
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
     font-size: 17px;
     font-family: 'Montserrat';
     font-weight: 300;
@@ -66,6 +66,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+    align-items: baseline;
     
 }
 .lastPart ul li{
@@ -90,7 +91,7 @@
 .footer-row1{
     display: flex;
     flex-direction: row;
-    width: 48%;
+    width: 50%;
     justify-content: space-between;
 
 }
@@ -110,7 +111,7 @@
 }
 
 .footer-row2{
-    width: 42%;
+    width: 48%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -123,6 +124,11 @@
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .just ul li{
+        margin-bottom: 5px;
+        font-size: 15px;
     }
 
     .lastPart {
@@ -181,6 +187,12 @@
         margin-right: 5%;
     }
 
+    
+    .just ul li{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
     .footer-row1{
         width: 100%;
         display:flex;
@@ -229,6 +241,11 @@
         margin-right: 5%;
     }
 
+    
+    .just ul li{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
     .footer-row1{
         width: 100%;
         display:flex;
@@ -274,6 +291,8 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    
 
    
     .footer-row1{

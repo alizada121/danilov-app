@@ -58,11 +58,12 @@
 
 .collection-bg {
     width: 100%;
-    background-image: url(../Images/bg-collection.png);
+    background-image: url(../../Images/bg-collection.png);
     margin-top: 5%;
     height: 62vh;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: contain;
+    background-repeat: repeat-x;
 }
 
 .collection-text {

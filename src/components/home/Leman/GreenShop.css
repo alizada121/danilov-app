@@ -11,6 +11,7 @@
 .GreenShop-part1{
     width: 50%;
     display: flex;
+    justify-content: center;
     flex-direction: column;  
     background-color: #001C08;
     ;
@@ -36,7 +37,7 @@
 }
 
 .GreenShop-para{
-    margin-top: 10%;
+    margin-top: 7%;
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 400;

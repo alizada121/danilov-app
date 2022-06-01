@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import "./HomeLeman.css"
-
+import FooterHome from "../../FooterWhite/FooterHome"
 import GreenShop from './GreenShop'
 import ShopSlider from './Shop/ShopSlider'
 import FollowUs from './FollowUs/FollowUs'
@@ -24,7 +24,7 @@ function HomeLeman({dimensions}) {
         <FollowUs/>
         <div className='homepage-footer'>
           <div className='homepage-footer-white'>
-              <FooterWhite/>
+              <FooterHome/>
           </div>
 
           <div className='homepage-footer-black'>

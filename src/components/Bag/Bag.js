@@ -90,7 +90,7 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                             <img src={responsiveImg} />
                             <div className="yazi">
                                 <p>Demedim</p>
-                                <span>733$ | In Stock</span>
+                                <span>733$   | In Stock</span>
                             </div>
                         </div>
                         <div className="smallScreen_2">

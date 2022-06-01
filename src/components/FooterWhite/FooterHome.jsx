@@ -1,10 +1,12 @@
 import React from "react";
-import './Footer.css';
-import insta from '../../assets/insta-black.png';
-import fb from '../../assets/fb-black.png'
+import './FooterWhite.css';
+// import insta from '../../assets/insta-black.png';
+// import fb from '../../assets/fb-black.png'
+import insta from "../../assets/instaWhite2.svg"
+import fb from "../../assets/Fbwhite.svg"
+
 import bg1 from "../../assets/bg-pic1.png"
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-const Footer = () => {  
+const FooterWhite = () => {  
     return (
         <div className="foot">
 
@@ -12,8 +14,8 @@ const Footer = () => {
                 <img src={bg1}></img>
 
             </div> */}
-            <div className="footerHome">
-                <div className="just">
+            <div className="footerHome" id="footerWhite">
+                <div className="just" id="whitejust">
                     <div className="footer-row1">
                     <ul>
                         <li>About us</li>
@@ -48,7 +50,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"><img className="insta" src={insta} /></a>
                             </div>
                             <div className="footer-fb">
-                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={fb}  /></a>
+                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={fb}   /></a>
                             </div>
                            
                         </div>
@@ -57,8 +59,8 @@ const Footer = () => {
                     </ul>
                     </div>   
                 </div>
-                <div className="lastPart">
-                    <ul>
+                <div className="lastPart" id="white-lastPart">
+                  <ul>
                         <li>@ 2022 All Rights Reserved</li>
                         <a href="https://claradix.com/#/welcome" target="_blank">
                         <li className="claradix">By CLARADIX STUDIO</li>
@@ -66,7 +68,6 @@ const Footer = () => {
                         <li>Privacy Policy</li>
                     </ul>
 
-                   
                 </div>
 
                 <div className="claradix-mobile-cont">
@@ -80,4 +81,4 @@ const Footer = () => {
         </div>
     )
 }
-export default Footer
+export default FooterWhite

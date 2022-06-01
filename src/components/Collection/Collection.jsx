@@ -1,13 +1,14 @@
 import React,{useState,useEffect} from 'react'
 
-import "../Collection/Collection.css"
-import Card from '../components/Card/Card'
-import data from "../Data.json"
-import WinterCollection from '../components/home/Shirin/WinterCollection/WinterCollection'
-import vectorRight from "../assets/Vector (15).png"
-import Footer from '../components/Footer/Footer'
+import "./Collection.css"
+import Card from '../Card/Card'
+import data from "../../Data.json"
+import WinterCollection from '../home/Shirin/WinterCollection/WinterCollection'
+import vectorRight from "../../assets/Vector (15).png"
 
-import HeaderBlack from '../components/HeaderBlack/HeaderBlack'
+import Footer from '../Footer/Footer'
+
+import HeaderBlack from '../HeaderBlack/HeaderBlack'
 
 function Collection({dimensions}) {
 
@@ -15,13 +16,7 @@ function Collection({dimensions}) {
 
 
 
-    // const [slice1,setSlice1]=useState(0);
-    // const [slice2,setSlice2]=useState(4);
-
-    // useEffect(()=>{
-    //     if(window.innerWidth< 1024) setSlice2(1)
-    //     else setSlice2(4)
-    // },[window.innerWidth])
+   
    
 
   return (

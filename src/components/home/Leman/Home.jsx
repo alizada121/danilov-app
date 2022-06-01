@@ -6,6 +6,8 @@ function Home({dimensions}) {
   return (
     <div className='Home'>
         <HomePage/>
+
+
         <HomeLeman dimensions={dimensions}/>
       
 

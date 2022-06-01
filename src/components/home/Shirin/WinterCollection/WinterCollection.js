@@ -41,7 +41,7 @@ const WinterCollection = () => {
         <div>
         {(dimensions.width > 820) &&
           <div className="collectionWinter">
-            <div><img className="colwin" src={remove4}/></div>
+            <div className="colwin-cont"><img className="colwin" src={remove4}/></div>
             <div className="magna">
               <div className="twenty">
                  <h1 >‘22 Winter Collection</h1>

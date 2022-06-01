@@ -8,6 +8,14 @@
     width: 80%;
     margin-top: 3%;
 }
+
+.danilovimg-mob{
+    display: none;
+}
+
+.followus-about{
+    display: none;
+}
   
 .about-footer{
 
@@ -51,45 +59,244 @@
     margin-top: 8%;
     margin-bottom: 10%;
     width: 79%;
+    height: 30%;
 
 }
 .odio{
     color: #463227;
-font-size: 20px;
+    font-size: 29px;
 line-height: 25px;
 font-weight: 500;
 font-family: 'Montserrat';
 text-align: left;
 /* margin-bottom: 100px; */
 margin-bottom: 18%;
+height: 30%;
 }
-@media only screen and (max-width: 1700px) {
-   .onee{
-       margin-top: 5%;
+
+/* HEADING */
+.about-nav{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+
+.about-nav p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.about-name-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-name{
+    width: auto;
+}
+
+.about-name h1{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 50px;
+}
+
+.about-line{
+    position: relative;
+    width: 79%;
+    border-bottom: 2px solid black;
+}
+
+.emalatxana{
+    position: absolute;
+    width: 10%;
+    right: 1.5%;
+    bottom: 0;
+}
+
+.emalatxana p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* RESPONSIVENESS */
+
+.about-mob-text1{
+   width: 100%;
+
+}
+
+
+.about-mob-text1 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.about-mob-text2{
+    margin-bottom:10% ;
+}
+
+.about-mob-text2 p{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+}
+
+
+.about-mob-texts{
+    padding-bottom: 10%;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .about-name{
+        width: 60%;
+        
+    }
+
+    .followus-about{
+        display: block;
+    }
+
+    .about-mob-text1{
+        margin-top: 10%;
+    }
+
+    .aboutBottom {
+        padding: 0% 5%;
+    }
+    .about-name h1{
+        font-size: 33px;
+        line-height: normal;
+    }
+    .emalatxana{
+        display: none;
+    }
+
+    .danilovimg{ 
+        display: none;
+    }
+
+   .about-footer{
+       width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+   }
+
+   .swiper{
+       height: 570px;
+   }
+
+   .about-mob-text1 p{
+       font-size: 16px;
+   }
+
+   
+
+
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .about-name{
+        width: 60%;
+        
+    }
+
+    .followus-about{
+        display: block;
+    }
+
+    .about-mob-text1{
+        margin-top: 10%;
+    }
+
+    .aboutBottom {
+        padding: 0% 5%;
+    }
+    .about-name h1{
+        font-size: 33px;
+        line-height: normal;
+    }
+    .emalatxana{
+        display: none;
+    }
+
+    .danilovimg{ 
+        display: none;
+    }
+
+   .about-footer{
+       width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+   }
+
+   .swiper{
+       height: 570px;
+   }
+
+   .about-mob-text1 p{
+       font-size: 16px;
+   }
+
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .about-name{
+        width: 60%;
+        
+    }
+
+    .about-mob-text1{
+        margin-top: 10%;
+    }
+
+    .followus-about{
+        display: block;
+    }
+
+    .aboutBottom {
+        padding: 0% 5%;
+    }
+    .about-name h1{
+        font-size: 33px;
+        line-height: normal;
+    }
+    .emalatxana{
+        display: none;
+    }
+
+    .danilovimg{ 
+        display: none;
+    }
+
+   .about-footer{
+       width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+   }
+
+   .swiper{
+       height: 570px;
+   }
+
+   .about-mob-text1 p{
+       font-size: 16px;
    }
 }
-@media only screen and (max-width: 1600px) {
-    .onee{
-        margin-top: 3%;
-    }
- }
-@media only screen and (max-width: 1500px) {
-    .onee{
-        margin-top: 8%;
-    }
- }
-@media only screen and (max-width: 1306px) {
-    .onee{
-        margin-top: 46px;
-    }
- }
- @media only screen and (max-width: 1206px) {
-    .onee{
-        margin-top: 13%;
-    }
- }
- @media only screen and (max-width: 1120px) {
-    .onee{
-        margin-top: 17%;
-    }
- }
+@media screen and (min-width: 768px) and (max-width: 1024px) {}

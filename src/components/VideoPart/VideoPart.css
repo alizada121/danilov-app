@@ -27,8 +27,9 @@ width: 39%;
 .green{
     
     background-color: #001C08;
-     padding: 50px ;
+     padding: 5% ;
      margin-bottom: 450px;
+    padding-top: 6%;
 }
 .integer{
     font-family: 'Cormorant';
@@ -52,3 +53,171 @@ margin-top: 30px;
 width: 68%;
 margin: 3%  0 5% 15%;
 }
+
+.video-itself{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.video-desc{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.video-itself video{
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .headerVideo{
+        font-size: 45px;
+        margin-left: 5%;
+    }
+    
+    .header2{
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .videoContainer {
+        padding: 5% 0%;
+    }
+
+    .video-itself{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .video-itself video{
+        width: 100%;
+    }
+
+    .video-desc {
+       
+        top: auto;
+        bottom: 0;
+        right: 3%;
+    }
+
+    .integer {
+        font-family: 'Cormorant';
+        font-size: 33px;
+        font-weight: 500;
+    }
+    .whiteText {
+       
+        font-size: 14px;
+        width: 100%;
+        margin: 0% 0%;
+    }
+
+    .green{
+        margin-bottom: 20%;
+    }
+
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .headerVideo{
+        font-size: 45px;
+        margin-left: 5%;
+    }
+    
+    .header2{
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    .videoContainer {
+        padding: 5% 0%;
+    }
+
+    .video-itself{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .video-itself video{
+        width: 100%;
+    }
+
+    .video-desc {
+       
+        top: auto;
+        bottom: 0;
+        right: 3%;
+    }
+
+    .integer {
+        font-family: 'Cormorant';
+        font-size: 33px;
+        font-weight: 500;
+    }
+    .whiteText {
+       
+        font-size: 14px;
+        width: 100%;
+        margin: 0% 0%;
+    }
+
+    .green{
+        margin-bottom: 20%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) { .headerVideo{
+    font-size: 45px;
+    margin-left: 5%;
+}
+
+.header2{
+    width: 100%;
+    padding: 0 5%;
+}
+
+.videoContainer {
+    padding: 5% 0%;
+}
+
+.video-itself{
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.video-itself video{
+    width: 100%;
+}
+
+.video-desc {
+   
+    top: auto;
+    bottom: 0;
+    right: 3%;
+}
+
+.integer {
+    font-family: 'Cormorant';
+    font-size: 33px;
+    font-weight: 500;
+}
+.whiteText {
+   
+    font-size: 14px;
+    width: 100%;
+    margin: 0% 0%;
+}
+
+.green{
+    margin-bottom: 20%;
+}}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+

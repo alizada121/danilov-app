@@ -177,6 +177,17 @@
     left: 90%;
   }
 
+  .mob-line{
+    position: absolute;
+    /* transform: translateY(92%); */
+    /* fill: rgb(31, 30, 30); */
+    /* right: 50px; */
+    z-index: 999;
+    bottom: unset;
+    width: 45%;
+    transform: translateY(450px);
+    right: 26%;
+  }
 
 .swiper {
     width: 100%;
@@ -309,6 +320,12 @@
 
 }
 
+.mob-line{
+    width: 34%;
+    transform: translateY(561px);
+    right: 33%;
+}
+
    
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
@@ -364,6 +381,12 @@
 
     }
 
+    .mob-line{
+        width: 32%;
+    transform: translateY(560px);
+    right: 33%;
+    }
+
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
 
@@ -413,7 +436,7 @@
     }
 
     .swiper-button-next {
-        bottom: -10% !important;
+        bottom: -9% !important;
         top: 75% !important;
        /* transform: rotate(180deg);  */
        right: 10% !important;
@@ -421,6 +444,13 @@
        transform: rotate(0deg);
 
     }
+
+    .mob-line{
+         width: 39%;
+    transform: translateY(559px);
+    right: 30%;
+    }
+   
 
 
 }
@@ -458,7 +488,7 @@
 
 
     .swiper-button-prev {
-        bottom: -12% !important;
+        bottom: -14% !important;
         top: 80% !important;
        transform: rotate(180deg); 
        left: 10% !important;

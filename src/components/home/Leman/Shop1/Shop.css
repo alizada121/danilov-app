@@ -1,0 +1,20 @@
+.shop-heading h1{
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 25px;
+/* or 25% */
+
+text-align: center;
+}
+
+.shop-general{
+    margin-top: 10%;
+}
+
+
+
+
+
+

@@ -14,6 +14,7 @@ import ShopSlider5 from "../../../../assets/shopSlider5.png"
 import vectorUp from "../../../../assets/Vector-up.png"
 import vectorDown from "../../../../assets/Vector -down.png"
 import line from "../../../../assets/Line 3.png"
+import mobline from "../../../../assets/line5.svg"
 import Card from "../../../Card/Card.jsx"
 
 import data from "../../../../Data.json"
@@ -37,7 +38,7 @@ function ShopSlider({dimensions}) {
     const Slider2Ref=useRef();
     const Slider3Ref=useRef();
     const generalSliderRef=useRef();
-
+  
     const [counter,setCounter]=useState(0);
    
 
@@ -224,6 +225,7 @@ function ShopSlider({dimensions}) {
         
       
         <div className='swiper-mob-cont'>
+            <img src={mobline} className="mob-line"></img>
   <Swiper navigation={true} modules={[Navigation]}   loop={true}  noSwiping= {true} onlyExternal={ true} noSwipingClass= "swiper-slide" className="mySwiper">
 
         <SwiperSlide> <div className='mobile-card'>

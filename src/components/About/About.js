@@ -7,6 +7,8 @@ import danilov2 from '../../Images/danilov2.png'
 import VideoPart from "../VideoPart/VideoPart";
 import Footer from "../../components/Footer/Footer";
 import Header  from "../Header/Header";
+import FollowUs from "../home/Leman/FollowUs/FollowUs"
+import MobileSwiper from "./MobileSwiper";
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -49,7 +51,25 @@ const About = ({setWitdhh})=>{
           </div>
             
              <div className="aboutBottom">
-                   <ImageHeader title={'Home  /  About us '} titleH1={'About us'} setBorder={!border} setText={!text} imagetext={'Emalatxana'}  setWitdhh={true}/>
+             <div className="about-heading-general">
+                        <div className="about-nav">
+                            <p>Home  /  Man  /  SS ‘22 Collection </p>
+
+                        </div>
+                        <div className="about-name-cont">
+
+                        
+                        <div className="about-name">
+                            <h1>About us</h1>
+
+
+                        </div>
+                        <div className="about-line">
+                          <div className="emalatxana"><p>Emalatxana</p> </div>
+  
+                        </div>
+                        </div>
+                    </div>
                    <div className="danilovimg">
                        <div className="danilov1img">
                            <p className="odio">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
@@ -72,9 +92,46 @@ const About = ({setWitdhh})=>{
                        </div>
                        
                    </div>
-                   <hr/>
+                   
+
+
+                   <div className="danilovimg-mob">
+
+                     <div className="about-mob-text1">
+                       <p>Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non.</p>
+
+                     </div>
+
+                     <div className="about-mob-slider">
+                          <MobileSwiper/>
+                     </div>
+
+                     <div className="about-mob-texts">
+
+                     
+
+                     <div className="about-mob-text2">
+                       <p>Tincidunt dui viverra duis sapien etiam sed urna faucibus. Malesuada nunc urna, amet accumsan, eleifend vulputate. Non adipiscing purus venenatis, aenean erat enim, etiam pellentesque. Ullamcorper vitae lectus elementum, eu. Arcu egestas non ultricies vel iaculis ultricies velit purus. Varius morbi suscipit amet ullamcorper arcu consectetur amet. Quisque ultrices turpis varius vitae, arcu pharetra.
+                        </p>
+
+                     </div>
+
+                     <div className="about-mob-text2">
+                       <p>
+                       Tincidunt dui viverra duis sapien etiam sed urna faucibus. Malesuada nunc urna, amet accumsan, eleifend vulputate. Non adipiscing purus venenatis, aenean erat enim, etiam pellentesque. Ullamcorper vitae lectus elementum, eu. Arcu egestas non ultricies vel iaculis ultricies velit purus. Varius morbi suscipit amet ullamcorper arcu consectetur amet. Quisque ultrices turpis varius vitae, arcu pharetra.
+
+                       </p>
+
+                      </div>
+                      </div>
+
+                   </div>
              </div>
            <VideoPart/>
+           <div className="followus-about">
+             <FollowUs/>
+           </div>
+           
            <div className="about-footer">
              <Footer/>
            </div>

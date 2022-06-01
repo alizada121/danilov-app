@@ -6,7 +6,8 @@ import line from '../../../Images/Vector1.svg'
 import upImg from '../../../Images/upImg.svg'
 import pass from '../../../Images/pass.svg'
 import Arrival from "./Arrivals/Arrival";
-import Shop from "./Shop/Shop";
+import Shop from "../Leman/Shop1/Shop";
+
 import WinterCollection from "./WinterCollection/WinterCollection";
 import Winter from "./Winter/Winter";
 import HeaderWhite from "../../HeaderWhite/HeaderWhite";

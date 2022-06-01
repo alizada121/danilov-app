@@ -2,6 +2,7 @@ import React from "react";
 import './VideoPart';
 import './VideoPart.css';
 import Footer from '../../components/Footer/Footer'
+import video from "../../assets/movie.mp4"
 const VideoPart = () => {
     return (
         <>
@@ -11,7 +12,14 @@ const VideoPart = () => {
                 Id aliquam ante eu tellus tristique quam magna non.
                 Tortor sapien purus massa neque nibh quis tempus natoque in.
                 Eget est amet tellus justo faucibus.</p>
-            <p>video olacaq</p>
+            
+            <div className="video-itself">
+                <p className="video-desc">Tempus pharetra</p>
+                <video src={video}></video>
+
+            </div>
+
+        
            
 
         </div>

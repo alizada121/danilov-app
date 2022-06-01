@@ -58,7 +58,25 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
             <div className={`main ${menuOpen && 'sss'} `}>
                 <HeaderBlack dimensions={dimensions}  />
                 <div className="man">
-                    <ImageHeader setWitdhh={true} title={'Home  /  Man  /  SS ‘22 Collection '} titleH1={'Nazvanie'} />
+                    <div className="single-heading-general">
+                        <div className="single-nav">
+                            <p>Home  /  Man  /  SS ‘22 Collection </p>
+
+                        </div>
+                        <div className="single-name-cont">
+
+                        
+                        <div className="single-name">
+                            <h1>Nazvanie</h1>
+
+
+                        </div>
+                        <div className="single-line">
+
+                        </div>
+                        </div>
+                    </div>
+                    {/* <ImageHeader setWitdhh={true} title={'Home  /  Man  /  SS ‘22 Collection '} titleH1={'Nazvanie'} /> */}
                 </div>
                 <>
                     {(dimensions.width > 820) && <div className="filteredImage">

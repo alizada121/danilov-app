@@ -9,7 +9,7 @@ import Contact from './components/contact/Contact';
 import Profile1 from './components/Profile/Profile1';
 import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
-import Collection from './Collection/Collection';
+import Collection from './components/Collection/Collection';
 
 //Shirin
 import SingleProduct from './components/SingleProduct/SingleProduct';
@@ -18,6 +18,7 @@ import Bag from './components/Bag/Bag'
 import Delivery from './components/Delivery/Delivery';
 import Login from './components/Login/Login';
 import './style.css'
+import CollectionCard from './components/CollectionCard/CollectionCard';
 
 function debounce(fn, ms) {
   let timer
@@ -55,6 +56,7 @@ function App() {
       <Switch>
         <Route exact path="/">
            <Home dimensions ={dimensions}/>
+           {/* <CollectionCard/> */}
         </Route>
 
         <Route exact path="/collection">

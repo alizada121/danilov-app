@@ -8,12 +8,16 @@
     width: 50%;
     margin-right: 10%;
 }
+
+.colwin-cont{
+    width: 50%;
+}
 .magna{
     width: 40%;
 }
 .twenty h1{
     width: 100%;
-    font-size: 58px;
+    font-size: 55px;
     font-family: 'Cormorant';
     line-height: 60px;
     font-weight: 400;

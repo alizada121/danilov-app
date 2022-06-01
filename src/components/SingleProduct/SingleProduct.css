@@ -44,7 +44,7 @@ text-align: left;
 }
 .filteredImage {
     display: flex;
-    margin-top: 60px;
+    margin-top: 8%;
     /* margin-bottom: 280px; */
     /* overflow: hidden; */
 
@@ -237,6 +237,44 @@ text-align: center;
 .fsz {
     /* font-size: 20px; */
     font-weight: 600;
+}
+
+/* NAV */
+
+.single-nav{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+
+.single-nav p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.single-name-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.single-name{
+    width: auto;
+}
+
+.single-name h1{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 50px;
+}
+
+.single-line{
+    width: 80%;
+    border-bottom: 2px solid black;
 }
 @media only screen and (max-width: 1000px) {
     .fff {
