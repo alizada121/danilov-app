@@ -50,6 +50,8 @@ const HeaderWhite = ({ dimensions }) => {
         setActiveHeader(!activeHeader)
         setActiveInput(!activeInput)
         setActiveWidth(!activeInput)
+
+        
         
 
 
