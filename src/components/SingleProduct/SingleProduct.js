@@ -14,6 +14,7 @@ import arrowMiddle from '../../Images/shirin//13.svg';
 import arrowRight from '../../Images/shirin//14.svg';
 import upLine from '../../Images/shirin//9876.svg'
 import PopUp from "../Pop Up/PopUp";
+import FollowUs from "../home/Leman/FollowUs/FollowUs"
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -161,6 +162,10 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                         </div>
                     }
                 </>
+                <div className="single-followUs">
+                    <FollowUs/>
+
+                </div>
                 <div className="mesafe">
                     <Footer />
                 </div>

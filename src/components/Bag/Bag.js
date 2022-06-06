@@ -9,6 +9,8 @@ import responsiveImg from '../../Images/shirin/7777.png';
 import colorvector from '../../Images/shirin/colorVector.svg';
 import sizeHeart from '../../Images/shirin/sizeHeart.svg';
 import sizeDelete from '../../Images/shirin/sizeDelete.svg';
+
+import FollowUs from "../home/Leman/FollowUs/FollowUs";
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -42,7 +44,24 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
         <div>
              <HeaderBlack dimensions={dimensions}/> 
             <div className="bottomBag">
-                <ImageHeader title={'Home  /  Bag'} titleH1={'My bag'} setText={!text} setWitdhh={true}  setBorder={border} imagetext={'Continue shopping'} /> 
+            <div className="bag-heading-general">
+                        <div className="bag-nav">
+                            <p>Home  /  Man  /  SS ‘22 Collection </p>
+
+                        </div>
+                        <div className="bag-name-cont">
+
+                        
+                        <div className="bag-name">
+                            <h1>My bag</h1>
+
+
+                        </div>
+                        <div className="bag-line">
+
+                        </div>
+                        </div>
+                    </div>
                 {(dimensions.width > 1000) &&
                     <div className="flexRight">
                         <div className="marginD">
@@ -59,7 +78,7 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                             <img src={responsiveImg} />
                             <div className="yazi">
                                 <p>Demedim</p>
-                                <span>733$ | In Stock</span>
+                               <p> <span>733$ |</span> In Stock</p>
                             </div>
                         </div>
                         <div className="smallScreen_2">
@@ -90,7 +109,7 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                             <img src={responsiveImg} />
                             <div className="yazi">
                                 <p>Demedim</p>
-                                <span>733$   | In Stock</span>
+                                <p><span>733$   | </span>In Stock</p>
                             </div>
                         </div>
                         <div className="smallScreen_2">
@@ -123,6 +142,10 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                 </>
                     
                 }
+            </div>
+            <div className="bag-followUs">
+                <FollowUs/>
+
             </div>
             <div className="mesafe">
              <Footer/> 
