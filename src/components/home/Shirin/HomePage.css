@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-position: center;
 }
 .middle{
     margin-top: 15%;

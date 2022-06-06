@@ -87,6 +87,9 @@
     }
      }
      @media only screen and (max-width: 450px) {
+        .winterText{
+            font-size: 34px;
+        }
        .winterCollection{
            padding-top: 60px;
        }
