@@ -19,13 +19,14 @@ const Arrival = () => {
                     <div className="texttwo">
                         <p className="lacus">Lacus elit amet volutpat pulvinar.
                             Ultrices placerat ut semper a in nisl, a cursus</p>
+                       
+
+                        </div>
                         <div className="twice">
                             <p className="seeAll">See all</p>
                             <div className="anyW1">
                                 <div className="divS1"></div> <img className="distance1" src={passBlack} />
                             </div>
-
-                        </div>
 
                     </div>
                 </div>

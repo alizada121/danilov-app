@@ -12,6 +12,7 @@ import '../HeaderWhite/HeaderWhite.css'
 import Data from "../../Data.json"
 
 import useOutsideClick from "../useOutsideClick"
+import HamMenu from "../Hamburger/HamMenu";
 const HeaderWhite = ({ dimensions }) => {
 
     const searchRef=useRef();
@@ -21,8 +22,9 @@ const HeaderWhite = ({ dimensions }) => {
     const filetedContRef=useRef();
     const profileRef=useRef();
     const newinRef=useRef();
-    const ulTwoRef=useRef();
-    const SearchRef=useRef();
+    const refRef=useRef();
+    const absoluteLupa=useRef();
+    const hamburgerRef=useRef();
 
     const activeHeaderRef=useRef();
     const activeSearchRef=useRef();
@@ -33,26 +35,42 @@ const HeaderWhite = ({ dimensions }) => {
     const [filteredShoes,setFilteredShoes]=useState();
     const [shoes,setShoes]=useState();
     const [map,setMap]=useState();
-    const [activeHeader,setActiveHeader]=useState(false);
+    const [activeHeader,setActiveHeader]=useState(true);
     const [activeInput,setActiveInput]=useState(true);
     const [activeWidth,setActiveWidth]=useState(true)
+    const [openedMenu,setOpenedMenu]=useState(false)
 
-    useOutsideClick(filetedContRef, () => {
-       filetedContRef.current.style.display="none";
+    useOutsideClick(refRef, () => {
+    //    inputRef.current.style.display="none";
+       filetedContRef.current.style.display="none"
+    //    absoluteLupa.current.style.display="none"
+     
        console.log("salamsss")
+       setActiveHeader(true)
+       setActiveInput(true)
+
+       setActiveWidth(true)
+       
+      
+       
+
        
        
+      
         
 
       });
 
     const openInput=()=>{
+
         setActiveHeader(!activeHeader)
         setActiveInput(!activeInput)
         setActiveWidth(!activeInput)
 
         
-        
+    
+        console.log(activeHeader)
+
 
 
 
@@ -66,17 +84,7 @@ const HeaderWhite = ({ dimensions }) => {
         
     }
 
-    const closeInput=()=>{
-        // closeSearchRef.current.style.color="red"
-        // closeSearchRef.current.style.opacity="0"
-        // closeSearchRef.current.style.display="none"
-        // inputRef.current.style.width="0"
-
-
-       
-       
-
-    }
+   
 
     const searchValue=(e)=>{
          setValue(e.target.value)
@@ -96,11 +104,28 @@ const HeaderWhite = ({ dimensions }) => {
           setFilteredShoes(result)
     },[value])
 
+    const openMenu=()=>{
+
+        if(!openedMenu){
+            setOpenedMenu(true)
+            document.body.style.overflow="hidden"
+            hamburgerRef.current.style.opacity="0"
+
+        }else{
+            setOpenedMenu(false)
+            document.body.style.overflow="auto"
+            hamburgerRef.current.style.opacity="1"
+        }
+        
+        console.log(openedMenu)
+
+    }
+
 
     
     return <>
 
-        {(dimensions.width > 800) && <div className="header"   onClick={closeInput} >
+        {(dimensions.width > 800) && <div className="header"    >
             <ul className="header_ul_one" id="white">
                <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <li><img src={liOne} /></li></a>
                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img className="insta" src={insta} /></li></a>
@@ -118,10 +143,10 @@ const HeaderWhite = ({ dimensions }) => {
           
 
 
-            <ul  className={!activeWidth? "active-width" : "header_ul_two"} id="white" ref={ulTwoRef}>
+            <ul  className={!activeWidth? "active-width" : "header_ul_two"} id="white" ref={refRef} >
 
 
-                <div    className={!activeHeader ? "active-header" : "deactive-header"} >
+                <div    className={activeHeader ? "active-header" : "deactive-header"} >
 
 
                 
@@ -140,11 +165,11 @@ const HeaderWhite = ({ dimensions }) => {
                 <div className={!activeInput ? "active-search" : "deactive-search"} >
 
                
-                <div className="elebele" ref={SearchRef}>
+                <div className="elebele" >
                      <input placeholder="Search" type="text" ref={inputRef} className="searchInput" value={value} onChange={searchValue}>
                      
                         </input> 
-                        <div className="input-lupa"><img src={liFive} /></div> 
+                        <div className="input-lupa" ref={absoluteLupa}><img src={liFive} /></div> 
                    
                              <div className="fileteredShoes-cont" ref={filetedContRef}>
 
@@ -167,7 +192,7 @@ const HeaderWhite = ({ dimensions }) => {
 
 
                 <Link to="/bag">
-                 <li  className='shopbag'><img src={liSix}/></li>
+                 <div  className='shopbag'><img src={liSix}/></div>
                 </Link>
                
 
@@ -177,27 +202,35 @@ const HeaderWhite = ({ dimensions }) => {
 
         </div>}
         {(dimensions.width < 800) && <div className="header">
-            <div className="wtdh">
-               <ul className="header_ul_one">
+            <div className="hamburger" ref={hamburgerRef} onClick={openMenu}>
+               <div className="header_ul_one">
                  
-                <li><img src={twoLine} /></li>
+                <img src={twoLine} />
               
-            </ul>
-            <ul className="header_ul_one">
+                </div>
+
+                 <div className="header_ul_one">
                  
-                 <li><img src={twoLine} /></li>
+                 <div><img src={twoLine} /></div>
                
-             </ul>   
+                 </div>   
             </div>
           
             <img className="sizeImg" src={liFour} />
             
-            <ul className="header_ul_two">
-                <li ><img src={small} /></li>
+            <Link to="/bag">
+            <div className="header_ul_two">
+                <div ><img src={small} /></div>
 
-            </ul>
+            </div>
+            </Link>
             
         </div>}
+
+        <div className={openedMenu ? "active-ham" : "deactive-ham"}>
+            <HamMenu/>
+
+        </div>
     </>
 }
 export default HeaderWhite

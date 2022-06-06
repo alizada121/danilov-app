@@ -149,6 +149,11 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .collection-bg {
+        width: 100%;
+        background-image: url(../../assets/collectio-mob-bg.svg);
+        background-size: cover;
+    }
     .collection-card {
         flex-wrap: wrap;
 

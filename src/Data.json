@@ -1,6 +1,6 @@
 [
     {
-        "name":"Makasin Leman",
+        "name":"Black Shoes1",
         "price":"800$",
         "desc":"description1",
         "img":"http://localhost:3000/static/media/shopSlider1.e9c0316f761ea5301a00.png"
@@ -8,7 +8,7 @@
     },
 
     {
-        "name":"Shepshep eli",
+        "name":"Brwon Shoes1",
         "price":"900$",
         "desc":"description2",
         "img":"http://localhost:3000/static/media/shopSlider3.9cf552bdf6e7bc5c36c4.png"
@@ -17,14 +17,14 @@
     },
 
     {
-        "name":"krasovka Ferhad",
+        "name":"Black-red Shoes",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider3.9cf552bdf6e7bc5c36c4.png"
     
     },
     {
-        "name":"Vetnamka Cavid",
+        "name":"Leather Shoes",
         "price":"800$",
         "desc":"description1",
         "img":"http://localhost:3000/static/media/shopSlider1.e9c0316f761ea5301a00.png"
@@ -34,28 +34,28 @@
    
 
     {
-        "name":"Makasin Tehran",
+        "name":"Black Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
     
     },
     {
-        "name":"Bot Azad",
+        "name":"Green Shoes",
         "price":"800$",
         "desc":"description3",
         "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes1",
         "price":"800$",
         "desc":"description3",
         "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
@@ -64,7 +64,7 @@
 
 
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
@@ -72,7 +72,7 @@
     },
 
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
@@ -80,41 +80,41 @@
     },
 
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
     
     }, {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
     
     },
     {
-        "name":"aggash",
+        "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
         "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"

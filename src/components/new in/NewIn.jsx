@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import Header from '../Header/Header'
-import down from "../../assets/Vector.svg"
+// import down from "../../assets/Vector.svg"
 
 import rightLong from "../../assets/vector-right-long.svg"
 
@@ -49,7 +49,7 @@ function NewIn({dimensions}) {
 
             <div className='newIn-heading-filter'>
               <p>Filters</p>
-              <img src={down}></img>
+              {/* <img src={down}></img> */}
 
             </div>
 

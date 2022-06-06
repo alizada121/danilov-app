@@ -287,7 +287,8 @@ text-align: center;
         text-align: left;
     }
     .common {
-        padding: 0 10%;
+        padding: 0 5%;
+        padding-bottom: 10%;
     }
     .arrows1 {
         display: flex;
@@ -337,10 +338,188 @@ text-align: center;
 @media only screen and (max-width: 500px) {
    .linearr{
     /* transform: translate(350px ,-25px); */
-    position: fixed;
+    position: absolute;
     z-index: 999;
    }
    .chooseInput{
        margin-bottom: 40px;
    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .single-name h1 {
+        
+        font-size: 35px;
+    }
+
+    .single-line {
+        height: 34px;
+    }
+
+    .nazvannaz {
+        font-size: 13px;
+    }
+
+    .single-nav{
+        display: none;
+    }
+
+    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+        border: 1px solid black;
+        width: 13%;
+        padding: 5% 0%;
+    }
+
+    .chooseSize input {
+        background-color: #E5E5E5;
+        width: 97%;
+        padding: 1% 3px 1% 3%;
+        border: 1px solid gray;
+    }
+
+    .mesafe{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .man {
+        padding: 0% 0%;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 5% !important;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .single-name h1 {
+        
+        font-size: 35px;
+    }
+
+    .single-line {
+        height: 34px;
+    }
+
+    .nazvannaz {
+        font-size: 13px;
+    }
+
+    .single-nav{
+        display: none;
+    }
+
+    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+        border: 1px solid black;
+        width: 13%;
+        padding: 5% 0%;
+    }
+
+    .chooseSize input {
+        background-color: #E5E5E5;
+        width: 97%;
+        padding: 1% 3px 1% 3%;
+        border: 1px solid gray;
+    }
+
+    .mesafe{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .man {
+        padding: 0% 0%;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 5% !important;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .single-name h1 {
+        
+        font-size: 35px;
+    }
+
+    .single-line {
+        height: 34px;
+    }
+
+    .nazvannaz {
+        font-size: 13px;
+    }
+
+    .single-nav{
+        display: none;
+    }
+
+    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+        border: 1px solid black;
+        width: 13%;
+        padding: 5% 0%;
+    }
+
+    .chooseSize input {
+        background-color: #E5E5E5;
+        width: 97%;
+        padding: 1% 3px 1% 3%;
+        border: 1px solid gray;
+    }
+
+    .mesafe{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .man {
+        padding: 0% 0%;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 5% !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .single-name h1 {
+        
+        font-size: 35px;
+    }
+
+    .single-line {
+        height: 34px;
+    }
+
+    .nazvannaz {
+        font-size: 13px;
+    }
+
+    .single-nav{
+        display: none;
+    }
+
+    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+        border: 1px solid black;
+        width: 13%;
+        padding: 5% 0%;
+    }
+
+    .chooseSize input {
+        background-color: #E5E5E5;
+        width: 97%;
+        padding: 1% 3px 1% 3%;
+        border: 1px solid gray;
+    }
+
+    .mesafe{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .man {
+        padding: 0% 0%;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        padding-left: 5% !important;
+    }
 }

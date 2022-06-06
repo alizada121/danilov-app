@@ -29,6 +29,7 @@
 
 #footerWhite{
     background-image: url(../../assets/bg-pic1.png);
+    background-size: cover;
 }
 
 .first-row1 ul li:first-child{
@@ -212,6 +213,7 @@ ul li{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 5%;
     }
 
    
@@ -276,6 +278,13 @@ ul li{
     .claradix-mobile-cont{
         display: flex;
     }
+
+    .footerHome{
+        height:auto;
+
+    }
+    
+
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
 
@@ -287,6 +296,7 @@ ul li{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 5%;
     }
 
     .footer-row1{
@@ -345,6 +355,10 @@ ul li{
     .claradix-mobile-cont{
         display: flex;
     }
+    .footerHome{
+        height:auto;
+
+    }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
     .claradix{
@@ -355,6 +369,7 @@ ul li{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 5%;
     }
 
     .footer-row1{
@@ -413,6 +428,10 @@ ul li{
     .claradix-mobile-cont{
         display: flex;
     }
+    .footerHome{
+        height:auto;
+    }
+
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -422,6 +441,7 @@ ul li{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 5%;
     }
 
     .footer-row1{
@@ -454,6 +474,9 @@ ul li{
         flex-direction: row;
         justify-content: space-between;
         width: 25%;
+    }
+    .footerHome{
+        height:auto;
     }
    
 
