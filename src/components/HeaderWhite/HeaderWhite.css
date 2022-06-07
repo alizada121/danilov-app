@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,17 +14,48 @@
     /* margin-bottom: 20%; */
   
   }
+
+  .ul-one-one{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  .ul-one-two{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+   
+
+  }
+
+  .ul-one-two li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+  }
   /* .insta{
   margin-left: -15px;
   } */
+
+ 
   .header_ul_one li,
   .header_ul_two li {
     margin-right: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
    
   }
 
   .header_ul_one{
     width: 30%;
+    justify-content: space-between;
   }
 
   #white li{
@@ -87,8 +119,8 @@
   100% { width: 100%;}
 }
 
-.fileteredShoes-cont{
-  display: none;
+#fileteredShoes-cont{
+  
   flex-direction: column;
   position: absolute;
   text-align: left;
@@ -101,9 +133,17 @@
 
 }
 
+.filetered{
+  display: block;
+}
+
+.unfiltered{
+  display: none;
+}
 
 
-.fileteredShoes-cont p{
+
+#fileteredShoes-cont p{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;

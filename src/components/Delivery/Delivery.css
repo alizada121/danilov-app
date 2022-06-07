@@ -1,3 +1,72 @@
+.delivery-heading-container{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.delivery-header{
+    margin-top: 2%;
+}
+
+
+.delivery-heading-nav{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.delivery-heading-nav p{
+    margin: 0;
+    margin-right: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;      
+    color: #000000;
+    margin-bottom: 2%;
+
+}
+
+.delivery-heading{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.delivery-heading{
+    width: 100%;
+    /* position: relative; */
+}
+
+.delivery-heading-first {
+    width: 22%;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-size: 30px;
+    color: #1B1B1B;
+    text-align: left;
+}
+
+.delivery-heading-first h1{
+    margin: 0;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.delivery-heading-line{
+    width: 80%;
+    border: 0.5px solid #000000;
+    height: 0;
+    background-color: #000000;
+  
+    margin-top: 3.5%;
+    
+}
+
+
+
 .deliveryDiv{
     padding: 3% 10%;
 }
@@ -154,7 +223,7 @@ color: red;
 .checkbox{
     text-align: left;
     margin-top: 10px;
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 .checkbox label{
@@ -232,63 +301,255 @@ input[type=checkbox]
 .rightAsideBag{
     width: 100%;
 }
-@media only screen and (max-width: 2000px) {
-  .elave{
-      margin-top: 3.2%;
-  }
-  
- }
- @media only screen and (max-width: 1800px) {
-    .elave{
-        margin-top: 4%;
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .flexDelivery{
+        flex-direction: column;
     }
-    
-   } 
-   @media only screen and (max-width: 1500px) {
-    .elave{
-        margin-top: 5%;
+
+    .leftDeliver{
+        width: 100%;
     }
-    
-   }
-   @media only screen and (max-width: 1300px) {
-    .elave{
-        margin-top: 5.4%;
+
+    .deliveryDiv {
+        padding: 3% 5%;
     }
-    
-   } 
-@media only screen and (max-width: 900px) {
-   .deliveryDiv{
-       padding: 0;
-       
-   }
-   .leftDeliver{
-       margin: 0 10%;
-   }
-   
-   .flexDelivery{
-    display: flex;
-    flex-direction: column;
-   }
-   .add22{
-       transform: translate(0px, 50px);
-   }
-}
-@media only screen and (max-width: 1115px) {
-.emailPass{
-    display: block;
-}
-.differenPass{
-    width:80%;
-}
- }
-@media only screen and (max-width: 400px) {
-    .add{
-        /* width: 60%; */
+    .inputSide1 {
+        width: 100%;
     }
-    
+
+    .sameEmail{
+        width: 100%;
+    }
+
     .add22{
-        transform: translate(0px, 75px);
-        width: 80%;
-        /* margin-top: 30px; */
+        display: none;
     }
- }
+    .nameandsur {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .name, .surname {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .witdhButton {
+        width: 100%;
+    }
+    .delivery-heading-container {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+
+    .delivery-heading-nav{
+        display: none;
+    }
+
+    .delivery-heading-first {
+        width: 52%;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-size: 22px;
+    }
+
+    .delivery-heading{
+        padding-top: 5%;
+    }
+
+    .delivery-heading-line {
+        width: 80%;
+        margin-top: 10.5%;
+    }
+
+    .contact11 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .contact1 {
+        margin-top: 60px;
+    }
+
+    .checkbox{
+        display: none;
+    }
+   
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .flexDelivery{
+        flex-direction: column;
+    }
+
+    .leftDeliver{
+        width: 100%;
+    }
+
+    .deliveryDiv {
+        padding: 3% 5%;
+    }
+    .inputSide1 {
+        width: 100%;
+    }
+
+    .sameEmail{
+        width: 100%;
+    }
+
+    .add22{
+        display: none;
+    }
+    .nameandsur {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .name, .surname {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .witdhButton {
+        width: 100%;
+    }
+    .delivery-heading-container {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+
+    .delivery-heading-nav{
+        display: none;
+    }
+
+    .delivery-heading-first {
+        width: 52%;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-size: 22px;
+    }
+
+    .delivery-heading{
+        padding-top: 5%;
+    }
+
+    .delivery-heading-line {
+        width: 80%;
+        margin-top: 10.5%;
+    }
+
+    .contact11 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .contact1 {
+        margin-top: 60px;
+    }
+
+    .checkbox{
+        display: none;
+    }
+   
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .flexDelivery{
+        flex-direction: column;
+    }
+
+    .leftDeliver{
+        width: 100%;
+    }
+
+    .deliveryDiv {
+        padding: 3% 5%;
+    }
+    .inputSide1 {
+        width: 100%;
+    }
+
+    .sameEmail{
+        width: 100%;
+    }
+
+    .add22{
+        display: none;
+    }
+    .nameandsur {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .name, .surname {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .witdhButton {
+        width: 100%;
+    }
+    .delivery-heading-container {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+
+    .delivery-heading-nav{
+        display: none;
+    }
+
+    .delivery-heading-first {
+        width: 40%;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-size: 36px;
+    }
+    .delivery-heading{
+        padding-top: 5%;
+    }
+
+    .delivery-heading-line {
+        width: 80%;
+        margin-top: 7.5%;
+    }
+
+    .contact11 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .contact1 {
+        margin-top: 60px;
+    }
+
+    .checkbox{
+        display: none;
+    }
+   
+}
+@media screen and (min-width: 768px) and (max-width: 1034px) {
+    .delivery-heading-first {
+        width: 40%;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-size: 36px;
+    }
+    .delivery-heading{
+        padding-top: 5%;
+    }
+
+    .delivery-heading-line {
+        width: 80%;
+        margin-top: 7.5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+ 

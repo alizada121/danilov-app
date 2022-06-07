@@ -35,8 +35,8 @@ function Payment() {
         <div className='Payment-heading-nav'>
             <p>Home</p>
              <p>  /Bag</p>
-     </div>
-     <div className='Payment-heading'>
+            </div>
+        <div className='Payment-heading'>
          <div className='Payment-heading-first'>
              <h1>Payment</h1>
           </div>

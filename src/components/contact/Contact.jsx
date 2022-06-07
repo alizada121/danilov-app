@@ -26,12 +26,7 @@ function Contact() {
   return (
     <>
     <HeaderBlack dimensions={dimensions}/>
-    <div className='contact-general'>
-      
-      
-     
-
-      <div className='contact-heading-container'>
+    <div className='contact-heading-container'>
         <div className='contact-heading-nav'>
           <p>Home</p>
           <p>  / Contact</p>
@@ -50,6 +45,12 @@ function Contact() {
 
         </div>
       </div>
+    <div className='contact-general'>
+      
+      
+     
+
+      
 
       <div className='contact'>
 
@@ -60,11 +61,24 @@ function Contact() {
         </div>
 
         <div className='contact-info'>
+         
+          
           <h3 style={{ marginTop: "0" }}>Opening hours</h3>
+          <div className='info-part1'>
+          <div className='info1'>
           <p style={{ margin: "0" }}>Monday-  Saturday</p>
-          <p style={{ marginBottom: "4%" }}>11am - 7pm</p>
-          <p style={{ marginBottom: "0" }}>Sunday</p>
+          <p style={{ marginBottom: "4%" }}>11am - 7pm</p> 
+          </div>
+
+          <div className='info2'>
+             <p style={{ marginBottom: "0" }}>Sunday</p>
           <p style={{ marginBottom: "15%" }}> 12am - 6pm</p>
+          </div>
+          </div>
+
+          
+          
+         
 
           <h3>Address</h3>
           <p>Nunc scelerisque diam hac euismod tristique. Nec elit gravida tempor ac nec.</p>

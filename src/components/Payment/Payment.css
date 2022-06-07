@@ -427,6 +427,14 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .Payment-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Payment-heading-nav{
+        display: none;
+    }
     .Payment-details{
         width: 100%;
     }
@@ -441,6 +449,10 @@
     .Card-input{
         width: 100%;
         margin-bottom: 5%;
+    }
+    .Card-input-s input {
+        width: 100%;
+        padding: 3% 2%;
     }
     .Card-input-s{
         width: 100%;
@@ -489,9 +501,20 @@
     .Order-summary-container{
         margin-top: 20%;
         margin-bottom: 10%;
+    }
+    .Payment-Card-row-submit p{
+        display: none;
     }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
+    .Payment-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Payment-heading-nav{
+        display: none;
+    }
     .Payment-details{
         width: 100%;
     }
@@ -501,6 +524,11 @@
 
     .Payment-Card-row{
         flex-direction: column;
+    }
+
+    .Card-input-s input {
+        width: 100%;
+        padding: 3% 2%;
     }
 
     .Card-input{
@@ -555,8 +583,20 @@
         margin-top: 20%;
         margin-bottom: 10%;
     }
+    .Payment-Card-row-submit p{
+        display: none;
+    }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
+    .Payment-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .Payment-heading-nav{
+        display: none;
+    }
     .Payment-details{
         width: 100%;
     }
@@ -568,12 +608,17 @@
         flex-direction: column;
     }
 
+
+    .Card-input-s input {
+        width: 100%;
+        padding: 3% 2%;
+    }
     .Card-input{
-        width: 80%;
+        width: 100%;
         margin-bottom: 5%;
     }
     .Card-input-s{
-        width: 80%;
+        width: 100%;
         margin-bottom: 5%;
     }
     .Payment-Card-row-submit{
@@ -592,7 +637,7 @@
     }
 
     .Card-input-submit{
-        width: 80%;
+        width: 100%;
     }
     .Order-summary-container {
         width: 100%;
@@ -620,6 +665,11 @@
         margin-top: 20%;
         margin-bottom: 10%;
     }
+
+    .Payment-Card-row-submit p{
+        display: none;
+    }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .Card-input-s {

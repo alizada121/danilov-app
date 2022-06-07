@@ -15,6 +15,16 @@ import arrowRight from '../../Images/shirin//14.svg';
 import upLine from '../../Images/shirin//9876.svg'
 import PopUp from "../Pop Up/PopUp";
 import FollowUs from "../home/Leman/FollowUs/FollowUs"
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
+
+
+// import required modules
+import { Navigation } from "swiper";
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -138,12 +148,22 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                                     tristique quam magna non.</p>
                                 <span className="dollarAmount">700$</span>
                             </div>
-                            <img src={ayaqqabi} />
-                            <div className="arrows1" >
+
+                           
+
+                            <Swiper navigation={true} loop={true} smodules={[Navigation] } className="mySwiper">
+
+                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
+                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
+                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
+                            </Swiper>
+
+                            <img className="arrmidle1" src={arrowMiddle} />
+                            {/* <div className="arrows1" >
                                 <img src={arrowLeft} />
                                 <img className="arrmidle1" src={arrowMiddle} />
                                 <img src={arrowRight} />
-                            </div>
+                            </div> */}
                             <div className="chooseInput">
                                 <div className="colorFilter">
                                     <p>Color</p>

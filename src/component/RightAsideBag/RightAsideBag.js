@@ -1,7 +1,7 @@
 import React from "react";
 import '../RightAsideBag/RightAsideBag.css';
 import Button from '../Button/Button';
-const RightAsideBag=({showButton ,changeStyle})=>{
+const RightAsideBag=({showButton ,changeStyle})=>{ 
     return(
         <div className={`rightAsideBag ${changeStyle && 'cc'}`}>
             <div className="free">

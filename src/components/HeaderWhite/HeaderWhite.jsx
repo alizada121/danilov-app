@@ -39,6 +39,7 @@ const HeaderWhite = ({ dimensions }) => {
     const [activeInput,setActiveInput]=useState(true);
     const [activeWidth,setActiveWidth]=useState(true)
     const [openedMenu,setOpenedMenu]=useState(false)
+    const [filtered,setFiltered]=useState(false)
 
     useOutsideClick(refRef, () => {
     //    inputRef.current.style.display="none";
@@ -63,24 +64,13 @@ const HeaderWhite = ({ dimensions }) => {
 
     const openInput=()=>{
 
-        setActiveHeader(!activeHeader)
-        setActiveInput(!activeInput)
-        setActiveWidth(!activeInput)
-
+         setActiveHeader(false)
+        setActiveInput(false)
+        setActiveWidth(false)
         
     
         console.log(activeHeader)
 
-
-
-
-    //    setActiveHeader(false)
-        // inputRef.current.style.opacity="1"
-        // inputRef.current.style.width="100%"
-        
-        // lupaRef.current.style.display="none"
-        // newinRef.current.style.display="none"
-        // profileRef.current.style.display="none"
         
     }
 
@@ -95,11 +85,13 @@ const HeaderWhite = ({ dimensions }) => {
         let result=[]
         if(value.length > 0) {
             result = Data.filter(shoes =>shoes.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())) ;
-            filetedContRef.current.style.display="block";
+            // filetedContRef.current.style.display="block";
+            setFiltered(false)
         }else {
             result = []
             
-            filetedContRef.current.style.display="none";
+            // filetedContRef.current.style.display="none";
+            setFiltered(true)
         }
           setFilteredShoes(result)
     },[value])
@@ -171,7 +163,7 @@ const HeaderWhite = ({ dimensions }) => {
                         </input> 
                         <div className="input-lupa" ref={absoluteLupa}><img src={liFive} /></div> 
                    
-                             <div className="fileteredShoes-cont" ref={filetedContRef}>
+                             <div id="fileteredShoes-cont" className={!filtered ? "filtered" : "unfiltered"}  ref={filetedContRef}>
 
 
                                  {filteredShoes && filteredShoes.map((e)=>{
