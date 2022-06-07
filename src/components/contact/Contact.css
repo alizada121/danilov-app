@@ -4,6 +4,12 @@
     margin-right: 10%;
 }
 
+.contact-heading-container{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .contact{
     display: flex;
     flex-direction: row;
@@ -111,6 +117,26 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .contact-heading-container {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .info-part1{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact-heading-nav{
+        display: none;
+    }
+
+    .contact-heading{
+        padding: 0;
+        padding-left: 5%;
+    }
     .contact-general{
         width: 90%;
         margin-left: 5%;
@@ -139,9 +165,17 @@
 
     }
 
+    .contact-info p{
+        font-size:16px ;
+    }
+
+    .contact-info h3 {
+        font-size: 28px;
+    }
+
     .contact-heading-first {
       
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .contact-heading-first {
@@ -149,6 +183,8 @@
     }
 
     .contact-heading-line {
+       
+        width: 59%;
         margin-top: 11%;
     }
 
@@ -163,6 +199,26 @@
    
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
+    .contact-heading-container {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .info-part1{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact-heading-nav{
+        display: none;
+    }
+
+    .contact-heading{
+        padding: 0;
+        padding-left: 5%;
+    }
     .contact-general{
         width: 90%;
         margin-left: 5%;
@@ -192,7 +248,7 @@
 
     .contact-heading-first {
       
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .contact-heading-first {
@@ -200,7 +256,8 @@
     }
 
     .contact-heading-line {
-        margin-top: 11%;
+        margin-top: 10%;
+        width:58% ;
     }
 
     .contact-heading-nav p {
@@ -215,6 +272,32 @@
 
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
+    .contact-heading-container {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .info-part1{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact-heading-nav{
+        display: none;
+    }
+
+    .contact-heading{
+        padding: 0;
+        padding-left: 5%;
+    }
+    .contact-general{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
     .contact-general{
         width: 90%;
         margin-left: 5%;
@@ -244,7 +327,7 @@
     }
     .contact-heading-first {
         width: 55%;
-        font-size: 17px;
+        font-size: 20px;
        
     }
 
@@ -260,6 +343,36 @@
 
 
 }
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .contact-heading-first {
+        width: 55%;
+        font-size: 28px;
+    }
+
+    .contact-heading-line {
+        width: 47%;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width: 750px){
+    .contact-heading-first {
+        width: 55%;
+        font-size: 28px;
+    }
+
+    .contact-heading-line {
+        width: 47%;
+    }
+
+    .contact-heading-line {
+        margin-top: 6%;
+        width: 85%;
+    }
+   
+
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .contact-general, .Contact-footer{
         width: 90%;
@@ -268,4 +381,18 @@
         margin-top: 8%;
     }
     
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .contact-heading-first {
+        width: 38%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .contact-heading-line {
+        width: 80%;
+        margin-top: 4.5%;
+    }
 }

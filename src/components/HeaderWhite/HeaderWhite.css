@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -118,8 +119,8 @@
   100% { width: 100%;}
 }
 
-.fileteredShoes-cont{
-  display: none;
+#fileteredShoes-cont{
+  
   flex-direction: column;
   position: absolute;
   text-align: left;
@@ -132,9 +133,17 @@
 
 }
 
+.filetered{
+  display: block;
+}
+
+.unfiltered{
+  display: none;
+}
 
 
-.fileteredShoes-cont p{
+
+#fileteredShoes-cont p{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;

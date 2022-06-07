@@ -41,8 +41,26 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
     return (
         <div >
              <HeaderBlack dimensions={dimensions}/> 
+             <div className='delivery-heading-container'>
+                <div className='delivery-heading-nav'>
+                  <p>Home</p>
+                 <p>  / Contact</p>
+              </div>
+             <div className='delivery-heading'>
+                  <div className='delivery-heading-first'>
+                   <h1>Delivery</h1>
+
+                   </div>  
+
+                 <div className='delivery-heading-line'>
+
+                     </div>
+                  </div>
+
+
+
+        </div>
             <div className="deliveryDiv">
-                <ImageHeader title={'Home  /  Bag'} titleH1={'Delivery '} setWitdhh={true} titlespan={'1'} setSpan={true}/>
                 <div className="flexDelivery">
                     <div className="leftDeliver" >
                         <div className="inputSide">
@@ -96,12 +114,12 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                                 <div className="name">
                                     <p className="same">City</p>
                                     <label htmlFor="name"></label>
-                                    <input type="name" id="name" name="name"></input>
+                                    <input type="name" id="name" name="name" placeholder="text here"></input>
                                 </div>
                                 <div className="surname">
                                     <p className="same">Country</p>
                                     <label htmlFor="surname"></label>
-                                    <input type="surname" id="surname" name="surname"></input>
+                                    <input type="surname" id="surname" name="surname" placeholder="text here"></input>
                                 </div>
                             </div>
                             <div className="inputSide">
@@ -133,7 +151,47 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                             <Button btnclass={true} />
                         </div>
                     </div>
-                    <SameCard showButton={false} />
+                    
+
+                    <div className='Order-summary-container'>
+                        <h1>Order summary</h1>
+                        <div className='Order-summary'>
+                  
+                     <div className='Order-delivery'>
+                         <h4> Delivery</h4>
+                         <div className='delivery-choices'>
+                             <p>Free</p>
+                             <p>Express: 10$</p>
+                         </div>
+                      </div>
+
+
+                        <div className='Order-subtotal'>
+                            <div className='subtotal-row'>
+                                <h5 style={{fontWeight:600}}>Subtotal</h5>
+                                <h5   className='normal' style={{fontWeight:600}}>1 466$</h5>
+                            </div>
+                            <div className='subtotal-row'>
+                                <p>Discount</p>
+                                <p>0.00$</p>
+                            </div>
+                            <div className='subtotal-row'>
+                                <p>Delivery</p>
+                                <p>10$</p>
+                            </div>
+
+                        </div>
+
+                     <div className='Order-total'>
+                         <h4>Total</h4>
+                         <h4 className='normal'>1 476$</h4>
+
+                     </div>
+
+              </div>
+              </div>
+                    
+                    
                 </div>
             </div>
             <div className="mesafe">

@@ -49,9 +49,8 @@ const About = ({setWitdhh})=>{
           
              
           </div>
-            
-             <div className="aboutBottom">
-             <div className="about-heading-general">
+
+          <div className="about-heading-general">
                         <div className="about-nav">
                             <p>Home  /  Man  /  SS ‘22 Collection </p>
 
@@ -70,27 +69,36 @@ const About = ({setWitdhh})=>{
                         </div>
                         </div>
                     </div>
-                   <div className="danilovimg">
-                       <div className="danilov1img">
-                           <p className="odio">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
-                           <img src={danilov1} className='onee'/>
-                           <p className="ante">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. 
-                               Id aliquam ante eu tellus tristique quam magna non. 
-                                sapien purus massa neque nibh quis tempus natoque in.
-                                 Eget est amet tellus justo faucibus.</p>
+            
+             <div className="aboutBottom">
+             
+                   <div className="about-main">
+                     <div className="about-text1">
+                       <p  className="p1">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
+                       <p className="p2">
+                        Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non.
+                        Tortor sapien purus massa neque nibh quis tempus natoque in. Eget est amet tellus justo faucibus.
+                        </p>
+
+                     </div>
+
+                     <div className="about-images">
+                       <div className="img-ab">
+                       <img src={danilov1} style={{width:"100%"}}></img>
                        </div>
-                       <div className="danilov2img">
-                       <p className="ante1">Vitae, odio adipiscing aenean tortor diam,
-                            vitae amet volutpat urna. Id aliquam ante eu tellus tristique
-                             quam magna non. Tortor sapien purus massa neque nibh quis tempus 
-                             natoque in. Eget est amet tellus justo faucibus.</p>
-                           <img src={danilov2}/>
-                           <p className="ante">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. 
-                               Id aliquam ante eu tellus tristique quam magna non. 
-                                sapien purus massa neque nibh quis tempus natoque in.
-                                 Eget est amet tellus justo faucibus.</p>
+                       <div  className="img-ab">
+                       <img src={danilov2} style={{width:"60%"}}></img>
                        </div>
+
                        
+                     </div>
+
+                     <div className="about-text2">
+                       <p>Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non. Tortor sapien purus massa neque nibh quis tempus natoque in. Eget est amet tellus justo faucibus.</p>
+                       <p>Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non. Tortor sapien purus massa neque nibh quis tempus natoque in. Eget est amet tellus justo faucibus.</p>
+
+                     </div>
+
                    </div>
                    
 
