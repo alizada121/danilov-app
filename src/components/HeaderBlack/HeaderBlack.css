@@ -23,6 +23,7 @@ li{
 }
 .headerBlack_ul_one li{
   margin-right: 28px;
+  margin-top: -5%;
 }
 .headerBlack_ul_two li{
   margin-left: 30px;
@@ -33,14 +34,30 @@ li{
   align-items: center;
 }
 
+.headerBlack_ul_two a{
+  text-decoration: none;
+
+}
+
+.headerBlack_ul_one a{
+  text-decoration: none;
+
+}
+
+
 .textBlack{
     font-size: 18px;
     color: black;
     font-weight: 500 ;
     line-height: 25px;
+    text-decoration: none;
      margin-left: 30px;
    font-family: "Montserrat"
 };
+
+.textBlack a{
+  text-decoration: none;
+}
 
 
 @media only screen and (max-width: 950px) {

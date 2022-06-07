@@ -161,6 +161,8 @@
         width: 100%;
         margin-left: 0%;
          margin-right: 0%;
+         margin-top: 10%;
+
     }
 
     .FollowUs-heading h1 {
@@ -180,6 +182,7 @@
 
     .FollowUs-heading h4 {
         font-size: 20px;
+        margin-left: 8%;
     }
 
     .FollowUs-heading h1 {
@@ -216,6 +219,8 @@
         width: 100%;
         margin-left: 0%;
          margin-right: 0%;
+         margin-top: 10%;
+
     }
 
     .FollowUs-heading h1 {
@@ -224,7 +229,7 @@
     }
 
     .FollowUs-danilov p {
-        margin-left: 8%;
+        margin-left: 3%;
     }
 }
 @media screen and (min-width: 414px) and (max-width: 940px) {
@@ -235,6 +240,7 @@
     }
     .FollowUs-heading h4 {
         font-size: 20px;
+        margin-left: 8%;
     }
 
     .FollowUs-heading h1 {
@@ -275,6 +281,7 @@
         width: 100%;
         margin-left: 0%;
          margin-right: 0%;
+         margin-top: 10%;
     }
 
     .FollowUs-heading h1 {
@@ -282,7 +289,7 @@
     }
 
     .FollowUs-danilov p {
-        margin-left: 2%;
+        margin-left: 3%;
     }
 }
 @media screen and (min-width: 940px) and (max-width: 1024px) {

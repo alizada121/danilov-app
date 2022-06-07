@@ -145,7 +145,7 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
             </div>
             <div className="bag-followUs">
                 <FollowUs/>
-
+  
             </div>
             <div className="mesafe">
              <Footer/> 

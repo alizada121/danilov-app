@@ -154,6 +154,17 @@
         background-image: url(../../assets/collectio-mob-bg.svg);
         background-size: cover;
     }
+
+    .collection-heading-cont {
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .collection-general{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .collection-card {
         flex-wrap: wrap;
 
@@ -176,7 +187,7 @@
     }
 
     .collection-line-cont {
-        width: 50%;
+        width: 55%;
         margin-left: 20%;
         margin-bottom: 2%;
     }
@@ -190,6 +201,11 @@
 }
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
+    .collection-bg {
+        width: 100%;
+        background-image: url(../../assets/collectio-mob-bg.svg);
+        background-size: cover;
+    }
     .collection-card {
         flex-wrap: wrap;
 
@@ -225,6 +241,13 @@
 }
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
+    .collection-bg {
+        width: 100%;
+        background-image: url(../../assets/collectio-mob-bg.svg);
+        background-size: cover;
+    }
+    
+
     .collection-card {
         flex-wrap: wrap;
 

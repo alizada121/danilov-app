@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .bag-name{
@@ -26,12 +27,12 @@
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 500;
-    font-size: 70px;
+    font-size: 63px;
     line-height: 50px;
 }
 
 .bag-line{
-    width: 83%;
+    width: 84%;
     border-bottom: 2px solid black;
 }
 
@@ -91,6 +92,8 @@ text-align: left;
 .bag-followUs{
     display: none;
 }
+
+
 
  @media only screen and (max-width: 1200px) {
     .bottomBag{
@@ -193,6 +196,7 @@ text-align: left;
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+   
     .collect {
         font-size: 45px;
     }    
@@ -201,8 +205,10 @@ text-align: left;
         width: 59%;
     }
     .bag-name-cont{
-        padding-left: 5%;
+        /* padding-left: 5%; */
         padding-top: 5%;
+    justify-content: space-between;
+
     }
 
     .bag-name h1 {
@@ -233,6 +239,7 @@ text-align: left;
     
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
+    
     .collect {
         font-size: 45px;
     }    
@@ -241,8 +248,10 @@ text-align: left;
         width: 63%;
     }
     .bag-name-cont{
-        padding-left: 5%;
+        /* padding-left: 5%; */
         padding-top: 5%;
+    justify-content: space-between;
+
     }
 
     .bag-name h1 {
@@ -271,20 +280,25 @@ text-align: left;
     }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
+    .bag-heading-general{
+        padding-left: 5%;
+    }
     .collect {
         font-size: 45px;
     }    
 
     .bag-line{
-        width: 73%;
+        width: 65%;
     }
     .bag-name-cont{
-        padding-left: 5%;
+        /* padding-left: 5%; */
         padding-top: 5%;
+    justify-content: space-between;
+
     }
 
     .bag-name h1 {
-        font-size: 59px;
+        font-size: 48px;
     }
 
     .padRight{
@@ -308,4 +322,30 @@ text-align: left;
         display: block;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .bag-line {
+        width: 68%;
+    }
+
+    .bag-name h1 {
+        font-size: 60px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+    .bag-nav{
+        display: none;
+    }
+
+    .bag-name-cont {
+        padding-left: 5%;
+    justify-content: space-between;
+
+    }
+
+        .bag-line {
+            width: 72%;
+        }
+}

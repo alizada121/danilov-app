@@ -13,17 +13,48 @@
     /* margin-bottom: 20%; */
   
   }
+
+  .ul-one-one{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  .ul-one-two{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+   
+
+  }
+
+  .ul-one-two li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+  }
   /* .insta{
   margin-left: -15px;
   } */
+
+ 
   .header_ul_one li,
   .header_ul_two li {
     margin-right: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
    
   }
 
   .header_ul_one{
     width: 30%;
+    justify-content: space-between;
   }
 
   #white li{

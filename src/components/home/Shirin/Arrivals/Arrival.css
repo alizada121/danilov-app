@@ -12,7 +12,7 @@
 }
 .newArrivals {
     font-size: 100px;
-    margin-left: 37%;
+    margin-left: 30%;
 }
 .distance {
     color: black;
@@ -28,6 +28,7 @@
 }
 .blueImg {
     display: flex;
+    flex-direction: column;
 }
 .texttwo {
     position: absolute;
@@ -40,13 +41,15 @@
 }
 .twice {
     position: relative;
-    right: -350px;
+    /* right: -350px; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 30%;
+    margin-left: 55%;
     cursor: pointer;
+    width: 100%;
 }
 
 .lacus {
@@ -185,6 +188,7 @@
 
     .twice{
         right: 0;
+        margin-left: 37%;
     }
 
     .brownImg{
@@ -218,6 +222,8 @@
     .imageContainer{
         width: 100%;
     }
+
+   
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -267,5 +273,13 @@
 
     .imageContainer{
         width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width:1300px ) {
+
+    .twice{
+        margin-left: 25%;
     }
 }

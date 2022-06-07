@@ -203,7 +203,7 @@ ul li{
     justify-content: center;
     width: 100%;
     margin-top: 5%;
-   
+   margin-bottom: 5%;
 }
 
 
@@ -417,7 +417,7 @@ ul li{
         padding: 0;
     }
     .lastPart ul li {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
     }
 

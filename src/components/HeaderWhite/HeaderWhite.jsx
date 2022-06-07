@@ -63,10 +63,13 @@ const HeaderWhite = ({ dimensions }) => {
 
     const openInput=()=>{
 
-        setActiveHeader(!activeHeader)
-        setActiveInput(!activeInput)
-        setActiveWidth(!activeInput)
+        // setActiveHeader(!activeHeader)
+        // setActiveInput(!activeInput)
+        // setActiveWidth(!activeInput)
 
+         setActiveHeader(false)
+        setActiveInput(false)
+        setActiveWidth(false)
         
     
         console.log(activeHeader)
@@ -95,11 +98,11 @@ const HeaderWhite = ({ dimensions }) => {
         let result=[]
         if(value.length > 0) {
             result = Data.filter(shoes =>shoes.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())) ;
-            filetedContRef.current.style.display="block";
+            // filetedContRef.current.style.display="block";
         }else {
             result = []
             
-            filetedContRef.current.style.display="none";
+            // filetedContRef.current.style.display="none";
         }
           setFilteredShoes(result)
     },[value])
