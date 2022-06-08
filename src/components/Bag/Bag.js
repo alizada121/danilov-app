@@ -43,6 +43,7 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
     return (
         <div>
              <HeaderBlack dimensions={dimensions}/> 
+             
             <div className="bottomBag">
             <div className="bag-heading-general">
                         <div className="bag-nav">
@@ -83,14 +84,14 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                         </div>
                         <div className="smallScreen_2">
                             <div className="leftSize">
-                                <span>size</span>
-                                <label htmlFor="size"></label>
+                               
+                                <label htmlFor="size">size</label>
                                 <input type="size" placeholder="size" id="size" name="size"></input>
                                 <img className="colorVector" src={colorvector} />
                             </div>
                             <div className="rightColor">
-                                <span>color</span>
-                                <label htmlFor="color"></label>
+                               
+                                <label htmlFor="color">color</label>
                                 <input type="" placeholder="color" id="color" name="color"></input>
                                 <img className="colorVector" src={colorvector} />
                             </div>
@@ -114,14 +115,14 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                         </div>
                         <div className="smallScreen_2">
                             <div className="leftSize">
-                                <span>size</span>
-                                <label htmlFor="size"></label>
+                                {/* <span>size</span> */}
+                                <label htmlFor="size">size</label>
                                 <input type="size" placeholder="size" id="size" name="size"></input>
                                 <img className="colorVector" src={colorvector} />
                             </div>
                             <div className="rightColor">
-                                <span>color</span>
-                                <label htmlFor="color"></label>
+                                
+                                <label htmlFor="color">color</label>
                                 <input type="" placeholder="color" id="color" name="color"></input>
                                 <img className="colorVector" src={colorvector} />
                             </div>
@@ -137,7 +138,51 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                                  </div>
                          </div>
                     </div>
-                  <SameCard showButton={true} changeStyle={true}/>
+                  
+
+                    <div className='Order-summary-container'>
+              <h1>Order summary</h1>
+              <div className='Order-summary'>
+                  
+                  <div className='Order-delivery'>
+                      <h4> Delivery</h4>
+                      <div className='delivery-choices'>
+                          <p>Free</p>
+                          <p>Express: 10$</p>
+                      </div>
+                   </div>
+
+
+                   <div className='Order-subtotal'>
+                       <div className='subtotal-row'>
+                           <h5 style={{fontWeight:600}}>Subtotal</h5>
+                           <h5   className='normal' style={{fontWeight:600}}>1 466$</h5>
+                       </div>
+                       <div className='subtotal-row'>
+                           <p>Discount</p>
+                           <p>0.00$</p>
+                       </div>
+                       <div className='subtotal-row'>
+                           <p>Delivery</p>
+                           <p>10$</p>
+                       </div>
+
+                   </div>
+
+                   <div className='Order-total'>
+                       <h4>Total</h4>
+                       <h4 className='normal'>1 476$</h4>
+
+                   </div>
+
+              </div>
+
+
+               
+          </div>
+
+       
+       
                 
                 </>
                     

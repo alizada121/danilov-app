@@ -9,6 +9,7 @@ import vectorRight from "../../assets/Vector (15).png"
 import Footer from '../Footer/Footer'
 
 import HeaderBlack from '../HeaderBlack/HeaderBlack'
+import CollectionCard from '../CollectionCard/CollectionCard'
 
 function Collection({dimensions}) {
 
@@ -60,6 +61,8 @@ function Collection({dimensions}) {
             </div>
 
             <div className='collection-card'>
+            {(dimensions.width > 1000) &&
+            <>
 
                 {data.slice(0,4).map((item) => {
                     return (
@@ -77,8 +80,32 @@ function Collection({dimensions}) {
                         />
                     )
                 })}
+            </>
+        }
 
+            {(dimensions.width < 1000) &&
+                <>
+                {data.slice(0,4).map((item) => {
+                    return (
+                        <CollectionCard 
+
+                        name={item.name} 
+                        price={item.price}
+                        desc={item.desc} 
+                        img={item.img}
+                        key={Math.random()}
+                        faiz= 'collection-faiz'
+                        // className="collection-card-1"
+
+
+                        />
+                    )
+                })}
+                </>
+}
             </div>
+
+           
 
             <div className='collection-winterCol'>
                 <WinterCollection/>
@@ -87,6 +114,9 @@ function Collection({dimensions}) {
 
 
             <div className='collection-card'>
+
+            {(dimensions.width > 1000) &&
+            <>
 
                 {data.slice(0,4).map((item) => {
                     return (
@@ -98,12 +128,35 @@ function Collection({dimensions}) {
                         img={item.img}
                         key={Math.random()}
                         faiz= 'collection-faiz'
+                        // className="collection-card-1"
 
 
                         />
                     )
                 })}
+            </>
+        }
 
+            {(dimensions.width < 1000) &&
+                <>
+                {data.slice(0,4).map((item) => {
+                    return (
+                        <CollectionCard 
+
+                        name={item.name} 
+                        price={item.price}
+                        desc={item.desc} 
+                        img={item.img}
+                        key={Math.random()}
+                        faiz= 'collection-faiz'
+                        // className="collection-card-1"
+
+
+                        />
+                    )
+                })}
+                </>
+                }
             </div>
 
             <div className='collection-number'>

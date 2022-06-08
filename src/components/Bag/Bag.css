@@ -93,6 +93,13 @@ text-align: left;
     display: none;
 }
 
+.square{
+    background-color: #FCFCFC;
+    padding: 0% 7%;
+    font-size: 30px;
+   
+}
+
 
 
  @media only screen and (max-width: 1200px) {
@@ -125,9 +132,7 @@ text-align: left;
          align-items: flex-start;
          width: 60%;
      }
-     .square{
-         padding: 3% 6%;
-     }
+      
      .anyway{
          /* margin-left: 43%; */
          width: 70%;
@@ -164,6 +169,7 @@ text-align: left;
      }
      .leftSize input ,.rightColor input{
          padding: 4% 5%;
+         margin-top: 1%;
      }
      .yazi{
         margin-left: 5%;
@@ -234,6 +240,14 @@ text-align: left;
 
     .bag-followUs{
         display: block;
+    }
+    
+
+    .smallScreen {
+        padding: 5%;
+        border: 1px solid black;
+       
+        /* border-block-start-style: none; */
     }
     
     

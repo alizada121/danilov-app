@@ -10,6 +10,7 @@ import Profile1 from './components/Profile/Profile1';
 import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
 import Collection from './components/Collection/Collection';
+// import CollectionCard from './components/CollectionCard/CollectionCard';
 
 //Shirin
 import SingleProduct from './components/SingleProduct/SingleProduct';
@@ -101,6 +102,10 @@ function App() {
 
       <Route exact path="/payment">
         <Payment/>
+      </Route>
+      <Route exact path="/card">
+        <CollectionCard/>
+
       </Route>
 
       

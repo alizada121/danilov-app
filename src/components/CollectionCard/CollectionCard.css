@@ -1,42 +1,65 @@
-.general-col-card{
-    width: 30%;
-    border: 1px solid black;
+.col-card{
+    width: 85%;
+   margin-left: 5%;
+   margin-right: 5%
 }
 
-.col-card-heart{
-    width: 90%;
-    margin: 5% 5%;
-    padding-top: 5%;
+.col-heart{
     display: flex;
+    width: 100%;
+    padding: 10% 0%;
     justify-content: flex-end;
 }
 
-.col-card-name{
-    width: 90%;
-    margin-left:5%;
-    margin-right:5%;
+.col-info{
     display: flex;
-    justify-content: flex-start;
-
+    flex-direction: column;
 }
 
-.col-card-desc-price{
-    width: 90%;
-    margin-left:5%;
-    margin-right:5%;
+.col-info-1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.col-card-img-cont{
+.col-info-1 h2{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.col-info-1 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+
+}
+
+.col-info-2{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.col-card-left, .col-card-right{
-    display: flex;
-    align-items: center;
+.col-info-2 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.col-img{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.col-img img{
+    width: 100%;
 }

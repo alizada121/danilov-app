@@ -391,6 +391,13 @@ text-align: center;
         padding-bottom: 2% !important;
         padding-left: 5% !important;
     }
+    .arrmidle1 {
+        width: 50%;
+        position: absolute;
+        left: 26%; 
+        bottom: 10.5%;
+        z-index: 999;
+    }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
     .single-name h1 {
@@ -434,6 +441,14 @@ text-align: center;
         padding-top: 2% !important;
         padding-bottom: 2% !important;
         padding-left: 5% !important;
+    }
+
+    .arrmidle1 {
+        width: 50%;
+        position: absolute;
+        left: 26%;
+        bottom: 9.5%;
+        z-index: 999;
     }
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
@@ -479,6 +494,26 @@ text-align: center;
         padding-bottom: 2% !important;
         padding-left: 5% !important;
     }
+
+    .arrmidle1 {
+        width: 50%;
+        position: absolute;
+        left: 26%; 
+        bottom: 8.5%;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 768px) {
+    .arrmidle1 {
+        width: 50%;
+        position: absolute;
+        left: 26%; 
+        bottom: 6.5%;
+        z-index: 999;
+    }
+
+
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .single-name h1 {
@@ -522,5 +557,13 @@ text-align: center;
         padding-top: 2% !important;
         padding-bottom: 2% !important;
         padding-left: 5% !important;
+    }
+
+    .arrmidle1 {
+        width: 50%;
+        position: absolute;
+        left: 26%; 
+        bottom: 2.5%;
+        z-index: 999;
     }
 }
