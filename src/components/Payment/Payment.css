@@ -478,7 +478,9 @@
     }
 
     .Order-summary-container {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .Payment-success {
@@ -582,6 +584,9 @@
     .Order-summary-container{
         margin-top: 20%;
         margin-bottom: 10%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .Payment-Card-row-submit p{
         display: none;
@@ -640,7 +645,9 @@
         width: 100%;
     }
     .Order-summary-container {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .Payment-success {
         width: 100%;

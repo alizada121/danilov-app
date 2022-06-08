@@ -7,60 +7,35 @@ import "../CollectionCard/CollectionCard.css"
 import ShopSlider from '../home/Leman/Shop/ShopSlider'
 import whiteHeart from "../../assets/whiteHeart.svg"
 import aggash from "../../assets/shopSlider1.png"
-function CollectionCard() {
+function CollectionCard(props) {
   return (
-    <div className='general-col-card'>
-        <div className='col-card-heart'>
-            <img src={whiteHeart}></img>
+    <div className={` ${props.faiz} ShopSlider-card`}>
+       <div className="col-card">
+           <div className="col-heart">
+               <img src={whiteHeart}>
+               </img>
 
-        </div>
-        <div className='card-reverse'>
+           </div>
 
-       
+           <div className="col-img">
+               <img src={props.img}></img>
 
-             <div className='col-card-info'>
-                 <div className='col-card-name'>
-                     <p>Leman</p>      
-                 </div>
+           </div>
 
-                 <div className='col-card-desc-price'>
-                     <div className='col-card-desc'>
-                         <p>Salam</p>
+           <div className="col-info">
+               <div className='col-info-1'>
+                   <h2>{props.name}</h2>
+                   <p>{props.price}</p>
 
-                     </div>
-                     <div className='col-card-price'>
-                         <p>700</p>
+               </div>
 
-                     </div>
+               <div className="col-info-2">
+                   <p>{props.desc}</p>
 
-                 </div>
+               </div>
 
-             </div>
-
-             <div className='col-card-img-cont'>
-
-                 <div className='col-card-left'>
-                     <img src={vectorLeft}></img>
-
-                 </div>
-
-                 <div className='col-card-img'>
-                     <img src={aggash}></img>
-
-                 </div>
-
-                 <div className='col-card-right'>
-                     <img src={vectorRight}></img>
-
-                </div>
-
-
-             </div>
-
-        
-        
-         </div>
-
+           </div>
+       </div>
     </div>
   )
 }

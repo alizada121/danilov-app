@@ -1,13 +1,11 @@
 .rightAsideBag{
     border: 1px solid gray;
-    /* margin-left: 3%; */
+   
     width: 400px;
-    /* align-items: center; */
-    /* padding-top: 20px; */
+    
 }
 
 .free{
-    /* border: 1px solid blue; */
     text-align: left;
     margin: 20px 10px ;
     border-bottom: 1px solid gray;
@@ -16,7 +14,7 @@
 }
 .discount{
     display: flex;
-    /* margin: 10px 20px 0 10px ; */
+   
     justify-content: space-between;
    
 }
@@ -29,7 +27,7 @@
 .discount1{
     margin: 20px 10px ;
     width: 90%;
-    /* text-align: center; */
+   
 }
 .total{
     display: flex;
@@ -82,12 +80,11 @@ letter-spacing: 0em;
 @media only screen and (max-width: 1000px) {
     .rightAsideBag{
         width: 300px;
-         /* margin-top: 10%; */
+       
     }
    }
 @media only screen and (max-width: 900px) {
   .rightAsideBag{
       width: 100%;
-       /* margin: 5%; */
   }
  }

@@ -254,7 +254,7 @@
 
 .hamburger{
   z-index: 999;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 @keyframes open {

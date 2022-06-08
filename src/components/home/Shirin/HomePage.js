@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useRef } from "react";
+
 // import "./"
 import Header from "../../Header/Header";
 import './HomePage.css'
@@ -12,6 +13,9 @@ import WinterCollection from "./WinterCollection/WinterCollection";
 import Winter from "./Winter/Winter";
 import HeaderWhite from "../../HeaderWhite/HeaderWhite";
 
+
+
+
 function debounce(fn, ms) {
   let timer
   return _ => {
@@ -24,6 +28,7 @@ function debounce(fn, ms) {
 }
 
 const HomePage = (props) => {
+  const arrival=useRef();
 
 
   const [dimensions, setDimensions] = React.useState({
@@ -45,6 +50,12 @@ const HomePage = (props) => {
 
     }
   })
+
+  
+
+  
+
+  
   return <div>
 
     <div className="homePage">
@@ -66,10 +77,13 @@ const HomePage = (props) => {
 
     </div>
     {(dimensions.width < 800) && <div className="arrow" >
-      <img className="upImg" src={upImg} />
+      
+   
+      <img className="upImg" src={upImg} onClick={() => window.scrollTo(0,1000)} />
+   
     </div>}
 
-    <Arrival/>
+    <Arrival className="arrival-homepage" id="arrival"ref={arrival}/>
     <Shop />
     {/* <WinterCollection/> */}
     <Winter />
