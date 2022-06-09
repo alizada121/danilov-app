@@ -126,7 +126,7 @@
 
 
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .header-left{
         display: none;
     }
@@ -147,7 +147,7 @@
         width: 45%;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .header-left{
         display: none;
     }

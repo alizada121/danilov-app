@@ -208,13 +208,16 @@ const HeaderBlack = ({ dimensions }) => {
                  </div>   
             </div>
         
-      
+        <Link to="/">
+        
         <img className="sizeImgBlack" src={liFour} />
-
+        </Link>
+        <Link to="/bag">
         <ul className="headerBlack_ul_two">
             <li ><img src={small} /></li>
 
         </ul>
+        </Link>
     </div>
         }
 

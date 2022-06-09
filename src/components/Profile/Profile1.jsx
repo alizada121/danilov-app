@@ -32,7 +32,8 @@ function Profile1() {
 
             </div>
 
-            <div className='Profile1-heading-line'> 
+            <div className='Profile1-heading-line-container'> 
+            <div className='Profile1-heading-line'></div> 
 
             </div>           
           </div>       

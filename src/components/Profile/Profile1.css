@@ -43,10 +43,10 @@
 }
 
 .Profile1-heading-first {
-    width: 13%;
+    width: auto;
     font-family: 'Cormorant';
     font-style: normal;
-    font-size: 30px;
+    font-size: 29px;
     color: #1B1B1B;
     text-align: left;
 }
@@ -57,14 +57,22 @@
     line-height: 50px;
 }
 
-.Profile1-heading-line{
+.Profile1-heading-line-container{
     width: 87%;
-    border: 0.5px solid #000000;
-    height: 0;
-    background-color: #000000;
-  
+   
+    position: relative;
     margin-top: 4%;
     
+}
+
+
+.Profile1-heading-line{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-bottom: 0.5px solid #000000;
+    height: 0;
+    background-color: #000000;
 }
 
 .Profile1-signUp-container{
@@ -165,7 +173,7 @@
     background-color: #463227;
     color: #F0F0F0;
     transition: 0.6s;
-    padding: 1% 1%;
+    padding: 1% 2%;
 }
 
 .button-row input:hover{
@@ -211,7 +219,9 @@
     }
 
     .Profile1-signUp-form{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
 
     }
 
@@ -231,15 +241,31 @@
 
     .button-row input{
         width: 100%;
+        padding: 2% 1%;
     }
 
     .button-row p {
          margin-left: 0%;
          margin-top: 5%;
     }
+    .Profile1-heading-nav{
+        display: none;
+    }
+    
+    .Profile1-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+   
+    .Profile1-heading{
+        width: 95%;
+        margin-left: 5%;
+    }
 
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .Profile1-signUp-heading p{
         font-size: 18px;
     }
@@ -249,7 +275,9 @@
     }
 
     .Profile1-signUp-container{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .Profile1-signUp-form{
@@ -273,14 +301,32 @@
 
     .button-row input{
         width: 100%;
+        padding: 2% 1%;
+
     }
 
     .button-row p {
          margin-left: 0%;
          margin-top: 5%;
     }
+    .Profile1-heading-nav{
+        display: none;
+    }
+    
+    .Profile1-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+   
+    
+    .Profile1-heading{
+        width: 95%;
+        margin-left: 5%;
+    }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .Profile1-signUp-heading p{
         font-size: 18px;
     }
@@ -290,7 +336,9 @@
     }
 
     .Profile1-signUp-container{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .Profile1-signUp-form{
@@ -314,11 +362,34 @@
 
     .button-row input{
         width: 100%;
+        padding: 2% 1%;
+
     }
 
     .button-row p {
          margin-left: 0%;
          margin-top: 5%;
+    }
+    .Profile1-heading-nav{
+        display: none;
+    }
+    
+    .Profile1-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .Profile1-profile-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    
+    .Profile1-heading{
+        width: 95%;
+        margin-left: 5%;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {}

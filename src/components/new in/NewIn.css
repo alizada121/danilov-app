@@ -167,7 +167,7 @@
         width: 48%;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) { .newIn-heading{
+@media screen and (min-width: 370px) and (max-width: 415px) { .newIn-heading{
     margin-top: 8%;
 }
 .newIn-heading-first {
@@ -193,7 +193,7 @@
 .iyirmi{
     width: 48%;
 }}
-@media screen and (min-width: 414px) and (max-width: 768px) { .newIn-heading{
+@media screen and (min-width: 415px) and (max-width: 768px) { .newIn-heading{
     margin-top: 8%;
 }
 .newIn-heading-first {

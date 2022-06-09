@@ -14,6 +14,7 @@
     background-size: cover;
     overflow: hidden;
     background-position: center;
+    scroll-behavior: smooth;
 }
 .middle{
     margin-top: 15%;
@@ -98,12 +99,16 @@
     .distance_box{
         display: none;
     }
+
+    .middle{
+        margin-top: 20%;
+    }
   }
  
   @media only screen and (max-width:  800px) {
     .homePage{
         background-image: url('../../../Images/smallScreen.png');
-        height: 160vh;
+        height: 100vh;
         width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
@@ -119,19 +124,27 @@
     }
     
   }
+
+
+  @media only screen and (max-width:  700px) {
+    .middle {
+        margin-top: 45%;
+    }
+}
   @media only screen and (max-width:  600px) {
    
    .thunder{
        font-size: 42px;
    }
    .middle{
-    margin-top: 80%;
+    /* margin-top: 80%; */
 }
   }
 .upImg{
-    position: absolute;
+    /* position: absolute;
     bottom:-40%;
-      transform: translateX(-50%);
+      transform: translateX(-50%); */
+      margin-top: 30%;
 }
 
 

@@ -93,7 +93,7 @@ width: 100%;
    
 }
 
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .ContactForm-header {
         font-size: 20px;
         margin-bottom: 10%;

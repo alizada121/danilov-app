@@ -178,7 +178,7 @@
         font-size: 13px;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
 
     .just{
         flex-direction: row;
@@ -233,7 +233,7 @@
         font-size: 14px;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .just{
         flex-direction: row;
         width: 90%;

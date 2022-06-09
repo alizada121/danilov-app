@@ -226,6 +226,7 @@
   top: 0;
 }
 .active-ham{
+  z-index: 9;
   display: block;
   width: 100%;
   top: 0;
@@ -314,7 +315,7 @@
 
   @media screen and (min-width: 320px) and (max-width: 370px) {
     .header {
-      padding: 15% 4%;
+      padding: 10% 4%;
     }
   
     .sizeImg{
@@ -322,9 +323,9 @@
       padding-top: 2%;
     }
   }
-  @media screen and (min-width: 370px) and (max-width: 414px) {
+  @media screen and (min-width: 370px) and (max-width: 415px) {
     .header {
-      padding: 15% 4%;
+      padding: 10% 4%;
     }
   
     .sizeImg{
@@ -332,7 +333,7 @@
       padding-top: 2%;
     }
   }
-  @media screen and (min-width: 414px) and (max-width: 768px) {
+  @media screen and (min-width: 415px) and (max-width: 768px) {
     .header {
       padding: 5% 4%;
     }

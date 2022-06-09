@@ -130,7 +130,7 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
 
     .arr {
        
@@ -176,7 +176,7 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
 
     .arr {
        
@@ -188,7 +188,8 @@
 
     .twice{
         right: 0;
-        margin-left: 37%;
+        /* margin-left: 37%; */
+        margin-left: 45%;
     }
 
     .brownImg{

@@ -73,15 +73,16 @@ const HomePage = (props) => {
         </div>
 
       </div>
+      {(dimensions.width < 800) && <div className="arrow" >
+      
+   
+      <img className="upImg" src={upImg} onClick={() => window.scrollTo(0,700)} />
+   
+    </div>}
 
 
     </div>
-    {(dimensions.width < 800) && <div className="arrow" >
-      
-   
-      <img className="upImg" src={upImg} onClick={() => window.scrollTo(0,1000)} />
-   
-    </div>}
+    
 
     <Arrival className="arrival-homepage" id="arrival"ref={arrival}/>
     <Shop />

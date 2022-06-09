@@ -6,6 +6,7 @@ import gsap from 'gsap';
 
 import "../Hamburger/HamMenu.css"
 import userEvent from '@testing-library/user-event';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,6 +17,8 @@ function HamMenu() {
     const dropDropRef3=useRef();
     const p1=useRef();
     const p2=useRef();
+    const p3=useRef();
+
     const [down1,setDown1]=useState(false);
     const [down2,setDown2]=useState(false);
     const [down3,setDown3]=useState(false);
@@ -102,6 +105,18 @@ function HamMenu() {
     }
 
 
+    const aboutOverflow=()=>{
+        document.body.style.overflow="auto"
+    }
+
+    const manOverflow=()=>{
+        document.body.style.overflow="auto"
+    }
+
+    const profileOverflow=()=>{
+        document.body.style.overflow="auto"
+    }
+
 
     
   return (
@@ -115,14 +130,18 @@ function HamMenu() {
             <div className='dropdown'>
                 <div className='main-dropdown'>
                     <div className='dropdown-show'>
-                    <h3 >About Us</h3>
+                    <Link to="/about">
+                    <h3 onClick={aboutOverflow}>About Us</h3>
+                    </Link>
                     <div onClick={Down1}  className={down1 ? "dropUp1" : "dropDown1"} ></div>
 
                     </div>
                     
                     <div className='drop-dropdown' ref={dropDropRef1}>
-                        <p ref={p1}>Salam</p>
-                        <p ref={p2}>necesen</p>
+                        <p>Our story</p>
+                        <p>Process we follow</p>
+                        <p>Our gallery</p>
+
 
                     </div>
 
@@ -133,7 +152,10 @@ function HamMenu() {
             <div className='dropdown'>
             <div className='main-dropdown'>
                 <div className='dropdown-show'>
-                    <h3  >Man</h3>
+                    <Link to="/collection">
+                   
+                    <h3  onClick={manOverflow} >Man</h3>
+                     </Link>
                     <div onClick={Down2}  className={down2 ? "dropUp2" : "dropDown2"} ></div>
 
 
@@ -141,8 +163,8 @@ function HamMenu() {
                 </div>
 
                 <div className='drop-dropdown' ref={dropDropRef2}>
-                    <p>hello</p>
-                    <p>ne var</p>
+                    <p>Shoes</p>
+                    <p>Winter collection</p>
 
                 </div>
                    
@@ -153,7 +175,9 @@ function HamMenu() {
             <div className='dropdown'>
             <div className='main-dropdown'>
             <div className='dropdown-show'>
-                    <h3  >Profile</h3>
+                <Link to="/profile2">
+                    <h3  onClick={profileOverflow}  >Profile</h3>
+                </Link>    
                     <div onClick={Down3}  className={down3 ? "dropUp3" : "dropDown3"} ></div>
 
 
@@ -161,8 +185,8 @@ function HamMenu() {
                 </div>
 
                 <div className='drop-dropdown' ref={dropDropRef3}>
-                    <p>hello</p>
-                    <p>ne var</p>
+                    <p>Shoes</p>
+                    <p>Shoes</p>
 
                 </div>
                 

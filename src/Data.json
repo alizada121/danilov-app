@@ -1,9 +1,11 @@
+
+
 [
     {
         "name":"Black Shoes1",
         "price":"800$",
         "desc":"description1",
-        "img":"http://localhost:3000/static/media/shopSlider1.e9c0316f761ea5301a00.png"
+        "img":"https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://ae01.alicdn.com/kf/Hd1d9825e4637427681dc654fcc6d1594g/Brand-Mens-Formal-Shoes-Genuine-Leather-Coiffeur-Brown-Dress-Designer-Shoes-Men-Office-Elegant-Shoes-Men.jpg"
     
     },
 
@@ -11,7 +13,7 @@
         "name":"Brwon Shoes1",
         "price":"900$",
         "desc":"description2",
-        "img":"http://localhost:3000/static/media/shopSlider3.9cf552bdf6e7bc5c36c4.png"
+        "img":"https://m.media-amazon.com/images/I/61XHzuJbB5L._AC_UX395_.jpg"
 
     
     },
@@ -20,14 +22,15 @@
         "name":"Red Shoes",
         "price":"800$",
         "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider3.9cf552bdf6e7bc5c36c4.png"
+        "img":"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/Y/71073_1547975906.jpg"
     
     },
     {
         "name":"Leather Shoes",
         "price":"800$",
         "desc":"description1",
-        "img":"http://localhost:3000/static/media/shopSlider1.e9c0316f761ea5301a00.png"
+        "img":"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/Y/71073_1547975906.jpg"
+
     
     },
 
@@ -37,21 +40,24 @@
         "name":"Black Shoes2",
         "price":"800$",
         "desc":"description3",
-        "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
+        "img":"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/Y/71073_1547975906.jpg"
+
     
     },
     {
         "name":"Green Shoes",
         "price":"800$",
         "desc":"description3",
-        "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
+        "img":"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/Y/71073_1547975906.jpg"
+
     
     },
     {
         "name":"Shoes1",
         "price":"800$",
         "desc":"description3",
-        "img":" http://localhost:3000/static/media/ShopSlider4.c32a99df5d89fa9aab5b.png"
+        "img":"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/Y/71073_1547975906.jpg"
+
     
     },
     {

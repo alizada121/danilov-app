@@ -378,7 +378,7 @@ input[type=checkbox]
     }
    
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .flexDelivery{
         flex-direction: column;
     }
@@ -453,7 +453,7 @@ input[type=checkbox]
     }
    
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .flexDelivery{
         flex-direction: column;
     }
