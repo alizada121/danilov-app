@@ -97,7 +97,7 @@ li{
     margin-right: 0;
   }
   .sizeImgBlack{
-    width: 40%;
+    /* width: 40%; */
   }
 }
 @media only screen and (max-width: 300px) {

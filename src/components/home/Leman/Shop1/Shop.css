@@ -38,7 +38,7 @@ text-align: center;
     
 
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .swiper-mob-cont{
         margin-top: 15%;
     }
@@ -60,7 +60,7 @@ text-align: center;
     }
     
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .swiper-mob-cont{
         margin-top: 15%;
     }

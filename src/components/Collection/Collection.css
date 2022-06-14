@@ -33,7 +33,7 @@
 }
 
 .collection-heading-text {
-    width: 26%;
+    width: auto;
     text-align: left;
 
 }
@@ -144,11 +144,14 @@
 
 @media only screen and (max-width: 600px) {
     .collection-text {
-        padding-top: 35%;
+        /* padding-top: 35%; */
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
+    .collection-nav{
+        display: none;
+    }
     .collection-bg {
         width: 100%;
         background-image: url(../../assets/collectio-mob-bg.svg);
@@ -187,8 +190,8 @@
     }
 
     .collection-line-cont {
-        width: 55%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 0%;
         margin-bottom: 2%;
     }
 
@@ -197,10 +200,26 @@
         line-height: 35px;
     }
 
+    .collection-number {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
 
 }
 
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
+    .collection-nav{
+        display: none;
+    }
+    .collection-general{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .collection-bg {
         width: 100%;
         background-image: url(../../assets/collectio-mob-bg.svg);
@@ -228,8 +247,8 @@
     }
 
     .collection-line-cont {
-        width: 50%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 0%;
         margin-bottom: 2%;
     }
 
@@ -238,9 +257,30 @@
         line-height: 35px;
     }
 
+    .collection-heading-cont {
+        width: 95%;
+        margin-left: 5%;
+    }
+    .collection-number {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
 }
 
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .collection-general{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .collection-nav{
+        display: none;
+    }
     .collection-bg {
         width: 100%;
         background-image: url(../../assets/collectio-mob-bg.svg);
@@ -269,21 +309,44 @@
         font-size: 40px;
     }
 
-    .collection-line-cont {
-        width: 68%;
-        margin-left: 12%;
-        margin-bottom: 2%;
-    }
+   
+        .collection-line-cont {
+            width: 70%;
+            margin-left: 0%;
+            margin-bottom: 2%;
+        }
+    
 
     .collection-heading-text h1 {
         font-size: 35px;
         line-height: 35px;
     }
 
+    .collection-heading-text h1 {
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    .collection-heading-cont {
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .collection-number {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .collection-nav{
+        display: none;
+    }
     .collection-card {
         flex-wrap: wrap;
 
@@ -316,6 +379,14 @@
         font-size: 49px;
         line-height: 55px;
 
+    }
+    .collection-number {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
 
 }

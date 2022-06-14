@@ -198,7 +198,7 @@
 
    
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .contact-heading-container {
         width: 100%;
         padding-left: 0%;
@@ -271,7 +271,7 @@
 
 
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .contact-heading-container {
         width: 100%;
         padding-left: 0%;

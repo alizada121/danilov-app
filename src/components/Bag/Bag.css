@@ -211,7 +211,7 @@ text-align: left;
         width: 59%;
     }
     .bag-name-cont{
-        /* padding-left: 5%; */
+        padding-left: 5%;
         padding-top: 5%;
     justify-content: space-between;
 
@@ -245,14 +245,14 @@ text-align: left;
 
     .smallScreen {
         padding: 5%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
        
         /* border-block-start-style: none; */
     }
     
     
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     
     .collect {
         font-size: 45px;
@@ -262,7 +262,7 @@ text-align: left;
         width: 63%;
     }
     .bag-name-cont{
-        /* padding-left: 5%; */
+        padding-left: 5%;
         padding-top: 5%;
     justify-content: space-between;
 
@@ -293,7 +293,7 @@ text-align: left;
         display: block;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .bag-heading-general{
         padding-left: 5%;
     }
@@ -305,7 +305,7 @@ text-align: left;
         width: 65%;
     }
     .bag-name-cont{
-        /* padding-left: 5%; */
+        padding-left: 5%;
         padding-top: 5%;
     justify-content: space-between;
 

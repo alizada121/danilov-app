@@ -399,7 +399,7 @@ text-align: center;
         z-index: 999;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .single-name h1 {
         
         font-size: 35px;
@@ -451,7 +451,7 @@ text-align: center;
         z-index: 999;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .single-name h1 {
         
         font-size: 35px;

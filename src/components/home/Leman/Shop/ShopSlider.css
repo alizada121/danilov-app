@@ -342,7 +342,7 @@
 
    
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .swiper-button-prev::after{
         font-family: 'Times New Roman', Times, serif !important;
         background-image: url("../../../../assets/Vector (8).svg") !important;
@@ -416,7 +416,7 @@
     
 
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .swiper-button-prev::after{
         font-family: 'Times New Roman', Times, serif !important;
         background-image: url("../../../../assets/Vector (8).svg") !important;

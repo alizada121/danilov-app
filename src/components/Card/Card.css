@@ -203,7 +203,7 @@
         opacity: 1;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {
+@media screen and (min-width: 370px) and (max-width: 415px) {
     .otuz {
         width: 100%;
     }
@@ -224,7 +224,7 @@
         opacity: 1;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 740px) {
+@media screen and (min-width: 415px) and (max-width: 740px) {
     .otuz {
         width: 100%;
     }
