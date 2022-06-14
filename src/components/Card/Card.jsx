@@ -6,9 +6,13 @@ import "../Card/Card.css"
 import ShopSlider from '../home/Leman/Shop/ShopSlider'
 import whiteHeart from "../../assets/whiteHeart.svg"
 
+
+import Slider from "react-slick";
  
 import gsap from 'gsap'
 function Card(props) {
+
+  
     // console.log(props);
     const ShopSlider=useRef();
     const hoverAttachents1=useRef();
