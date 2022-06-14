@@ -43,7 +43,7 @@ const HeaderWhite = ({ dimensions }) => {
 
     useOutsideClick(refRef, () => {
     //    inputRef.current.style.display="none";
-       filetedContRef.current.style.display="none"
+    //    filetedContRef.current.style.display="none"
     //    absoluteLupa.current.style.display="none"
      
        console.log("salamsss")
@@ -51,6 +51,8 @@ const HeaderWhite = ({ dimensions }) => {
        setActiveInput(true)
 
        setActiveWidth(true)
+       setFiltered(false)
+       setValue('')
        
       
        
@@ -163,7 +165,7 @@ const HeaderWhite = ({ dimensions }) => {
                         </input> 
                         <div className="input-lupa" ref={absoluteLupa}><img src={liFive} /></div> 
                    
-                             <div id="fileteredShoes-cont" className={!filtered ? "filtered" : "unfiltered"}  ref={filetedContRef}>
+                             <div id="filteredShoes"className={!filtered ? "filtered" : "unfiltered"}  ref={filetedContRef}>
 
 
                                  {filteredShoes && filteredShoes.map((e)=>{
