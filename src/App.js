@@ -11,6 +11,7 @@ import Profile2 from './components/Profile/Profile2';
 import Payment from './components/Payment/Payment';
 import Collection from './components/Collection/Collection';
 // import CollectionCard from './components/CollectionCard/CollectionCard';
+// import Slick from './components/slick/Slick'
 
 //Shirin
 import SingleProduct from './components/SingleProduct/SingleProduct';
@@ -20,6 +21,8 @@ import Delivery from './components/Delivery/Delivery';
 import Login from './components/Login/Login';
 import './style.css'
 import CollectionCard from './components/CollectionCard/CollectionCard';
+
+
 
 function debounce(fn, ms) {
   let timer
@@ -107,6 +110,8 @@ function App() {
         <CollectionCard/>
 
       </Route>
+
+     
 
       
 

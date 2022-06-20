@@ -276,7 +276,7 @@ height: 30%;
         padding: 0% 5%;
     }
     .about-name h1{
-        font-size: 31px;
+        font-size: 36px;
         line-height: 0.6;
     }
     .emalatxana{
@@ -323,6 +323,7 @@ height: 30%;
 @media screen and (min-width: 370px) and (max-width: 415px) {
     .about-line{
         position: static;
+        width: 92;
     }
     .about-main{
         display: none;
@@ -348,7 +349,7 @@ height: 30%;
         padding: 0% 5%;
     }
     .about-name h1 {
-        font-size: 35px;
+        font-size: 42px;
         line-height: 0.6;
         text-align: left;
     }

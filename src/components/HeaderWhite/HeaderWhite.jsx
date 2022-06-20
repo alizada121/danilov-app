@@ -51,7 +51,7 @@ const HeaderWhite = ({ dimensions }) => {
        setActiveInput(true)
 
        setActiveWidth(true)
-       setFiltered(false)
+    //    setFiltered(false)
        setValue('')
        
       
@@ -132,7 +132,7 @@ const HeaderWhite = ({ dimensions }) => {
             </ul>
 
             <Link to="/">
-             <img src={liFour} />
+             <img src={liFour} className="logoHeader" />
             </Link>
           
 

@@ -6,6 +6,10 @@
   
 }
 
+.disco-link{
+    text-decoration: none;
+}
+
 .homePage{
     background-image: url('../../../Images/BackgImg.svg');
     height: 100vh;
