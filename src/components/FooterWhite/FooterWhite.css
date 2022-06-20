@@ -88,7 +88,7 @@ ul li{
 }
 #whitejust ul li{
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 17px;
     font-family: 'Montserrat';
     font-weight: 300;
@@ -103,13 +103,14 @@ ul li{
 }
 
 .lastPart{
-    margin-bottom: 1%;
+    margin-bottom: -2%;
 
 }
 
 #white-lastPart{
     margin-left: 10%;
     margin-right: 10%;
+    width: 80%;
 }
 .lastPart ul{
     display: flex;
@@ -129,6 +130,8 @@ ul li{
 
     color: white;
 }
+
+
 
 .lastPart ul li:nth-child(2){
     font-family: 'Inter';

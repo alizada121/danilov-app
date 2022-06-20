@@ -32,7 +32,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 25px;
+    line-height: 40px;
     color: #FCFCFC;
 }
 
@@ -50,7 +50,7 @@
 .GreenShop-part1-button{
     align-items: left;
     width: 50%;
-   
+    
     left: 0;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -60,7 +60,7 @@
 
 
 .GreenShop-part1-button button{
-   
+    cursor: pointer;
     background-color: #001C08;
     border: 1px solid white;
     transition: 0.6s;

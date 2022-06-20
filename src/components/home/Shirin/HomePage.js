@@ -1,4 +1,5 @@
 import React, { useEffect, useState,useRef } from "react";
+import { Link } from "react-router-dom";
 
 // import "./"
 import Header from "../../Header/Header";
@@ -51,6 +52,8 @@ const HomePage = (props) => {
     }
   })
 
+  const scrollTop = () =>{   window.scrollTo({top: 0});};
+
   
 
   
@@ -63,14 +66,17 @@ const HomePage = (props) => {
       <div className="middle">
         <p className="middle_p">Spring & Summer ‘22</p>
         <h1 className="thunder">Thunder Collection</h1>
+        <Link to="/collection" className="disco-link" onClick={scrollTop}>
         <div className="distance_box">
+         
           <p className="disco">Discover  </p>
-
+          
           <div className="anyW">
             <div className="divS"></div> <img className="distance" src={pass} />
           </div>
 
         </div>
+        </Link>
 
       </div>
       {(dimensions.width < 800) && <div className="arrow" >

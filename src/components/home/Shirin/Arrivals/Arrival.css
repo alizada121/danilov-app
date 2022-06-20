@@ -52,6 +52,10 @@
     width: 100%;
 }
 
+.twice-link{
+    text-decoration: none;
+}
+
 .lacus {
     font-family: 'Cormorant'
 }

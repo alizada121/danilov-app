@@ -45,7 +45,7 @@
     font-weight: 500;
     font-family: 'Montserrat';
     line-height: 25px;
-    margin-bottom:15px;
+    margin-bottom:15px !important;
 }
 .just ul li{
     color: black;
@@ -77,9 +77,10 @@
     line-height: 25px;
     /* identical to box height, or 139% */
 
-
+   
     color: black;
 }
+
 
 .lastPart a{
     text-decoration: none;
