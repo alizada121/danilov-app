@@ -28,7 +28,7 @@ function HomeLeman({dimensions}) {
           </div>
 
           <div className='homepage-footer-black'>
-            <Footer/>
+            <FooterWhite/>
           </div>
                   
                   

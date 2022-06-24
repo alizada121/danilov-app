@@ -140,7 +140,10 @@ function Card(props) {
           <div className='card-name-para'>
             <h4>{props.desc}</h4>
          </div>
+         <div className='price'>
            <p>{props.price}</p>
+         </div>
+          
             
        </div>
 

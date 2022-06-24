@@ -46,7 +46,7 @@
     width: 100%;
 }
 .ShopSlider-slider-part1{
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     margin-right: 10%;
     width: 80%;
     margin-left: 10%;
@@ -57,7 +57,7 @@
 
     transition: 1s;
     opacity: 1;
-
+    margin-top: 2%;
     transform: translateY(0);
 }
 
