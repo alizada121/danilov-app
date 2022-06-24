@@ -10,6 +10,7 @@ import Footer from '../Footer/Footer'
 
 import HeaderBlack from '../HeaderBlack/HeaderBlack'
 import CollectionCard from '../CollectionCard/CollectionCard'
+import followUs from '../home/Leman/FollowUs/FollowUs'
 
 function Collection({dimensions}) {
 
@@ -168,6 +169,10 @@ function Collection({dimensions}) {
                 <img src={vectorRight}></img>
 
 
+            </div>
+
+            <div className='collection-followUS'>
+                <followUs/>
             </div>
 
             <div className='collection-footer'>

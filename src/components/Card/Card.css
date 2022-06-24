@@ -71,6 +71,19 @@
    
     margin-bottom: 0;
 }
+
+.cardWrap{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardWrap img{
+    height: fit-content;
+}
 .otuz{
     width:33%;
 }
@@ -130,7 +143,7 @@
     margin-bottom: 5%;
 }
 
-.card-img img{
+.img1{
     width: 100%;
     height: 100%;
 
@@ -173,6 +186,7 @@
     overflow-x:hidden ;
     /* width: 200px; */
     margin-bottom: 10%;
+    position: relative;
 }
 
 .vector-right,.vector-left{
@@ -181,9 +195,23 @@
 }
 
 .card-img img{
-    margin-left: 10%;
-    width: 86%;
+    /* margin-left: 10%;
+    width: 86%; */
     height: 400px;
+    width: 100%;
+}
+
+.img1{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    opacity: 0;
+}
+
+.rightVector,.leftVector{
+    opacity: 0;
 }
 
 .card-img .swiper .swiper-button-prev{

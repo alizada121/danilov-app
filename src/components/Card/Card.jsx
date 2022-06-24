@@ -48,34 +48,7 @@ function Card(props) {
     const img2=useRef();
    const [active,setActive]=useState(false)
 
-    const Slider1=()=>{
-
-      
-      gsap.to(img1.current, { xPercent:0});
-      gsap.to(img2.current, { xPercent:0});
-
-      
-
-      
-
-     
-    }
-
-    const Slider2=()=>{
-
-     
-      gsap.to(img1.current, { xPercent:-100});
-      gsap.to(img2.current, { xPercent:-100});
-
-      
-
-      // leftRef.current.style.opacity="1"
-      // rightRef.current.style.opacity="0"
-
-  
-    
-     
-    }
+   
 
     const  whiteHeartRef=useRef();
     const [toggle,setToggle]=useState(false);
@@ -90,9 +63,46 @@ function Card(props) {
       whiteHeartRef.current.style.fill="none"
       setToggle(false)
     }
-     
-     
+       
     }
+
+    const [prevToggle,setPrevToggle]=useState(false)
+    const [nextToggle,setNextToggle]=useState(true)
+
+    const sliderPrev=()=>{
+      setPrevToggle(true)
+      if(prevToggle){
+        img1.current.style.opacity="0"
+        img2.current.style.opacity="1"
+        
+        console.log(prevToggle)
+        setPrevToggle(false)
+      }else{
+        img1.current.style.opacity="1"
+        img2.current.style.opacity="0"
+        setPrevToggle(true)
+
+      }
+
+    }
+
+    const sliderNext=()=>{
+      setNextToggle(true)
+      if(nextToggle){
+        img2.current.style.opacity="0"
+        img1.current.style.opacity="1"
+        
+        console.log(nextToggle)
+        setNextToggle(false)
+      }else{
+        img2.current.style.opacity="1"
+        img1.current.style.opacity="0"
+        setNextToggle(true)
+
+      }
+
+    }
+
 
     
 
@@ -135,32 +145,27 @@ function Card(props) {
        </div>
 
      </div>
-     </div>
+     </div>  
      </div>
 
+     <div className="cardWrap">
+
+      <img src={vectorLeft} ref={leftRef} className="rightVector"  onClick={sliderPrev}></img>
         <div className='card-img'>
-   
-
-          <div className='card-images'>
-
-         
-          <img src={props.img} alt=""  ref={img1}></img>
-          {/* <img src={props.img} ref={img2}></img>  */}
-             </div>
-           
+        <div className='card-images'>
+         <img src={props.img} className="img1" alt=""  ref={img2}></img>
+         <img src={props.img2} className="img2" ref={img1}></img> 
+            </div>  
+            
         </div>
-
-  
+    <img src={vectorRight} ref={rightRef} className="leftVector" onClick={sliderNext}></img>
+    </div>
 
       
 
 
-        {/* <div className='vector-right'  onClick={Slider2}ref={rightRef}>
-        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 5.32779V6.64728H12.5703C12.5703 6.64728 10.0358 8.12298 7.74899 12.0017C9.31927 12.0017 9.29081 12.0017 9.29081 12.0017C9.29081 12.0017 12.043 7.69921 15.428 5.99585C12.043 4.36892 9.21548 0 9.21548 0H7.70546C7.70546 0 10.168 4.04155 12.5251 5.36103C10.5832 5.33776 0 5.32779 0 5.32779Z" fill="#1B1B1B"/>
-        </svg>
-
-        </div> */}
+       
+        
 
   
     </div>
