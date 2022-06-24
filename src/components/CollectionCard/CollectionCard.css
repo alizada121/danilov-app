@@ -11,6 +11,10 @@
     justify-content: flex-end;
 }
 
+.heart{
+    margin-left: 90%;
+}
+
 .col-info{
     display: flex;
     flex-direction: column;

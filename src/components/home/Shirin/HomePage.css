@@ -34,6 +34,7 @@
     font-size: 100px;
     
     color: #FFFFFF;
+    margin-bottom: 5%;
     
 }
 .disco{
@@ -98,7 +99,7 @@
         display: none;
     }
     .middle_p{
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
     }
     .distance_box{
         display: none;

@@ -42,7 +42,7 @@
     width: 100%;
     font-family: 'Cormorant';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 70px;
     line-height: 50px;
 }
@@ -138,7 +138,7 @@
 
     .collection-bg {
         /* background-position: center; */
-        height: 40vh;
+        height: 60vh;
     }
 }
 
