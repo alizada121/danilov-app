@@ -1,13 +1,13 @@
 import React,{useRef,useState,useEffect} from "react";
 import {Link} from "react-router-dom"
-import liOne from '../../Images/Group 125.svg';
+import insta from '../../assets/insta.svg';
 import liTwo from '../../Images/Vector.svg';
 import liFour from '../../Images/Group 123.svg';
 import liFive from '../../Images/Group 124.svg';
 import liSix from '../../Images/Group.svg';
 import small from '../../Images/smallScreen1.svg';
 import twoLine from '../../Images/twoLine.svg';
-import insta from '../../Images/facee.png'
+import fb from '../../assets/fb.svg';
 import '../HeaderWhite/HeaderWhite.css'
 import Data from "../../Data.json"
 
@@ -121,8 +121,8 @@ const HeaderWhite = ({ dimensions }) => {
 
         {(dimensions.width > 800) && <div className="header"    >
             <ul className="header_ul_one" id="white">
-               <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <li><img src={liOne} /></li></a>
-                <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img className="insta" src={insta} /></li></a>
+               <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"> <li><img src={insta} /></li></a>
+                <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><li><img  style={{width:"19px", height:"19px",marginRight:"50px"}} src={fb} /></li></a>
                 <Link to="/about">
                  <li className="text">About us</li>
                 </Link>
