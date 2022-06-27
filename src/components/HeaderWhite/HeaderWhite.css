@@ -40,6 +40,11 @@
   margin-left: -15px;
   } */
 
+  .fb-header{
+    width: 19px;
+    height: 19px;
+    margin-right: 50px;
+  }
  
   .header_ul_one li,
   .header_ul_two li {
@@ -120,6 +125,10 @@
 }
 
 .logoHeader{
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   transition: 1s;
   animation-name: logo;
   animation-duration: 0.6s;

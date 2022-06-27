@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css';
-import insta from '../../assets/insta-black.png';
-import fb from '../../assets/fb-black.png'
+import insta from '../../assets/insta.svg';
+import fb from '../../assets/fb.svg'
 import bg1 from "../../assets/bg-pic1.png"
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Footer = () => {  
