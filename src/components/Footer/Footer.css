@@ -5,7 +5,7 @@
    flex-direction: column;
    justify-content: space-around;
     border-top: 1px solid black;
-   /* padding: 0 5%; */
+   padding:  3% 0;
    /* position: absolute; */
    /* width: 90% */
    top:0;
@@ -32,7 +32,7 @@
 }
 
 .just{
-    /* width: 50%; */
+    width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,11 +41,12 @@
 
 }
 .just ul li:first-child{
-    font-size: 19px;
-    font-weight: 500;
-    font-family: 'Montserrat';
-    line-height: 25px;
-    margin-bottom:15px !important;
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
+    margin-bottom: 15px !important;
 }
 .just ul li{
     color: black;

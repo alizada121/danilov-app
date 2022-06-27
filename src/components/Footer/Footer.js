@@ -12,7 +12,7 @@ const Footer = () => {
                 <img src={bg1}></img>
 
             </div> */}
-            <div className="footerHome">
+            <div className="footer">
                 <div className="just">
                     <div className="footer-row1">
                     <ul>
