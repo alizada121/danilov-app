@@ -23,6 +23,7 @@
 .middle{
     margin-top: 15%;
     align-items: center;
+    cursor: pointer;
 }
 .middle_p{
     font-size: 22px;
@@ -38,8 +39,10 @@
     
 }
 .disco{
-    font-size: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
+    font-size: 20px;
     color: #FFFFFF;
     line-height: 25px;
     margin-top: 2%;
@@ -58,10 +61,13 @@
     display:flex;
  
  width: 300px;
-   margin-top: 2.2%;
-   margin-left: 55px;
+ margin-top: 2.3%;
+ margin-left: 43px;
 }
 .distance_box{
+    position: absolute;
+    top: 70%;
+    left: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +155,11 @@
     /* position: absolute;
     bottom:-40%;
       transform: translateX(-50%); */
-      margin-top: 30%;
+      /* margin-top: 30%; */
+
+      position: absolute;
+    bottom: 2%;
+    right: 40%;
 }
 
 
