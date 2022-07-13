@@ -11,6 +11,13 @@
   align-items: center;
  
 }
+
+.logoBlack{
+    position: absolute;
+    top: 6%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
 .keys{
   display: flex;
   justify-content: space-around;

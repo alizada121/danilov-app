@@ -131,7 +131,7 @@ const HeaderWhite = ({ dimensions }) => {
                 </Link>
             </ul>
 
-            <Link to="/">
+            <Link to="/" style={{width:"205px",height:"45px"}}>
              <img src={liFour} className="logoHeader" />
             </Link>
           
