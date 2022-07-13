@@ -1,5 +1,6 @@
 
 .header {
+  height: 100px;
     display: flex;
     justify-content: space-between;
     padding: 2% 10%;
@@ -224,14 +225,20 @@
   display: none;
   width: 0;
   transition: 3s;
+
 }
 
 .deactive-header{
   display: none;
+  /* animation:dewidth ; */
+  animation-duration: 1s;
+
 }
 
+
+
 .active-width{
-  width: 40%;
+  width: 35%;
   display: flex;
   list-style: none;
   align-items: center;
@@ -242,7 +249,7 @@
 
 @keyframes width {
   0%   {  width: 30%;}
-  100% { width: 40%;}
+  100% { width: 35%;}
 }
 
 /* HAMBURGER */

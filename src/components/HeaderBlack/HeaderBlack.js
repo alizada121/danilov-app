@@ -145,7 +145,7 @@ const HeaderBlack = ({ dimensions }) => {
                     </Link>
                 </ul>
                 <Link to="/">
-                    <img src={liFourWhite} />
+                    <img src={liFourWhite} className="logoBlack" />
                 </Link>
 
                 <div    className={activeHeader ? "active-header" : "deactive-header"} >
