@@ -27,6 +27,7 @@
 
 .ShopSlider-container-heading h1{
     font-family: 'Cormorant ', serif;
+    margin-bottom: -30px;
     font-style: normal;
     font-weight: 500;
     font-size: 100px;
@@ -46,6 +47,7 @@
     width: 100%;
 }
 .ShopSlider-slider-part1{
+    /* margin-top: -50px; */
     margin-bottom: 0%;
     margin-right: 10%;
     width: 80%;
@@ -248,7 +250,8 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-  
+    /* margin-top: -40px; */
+   /* margin-top: -0px; */
    background: #FCFCFC;
     /* Center slide text vertically */
     display: -webkit-box;

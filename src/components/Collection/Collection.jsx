@@ -73,6 +73,7 @@ function Collection({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'collection-faiz'
                         // className="collection-card-1"
@@ -94,6 +95,7 @@ function Collection({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'collection-faiz'
                         // className="collection-card-1"
@@ -127,6 +129,7 @@ function Collection({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'collection-faiz'
                         // className="collection-card-1"
@@ -148,6 +151,7 @@ function Collection({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'collection-faiz'
                         // className="collection-card-1"

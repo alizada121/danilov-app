@@ -1,4 +1,3 @@
-
 import React ,{useState ,useEffect} from "react";
 import "../WinterCollection/WinterCollection.css"
 import remove4 from '../../../../Images/remove4.png';
@@ -60,5 +59,3 @@ const WinterCollection = () => {
     )
 }
 export default WinterCollection
-
-

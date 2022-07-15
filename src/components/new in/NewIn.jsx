@@ -68,6 +68,7 @@ function NewIn({dimensions}) {
                     price={item.price}
                     desc={item.desc} 
                     img={item.img}
+                    img2={item.pmg}
                     key={item.name}
                     faiz='iyirmi'
                     />
@@ -84,6 +85,7 @@ function NewIn({dimensions}) {
                     price={item.price}
                     desc={item.desc} 
                     img={item.img}
+                    img2={item.pmg}
                     key={item.name}
                     />
                 )
@@ -101,6 +103,7 @@ function NewIn({dimensions}) {
                     price={item.price}
                     desc={item.desc} 
                     img={item.img}
+                    img2={item.pmg}
                     key={item.name}
                     />
                 )

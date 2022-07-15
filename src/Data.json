@@ -1,38 +1,40 @@
 
-
 [
     {
         "name":"Black Shoes1",
         "price":"800$",
         "desc":"description1",
-        "img":"https://cdn2.stylicy.com/global/image-5496-30798635-1-big-hr.jpg",
-        "img2":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
-    
+        "img":"./shoes/1.jpg",
+        "pmg":"./shoes/2.jpg"
+   
+      
     },
 
     {
         "name":"Brwon Shoes1",
         "price":"900$",
         "desc":"description2",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
+        "img":"./shoes/8.jpg",
+        "pmg":"./shoes/9.jpg"
+  
 
-    
     },
 
     {
         "name":"Red Shoes",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/asos/7602dfdd/ivyrevel-Red-Heeled-Velvet-Pointed-Court-Shoe-With-Pu-Trim.jpeg"
-    
+        "img":"./shoes/12.jpg",
+        "pmg":"./shoes/13.jpg"
+     
     },
     {
         "name":"Leather Shoes",
         "price":"800$",
         "desc":"description1",
-        "img":"https://cdn2.stylicy.com/global/image-5496-30798635-1-big-hr.jpg"
-
-    
+        "img":"./shoes/16.jpg",
+        "pmg":"./shoes/17.jpg"
+     
     },
 
    
@@ -41,15 +43,17 @@
         "name":"Black Shoes2",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/asos/7602dfdd/ivyrevel-Red-Heeled-Velvet-Pointed-Court-Shoe-With-Pu-Trim.jpeg"
-
+        "img":"./shoes/20.jpg",
+        "pmg":"./shoes/21.jpg"
+       
     
     },
     {
         "name":"Green Shoes",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
+        "img":"./shoes/24.jpg",
+        "pmg":"./shoes/25.jpg"
 
     
     },
@@ -57,75 +61,72 @@
         "name":"Shoes1",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
-
+        "img":"./shoes/28.jpg",
+        "pmg":"./shoes/29.jpg" 
     
     },
     {
         "name":"Shoes2",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
-    
+        "img":"./shoes/32.jpg",
+        "pmg":"./shoes/33.jpg"
     },
 
 
     {
-        "name":"Shoes2",
+        "name":"Shoes3",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
+        "img":"./shoes/36.jpg",
+        "pmg":"./shoes/37.jpg"
     
     },
 
     {
-        "name":"Shoes2",
+        "name":"Shoes4",
         "price":"800$",
         "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
-    
-    },
-
-    {
-        "name":"Shoes2",
-        "price":"800$",
-        "desc":"description3",
-        "img":"https://cdna.lystit.com/520/650/n/photos/agnesb/3457469d/agnes-b-BLACK-Agnes-B-X-Kleman-Black-Leather-Derby-Shoes.jpeg"
+        "img":"./shoes/40.jpg",
+        "pmg":"./shoes/41.jpg" 
     
     }, {
-        "name":"Shoes2",
+        "name":"Shoes5",
         "price":"800$",
         "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
+        "img":"./shoes/44.jpg",
+        "pmg":"./shoes/35.jpg"
+    },
+    {
+        "name":"Shoes6",
+        "price":"800$",
+        "desc":"description3",
+        "img":"./shoes/48.jpg",
+        "pmg":"./shoes/49.jpg"
     
     },
     {
-        "name":"Shoes2",
+        "name":"Shoes7",
         "price":"800$",
         "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
-    
+        "img":"./shoes/52.jpg",
+        "pmg":"./shoes/53.jpg"
     },
     {
-        "name":"Shoes2",
+        "name":"Shoes8",
         "price":"800$",
         "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
-    
+        "img":"./shoes/56.jpg",
+        "pmg":"./shoes/57.jpg"
+         
     },
     {
-        "name":"Shoes2",
+        "name":"Shoes9",
         "price":"800$",
         "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
-    
-    },
-    {
-        "name":"Shoes2",
-        "price":"800$",
-        "desc":"description3",
-        "img":"http://localhost:3000/static/media/shopSlider5.f862596526abcb4b6760.png"
-    
+        "img":"./shoes/60.jpg",
+        "pmg":"./shoes/61.jpg" 
+        
     }
  
 ]

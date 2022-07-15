@@ -1,6 +1,7 @@
 .headerBlack{
     display: flex;
    justify-content: space-between;
+   align-items: center;
    padding: 2% 10%;
    font-family: 'Montserrat', sans-serif;
    background-color: #FCFCFC;

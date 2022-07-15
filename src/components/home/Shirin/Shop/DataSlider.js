@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from '../../../../Images/remove1.png'
-import img2 from '../../../../Images/remove2.png'
-import img3 from '../../../../Images/remove3.png'
-import new1 from '../../../../Images/remove4.png';
+import img1 from '../../../../assets/shoes/1.jpg'
+import img2 from '../../../../assets/shoes/5.jpg'
+import img3 from '../../../../assets/shoes/9.jpg'
+import new1 from '../../../../assets/shoes/5.jpg';
 import new2 from '../../../../Images/remove5.png';
 // import img4 from '../../../../Images/remove4.png'
 import img5 from '../../../../Images/remove5.png'
@@ -27,4 +27,4 @@ const dataSlider =[{
     image2:new2,
     image3:new1
 }]
-export default dataSlider
+export default dataSlider;

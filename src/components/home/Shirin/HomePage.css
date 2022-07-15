@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cormorant', serif;
-  
+
 }
 
-.disco-link{
+.disco-link {
     text-decoration: none;
 }
 
-.homePage{
+.homePage {
     background-image: url('../../../Images/BackgImg.svg');
     height: 100vh;
     /* width: 100vw; */
@@ -20,25 +20,29 @@
     background-position: center;
     scroll-behavior: smooth;
 }
-.middle{
+
+.middle {
     margin-top: 15%;
     align-items: center;
     cursor: pointer;
 }
-.middle_p{
+
+.middle_p {
     font-size: 22px;
     font-weight: 500;
     color: #FFFFFF;
-   
+
 }
-.thunder{
+
+.thunder {
     font-size: 100px;
-    
+
     color: #FFFFFF;
     margin-bottom: 5%;
-    
+
 }
-.disco{
+
+.disco {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -46,25 +50,29 @@
     color: #FFFFFF;
     line-height: 25px;
     margin-top: 2%;
-    /* transition: transform 0.4s; */;
+    /* transition: transform 0.4s; */
+    ;
 
-     margin-right: -3%;
+    margin-right: -3%;
 }
-.widthEncrease{
+
+.widthEncrease {
     display: flex;
 }
-.distance_box{
-  cursor: pointer;
+
+.distance_box {
+    cursor: pointer;
 }
 
-.anyW{
-    display:flex;
- 
- width: 300px;
- margin-top: 2.3%;
- margin-left: 43px;
+.anyW {
+    display: flex;
+
+    width: 300px;
+    margin-top: 2.3%;
+    margin-left: 43px;
 }
-.distance_box{
+
+.distance_box {
     position: absolute;
     top: 70%;
     left: 23%;
@@ -75,93 +83,154 @@
     transition: 0.3s ease all;
     margin: 0 0 0 20%;
 }
-.distance_box:hover .divS{
-        width: 25%;
-        transition: 0.3s ease all;
+
+.distance_box:hover .divS {
+    width: 25%;
+    transition: 0.3s ease all;
 }
-.divS{
+
+.divS {
     border-bottom: 1px solid white;
-     margin-bottom: 2%;
-     margin-right: -1%;
+    margin-bottom: 2%;
+    margin-right: -1%;
     width: 20%;
     transition: 0.3s ease all;
 }
-@media only screen and (max-width:  1140px) {
-    .distance_box{
+
+@media only screen and (min-width: 1800px) {
+    .middle {
+        margin-top: 20%;
+    }
+
+    .distance_box {
+        top: 60%;
+        left: 25%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .middle {
+        margin-top: 20%;
+    }
+
+    .distance_box {
+        top: 60%;
+        left: 25%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .middle {
+        margin-top: 20%;
+    }
+
+    .distance_box {
+        top: 60%;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .distance_box {
         margin: 0 0 0 25%;
     }
-    
-  }
- @media only screen and (max-width:  1000px) {
-    .middle{
+
+    /* .middle{
+        margin-top: 75%;
+       
+    } */
+    .distance_box {
+        top: 54%;
+        left: 17%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .middle {
         margin-top: 30%;
     }
-    .distance_box{
-        margin: 0 0 0 27%;
-    }
-  }
-  @media only screen and (max-width:  900px) {
-    .disco{
+
+    .distance_box {
+        /* margin: 0 0 0 27%; */
         display: none;
     }
-    .middle_p{
-        /* margin-bottom: 50px; */
-    }
-    .distance_box{
+}
+
+@media only screen and (max-width: 900px) {
+    .disco {
         display: none;
     }
 
-    .middle{
+    .middle_p {
+        /* margin-bottom: 50px; */
+    }
+
+    .distance_box {
+        display: none;
+    }
+
+    .middle {
         margin-top: 20%;
     }
-  }
- 
-  @media only screen and (max-width:  800px) {
-    .homePage{
+}
+
+@media only screen and (max-width: 800px) {
+    .homePage {
         background-image: url('../../../Images/smallScreen.png');
         height: 100vh;
         width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    } 
-      .thunder{
-       
+    }
+
+    .thunder {
+
         margin: 0 auto;
         text-align: center;
     }
-    .middle{
+
+    .middle {
         margin-top: 40%;
     }
-    
-  }
+
+}
 
 
-  @media only screen and (max-width:  700px) {
+@media only screen and (max-width: 700px) {
     .middle {
         margin-top: 45%;
     }
 }
-  @media only screen and (max-width:  600px) {
-   
-   .thunder{
-       font-size: 42px;
-   }
-   .middle{
-    /* margin-top: 80%; */
-}
-  }
-.upImg{
+.upImg {
     /* position: absolute;
     bottom:-40%;
       transform: translateX(-50%); */
-      /* margin-top: 30%; */
+    /* margin-top: 30%; */
 
-      position: absolute;
+    position: absolute;
     bottom: 2%;
-    right: 40%;
+    right: 47%;
 }
+@media only screen and (max-width: 600px) {
 
+    .thunder {
+        font-size: 42px;
+    }
 
+    .middle {
+        /* margin-top: 80%; */
+    }
+}
+@media only screen and (max-width: 450px) {
+.upImg{
+    right: 44%;
+}
+}
+@media only screen and (max-width: 400px) {
+    .upImg{
+        right: 40%;
+    }
+    }
 
 

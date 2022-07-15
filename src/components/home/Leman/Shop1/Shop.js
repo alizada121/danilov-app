@@ -50,6 +50,7 @@ function Shop() {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -78,6 +79,7 @@ function Shop() {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -98,6 +100,7 @@ function Shop() {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -118,6 +121,7 @@ function Shop() {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 

@@ -1,5 +1,6 @@
 .FollowUs-container{
     border-top: 1px solid black;
+    margin-top: 15%;
 }
 .FollowUs{
     margin-top: 5%;
@@ -19,23 +20,24 @@
 
 .FollowUs-heading{
     text-align: left;
+    margin-top: 5%;
 }
 .FollowUs-heading h4{
     font-family: 'Montserrat', sans-serif;;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 35px;
     line-height: 25px;
     color: #606060;
     margin: 0;
     margin-left: 6%;
-
+margin-bottom: -1%;
 }
 
 .FollowUs-heading h1{
     font-family: 'Cormorant';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 100px;
     line-height: 25px;
     color: #1B1B1B;
@@ -56,7 +58,7 @@
 .FollowUs-danilov p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 22px;
     line-height: 25px;
     text-align: left;
@@ -64,6 +66,8 @@
     letter-spacing: -0.05em;
     margin-left: 10%;
     color: #606060;
+
+
     
 }
 
@@ -102,7 +106,10 @@
     letter-spacing: -0.05em;
     color: #F0F0F0;
 
-   
+
+
+
+
     
 
     
@@ -113,7 +120,7 @@
     width: 74%;
     position: absolute;
     bottom: 10%;
-    left: 10%;
+    left: 8%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {

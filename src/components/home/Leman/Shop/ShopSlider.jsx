@@ -41,7 +41,7 @@ function ShopSlider({dimensions}) {
   
     const [counter,setCounter]=useState(0);
    
-
+    data.map(e => console.log(e))
     useEffect(()=>{
         if(dimensions.width < 1024) setSlice2(1)
         else setSlice2(3)
@@ -151,6 +151,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -173,6 +174,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -192,6 +194,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -237,6 +240,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -257,6 +261,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 
@@ -277,6 +282,7 @@ function ShopSlider({dimensions}) {
                         price={item.price}
                         desc={item.desc} 
                         img={item.img}
+                        img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
 

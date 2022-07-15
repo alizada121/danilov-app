@@ -1,12 +1,12 @@
 .winterCollection{
     background-color: #FCFCFC;
     /* height: 118vh; */
-    padding-top: 10%;
+    padding-top: 15%;
     margin-bottom: 10%;
 }
 .winterText{
     font-size: 100px;
-    font-weight: 600;
+    font-weight:normal;
     line-height: 25px;
 }
 .sliders_image{
@@ -22,11 +22,11 @@
    align-items: center;
 }
 .vitae{
-    margin-top: 4%;
+    margin-top: 3%;
     /* text-align: center; */
     width: 38%;
     font-size: 18px;
-    font-weight: 400;
+    font-weight:300;
     font-family: 'Montserrat';
     color: #463227;
 

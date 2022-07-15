@@ -13,6 +13,7 @@
 .newArrivals {
     font-size: 100px;
     margin-left: 30%;
+    margin-bottom: -2%;
 }
 .distance {
     color: black;
@@ -47,7 +48,7 @@
     align-items: center;
     text-align: center;
     margin-top: 30%;
-    margin-left: 55%;
+    margin-left: 40%;
     cursor: pointer;
     width: 100%;
 }
@@ -111,7 +112,7 @@
 
     .newArrivals {
         font-size: 40px;
-        margin-left: 0%;
+       
     }
 
     .blueImg {
@@ -303,4 +304,10 @@
     .twice{
         margin-left: 25%;
     }
+}
+@media screen and (min-width:1600px){
+     .twice{
+        margin-top: 40%;
+        margin-left: 50%;
+     }
 }
