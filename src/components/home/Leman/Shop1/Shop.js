@@ -70,7 +70,7 @@ function Shop() {
             <img src={mobline} className="mob-line"></img>
   <Swiper navigation={true} modules={[Navigation]}   loop={true}  noSwiping= {true} onlyExternal={ true} noSwipingClass= "swiper-slide" className="mySwiper">
 
-        <SwiperSlide> <div className='mobile-card'>
+        <SwiperSlide> <div className='Fcard'>
                 {data.slice(0,1).map((item) => {
                     return (
                         <Card 
@@ -144,7 +144,7 @@ function Shop() {
                
 
                 <div className='vector-right'>
-                    <img  src={vectorRight}></img>
+                    <img className='lll' src={vectorRight}></img>
 
                 </div>
                 

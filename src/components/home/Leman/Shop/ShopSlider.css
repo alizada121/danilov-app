@@ -526,7 +526,7 @@
     bottom: -12% !important;
     top: 80% !important;
    transform: rotate(180deg); 
-   left: 0% !important;
+   left: 10% !important;
     right: 100% !important;
 
     /* right: auto !important;
@@ -539,8 +539,8 @@
     bottom: -10% !important;
     top: 74% !important;
    /* transform: rotate(180deg);  */
-   right: 0% !important;
-   left: 90% !important;
+   right: 20% !important;
+   left: 85% !important;
    transform: rotate(0deg);
 
 }
@@ -626,5 +626,12 @@
     .swiper{
         height: 500px;
     }
-
+   .mob-line{
+    transform: translateY(514px);
+   }
 }
+@media screen and (max-width:400px){
+.ShopSlider-container-heading{
+    margin-bottom: 20%;
+}  
+  }

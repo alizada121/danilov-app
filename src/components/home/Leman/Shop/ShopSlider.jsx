@@ -30,7 +30,8 @@ import { Navigation } from "swiper";
 
 
 
-function ShopSlider({dimensions}) {
+function ShopSlider({dimensions , klassName}) {
+    console.log(klassName)
     const [slice1,setSlice1]=useState(0);
     const [slice2,setSlice2]=useState(3);
     const additionValue=3
@@ -146,7 +147,7 @@ function ShopSlider({dimensions}) {
                 {data.slice(slice1,slice2).map((item) => {
                     return (
                         <Card 
-
+        
                         name={item.name} 
                         price={item.price}
                         desc={item.desc} 
@@ -154,7 +155,7 @@ function ShopSlider({dimensions}) {
                         img2={item.pmg}
                         key={Math.random()}
                         faiz= 'otuz'
-
+                    
 
                         />
                     )

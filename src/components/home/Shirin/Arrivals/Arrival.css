@@ -186,7 +186,7 @@
     }
 
     .seeAll{
-        width: 15%;
+        width: 20%;
     }
 }
 @media screen and (min-width: 415px) and (max-width: 768px) {
@@ -255,6 +255,7 @@
 
     .twice{
         right: 0;
+        /* margin-left: 20%; */
     }
 
     .brownImg{
@@ -311,3 +312,33 @@
         margin-left: 50%;
      }
 }
+@media screen and (max-width:1020px){
+   .texttwo{
+    margin-top: -5px;
+   }
+   .twice-link{
+margin-right: 15%;
+margin-top: -14%;
+   }
+}
+@media screen and (max-width:800px){
+    .twice{
+  
+        margin-left: 70%;
+     }
+ }
+ @media screen and (max-width:720px){
+    .twice{
+  
+        margin-left: 55%;
+     }
+ }
+ @media screen and (max-width:401px){
+    .seeAll{
+        width: 20%;
+    }
+    .twice{
+  
+        margin-left: 70%;
+     }
+ }

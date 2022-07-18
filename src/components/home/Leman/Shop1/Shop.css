@@ -105,11 +105,51 @@ text-align: center;
 
     .shop-heading h1 {
         font-size: 55px;
+        margin-bottom: -120px;
     }
     
 }
 
+@media screen and (max-width:960px){
+   .shop-heading h1{
+    margin-bottom: -80px;
+   }
+    
+ }
+ @media screen and (max-width:680px){
 
+     .mobile-card{
+        margin-top: 30%;
+     }
+     .shop-heading h1{
+        margin-bottom: -60px;
+     }
+  }
+ 
+  @media screen and (max-width:550px){
+    .mobile-card{
+        margin-top: 0%;
+    }
+   
+    .shop-heading h1{
+       margin-bottom: -50px;
+    }
+    
+ }
+ @media screen and (max-width:460px){
 
-
+   
+    .shop-heading h1{
+       margin-bottom: -40px;
+    }
+    
+ }
+ @media screen and (max-width:400px){
+    .shop-heading h1{
+        margin-bottom: -30px;
+    }
+    .mobile-card{
+        margin-top: -16%;
+    }
+  }
 

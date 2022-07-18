@@ -27,11 +27,11 @@ code {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: brown; 
+  background: black; 
   /* border-radius: 10px; */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(227, 169, 169)
+  background: gray
 }

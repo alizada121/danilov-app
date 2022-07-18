@@ -173,7 +173,7 @@ function Card(props) {
           </div>
         </div>
 
-        <div className="cardWrap">
+        <div className={`cardWrap ${props.klassName && 'marginBottomCardWrap'} `}>
 
           <img src={vectorLeft} ref={leftRef} className="rightVector" onClick={sliderPrev}></img>
           <div className='card-img'>
