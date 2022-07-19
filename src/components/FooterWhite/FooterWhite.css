@@ -1,35 +1,35 @@
-.footer{
+.footer {
     /* margin-top: 150px; */
     /* height: 100vh; */
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border-top: 1px solid black;
-   /* padding: 0 5%; */
-   /* position: absolute; */
-   /* width: 90% */
-   top:0;
+    /* padding: 0 5%; */
+    /* position: absolute; */
+    /* width: 90% */
+    top: 0;
 
-   /* width:80%;
+    /* width:80%;
    margin-right: 10%;
    margin-left: 10%; */
 
-   
+
 }
 
-.footerHome{
+.footerHome {
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding-top: 2%;
-   padding-bottom: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 3%;
     border-top: 1px solid black;
-    top:0;
+    top: 0;
     height: 100vh;
 
 }
 
-#footerWhite{
+#footerWhite {
     background-image: url(../../assets/bg-pic1.png);
     background-size: cover;
 }
@@ -38,49 +38,51 @@
 
 
 
-ul li{
+ul li {
     cursor: pointer;
 }
 
-.foot{
+.foot {
     position: relative;
- 
-   
+
+
 }
 
-.footer-bg img{
+.footer-bg img {
     width: 100%;
     /* position: absolute; */
 }
-.footer ul li{
+
+.footer ul li {
     list-style: none;
-    
+
 }
 
-.just{
+.just {
     width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10%;
     margin-top: 2%;
-    
+
 
 }
 
-#whitejust{
+#whitejust {
     margin-left: 10%;
 }
 
 
-.just ul li:first-child{
+.just ul li:first-child {
     font-size: 19px;
     font-weight: 500 !important;
     font-family: 'Montserrat';
     line-height: 25px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-#whitejust ul li{
+
+#whitejust ul li {
     color: white;
     margin-bottom: 5px;
     font-size: 17px;
@@ -89,32 +91,36 @@ ul li{
     text-align: left;
     line-height: 25px;
 }
-.footer-contact{
+
+.footer-contact {
     display: flex;
-  
+
 }
-.insta{
+
+.insta {
     margin-right: 15px;
 }
 
-.lastPart{
+.lastPart {
     margin-bottom: -2%;
 
 }
 
-#white-lastPart{
+#white-lastPart {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
 }
-.lastPart ul{
+
+.lastPart ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     align-items: baseline;
-    
+
 }
-#white-lastPart ul li{
+
+#white-lastPart ul li {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 400;
@@ -128,16 +134,17 @@ ul li{
 
 
 
-.lastPart ul li:nth-child(2){
+.lastPart ul li:nth-child(2) {
     font-family: 'Inter';
-    
-}
-#white-lastPart a{
-    text-decoration: none;
-  
+
 }
 
-.footer-row1{
+#white-lastPart a {
+    text-decoration: none;
+
+}
+
+.footer-row1 {
     display: flex;
     flex-direction: row;
     width: 48%;
@@ -145,43 +152,43 @@ ul li{
 
 }
 
-.footer-row1 ul{
+.footer-row1 ul {
     width: 49%;
 }
 
-.footer-row2 ul{
+.footer-row2 ul {
     width: 49%;
 }
 
-.footer-row1 ul li:hover{
+.footer-row1 ul li:hover {
     font-weight: 400;
 
 }
 
-.footer-row2 ul li:hover{
+.footer-row2 ul li:hover {
     font-weight: 400;
 
 }
 
-.footer-row2{
+.footer-row2 {
     width: 42%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.claradix{
+.claradix {
     font-family: 'Inter' !important;
     color: #747474 !important;
     font-weight: 400 !important;
-    
+
 }
 
-.claradix-mobile{
+.claradix-mobile {
     width: 100%;
 }
 
-.claradix-mobile p{
+.claradix-mobile p {
     font-family: 'Inter' !important;
     font-style: normal;
     font-weight: 400;
@@ -192,27 +199,27 @@ ul li{
 
 
 
-.claradix-mobile-cont a{
+.claradix-mobile-cont a {
     text-decoration: none;
 
 }
 
-.claradix-mobile-cont{
+.claradix-mobile-cont {
     display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin-top: 5%;
-   margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
-#claradixWhite{
+#claradixWhite {
     color: white !important;
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
-    .just{
+    .just {
         flex-direction: row;
         width: 90%;
         margin-left: 5%;
@@ -220,49 +227,50 @@ ul li{
         padding-top: 5%;
     }
 
-    #footerWhite{
+    #footerWhite {
         background-image: none;
     }
-    #whitejust ul li{
+
+    #whitejust ul li {
         color: black;
     }
 
-    .footer-row1{
+    .footer-row1 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
-    .footer-row1 ul{
+    .footer-row1 ul {
         padding: 0;
         width: 100%;
     }
 
-    .footer-row2{
+    .footer-row2 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: initial;
     }
 
-   
-    .footer-row2 ul{
+
+    .footer-row2 ul {
         padding: 0;
         width: 100%;
         margin-bottom: 10%;
     }
 
-    .footer-contact{
+    .footer-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 50%;
     }
 
-   
-  
 
-    .lastPart{
+
+
+    .lastPart {
         border-bottom: 2px solid black;
         border-top: 2px solid black;
         width: 100%;
@@ -272,40 +280,45 @@ ul li{
 
     }
 
-    .lastPart ul{
+    .lastPart ul {
         padding: 0;
     }
+
     .lastPart ul li {
         font-size: 16px;
         font-weight: 600;
     }
 
-    .claradix-mobile{
+    .claradix-mobile {
         width: 100%;
     }
 
-    .claradix-mobile-cont{
+    .claradix-mobile-cont {
         display: flex;
     }
 
-    .footerHome{
-        height:auto;
+    .footerHome {
+        height: auto;
 
     }
-    
+
 
 }
+
 @media screen and (min-width: 370px) and (max-width: 415px) {
-    #footerWhite{
+    #footerWhite {
         background-image: none;
     }
-    #whitejust ul li{
+
+    #whitejust ul li {
         color: black;
     }
-    .claradix{
+
+    .claradix {
         display: none;
     }
-    .just{
+
+    .just {
         flex-direction: row;
         width: 90%;
         margin-left: 5%;
@@ -313,38 +326,39 @@ ul li{
         padding-top: 5%;
     }
 
-    .footer-row1{
+    .footer-row1 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
-    .footer-row1 ul{
+    .footer-row1 ul {
         padding: 0;
         width: 100%;
     }
 
-    .footer-row2{
+    .footer-row2 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: initial;
     }
 
-   
-    .footer-row2 ul{
+
+    .footer-row2 ul {
         padding: 0;
         width: 100%;
         margin-bottom: 10%;
     }
 
-    .footer-contact{
+    .footer-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 50%;
     }
-    .lastPart{
+
+    .lastPart {
         border-bottom: 2px solid black;
         border-top: 2px solid black;
         width: 100%;
@@ -354,77 +368,84 @@ ul li{
 
     }
 
-    .lastPart ul{
+    .lastPart ul {
         padding: 0;
     }
+
     .lastPart ul li {
         font-size: 16px;
         font-weight: 600;
     }
 
-    .claradix-mobile{
+    .claradix-mobile {
         width: 100%;
     }
 
-    .claradix-mobile-cont{
+    .claradix-mobile-cont {
         display: flex;
     }
-    .footerHome{
-        height:auto;
+
+    .footerHome {
+        height: auto;
 
     }
 }
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
-    #footerWhite{
+    #footerWhite {
         background-image: none;
     }
-    #whitejust ul li{
+
+    #whitejust ul li {
         color: black;
-     
+
     }
-    .claradix{
+
+    .claradix {
         display: none;
     }
-    .just{
+
+    .just {
         flex-direction: row;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         padding-top: 5%;
     }
-  
-    .footer-row1{
+
+    .footer-row1 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
-    .footer-row1 ul{
+    .footer-row1 ul {
         padding: 0;
         width: 100%;
     }
 
-    .footer-row2{
+    .footer-row2 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: initial;
     }
 
-   
-    .footer-row2 ul{
+
+    .footer-row2 ul {
         padding: 0;
         width: 100%;
         margin-bottom: 10%;
     }
 
-    .footer-contact{
+    .footer-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 27%;
     }
-    .lastPart{
+
+    .lastPart {
         border-bottom: 2px solid black;
         border-top: 2px solid black;
         width: 100%;
@@ -434,30 +455,33 @@ ul li{
 
     }
 
-    .lastPart ul{
+    .lastPart ul {
         padding: 0;
     }
+
     .lastPart ul li {
         font-size: 20px;
         font-weight: 600;
     }
 
-    .claradix-mobile{
+    .claradix-mobile {
         width: 100%;
     }
 
-    .claradix-mobile-cont{
+    .claradix-mobile-cont {
         display: flex;
     }
-    .footerHome{
-        height:auto;
+
+    .footerHome {
+        height: auto;
     }
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    
-    .just{
+
+    .just {
         flex-direction: row;
         width: 90%;
         margin-left: 5%;
@@ -465,53 +489,84 @@ ul li{
         padding-top: 5%;
     }
 
-    .footer-row1{
+    .footer-row1 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
-    .footer-row1 ul{
+    .footer-row1 ul {
         padding: 0;
         width: 100%;
     }
 
-    .footer-row2{
+    .footer-row2 {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: initial;
     }
 
-   
-    .footer-row2 ul{
+
+    .footer-row2 ul {
         padding: 0;
         width: 100%;
         margin-bottom: 10%;
     }
 
-    .footer-contact{
+    .footer-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 23%;
     }
-    .footerHome{
-        height:auto;
+
+    .footerHome {
+        height: auto;
     }
-   
 
-    
+
+
 
 }
-@media screen and (max-width:800px){
-#white-lastPart ul li{
-    color:black !important
+
+@media screen and (max-width:800px) {
+    #white-lastPart ul li {
+        color: black !important
+    }
+
+    #footerWhite {
+        background-image: none;
+    }
+
+    #whitejust ul li {
+        color: #000;
+    }
 }
-#footerWhite{
-    background-image: none;
-}
- #whitejust ul li{
-    color: #000;
- }
+
+
+ @media screen and (max-width:768px) {
+    .lastPart{
+        margin-top: 8%;
+    }
+    #white-lastPart {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100% !important;
+    }
+    .lastPart ul {
+        padding: 0 5%;
+    }
+} 
+@media screen and (max-width:440px) {
+
+  .footer-contact{
+    width: 44%;
   }
+} 
+@media screen and (max-width:400px) {
+
+    .footer-contact{
+      width: 54%;
+    }
+  } 

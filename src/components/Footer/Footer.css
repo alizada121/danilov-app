@@ -127,7 +127,9 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-
+    .lastPart ul{
+        padding: 0 5%;
+    }
     .just ul li{
         margin-bottom: 5px;
         font-size: 15px;
@@ -230,7 +232,7 @@
         flex-direction: row;
     }
     .lastPart ul{
-        padding: 0;
+        padding: 0 5%;
     }
     .lastPart ul li {
         font-size: 14px;

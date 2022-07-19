@@ -1,105 +1,116 @@
-.shop-heading h1{
+.shop-heading h1 {
     font-family: 'Cormorant';
-font-style: normal;
-font-weight: 600;
-font-size: 100px;
-line-height: 25px;
-/* or 25% */
-margin-bottom: 80px;
-text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 25px;
+    /* or 25% */
+    margin-bottom: 80px;
+    text-align: center;
 }
 
-.shop-general{
+.shop-general {
     margin-top: 10%;
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
 
-    .swiper-mob-cont{
+    .swiper-mob-cont {
         margin-top: 15%;
     }
-    .shop1-slider{
+
+    .shop1-slider {
         display: none;
     }
-    .shop-general{
+
+    .shop-general {
         margin-top: 40%;
     }
 
     .shopSlider-blackHeart {
-      
-       
+
+
         margin-top: 30%;
     }
 
     .shop-heading h1 {
         font-size: 55px;
     }
-    
+
 
 }
+
 @media screen and (min-width: 370px) and (max-width: 415px) {
-    .swiper-mob-cont{
+    .swiper-mob-cont {
         margin-top: 15%;
     }
-    .shop1-slider{
+
+    .shop1-slider {
         display: none;
     }
-    .shop-general{
+
+    .shop-general {
         margin-top: 40%;
     }
 
     .shopSlider-blackHeart {
-      
-       
+
+
         margin-top: 30%;
     }
 
     .shop-heading h1 {
         font-size: 55px;
     }
-    
+
 }
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
-    .swiper-mob-cont{
+    .swiper-mob-cont {
         margin-top: 15%;
     }
-    .shop1-slider{
+
+    .shop1-slider {
         display: none;
     }
-    .shop-general{
+
+    .shop-general {
         margin-top: 40%;
     }
 
     .shopSlider-blackHeart {
-      
-       
+
+
         margin-top: 30%;
     }
 
     .shop-heading h1 {
         font-size: 55px;
     }
-    
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .swiper-mob-cont{
+    .swiper-mob-cont {
         margin-top: 15%;
     }
-    .shop1-slider{
+
+    .shop1-slider {
         display: none;
     }
 
-    .swiper-mob-cont{
+    .swiper-mob-cont {
         display: flex;
     }
-    .shop-general{
+
+    .shop-general {
         margin-top: 40%;
     }
 
     .shopSlider-blackHeart {
-      
-       
+
+
         margin-top: 30%;
     }
 
@@ -107,49 +118,79 @@ text-align: center;
         font-size: 55px;
         margin-bottom: -120px;
     }
-    
+
 }
 
-@media screen and (max-width:960px){
-   .shop-heading h1{
-    margin-bottom: -80px;
-   }
-    
- }
- @media screen and (max-width:680px){
+@media screen and (max-width:960px) {
+    .shop-heading h1 {
+        margin-bottom: -80px;
+    }
 
-     .mobile-card{
+}
+
+@media screen and (max-width:680px) {
+
+    .mobile-card {
         margin-top: 30%;
-     }
-     .shop-heading h1{
+    }
+
+    .shop-heading h1 {
         margin-bottom: -60px;
-     }
-  }
- 
-  @media screen and (max-width:550px){
-    .mobile-card{
+    }
+}
+
+@media screen and (max-width:550px) {
+    .mobile-card {
         margin-top: 0%;
     }
-   
-    .shop-heading h1{
-       margin-bottom: -50px;
-    }
-    
- }
- @media screen and (max-width:460px){
 
-   
-    .shop-heading h1{
-       margin-bottom: -40px;
+    .shop-heading h1 {
+        margin-bottom: -50px;
     }
-    
- }
- @media screen and (max-width:400px){
-    .shop-heading h1{
+
+    .swiper-button-prev::after {
+        font-family: 'Times New Roman', Times, serif !important;
+        background-image: url("../../../../Images/shirin/rrr.svg") !important;
+        width: 60px;
+        margin-right: -60px;
+    }
+
+    .swiper-button-next::after {
+        font-family: 'Times New Roman', Times, serif !important;
+        background-image: url("../../../../Images/shirin/rrr.svg") !important;
+        width: 60px;
+        margin-right: -50px;
+
+    }
+
+}
+@media screen and (max-width:500px) {
+  .shop-heading h1{
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width:460px) {
+
+    .swiper-button-prev::after {
+       
+        margin-right: -88px;
+    }
+    .shop-heading h1 {
+        margin-bottom: -40px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .shop-heading h1 {
         margin-bottom: -30px;
     }
-    .mobile-card{
-        margin-top: -16%;
-    }
-  }
 
+    .mobile-card {
+        margin-top: -15%;
+    }
+    .swiper-button-prev::after {
+       
+        margin-right: -10px;
+    }
+}

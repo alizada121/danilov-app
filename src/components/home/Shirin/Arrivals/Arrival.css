@@ -122,7 +122,7 @@
 
     .texttwo{
         position: static;
-        width: 90%;
+        width: 84%;
         margin-left: 5%;
         font-size: 20px;
     }
@@ -172,7 +172,7 @@
 
     .texttwo{
         position: static;
-        width: 90%;
+        width: 86%;
         margin-left: 5%;
         font-size: 20px;
     }
@@ -333,12 +333,40 @@ margin-top: -14%;
         margin-left: 55%;
      }
  }
+ @media screen and (max-width:500px){
+   .newArrivals{
+    margin-bottom: 25%;
+   }
+   .twice-link{
+    margin-right: 8%;
+   }
+ }
+ @media screen and (max-width:500px){
+   
+    .twice-link{
+     margin-right: 5%;
+    }
+  }
  @media screen and (max-width:401px){
     .seeAll{
         width: 20%;
     }
     .twice{
   
-        margin-left: 70%;
+        margin-left: 60%;
      }
+ }
+ @media screen and (max-width:370px){
+  .newArrivals{
+    margin-left: 0;
+  }
+  .twice{
+    margin-left: 57%;
+  }
+  .seeAll{
+    width: 24%;
+  }
+  .divS1{
+    margin-bottom: 2.7%;
+  }
  }

@@ -1,11 +1,11 @@
 import React from "react";
 import img1 from '../../../../assets/shoes/1.jpg'
-import img2 from '../../../../assets/shoes/5.jpg'
+import img2 from '../../../../assets/shoes/56.jpg'
 import img3 from '../../../../assets/shoes/9.jpg'
-import new1 from '../../../../assets/shoes/5.jpg';
-import new2 from '../../../../Images/remove5.png';
+import new1 from '../../../../assets/shoes/56.jpg';
+import new2 from '../../../../assets/shoes/53.jpg';
 // import img4 from '../../../../Images/remove4.png'
-import img5 from '../../../../Images/remove5.png'
+import img5 from '../../../../assets/shoes/58.jpg'
 const dataSlider =[{
     id :1,
     image :img1,

@@ -60,9 +60,9 @@ const Winter = () => {
                
             </div>
             <div className="slider">
-                <img className="middleLinee1" src={prev} onClick={prevSlide1} />
+                <img className="middleLinee1 main" src={prev} onClick={prevSlide1} />
                 <img className="middleLinee" src={line2} />
-                <img className="middleLinee1" src={next} onClick={nextSlide1} />
+                <img className="middleLinee1 main1" src={next} onClick={nextSlide1} />
             </div>
         </div>
     )

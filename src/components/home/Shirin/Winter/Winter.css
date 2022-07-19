@@ -106,7 +106,17 @@
         width: 80%;
     }
 }
-
+@media only screen and (max-width: 500px) {
+ .middleLinee{
+    width: 70%;
+ }
+ .main{
+    margin-left: -4%;
+ }
+ .main1{
+    margin-right: -5%;
+ }
+}
 @media only screen and (max-width: 450px) {
     .winterText {
         font-size: 34px;

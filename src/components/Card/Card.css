@@ -403,12 +403,32 @@
         margin-right: -5%;
     }
     .cardWrap{
-        width: 110%;
-        margin-left: -3%;
+        width: 100%;
+        /* margin-left: -3%; */
         margin-right: 0;
         /* margin-bottom: 30%; */
     }
  }
+ @media screen and (max-width:500px){
+  
+     .cardWrap{
+         margin-left: -2%;
+         margin-right: 0;
+         /* margin-bottom: 30%; */
+     }
+     .card-info{
+        width: 126%;
+        margin-left: -16%;
+     }
+     .shopSlider-blackHeart{
+        margin-right: 3%;
+       
+     }
+     .shopSlider-blackHeart svg{
+        width: 25px !important;
+        height: 25px !important;
+     }
+  }
  @media screen and (max-width:460px){
     .card-info{
         width: 120%;
@@ -419,14 +439,14 @@
         margin-right: 2%;
     }
     .cardWrap{
-        width: 100%;
-        margin-left: 0;
+        width: 94%;
+        margin-left: 3%;
     }
     .swiper-button-next{
-        right: -50px !important;
+        /* right: -50px !important; */
     }
     .swiper-button-prev{
-        left: -2% !important;
+        /* left: -2% !important; */
     }
   }
   @media screen and (max-width:400px){
@@ -439,11 +459,11 @@
         margin-right: 8%;
     }
     .cardWrap{
-        width: 80%;
-        margin-left: 10%;
+        width: 82%;
+        margin-left: 9%;
     }
    .otuz{
-    margin-top: -26%;
+    margin-top: -23%;
    }
    .swiper-button-prev{
     left: -5% !important;
