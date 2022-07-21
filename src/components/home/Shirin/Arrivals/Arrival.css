@@ -344,7 +344,7 @@ margin-top: -14%;
  @media screen and (max-width:500px){
    
     .twice-link{
-     margin-right: 5%;
+     /* margin-right: 5%; */
     }
   }
  @media screen and (max-width:401px){

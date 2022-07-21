@@ -13,14 +13,14 @@ const Winter = () => {
     const length = dataSlider.length
     const nextSlide1 = () => {
         setCurrent1((prevstate) => {
-            console.log('fffff')
+            // console.log('fffff')
             if (prevstate < length - 1) return prevstate + 1
             else return 0
         })
     }
-    console.log(current1)
+    // console.log(current1)
     const prevSlide1 = () => {
-        console.log('hhhh')
+        // console.log('hhhh')
         setCurrent1((prevstate) => prevstate === 0 ? length - 1 : current1 - 1)
     }
     if (!Array.isArray(dataSlider) || dataSlider.length <= 0) {

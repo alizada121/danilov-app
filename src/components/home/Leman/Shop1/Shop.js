@@ -33,7 +33,7 @@ function Shop() {
         if (dimensions.width < 1024) setSlice2(1)
         else setSlice2(3)
     }, [dimensions.width])
-    console.log(dimensions)
+    // console.log(dimensions)
     return (
         <div className='shop-general'>
 

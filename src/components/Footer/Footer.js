@@ -2,7 +2,10 @@ import React from "react";
 import './Footer.css';
 import insta from '../../assets/insta.svg';
 import fb from '../../assets/fb.svg'
-import bg1 from "../../assets/bg-pic1.png"
+import bg1 from "../../assets/bg-pic1.png";
+import qarainsta from "../../Images/shirin/qarainsta.svg"
+import qarafb from "../../Images/shirin/qarafb.svg"
+
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const Footer = () => {  
     return (
@@ -45,10 +48,10 @@ const Footer = () => {
                         <li>Follow us</li>
                         <div className="footer-contact">
                             <div className="footer-insta">
-                            <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"><img className="insta" src={insta} /></a>
+                            <a href="https://www.instagram.com/danilov_baku/?hl=en" target="_blank"><img className="insta" src={qarainsta} /></a>
                             </div>
                             <div className="footer-fb">
-                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={fb}  /></a>
+                                 <a href="https://www.facebook.com/Danilov-Shoes-2000969736610486/" target="_blank"><img src={qarafb}  /></a>
                             </div>
                            
                         </div>

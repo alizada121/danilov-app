@@ -15,7 +15,7 @@
 
 .logoBlack{
     position: absolute;
-    top: 6%;  
+    /* top: 6%;   */
     left: 50%; 
     transform: translate(-50%, -50%);
 }
@@ -67,7 +67,13 @@ li{
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1000px) {
+  .headerBlack {
+    padding: 5% 1%;
+  }
 
+ 
+}
 @media only screen and (max-width: 950px) {
   .headerBlack {
     padding:5% 5%;
@@ -76,26 +82,31 @@ li{
 }
 @media only screen and (max-width: 900px) {
   .headerBlack {
-    padding: 5% 5%;
+    padding: 5% 1%;
   }
 
  
 }
 @media only screen and (max-width: 850px) {
   .headerBlack {
-    padding: 5% 5%;
+    padding: 5% 1%;
   }
 }
 @media only screen and (max-width: 800px) {
   .headerBlack_ul_two li{
     margin-right: 0;
   }
+  .headerBlack {
+    padding: 5% 10%;
+  }
 }
 @media only screen and (max-width: 500px) {
   .headerBlack {
     padding: 5% 5% ;
   }
-
+  .headerBlack_ul_two li{
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 450px) {
   .headerBlack {
@@ -107,6 +118,9 @@ li{
   .sizeImgBlack{
     /* width: 40%; */
   }
+  .headerBlack_ul_two li {
+    margin-left: 0;
+}
 }
 @media only screen and (max-width: 300px) {
   .wtdhBlack{
@@ -114,4 +128,9 @@ li{
   }
 }
 
-
+.active1{
+  margin-right: 0 !important;
+}
+.imgsize a{
+  width: 35%;
+}

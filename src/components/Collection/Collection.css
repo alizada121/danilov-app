@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 800px) {
     .collection-text {
-        padding-top: 25%;
+        /* padding-top: 25%; */
     }
 
     .collection-bg {
@@ -177,7 +177,9 @@
         width: 50%;
     }
 
-
+    .collection-text{
+        padding-top: 80%;
+    }
     .collection-text p {
 
         font-size: 22px;
@@ -215,6 +217,9 @@
     .collection-nav{
         display: none;
     }
+    .collection-winterCol{
+        margin-bottom: 40%;
+    }
     .collection-general{
         width: 100%;
         margin-left: 0;
@@ -224,16 +229,22 @@
         width: 100%;
         background-image: url(../../assets/collectio-mob-bg.svg);
         background-size: cover;
+        margin-top: 10%;
     }
     .collection-card {
         flex-wrap: wrap;
 
     }
-
+    .collection-card{
+        margin-top: 25%;
+    }
     .collection-faiz {
         width: 50%;
+        margin-bottom: 20%;
     }
-
+.collection-text{
+    padding-top: 47%;
+}
 
     .collection-text p {
 
@@ -286,8 +297,12 @@
         background-image: url(../../assets/collectio-mob-bg.svg);
         background-size: cover;
     }
-    
-
+    .collection-faiz{
+        margin-bottom: 20%;
+    }
+    .collection-card{
+        margin-top: 20%;
+    }
     .collection-card {
         flex-wrap: wrap;
 
@@ -311,9 +326,9 @@
 
    
         .collection-line-cont {
-            width: 70%;
+            width: 81%;
             margin-left: 0%;
-            margin-bottom: 2%;
+            margin-bottom: 1%;
         }
     
 
@@ -328,8 +343,8 @@
     }
 
     .collection-heading-cont {
-        width: 95%;
-        margin-left: 5%;
+        width: 90%;
+        margin-left: 10%;
     }
 
     .collection-number {
@@ -340,7 +355,9 @@
         margin-top: 20%;
         margin-bottom: 20%;
     }
-
+  .collection-text{
+    padding-top: 38%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -370,7 +387,7 @@
 
     .collection-line-cont {
         width: 68%;
-        margin-left: 12%;
+        /* margin-left: 12%; */
         margin-bottom: 2%;
     }
 
@@ -390,3 +407,18 @@
     }
 
 }
+@media screen and (min-width: 768px) and (max-width: 1900px) {
+    .collection-line-cont{
+        width: 79%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+   .collection-card{
+    /* margin-top: -10%; */
+   }
+  }
+  @media only screen and (max-width: 1200px) {
+    .collection-card{
+     /* margin-top: 0%; */
+    }
+   }

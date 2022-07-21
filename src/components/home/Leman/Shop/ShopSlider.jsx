@@ -30,8 +30,8 @@ import { Navigation } from "swiper";
 
 
 
-function ShopSlider({dimensions , klassName}) {
-    console.log(klassName)
+function ShopSlider({dimensions }) {
+    // console.log(klassName)
     const [slice1,setSlice1]=useState(0);
     const [slice2,setSlice2]=useState(3);
     const additionValue=3
@@ -42,12 +42,12 @@ function ShopSlider({dimensions , klassName}) {
   
     const [counter,setCounter]=useState(0);
    
-    data.map(e => console.log(e))
+    // data.map(e => console.log(e))
     useEffect(()=>{
         if(dimensions.width < 1024) setSlice2(1)
         else setSlice2(3)
     },[dimensions.width])
-   console.log(dimensions)
+//    console.log(dimensions)
 
     const  upFunc1=()=>{
       

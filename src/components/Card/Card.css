@@ -205,7 +205,7 @@
 .card-img img{
     /* margin-left: 10%;
     width: 86%; */
-    height: 400px;
+    /* height: 400px; */
     width: 100%;
 }
 
@@ -404,7 +404,7 @@
     }
     .cardWrap{
         width: 100%;
-        /* margin-left: -3%; */
+        margin-left: -3%;
         margin-right: 0;
         /* margin-bottom: 30%; */
     }
@@ -468,4 +468,9 @@
    .swiper-button-prev{
     left: -5% !important;
    }
+  }
+  @media screen and (max-width:1300px){
+    .card-img img{
+        height: auto;
+    }
   }

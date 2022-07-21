@@ -10,7 +10,7 @@ import Footer from '../Footer/Footer'
 
 import HeaderBlack from '../HeaderBlack/HeaderBlack'
 import CollectionCard from '../CollectionCard/CollectionCard'
-import followUs from '../home/Leman/FollowUs/FollowUs'
+import FollowUs from '../home/Leman/FollowUs/FollowUs'
 
 function Collection({dimensions}) {
 
@@ -87,7 +87,7 @@ function Collection({dimensions}) {
 
             {(dimensions.width < 1000) &&
                 <>
-                {data.slice(0,4).map((item) => {
+                {data.slice(0,6).map((item) => {
                     return (
                         <CollectionCard 
 
@@ -168,16 +168,21 @@ function Collection({dimensions}) {
                 <p>1</p>
                 <p>2</p>
                 <p>3</p>
+                <p>4</p>
+                <p>5</p>
                 <p>...</p>
-                <p>10</p>
+                <p>30</p>
                 <img src={vectorRight}></img>
 
 
             </div>
+{dimensions.width <500 && 
 
-            <div className='collection-followUS'>
-                <followUs/>
+<div className='collection-followUS'>
+                <FollowUs/>
             </div>
+}
+            
 
             <div className='collection-footer'>
                 <Footer/>

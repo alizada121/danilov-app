@@ -17,7 +17,7 @@ import { Navigation } from "swiper";
 
 import gsap from 'gsap'
 function Card(props) {
-  console.log({ props, c: 'current' })
+  // console.log({ props, c: 'current' })
   // console.log(props.img + " img1");
   // console.log(props.img2 + " img2")
 
@@ -173,7 +173,7 @@ function Card(props) {
           </div>
         </div>
 
-        <div className={`cardWrap ${props.klassName && 'marginBottomCardWrap'} `}>
+        <div className="cardWrap marginBottomCardWrap">
 
           <img src={vectorLeft} ref={leftRef} className="rightVector" onClick={sliderPrev}></img>
           <div className='card-img'>
