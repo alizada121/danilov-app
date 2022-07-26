@@ -225,6 +225,14 @@
     }
 }
 
+@media only screen and (max-width: 550px) {
+
+
+
+    .middle {
+        margin-top: 60%;
+    }
+}
 @media only screen and (max-width: 450px) {
     .upImg {
         right: 44%;

@@ -10,7 +10,7 @@
     margin: 20px 10px ;
     border-bottom: 1px solid gray;
     width: 90%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .discount{
     display: flex;
@@ -21,7 +21,7 @@
 .divdiscount{
     border-bottom: 1px solid gray;
     padding-bottom: 40px;
-    margin: 20px 10px ;
+    margin: 30px 10px ;
     width: 90%;
 }
 .discount1{
@@ -39,7 +39,7 @@ font-size: 22px;
 font-weight: 400;
 line-height: 25px;
 letter-spacing: 0em;
-margin-top: 20px;
+/* margin-top: 40px; */
 }
 .two{
     font-family: 'Montserrat';
@@ -47,7 +47,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 23px;
 letter-spacing: 0em;
-margin-top: 20px;
+/* margin-top: 10px; */
 }
 .three{
     font-family: 'Montserrat';

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import './Bag.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
@@ -9,7 +9,7 @@ import responsiveImg from '../../Images/shirin/7777.png';
 import colorvector from '../../Images/shirin/colorVector.svg';
 import sizeHeart from '../../Images/shirin/sizeHeart.svg';
 import sizeDelete from '../../Images/shirin/sizeDelete.svg';
-
+import Button from "../../component/Button/Button"
 import FollowUs from "../home/Leman/FollowUs/FollowUs";
 function debounce(fn, ms) {
     let timer
@@ -21,7 +21,7 @@ function debounce(fn, ms) {
         }, ms)
     };
 }
-const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
+const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);
     const [dimensions, setDimensions] = React.useState({
@@ -42,28 +42,34 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
     })
     return (
         <div>
-             <HeaderBlack dimensions={dimensions}/> 
-             
+            <HeaderBlack dimensions={dimensions} />
+
             <div className="bottomBag">
-            <div className="bag-heading-general">
-                        <div className="bag-nav">
-                            <p>Home  /  Man  /  SS ‘22 Collection </p>
+                <div className="bag-heading-general">
+                    <div className="bag-nav">
+                        <p>Home  /  Man  /  SS ‘22 Collection </p>
 
-                        </div>
-                        <div className="bag-name-cont">
+                    </div>
+                    <div className="bag-name-cont">
 
-                        
+
                         <div className="bag-name">
                             <h1>My bag</h1>
 
 
                         </div>
                         <div className="bag-line">
+                            <div className="bag-line-right">
+                                <p className="contunios">Contunio Shopping    <div className="brdr"></div>   </p>
+
+                            </div>
 
                         </div>
-                        </div>
+
                     </div>
-                {(dimensions.width > 1000) &&
+
+                </div>
+                {(dimensions.width >= 1000) &&
                     <div className="flexRight">
                         <div className="marginD">
                             <ShoppingBag setButton={!button} />
@@ -73,129 +79,173 @@ const Bag = ({ text, border, showButton, setWitdhh ,changeStyle }) => {
                     </div>
                 }
                 {(dimensions.width < 1000) &&
-                <>
-                <div className="smallScreen">
-                        <div className="smallScreen_1">
-                            <img src={responsiveImg} />
-                            <div className="yazi">
-                                <p>Demedim</p>
-                               <p> <span>733$ |</span> In Stock</p>
+                    <>
+                        <div className="smallScreen">
+                            <div className="smallScreen_1">
+                                <img src={responsiveImg} />
+                                <div className="yazi">
+                                    <p>Demedim</p>
+                                    <p> <span>733$ |</span> In Stock</p>
+                                </div>
+                            </div>
+                            <div className="smallScreen_2">
+                                <div className="leftSize">
+
+                                    <label htmlFor="size">Size</label>
+                                    <input type="size" placeholder="size" id="size" name="size"></input>
+                                    <img className="colorVector" src={colorvector} />
+                                </div>
+                                <div className="rightColor">
+
+                                    <label htmlFor="color">Color</label>
+                                    <input type="" placeholder="color" id="color" name="color"></input>
+                                    <img className="colorVector" src={colorvector} />
+                                </div>
+                            </div>
+                            <div className="smallScreen_3">
+                                <div className="buttonText">
+                                    <span>QTY</span>
+                                    <button className="square">1</button>
+                                </div>
+                                <div className="anyway">
+                                    <img className="coldHeart" src={sizeHeart} />
+                                    <img src={sizeDelete} />
+                                </div>
+                            </div>
+                            <div className="smallScreen_1">
+                                <img src={responsiveImg} />
+                                <div className="yazi">
+                                    <p>Demedim</p>
+                                    <p><span>733$   | </span>In Stock</p>
+                                </div>
+                            </div>
+                            <div className="smallScreen_2">
+                                <div className="leftSize">
+                                    {/* <span>size</span> */}
+                                    <label htmlFor="size">Size</label>
+                                    <input type="size" placeholder="size" id="size" name="size"></input>
+                                    <img className="colorVector" src={colorvector} />
+                                </div>
+                                <div className="rightColor">
+
+                                    <label htmlFor="color">Color</label>
+                                    <input type="" placeholder="color" id="color" name="color"></input>
+                                    <img className="colorVector" src={colorvector} />
+                                </div>
+                            </div>
+                            <div className="smallScreen_3">
+                                <div className="buttonText">
+                                    <span>QTY</span>
+                                    <button className="square">1</button>
+                                </div>
+                                <div className="anyway">
+                                    <img className="coldHeart" src={sizeHeart} />
+                                    <img src={sizeDelete} />
+                                </div>
                             </div>
                         </div>
-                        <div className="smallScreen_2">
-                            <div className="leftSize">
+
+
+                        <div className='Order-summary-container1'>
+                            <h1 className="ords">Order summary</h1>
+                            {/* <div className='Order-summary1'>
+
+                                <div className='Order-delivery'>
+                                    <h4> Delivery</h4>
+                                    <div className='delivery-choices'>
+                                        <p>Free</p>
+                                        <p>Express: 10$</p>
+                                    </div>
+                                </div>
+
+
+                                <div className='Order-subtotal'>
+                                    <div className='subtotal-row'>
+                                        <h5 style={{ fontWeight: 600 }}>Subtotal</h5>
+                                        <h5 className='normal' style={{ fontWeight: 600 }}>1 466$</h5>
+                                    </div>
+                                    <div className='subtotal-row'>
+                                        <p>Discount</p>
+                                        <p>0.00$</p>
+                                    </div>
+                                    <div className='subtotal-row'>
+                                        <p>Delivery</p>
+                                        <p>10$</p>
+                                    </div>
+
+                                </div>
+
+                                <div className='Order-total'>
+                                    <h4>Total</h4>
+                                    <h4 className='normal'>1 476$</h4>
+
+                                </div>
                                
-                                <label htmlFor="size">size</label>
-                                <input type="size" placeholder="size" id="size" name="size"></input>
-                                <img className="colorVector" src={colorvector} />
+                            </div> */}
+                            <div className="rightAsideBag">
+                            <div className="free">
+                                <p className="one">Delivery</p>
+
+                                <div className="yazilar">
+                                    <div className="div1">
+                                        <p className="two">Free</p>
+                                    </div>
+
+
+
+                                    <div className="div2">
+                                        <p className="ghgh">Express: 10$</p>
+                                        <div className="bottomxet"></div>
+                                    </div>
+
+
+
+                                </div>
+
+
                             </div>
-                            <div className="rightColor">
-                               
-                                <label htmlFor="color">color</label>
-                                <input type="" placeholder="color" id="color" name="color"></input>
-                                <img className="colorVector" src={colorvector} />
+                            <div className="divdiscount">
+                                <div className="discount" id="iddiscount">
+                                    <p className="one">Subtotal</p>
+                                    <p className="two">1 466$</p>
+                                </div>
+                                <div className="discount" id="iddiscount">
+                                    <p className="two">Discount</p>
+                                    <p className="two">0.00$</p>
+                                </div>
+                                <div className="discount" id='discount'>
+                                    <p className="two">Delivery</p>
+                                    <p className="two">10$</p>
+                                </div>
                             </div>
+                            <div className="discount1">
+                                <div className="total">
+                                    <p className="oneone">Total</p>
+                                    <p className="threethree" >1 476$</p>
+                                </div>
+
+                            </div>
+
+                            <Button/>
+                            </div>
+                            
                         </div>
-                         <div className="smallScreen_3">
-                                 <div className="buttonText">
-                                     <span>QTY</span>
-                                     <button className="square">1</button>
-                                 </div>
-                                 <div className="anyway">
-                                 <img className="coldHeart" src={sizeHeart}/>
-                           <img src={sizeDelete}/>
-                                 </div>
-                         </div>
-                         <div className="smallScreen_1">
-                            <img src={responsiveImg} />
-                            <div className="yazi">
-                                <p>Demedim</p>
-                                <p><span>733$   | </span>In Stock</p>
-                            </div>
-                        </div>
-                        <div className="smallScreen_2">
-                            <div className="leftSize">
-                                {/* <span>size</span> */}
-                                <label htmlFor="size">size</label>
-                                <input type="size" placeholder="size" id="size" name="size"></input>
-                                <img className="colorVector" src={colorvector} />
-                            </div>
-                            <div className="rightColor">
-                                
-                                <label htmlFor="color">color</label>
-                                <input type="" placeholder="color" id="color" name="color"></input>
-                                <img className="colorVector" src={colorvector} />
-                            </div>
-                        </div>
-                         <div className="smallScreen_3">
-                                 <div className="buttonText">
-                                     <span>QTY</span>
-                                     <button className="square">1</button>
-                                 </div>
-                                 <div className="anyway">
-                                 <img className="coldHeart" src={sizeHeart}/>
-                           <img src={sizeDelete}/>
-                                 </div>
-                         </div>
-                    </div>
-                  
-
-                    <div className='Order-summary-container'>
-              <h1>Order summary</h1>
-              <div className='Order-summary'>
-                  
-                  <div className='Order-delivery'>
-                      <h4> Delivery</h4>
-                      <div className='delivery-choices'>
-                          <p>Free</p>
-                          <p>Express: 10$</p>
-                      </div>
-                   </div>
 
 
-                   <div className='Order-subtotal'>
-                       <div className='subtotal-row'>
-                           <h5 style={{fontWeight:600}}>Subtotal</h5>
-                           <h5   className='normal' style={{fontWeight:600}}>1 466$</h5>
-                       </div>
-                       <div className='subtotal-row'>
-                           <p>Discount</p>
-                           <p>0.00$</p>
-                       </div>
-                       <div className='subtotal-row'>
-                           <p>Delivery</p>
-                           <p>10$</p>
-                       </div>
-
-                   </div>
-
-                   <div className='Order-total'>
-                       <h4>Total</h4>
-                       <h4 className='normal'>1 476$</h4>
-
-                   </div>
-
-              </div>
 
 
-               
-          </div>
+                    </>
 
-       
-       
-                
-                </>
-                    
                 }
             </div>
             <div className="bag-followUs">
-                <FollowUs/>
-  
+                <FollowUs />
+
             </div>
             <div className="mesafe">
-             <Footer/> 
+                <Footer />
             </div>
-           
+
         </div>
     )
 }

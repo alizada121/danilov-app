@@ -1,0 +1,35 @@
+.ghgh{
+    font-family: "Montserrat";
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+/* margin-left: 3%; */
+
+}
+.brder{
+    border-bottom: 1px solid black;
+    width: 10%;
+}
+.yazilar{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+ margin-top: 15px;
+}
+.div2{
+margin-left: 5%;
+display: flex;
+flex-direction: column;
+}
+.bottomxet{
+   border-bottom: 1px solid black;
+   height: 1px;
+   width: 100%;
+   margin-top: -3%;
+}
+#iddiscount{
+    margin-bottom: 10px;
+}

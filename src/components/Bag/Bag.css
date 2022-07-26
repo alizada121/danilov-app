@@ -3,7 +3,33 @@
     justify-content: flex-start;
     padding-bottom: 2%;
 }
+.rightColor label{
+    font-family: "Cormorant";
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
 
+}
+.buttonText span{
+    font-family: "Cormorant";
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.leftSize label{
+    font-family: "Cormorant";
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
 .bag-nav p{
     font-family: 'Montserrat';
     font-style: normal;
@@ -11,11 +37,28 @@
     font-size: 14px;
     line-height: 25px;
 }
+.contunios{
+    font-family: "Montserrat";
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: right;
 
+}
+.brdr{
+    /* width: 54%; */
+    height: 2px;
+    margin-top: -3%;
+    border-bottom: 1px solid black;
+    /* background-color: #000000; */
+    /* text-align: right; */
+   
+}
 .bag-name-cont{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 
@@ -30,10 +73,21 @@
     font-size: 63px;
     line-height: 50px;
 }
-
+.bag-line-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    text-align: right;
+    width: 100%;
+}
+.contunios{
+    margin-bottom: -4%;
+}
 .bag-line{
     width: 84%;
     border-bottom: 2px solid black;
+    /* margin-left: 5px; */
 }
 
 .bottomBag{
@@ -95,29 +149,163 @@ text-align: left;
 
 .square{
     background-color: #FCFCFC;
-    padding: 0% 7%;
+    padding: 0% 4%;
     font-size: 30px;
+    margin-top: 3%;
    
 }
 
-
-
- @media only screen and (max-width: 1200px) {
-    .bottomBag{
-        padding:0;
-    }
+@media only screen and (max-width: 1900px) {
+  .bag-line{
+    width: 87%;
+  }
+  .contunios{
+    margin-bottom: -3%;
+  }
+  
  }
+ @media only screen and (max-width: 1800px) {
+   .bag-name{
+    width: 13%;
+   }
+ }
+ @media only screen and (max-width: 1750px) {
+    .bag-name{
+     width: 14%;
+    }
+    .contunios{
+        margin-bottom: -3.5%;
+      }
+  }
+  @media only screen and (max-width: 1640px) {
+    .bag-name{
+     width: 15%;
+    }
+  }
+  @media only screen and (max-width: 1550px) {
+    .bag-name{
+     width: 16%;
+    }
+    .contunios{
+        margin-bottom: -4%;
+      }
+  }
+  @media only screen and (max-width: 1470px) {
+    .bag-name{
+     width: 17%;
+    }
+    .contunios{
+        margin-bottom: -4.5%;
+      }
+  }
+  @media only screen and (max-width: 1394px) {
+    .bag-name{
+     width: 18%;
+    }
+    .contunios{
+        margin-bottom: -4.5%;
+      }
+      .bag-line{
+        margin-left: 0;
+      }
+  }
+  @media only screen and (max-width: 1330px) {
+    .bag-name{
+     width: 19%;
+    }
+    .contunios{
+        margin-bottom: -5%;
+      }
+      .bag-line{
+        margin-left: 0;
+      }
+  }
+  @media only screen and (max-width: 1270px) {
+    .bag-name{
+     width: 20%;
+    }
+    
+  }
+  @media only screen and (max-width: 1220px) {
+    .bag-name{
+     width: 21%;
+    }
+    
+  }
+ @media only screen and (max-width: 1180px) {
+    .bag-name{
+        width: 22%;
+       }
+       .contunios{
+        margin-bottom: -6%;
+      }
+ }
+ @media only screen and (max-width: 1125px) {
+    .bag-name{
+     width: 23%;
+    }
+    
+  }
+  @media only screen and (max-width: 1085px) {
+    .bag-name{
+     width: 24%;
+    }
+    
+  }
+  @media only screen and (max-width: 1055px) {
+    .bag-name{
+     width: 25%;
+    }
+    
+  }
+  @media only screen and (max-width: 1016px) {
+    .bag-name{
+     width: 26%;
+    }
+    
+  }
  @media only screen and (max-width: 1000px) {
      .smallScreen{
          padding:  5%;
          
+     }
+     .Order-summary1 {
+        width: 100%;
+        text-align: left;
+        border: 1px solid black;
+        padding: 5% 5% 0% 5%;
+    }
+     .ords{
+        text-align: left;
+        margin-bottom: 30px;
+     }
+     .Order-summary-container1{
+        width: 60%;
+        /* padding: 5% 10%; */
+        margin: 10% auto;
+     }
+     .bottomBag{
+        padding: 0;
+     }
+     .bag-name-cont{
+        padding-left: 5%;
+     }
+
+     .bag-line{
+        margin-left: -1%;
+     }
+     .contunios{
+        display: none;
+     }
+     .bag-nav{
+        display: none;
      }
      .padRight{
          margin: 9% 5% 3% 5%;
          
      }
      .colorVector{
-         transform: translate(120px ,-22px);
+         transform: translate(198px ,-22px);
      }
      .smallScreen_3{
          display: flex;
@@ -169,12 +357,26 @@ text-align: left;
      }
      .leftSize input ,.rightColor input{
          padding: 4% 5%;
-         margin-top: 1%;
+         margin-top: 3%;
      }
      .yazi{
         margin-left: 5%;
         text-align: left;
      }
+ }
+ .elave{
+    width: 50%;
+    margin-top: 5%;
+}
+ @media only screen and (max-width: 900px) {
+    .bag-line{
+        margin-left: 0;
+     }
+ }
+ @media only screen and (max-width: 830px) {
+    .bag-name{
+        width: 30%;
+       }
  }
 @media only screen and (max-width: 800px) {
    .bottomBag{
@@ -186,7 +388,67 @@ text-align: left;
    .padRight{
        /* margin: 0 30%; */
    }
+   .bag-name-cont {
+    padding-left: 10%;
+    margin-top: 5%;
 }
+.smallScreen{
+    padding: 5% 10%;
+}
+}
+@media only screen and (max-width: 787px) {
+    .bag-name{
+        width: 33%;
+       }
+ }
+@media only screen and (max-width: 770px) {
+    .bag-name-cont {
+        padding-left: 10%;
+        /* margin-top: 5%; */
+    }
+    .bag-name h1{
+        font-size: 42px;
+    }
+    .bag-line{
+        width: 132%;
+    }
+    .bag-name{
+        width: 34%;
+    }
+ }
+
+ .elave{
+    width: 42%;
+    margin-top: 5%;
+}
+ @media only screen and (max-width: 750px) {
+   
+    .bag-name{
+        width: 35%;
+    }
+ }
+ @media only screen and (max-width: 735px) {
+   
+    .bag-name{
+        width: 40%;
+    }
+ }
+ @media only screen and (max-width: 660px) {
+    .smallScreen_1 {
+       
+        padding-top: 20px;
+    
+    }
+    .bag-name{
+        width: 45%;
+    }
+ }
+ @media only screen and (max-width: 605px) {
+   
+    .bag-name{
+        width: 47%;
+    }
+ }
 @media only screen and (max-width: 600px) {
     
     .anyway{
@@ -199,23 +461,197 @@ text-align: left;
     width: 42%;
     margin-top: 5%;
 }
+@media only screen and (max-width: 590px) {
+   
+    .bag-name{
+        width: 50%;
+    }
+ }
+ @media only screen and (max-width: 560px) {
+   
+    .bag-name{
+        width: 53%;
+    }
+ }
+ @media only screen and (max-width: 537px) {
+   
+    .bag-name{
+        width: 55%;
+    }
+ }
+ @media only screen and (max-width: 520px) {
+    .rightColor {
+        margin-left: 2%;
+        
+    }
+    .square {
+        padding: 0% 6%;
+     
+    }
+    .colorVector {
+        transform: translate(174px ,-22px);
+    }
+    .leftSize input, .rightColor input {
+        padding: 4% 0%;
+        margin-top: 3%;
+    }
+    .bag-name{
+        width: 57%;
+    }
+ }
+ @media only screen and (max-width: 510px) {
+   
+    .bag-name{
+        width: 59%;
+    }
+ }
+ @media only screen and (max-width: 500px) {
+   .bag-name-cont{
+    padding-left: 5%;
+   }
+   .Order-summary-container1 {
+    width: 90%;
+    /* padding: 5% 10%; */
+    margin: 10% auto;
+}
+.ords{
+    margin-bottom: 10px;
+}
+   .smallScreen_3 {
+   
+    margin-top: 20px;
 
-
+}
+   .rightColor {
+    margin-left: 10%;
+}
+   .smallScreen {
+    padding: 5%;
+}
+ }
+ @media only screen and (max-width: 475px) {
+    .bag-name{
+        width: 61%;
+    }
+  }
+  @media only screen and (max-width: 464px) {
+   
+   
+    .rightColor {
+        margin-left: 5%;
+    }
+    
+  }
+  @media only screen and (max-width: 460px) {
+    .bag-name{
+        width: 63%;
+    }
+   
+    
+    
+  }
+ 
+  @media only screen and (max-width: 450px) {
+    .bag-name{
+        width: 65%;
+    }
+    .smallScreen_2{
+        /* width: 0%; */
+    }
+    .leftSize input, .rightColor input {
+        padding: 7% 0%;
+        margin-top: 3%;
+        width: 170px;
+    }
+    .rightColor {
+        margin-left: 15%;
+    }
+    .colorVector {
+        transform: translate(150px ,-31px);
+    }
+    
+  }
+  @media only screen and (max-width: 440px) {
+    .bag-name{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .rightColor {
+        margin-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .rightColor {
+        margin-left: 5%;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .rightColor {
+        margin-left: 10%;
+    }
+    .leftSize input, .rightColor input {
+        padding: 7% 0%;
+        margin-top: 3%;
+        width: 150px;
+    }
+    .colorVector {
+        transform: translate(130px ,-31px);
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .bag-name{
+        width: 85%;
+    }
+  }
+  @media only screen and (max-width: 352px) {
+    .rightColor {
+        margin-left: 5%;
+    }
+    .leftSize input, .rightColor input {
+        padding: 7% 0%;
+        margin-top: 3%;
+        width: 150px;
+    }
+    .colorVector {
+        transform: translate(130px ,-31px);
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .bag-name{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .bag-name{
+        width: 92%;
+    }
+    .leftSize input, .rightColor input {
+        padding: 7% 0%;
+        margin-top: 3%;
+        width: 130px;
+    }
+    .colorVector {
+        transform: translate(110px ,-31px);
+    }
+  }
+  @media only screen and (max-width: 332px) {
+    .bag-name{
+        width: 96%;
+    }
+  }
+  @media only screen and (max-width: 325px) {
+    .bag-name{
+        width: 100%;
+    }
+  }
 @media screen and (min-width: 320px) and (max-width: 370px) {
    
     .collect {
         font-size: 45px;
     }    
 
-    .bag-line{
-        width: 59%;
-    }
-    .bag-name-cont{
-        padding-left: 5%;
-        padding-top: 5%;
-    justify-content: space-between;
-
-    }
+   
 
     .bag-name h1 {
         font-size: 45px;
@@ -258,15 +694,8 @@ text-align: left;
         font-size: 45px;
     }    
 
-    .bag-line{
-        width: 63%;
-    }
-    .bag-name-cont{
-        padding-left: 5%;
-        padding-top: 5%;
-    justify-content: space-between;
-
-    }
+ 
+   
 
     .bag-name h1 {
         font-size: 45px;
@@ -295,21 +724,21 @@ text-align: left;
 }
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .bag-heading-general{
-        padding-left: 5%;
+        /* padding-left: 5%; */
     }
     .collect {
         font-size: 45px;
     }    
 
     .bag-line{
-        width: 65%;
+        /* width: 65%; */
     }
-    .bag-name-cont{
+    /* .bag-name-cont{
         padding-left: 5%;
         padding-top: 5%;
     justify-content: space-between;
 
-    }
+    } */
 
     .bag-name h1 {
         font-size: 48px;
@@ -337,29 +766,4 @@ text-align: left;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
-    .bag-line {
-        width: 68%;
-    }
 
-    .bag-name h1 {
-        font-size: 60px;
-    }
-
-}
-@media screen and (min-width: 768px) and (max-width: 1300px) {
-
-    .bag-nav{
-        display: none;
-    }
-
-    .bag-name-cont {
-        padding-left: 5%;
-    justify-content: space-between;
-
-    }
-
-        .bag-line {
-            width: 72%;
-        }
-}

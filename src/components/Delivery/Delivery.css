@@ -1,41 +1,41 @@
-.delivery-heading-container{
+.delivery-heading-container {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.delivery-header{
+.delivery-header {
     margin-top: 2%;
 }
 
 
-.delivery-heading-nav{
+.delivery-heading-nav {
     display: flex;
     flex-direction: row;
-    
-    
+
+
 }
 
-.delivery-heading-nav p{
+.delivery-heading-nav p {
     margin: 0;
     margin-right: 5px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 25px;      
+    line-height: 25px;
     color: #000000;
     margin-bottom: 2%;
 
 }
 
-.delivery-heading{
+.delivery-heading {
     display: flex;
     flex-direction: row;
-  
+
 }
 
-.delivery-heading{
+.delivery-heading {
     width: 100%;
     /* position: relative; */
 }
@@ -49,82 +49,95 @@
     text-align: left;
 }
 
-.delivery-heading-first h1{
+.delivery-heading-first h1 {
     margin: 0;
     font-weight: 500;
     line-height: 50px;
 }
 
-.delivery-heading-line{
+.delivery-heading-line {
     width: 80%;
     border: 0.5px solid #000000;
     height: 0;
     background-color: #000000;
-  
+
     margin-top: 3.5%;
-    
+
 }
 
 
 
-.deliveryDiv{
+.deliveryDiv {
     padding: 3% 10%;
 }
-.inputSide1{
-    width: 80%; 
+
+.inputSide1 {
+    width: 80%;
 }
-.inputSide{  
+
+.inputSide {
     /* border :1px solid gray; */
     width: 100%;
     margin-top: 20px;
 }
-.mesafe{
+
+.mesafe {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-.inputSide11{
+
+.inputSide11 {
     /* border :1px solid gray; */
     width: 100%;
     margin-top: 20px;
 }
-.email{
+
+.email {
     width: 80%;
 }
-.email6{
+
+.email6 {
     width: 100%;
 }
-.email6 input{
+
+.email6 input {
     width: 100%;
-    
+
     padding: 1% 2%;
     font-size: 17px;
     font-family: 'Montserrat';
 
 }
-.contact11{
+
+.contact11 {
     text-align: left;
     margin-bottom: 40px;
     margin-top: 40px;
     font-family: 'Cormorant';
-font-size: 30px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
 }
-.acc{
+
+.acc {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.acc1{
+
+.acc1 {
     display: flex;
     justify-content: space-between;
     /* width: 50%; */
-}.lastEdit{
+}
+
+.lastEdit {
     width: 98% !important;
     padding: 2% 2% !important;
 }
+
 .email input {
     width: 100%;
     padding: 1% 2%;
@@ -136,32 +149,36 @@ letter-spacing: 0em;
 
 .email1 input {
     width: 100%;
-    
-       padding: 1% 2%;
+
+    padding: 1% 2%;
     font-size: 17px;
     font-family: 'Montserrat';
     outline: none;
     border: 1px solid red;
 }
-.add,.add2{
+
+.add,
+.add2 {
     font-family: 'Montserrat';
-font-size: 17px;
-font-family: 'Montserrat';
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
-.add22{
+.add22 {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 14px;
 }
-.add{
+
+.add {
     padding-left: 2%;
 }
-.add1{
+
+.add1 {
     font-family: 'Montserrat';
     font-size: 15px;
     font-weight: 700;
@@ -170,168 +187,222 @@ text-align: left;
     margin-left: 5px;
 }
 
-.contact1{
+.contact1 {
     text-align: left;
     margin-bottom: 20px;
     font-family: 'Cormorant';
-font-size: 30px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-margin-top: 90px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    margin-top: 90px;
 }
-.nameandsur{
+
+.nameandsur {
     /* border: 1px solid blue; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.name  ,.surname{
+
+.name,
+.surname {
     width: 49%;
 }
+
 .name input {
     width: 100%;
-    
-       padding: 2% 2%;
+
+    padding: 2% 2%;
     font-size: 17px;
     font-family: 'Montserrat';
     outline: none;
 }
-.surname input{
+
+.surname input {
     width: 100%;
-    
-       padding: 2% 2%;
+
+    padding: 2% 2%;
     font-size: 17px;
     font-family: 'Montserrat';
     outline: none;
 }
-.same{
+
+.same {
     text-align: left;
     margin-left: 10px;
     line-height: 25px;
 }
-.addred{
+
+.addred {
     font-family: 'Montserrat';
-font-size: 15px;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: right;
-color: red;
-}
-.checkbox{
-    text-align: left;
-    margin-top: 10px;
-    display: flex; 
-    align-items: center;
-}
-.checkbox label{
-    margin-left: 10px;
-}
-.chchck{
-  font-size: 80px;
-}
-input[type=checkbox]
-{
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(1.5); /* IE */
-  -moz-transform: scale(1.5); /* FF */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-  -o-transform: scale(1.5); /* Opera */
-  transform: scale(1.5);
-  padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: red;
 }
 
-.flexDelivery{
+.checkbox {
+    text-align: left;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label {
+    margin-left: 10px;
+}
+
+.chchck {
+    font-size: 80px;
+}
+
+input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5);
+    /* IE */
+    -moz-transform: scale(1.5);
+    /* FF */
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    -o-transform: scale(1.5);
+    /* Opera */
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+.flexDelivery {
     display: flex;
     justify-content: space-between;
     /* overflow: hidden; */
     width: 100%;
 }
-.leftDeliver{
+
+.leftDeliver {
     width: 70%;
-  
+
 }
 
-.padRight{
+.padRight {
     width: 30%;
     margin-top: 14%;
 }
-.elave{
+
+.elave {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 4%;
 }
-.emailPass{
+
+.emailPass {
     display: flex;
-    align-items:center ;
+    align-items: center;
     /* justify-content: center; */
     width: 100%;
 }
-.sameEmail{
+
+.sameEmail {
     width: 80%;
 }
 
-.same{
+.same {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
 }
 
-.order{
+.order {
     font-weight: 700;
     line-height: 45px;
 }
-.email{
+
+.email {
     width: 100%;
 }
-.differenPass{
-  
+
+.differenPass {
+
     width: 39%;
     margin-right: 1%;
 }
-.differenAdres input{
+
+.differenAdres input {
     border: 1px solid gray;
 }
 
-.witdhButton{
+.witdhButton {
     width: 55%;
 }
 
-.rightAsideBag{
+.rightAsideBag {
     width: 100%;
+}
+
+@media only screen and (max-width: 1450px) {
+    .elave {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .elave {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 1325px) {
+    .elave {
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 1315px) {
+    .elave {
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .elave {
+        margin-top: 3%;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
 
-    .flexDelivery{
+    .flexDelivery {
         flex-direction: column;
     }
 
-    .leftDeliver{
+    .leftDeliver {
         width: 100%;
     }
 
     .deliveryDiv {
         padding: 3% 5%;
     }
+
     .inputSide1 {
         width: 100%;
     }
 
-    .sameEmail{
+    .sameEmail {
         width: 100%;
     }
 
-    .add22{
+    .add22 {
         display: none;
     }
+
     .nameandsur {
         flex-direction: column;
         margin-bottom: 0;
     }
 
-    .name, .surname {
+    .name,
+    .surname {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -339,13 +410,14 @@ input[type=checkbox]
     .witdhButton {
         width: 100%;
     }
+
     .delivery-heading-container {
         width: 100%;
         padding-left: 5%;
         padding-right: 0%;
     }
 
-    .delivery-heading-nav{
+    .delivery-heading-nav {
         display: none;
     }
 
@@ -356,7 +428,7 @@ input[type=checkbox]
         font-size: 22px;
     }
 
-    .delivery-heading{
+    .delivery-heading {
         padding-top: 5%;
     }
 
@@ -369,44 +441,49 @@ input[type=checkbox]
         text-align: left;
         margin-bottom: 20px;
     }
+
     .contact1 {
         margin-top: 60px;
     }
 
-    .checkbox{
+    .checkbox {
         display: none;
     }
-   
+
 }
+
 @media screen and (min-width: 370px) and (max-width: 415px) {
-    .flexDelivery{
+    .flexDelivery {
         flex-direction: column;
     }
 
-    .leftDeliver{
+    .leftDeliver {
         width: 100%;
     }
 
     .deliveryDiv {
         padding: 3% 5%;
     }
+
     .inputSide1 {
         width: 100%;
     }
 
-    .sameEmail{
+    .sameEmail {
         width: 100%;
     }
 
-    .add22{
+    .add22 {
         display: none;
     }
+
     .nameandsur {
         flex-direction: column;
         margin-bottom: 0;
     }
 
-    .name, .surname {
+    .name,
+    .surname {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -414,13 +491,14 @@ input[type=checkbox]
     .witdhButton {
         width: 100%;
     }
+
     .delivery-heading-container {
         width: 100%;
         padding-left: 5%;
         padding-right: 0%;
     }
 
-    .delivery-heading-nav{
+    .delivery-heading-nav {
         display: none;
     }
 
@@ -431,7 +509,7 @@ input[type=checkbox]
         font-size: 22px;
     }
 
-    .delivery-heading{
+    .delivery-heading {
         padding-top: 5%;
     }
 
@@ -444,44 +522,49 @@ input[type=checkbox]
         text-align: left;
         margin-bottom: 20px;
     }
+
     .contact1 {
         margin-top: 60px;
     }
 
-    .checkbox{
+    .checkbox {
         display: none;
     }
-   
+
 }
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
-    .flexDelivery{
+    .flexDelivery {
         flex-direction: column;
     }
 
-    .leftDeliver{
+    .leftDeliver {
         width: 100%;
     }
 
     .deliveryDiv {
         padding: 3% 5%;
     }
+
     .inputSide1 {
         width: 100%;
     }
 
-    .sameEmail{
+    .sameEmail {
         width: 100%;
     }
 
-    .add22{
+    .add22 {
         display: none;
     }
+
     .nameandsur {
         flex-direction: column;
         margin-bottom: 0;
     }
 
-    .name, .surname {
+    .name,
+    .surname {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -489,13 +572,14 @@ input[type=checkbox]
     .witdhButton {
         width: 100%;
     }
+
     .delivery-heading-container {
         width: 100%;
         padding-left: 5%;
         padding-right: 0%;
     }
 
-    .delivery-heading-nav{
+    .delivery-heading-nav {
         display: none;
     }
 
@@ -505,7 +589,8 @@ input[type=checkbox]
         font-style: normal;
         font-size: 36px;
     }
-    .delivery-heading{
+
+    .delivery-heading {
         padding-top: 5%;
     }
 
@@ -518,15 +603,17 @@ input[type=checkbox]
         text-align: left;
         margin-bottom: 20px;
     }
+
     .contact1 {
         margin-top: 60px;
     }
 
-    .checkbox{
+    .checkbox {
         display: none;
     }
-   
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1034px) {
     .delivery-heading-first {
         width: 40%;
@@ -534,7 +621,8 @@ input[type=checkbox]
         font-style: normal;
         font-size: 36px;
     }
-    .delivery-heading{
+
+    .delivery-heading {
         padding-top: 5%;
     }
 
@@ -543,13 +631,3 @@ input[type=checkbox]
         margin-top: 7.5%;
     }
 }
-
-
-
-
-
-
-
-
-
- 

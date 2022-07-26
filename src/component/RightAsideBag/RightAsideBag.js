@@ -6,14 +6,31 @@ const RightAsideBag=({showButton ,changeStyle})=>{
         <div className={`rightAsideBag ${changeStyle && 'cc'}`}>
             <div className="free">
                   <p className="one">Delivery</p>
-                   <p className="two">Free <span className="ghgh">Express</span> : 10$</p>
+
+                  <div className="yazilar">
+                    <div className="div1">
+                         <p className="two">Free</p>
+                    </div>
+                    
+
+
+                     <div className="div2">
+                     <p className="ghgh">Express: 10$</p> 
+                             <div className="bottomxet"></div>
+                     </div>
+                   
+                   
+                   
+                  </div>
+                  
+
             </div>
             <div className="divdiscount">
-                  <div className="discount">
+                  <div className="discount" id="iddiscount">
                      <p className="one">Subtotal</p>
                      <p className="two">1 466$</p>
                  </div>
-                 <div className="discount">
+                 <div className="discount" id="iddiscount">
                      <p className="two">Discount</p>
                      <p className="two">0.00$</p>
                  </div>
