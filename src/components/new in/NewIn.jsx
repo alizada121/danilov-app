@@ -185,9 +185,10 @@ function NewIn({ dimensions }) {
 
 }
 <div className='NewIn-footer'>
-<Footer />
 
+<Footer />
 </div>
+
     </>
   )
 }

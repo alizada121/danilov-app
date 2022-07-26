@@ -235,7 +235,7 @@
         padding: 0 5%;
     }
     .lastPart ul li {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 }
 @media screen and (min-width: 415px) and (max-width: 768px) {
@@ -337,5 +337,12 @@
         font-size: 16px;
     }
 
+
+}
+@media screen and (max-width:415px) {
+   .lastPart ul {
+    padding: 0 !important;
+   }
+ 
 
 }

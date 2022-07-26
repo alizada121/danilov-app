@@ -28,8 +28,8 @@ width: 39%;
     
     background-color: #001C08;
      padding: 5% ;
-     margin-bottom: 450px;
-    padding-top: 6%;
+     margin-bottom: 500px;
+    padding-top: 4%;
 }
 .integer{
     font-family: 'Cormorant';
@@ -51,7 +51,7 @@ text-align: center;
 color: #FCFCFC;
 margin-top: 30px;
 width: 68%;
-margin: 3%  0 5% 15%;
+margin: 4%  0 5% 15%;
 }
 
 .video-itself{
@@ -221,3 +221,25 @@ margin: 3%  0 5% 15%;
 }}
 @media screen and (min-width: 768px) and (max-width: 1024px) {}
 
+@media screen and (max-width:768px) {
+    .videoContainer{
+        /* padding-left: 5%; */
+    }
+   .headerVideo{
+        padding-left: 5%;
+    }
+    .header2 {
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width:550px) {
+    .videoContainer{
+        /* padding-left: 5%; */
+    }
+   .headerVideo{
+        padding-left: 0%;
+    }
+    .header2 {
+        padding-left: 5%;
+    }
+}

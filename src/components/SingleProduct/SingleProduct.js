@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState ,useRef } from "react";
 import './SingleProduct.css';
 // import HeaderBlack from "../HeaderBlack/HeaderBlack";
 // import ImageHeader from "../ImageHeader/ImageHeader";
@@ -7,14 +7,18 @@ import Header from '../Header/Header'
 import ImageHeader from "../ImageHeader/ImageHeader";
 import five from '../../Images/5.png';
 import Footer from '../Footer/Footer';
+// import FooterWhite from "../FooterWhite/FooterWhite"
 // import Shop from '../'
-import ayaqqabi from '../../Images/shirin/999.png';
+import ayaqqabi from '../../assets/shoes/57.jpg';
+import shoes9 from '../../assets/shoes/58.jpg';
+import shoes10 from '../../assets/shoes/59.jpg';
 import arrowLeft from '../../Images/shirin/12.svg';
 import arrowMiddle from '../../Images/shirin//13.svg';
 import arrowRight from '../../Images/shirin//14.svg';
 import upLine from '../../Images/shirin//9876.svg'
 import PopUp from "../Pop Up/PopUp";
 import FollowUs from "../home/Leman/FollowUs/FollowUs"
+import mobline from "../../assets/line5.svg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,6 +29,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper";
+import FooterWhite from "../FooterWhite/FooterHome";
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -37,15 +42,18 @@ function debounce(fn, ms) {
 }
 const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
     const [menuOpen, setMenuOpen] = useState(false);
-
+     const elebeleRef=useRef()
     const toggle = () => {
         if (menuOpen) {
             setMenuOpen(false)
             console.log("salam")
         } else {
             setMenuOpen(true)
-            console.log("sagol")
-        }
+            console.log(  "sagol" )
+            // elebeleRef.current.style.backgroundColor= " rgba(0, 0, 0, 0.75)"
+            // elebeleRef.current.style.position="relative"
+            elebeleRef.current.style.overflow="hidden"
+         }
     }
 
     const [dimensions, setDimensions] = React.useState({
@@ -65,9 +73,10 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
         }
     })
     return (
-        <div>
+        <div className="tutaqki" ref={elebeleRef}>
+             <HeaderBlack dimensions={dimensions} menuOpen={menuOpen}/>
             <div className={`main ${menuOpen && 'sss'} `}>
-                <HeaderBlack dimensions={dimensions}  />
+               
                 <div className="man">
                     <div className="single-heading-general">
                         <div className="single-nav">
@@ -76,15 +85,15 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                         </div>
                         <div className="single-name-cont">
 
-                        
-                        <div className="single-name">
-                            <h1>Nazvanie</h1>
+
+                            <div className="single-name">
+                                <h1>Nazvanie</h1>
 
 
-                        </div>
-                        <div className="single-line">
+                            </div>
+                            <div className="single-line">
 
-                        </div>
+                            </div>
                         </div>
                     </div>
                     {/* <ImageHeader setWitdhh={true} title={'Home  /  Man  /  SS ‘22 Collection '} titleH1={'Nazvanie'} /> */}
@@ -112,7 +121,12 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                             <div className="sizeFilter">
                                 <div className="sizeDivText">
                                     <p className="gh">Size</p>
-                                    <p className="borderText">Size guide</p>
+                                    <div className="bbb">
+                                        <p className="borderText">Size guide</p>
+                                        <div className="xettt">
+
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="sizeDiv">
                                     <button className="sizeButton">40</button>
@@ -143,30 +157,30 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                     {(dimensions.width <= 820) &&
                         <div className="common">
                             <div className="nazVan">
-                                <p className="nazvannaz" >Vitae, odio adipiscing aenean tortor diam,
-                                    vitae amet volutpat urna. Id aliquam ante eu tellus
-                                    tristique quam magna non.</p>
+                                <p className="nazvannaz" >Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
                                 <span className="dollarAmount">700$</span>
                             </div>
+                            <div className="swwiperLeftDistance"><div className='swiper-mob-cont'>
 
-                           
+                                <img src={mobline} className="mob-line" id="olcu"></img>
+                                <Swiper navigation={true} loop={true} modules={[Navigation]} className="mySwiper" noSwiping={true} onlyExternal={true} noSwipingClass="swiper-slide" >
 
-                            <Swiper navigation={true} loop={true} smodules={[Navigation] } className="mySwiper">
+                                    <SwiperSlide><img src={ayaqqabi} className="ayagg" /></SwiperSlide>
+                                    <SwiperSlide><img src={shoes9} className="ayagg"/></SwiperSlide>
+                                    <SwiperSlide><img src={shoes10} className="ayagg"/></SwiperSlide>
+                                </Swiper>
 
-                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
-                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
-                            <SwiperSlide><img src={ayaqqabi} /></SwiperSlide>
-                            </Swiper>
-
-                            <img className="arrmidle1" src={arrowMiddle} />
-                            {/* <div className="arrows1" >
+                                {/* <img className="arrmidle1" src={arrowMiddle} /> */}
+                                {/* <div className="arrows1" >
                                 <img src={arrowLeft} />
                                 <img className="arrmidle1" src={arrowMiddle} />
                                 <img src={arrowRight} />
                             </div> */}
+                            </div></div>
+
                             <div className="chooseInput">
                                 <div className="colorFilter">
-                                    <p>Color</p>
+                                    <p className="reng">Color</p>
                                     <button className="colorButton1"></button>
                                     <button className="colorButton2"></button>
                                     <button className="colorButton3"></button>
@@ -175,23 +189,24 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
                                 </div>
                                 <div className="chooseSize">
                                     <label htmlFor="size"></label>
-                                    <input type="size" placeholder="choose size" id="choose" name="size"></input><img onClick={toggle} className="linearr" src={upLine} />
+                                    <input type="size" placeholder="Choose size" id="choose" name="size"></input><img onClick={toggle} className="linearr" src={upLine} />
                                 </div>
                             </div>
 
                         </div>
                     }
                 </>
-                <div className="single-followUs">
-                    <FollowUs/>
-
-                </div>
-                <div className="mesafe">
-                    <Footer />
-                </div>
+               
+                  
+               
 
             </div>
-            <PopUp menuOpen={menuOpen} />
+            <FollowUs />
+
+             
+             
+<Footer />
+            <PopUp menuOpen={menuOpen} toggle={toggle} />
         </div>
     )
 }

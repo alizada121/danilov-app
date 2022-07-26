@@ -135,10 +135,10 @@
         margin: 0 0 0 25%;
     }
 
-    /* .middle{
-        margin-top: 75%;
+    .middle{
+        margin-top: 40%;
        
-    } */
+    }
     .distance_box {
         top: 64%;
         left: 17%;
@@ -199,7 +199,7 @@
 
 @media only screen and (max-width: 700px) {
     .middle {
-        margin-top: 45%;
+        /* margin-top: 45%; */
     }
 }
 
@@ -221,7 +221,7 @@
     }
 
     .middle {
-        margin-top: 80%;
+        margin-top: 30%;
     }
 }
 
@@ -230,7 +230,7 @@
         right: 44%;
     }
     .middle {
-        margin-top: 90%;
+        margin-top: 40%;
     }
 }
 
@@ -240,6 +240,6 @@
     }
 
     .middle {
-        margin-top: 60%;
+        margin-top: 100%;
     }
 }

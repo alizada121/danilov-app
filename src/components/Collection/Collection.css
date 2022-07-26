@@ -170,7 +170,7 @@
     }
     .collection-card {
         flex-wrap: wrap;
-
+         margin-top: 10%;
     }
 
     .collection-faiz {

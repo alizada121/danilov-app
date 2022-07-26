@@ -91,7 +91,7 @@ const HomePage = (props) => {
     
 
     <Arrival className="arrival-homepage" id="arrival"ref={arrival}/>
-    <Shop />
+    <Shop olcu={false}/>
     {/* <WinterCollection/> */}
     <Winter />
   </div>

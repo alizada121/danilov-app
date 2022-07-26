@@ -1,4 +1,4 @@
-.popup{
+.popup {
     /* padding: 2% 10%; */
     max-height: 0px;
     overflow: hidden;
@@ -10,52 +10,97 @@
     background-color: white;
     /* border: 1px solid red; */
     width: 100%;
+    border-top: 1px solid gray;
 }
-.open{
+
+.open {
     max-height: 52vh;
     height: 52vh;
     transition: all 1s;
     transform-origin: bottom;
 }
-.sizeChooseButton{
+
+.popUpBtn {
+    display: flex;
+    /* height: 40px; */
+    flex-direction: column;
+}
+
+.altdanxett {
+    border-bottom: 1px solid black;
+    width: 85px;
+    margin: 0 auto;
+    height: 1px;
+    /* margin-top: -4%; */
+}
+.sayi{
+    font-family: "Montserrat";
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.sizeChooseButton {
     width: 100%;
     /* border: 1px solid green; */
     margin: 30px 0 70px 0;
     position: relative;
 }
-.pupUpsize{
-    padding: 5px 10px;
+
+.pupUpsize {
+    padding: 8px 16px;
     margin-right: 20px;
+    background-color: transparent;
+    outline: none;
+    border:1px solid black
 }
-.pop ,.pop1{
+
+.pop,
+.pop1 {
     font-family: 'Montserrat';
-font-size: 16px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.pop{
-    margin-top: 50px;
+
+.pop {
+    margin-top: 30px;
 }
-.pop1{
-    border-bottom: 1px solid gray;
-    width: 8%;
+
+.pop1 {
+    /* border-bottom: 1px solid gray; */
+    /* width: 8%; */
     margin: 0 auto;
 }
-@media only screen and (max-width:  800px) {
-   .pop1{width: 15%;}
-   
+
+@media only screen and (max-width: 800px) {
+    .pop1 {
+        width: 15%;
+    }
+
 }
-@media only screen and (max-width:  560px) {
-    .pop1{width: 20%;}
-    
- }
- @media only screen and (max-width:  430px) {
-    .pop1{width: 25%;}
-    
- }
- @media only screen and (max-width:  340px) {
-    .pop1{width: 30%;}
-    
- }
+
+@media only screen and (max-width: 560px) {
+    .pop1 {
+        width: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .pop1 {
+        width: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+    .pop1 {
+        width: 30%;
+    }
+
+}

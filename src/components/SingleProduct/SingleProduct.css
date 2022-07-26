@@ -14,34 +14,42 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.changeStyle ,.gh ,.qty ,.priceDollar{
+
+.changeStyle,
+.gh,
+.qty,
+.priceDollar {
     font-family: 'Cormorant';
-font-size: 24px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
 
 
 }
-.priceDollar1{
+
+.priceDollar1 {
     font-family: 'Montserrat';
-font-size: 22px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.mesafe{
+
+.mesafe {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5% !important;
 }
+
 .rightAside {
     width: 600px;
     margin-left: 5%;
 }
+
 .filteredImage {
     display: flex;
     margin-top: 8%;
@@ -50,13 +58,16 @@ text-align: left;
 
     margin-bottom: 10%;
 }
+
 .positionDiv {
     width: 100%;
     border: 1px solid grey;
 }
+
 .positionDiv img {
     width: 101%;
 }
+
 .rightText {
     font-size: 18px;
     font-family: 'Montserrat';
@@ -65,6 +76,7 @@ text-align: left;
     text-align: left;
     width: 80%;
 }
+
 .colorButton1,
 .colorButton2,
 .colorButton3,
@@ -76,150 +88,185 @@ text-align: left;
     margin-right: 2%;
     margin-top: 2%;
 }
+
 .colorButton1 {
     background-color: #463227;
 }
+
 .colorButton2 {
     background-color: black;
 }
+
 .colorButton4 {
     background-color: #000E88;
 }
+
 .colorButton5 {
     background-color: #0F4711;
 }
+
 .sizeDivText {
     display: flex;
     width: 80%;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
 .colorFilter {
     text-align: left;
     margin-top: 50px;
 }
+
 .sizeButton {
     border: 1px solid black;
-    padding: 1% 2%;
+    padding: 1% 1.8%;
     margin-right: 3%;
     background-color: transparent;
     font-family: 'Montserrat';
-font-size: 17px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: right;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
 
 }
+
 .sizeDiv,
 .bag {
     text-align: left;
 }
+
 .sizeFilter {
     margin-top: 50px;
 }
-.borderText {
-    border-bottom: 1px solid gray;
-    font-family: 'Cormorant';
-font-size: 20px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: right;
 
+.borderText {
+    /* border-bottom: 1px solid gray; */
+    font-family: 'Cormorant';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
 }
+
+.bbb {
+    display: flex;
+    /* height: 40px; */
+    flex-direction: column;
+}
+
+.xettt {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 1px;
+    margin-top: -4%;
+}
+
 .minus {
     padding: 1% 2.4%;
     background-color: transparent;
     outline: none;
     border: 1px solid black;
 }
+
 .bag {
     margin-top: 50px;
 }
+
 .qty {
     margin-bottom: 10px;
 }
+
 .minus,
 .zero {
     margin-right: 20px;
     font-family: 'Montserrat';
-font-size: 17px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
-.zero{
+
+.zero {
     font-family: 'Montserrat';
-font-size: 17px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
+
 .plus {
     padding: 1% 2.6%;
     background-color: transparent;
     outline: none;
     border: 1px solid black;
     font-family: 'Montserrat';
-font-size: 20px;
-font-weight: 600 !important;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 20px;
+    font-weight: 600 !important;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
+
 .dollar {
     display: flex;
     width: 40%;
     /* justify-content: space-around; */
     margin-top: 50px;
 }
+
 .priceDollar {
     margin-right: 40px;
     font-size: 26px;
     font-family: 'Cormorant';
     font-weight: 600;
 }
+
 .priceDollar1 {
     font-size: 22px;
     font-family: 'Montserrat';
-    font-weight: 400;}
-#whht{
+    font-weight: 400;
+}
+
+#whht {
     color: white;
     font-family: 'Cormorant';
-font-size: 30px;
-font-weight: 300;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
-.buttons{
-    
+.buttons {
+
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10%;
 }
+
 .brownButton {
     width: 46%;
     background-color: #463227;
     padding: 2% 6%;
     outline: none;
     border: none;
-    color: white ;
+    color: white;
     /* margin: 50px 50px 0 0; */
     /* font-size: 30px; */
     font-family: 'Cormorant';
     font-weight: 600
 }
+
 .whiteButton {
     width: 46%;
     padding: 0.8% 6%;
@@ -227,13 +274,14 @@ text-align: center;
     background-color: transparent;
     border: 1px solid #463227;
     font-family: 'Cormorant';
-font-size: 30px;
-font-weight: 300;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
+
 .fsz {
     /* font-size: 20px; */
     font-weight: 600;
@@ -241,13 +289,13 @@ text-align: center;
 
 /* NAV */
 
-.single-nav{
+.single-nav {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 2%;
 }
 
-.single-nav p{
+.single-nav p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -255,16 +303,16 @@ text-align: center;
     line-height: 25px;
 }
 
-.single-name-cont{
+.single-name-cont {
     display: flex;
     flex-direction: row;
 }
 
-.single-name{
+.single-name {
     width: auto;
 }
 
-.single-name h1{
+.single-name h1 {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 600;
@@ -272,28 +320,63 @@ text-align: center;
     line-height: 50px;
 }
 
-.single-line{
+.single-line {
     width: 80%;
     border-bottom: 2px solid black;
 }
 
-.single-followUs{
+.single-followUs {
     display: none;
+}
+@media only screen and (max-width: 1900px) {
+  
+    .single-line{
+        width: 83%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+  
+    .single-line{
+        width: 87%;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .fff {
         margin-top: 30%;
     }
+    .single-line{
+        width: 86%;
+    }
 }
+
 @media only screen and (max-width: 820px) {
     .nazVan {
         /* display: flex; */
         text-align: left;
+        margin-bottom: -90px;
+        padding-left: 10%;
     }
+
+    .swiper-button-prev::after {
+        font-family: 'Times New Roman', Times, serif !important;
+        background-image: url("../../Images/rrr.svg") !important;
+        width: 60px;
+        margin-right: -60px;
+    }
+
+    .swiper-button-next::after {
+        font-family: 'Times New Roman', Times, serif !important;
+        background-image: url("../../Images/rrr.svg") !important;
+        width: 60px;
+        margin-right: -50px;
+
+    }
+
     .common {
-        padding: 0 5%;
+        /* padding: 0 10%; */
         padding-bottom: 10%;
     }
+
     .arrows1 {
         display: flex;
         flex-direction: row;
@@ -303,58 +386,71 @@ text-align: center;
         width: 100%;
         margin-top: 10%;
     }
+
     .arrmidle1 {
         width: 70%;
     }
+
     .chooseSize {
         text-align: left;
         margin-top: 30px;
     }
+
     .chooseSize input {
         background-color: #FCFCFC;
-        ;
         width: 97%;
         padding: 1% 0 1% 0;
         border: 1px solid gray;
     }
+
     .nazvannaz {
         font-family: 'Montserrat';
         font-size: 18px;
         font-weight: 400;
         line-height: 22px;
         letter-spacing: 0em;
+        margin-bottom: 3%;
     }
-    .dollaramount {
+
+    .dollarAmount {
         font-family: ' Montserrat';
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 600;
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
+        margin-top: 10px;
     }
+
     .linearr {
-        transform: translate(-20px ,4px);
+        transform: translate(-20px, 4px);
     }
 }
-.sss{
+
+.sss {
     filter: blur(3px);
-    /* background-color: rgba(0, 0, 0, 0.75); */
+   /* background-color: rgba(0, 0, 0, 0.75); */
+    /* opacity: 0.7; */
+}
+.tutaqki{
+    position: relative;
 }
 @media only screen and (max-width: 500px) {
-   .linearr{
-    /* transform: translate(350px ,-25px); */
-    position: absolute;
-    z-index: 999;
-   }
-   .chooseInput{
-       margin-bottom: 40px;
-   }
+    .linearr {
+        /* transform: translate(350px ,-25px); */
+        position: absolute;
+        z-index: 999;
+    }
+
+    .chooseInput {
+        margin-bottom: 40px;
+    }
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
     .single-name h1 {
-        
+
         font-size: 35px;
     }
 
@@ -366,11 +462,15 @@ text-align: center;
         font-size: 13px;
     }
 
-    .single-nav{
+    .single-nav {
         display: none;
     }
 
-    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+    .colorButton1,
+    .colorButton2,
+    .colorButton3,
+    .colorButton4,
+    .colorButton5 {
         border: 1px solid black;
         width: 13%;
         padding: 5% 0%;
@@ -383,7 +483,7 @@ text-align: center;
         border: 1px solid gray;
     }
 
-    .mesafe{
+    .mesafe {
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -395,21 +495,23 @@ text-align: center;
         padding-bottom: 2% !important;
         padding-left: 5% !important;
     }
+
     .arrmidle1 {
         width: 50%;
         position: absolute;
-        left: 26%; 
+        left: 26%;
         bottom: 10.5%;
         z-index: 999;
     }
 
-    .single-followUs{
+    .single-followUs {
         display: block;
     }
 }
+
 @media screen and (min-width: 370px) and (max-width: 415px) {
     .single-name h1 {
-        
+
         font-size: 35px;
     }
 
@@ -421,11 +523,15 @@ text-align: center;
         font-size: 13px;
     }
 
-    .single-nav{
+    .single-nav {
         display: none;
     }
 
-    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+    .colorButton1,
+    .colorButton2,
+    .colorButton3,
+    .colorButton4,
+    .colorButton5 {
         border: 1px solid black;
         width: 13%;
         padding: 5% 0%;
@@ -438,7 +544,7 @@ text-align: center;
         border: 1px solid gray;
     }
 
-    .mesafe{
+    .mesafe {
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -459,32 +565,38 @@ text-align: center;
         z-index: 999;
     }
 
-    .single-followUs{
+    .single-followUs {
         display: block;
     }
 }
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .single-name h1 {
-        
+
         font-size: 35px;
     }
 
     .single-line {
         height: 34px;
+        width: 82%;
     }
 
     .nazvannaz {
         font-size: 13px;
     }
 
-    .single-nav{
+    .single-nav {
         display: none;
     }
 
-    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+    .colorButton1,
+    .colorButton2,
+    .colorButton3,
+    .colorButton4,
+    .colorButton5 {
         border: 1px solid black;
-        width: 13%;
-        padding: 5% 0%;
+        /* width: 13%; */
+        /* padding: 5% 0%; */
     }
 
     .chooseSize input {
@@ -494,7 +606,7 @@ text-align: center;
         border: 1px solid gray;
     }
 
-    .mesafe{
+    .mesafe {
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -504,18 +616,18 @@ text-align: center;
         padding: 0% 0%;
         padding-top: 2% !important;
         padding-bottom: 2% !important;
-        padding-left: 5% !important;
+        padding-left: 10% !important;
     }
 
     .arrmidle1 {
         width: 50%;
         position: absolute;
-        left: 26%; 
+        left: 26%;
         bottom: 8.5%;
         z-index: 999;
     }
 
-    .single-followUs{
+    .single-followUs {
         display: block;
     }
 }
@@ -524,20 +636,21 @@ text-align: center;
     .arrmidle1 {
         width: 50%;
         position: absolute;
-        left: 26%; 
+        left: 26%;
         bottom: 6.5%;
         z-index: 999;
     }
 
-    .single-followUs{
+    .single-followUs {
         display: block;
     }
 
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .single-name h1 {
-        
+
         font-size: 35px;
     }
 
@@ -549,14 +662,18 @@ text-align: center;
         font-size: 13px;
     }
 
-    .single-nav{
+    .single-nav {
         display: none;
     }
 
-    .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+    .colorButton1,
+    .colorButton2,
+    .colorButton3,
+    .colorButton4,
+    .colorButton5 {
         border: 1px solid black;
-        width: 13%;
-        padding: 5% 0%;
+        /* width: 13%; */
+        padding: 3% 4%;
     }
 
     .chooseSize input {
@@ -566,7 +683,7 @@ text-align: center;
         border: 1px solid gray;
     }
 
-    .mesafe{
+    .mesafe {
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -576,15 +693,127 @@ text-align: center;
         padding: 0% 0%;
         padding-top: 2% !important;
         padding-bottom: 2% !important;
-        padding-left: 5% !important;
+        padding-left: 10% !important;
     }
 
     .arrmidle1 {
         width: 50%;
         position: absolute;
-        left: 26%; 
+        left: 26%;
         bottom: 2.5%;
         z-index: 999;
     }
+
+    .single-line {
+        /* width: 83%; */
+    }
+}
+
+.dollaramount {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+@media screen and (max-width:550px) {
+    .nazVan {
+        margin-bottom: -60px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .man {
+        padding-left: 8% !important;
+    }
+
+    .nazVan {
+        padding-left: 8%;
+    }
+
+}
+@media screen and (max-width:800px) {
+  .chooseInput{
+   margin-left: 8%;
+  }
+  .chooseSize input{
+   padding: 1% 3px 1% 1%;
+  }
+
+}
+@media screen and (max-width:500px) {
+
+  
+  }
+@media screen and (max-width:400px) {
+    .swwiperLeftDistance {
+        /* margin-left: 2%; */
+        padding: 5% 8% 0 8%;
+    }
+    .chooseSize input {
+        padding: 2% 3px 2% 1%;
+    }
+    .linearr {
+        transform: translate(-20px, 11px);
+    }
+    .chooseInput {
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+   #olcu{
+    width: 60%;
+   margin-right: 6%;
+   }
+   .ayagg{
+    width: 90%;
+   margin-bottom:30%;
+ }
+ .colorFilter{
+    margin-top: 0;
+ }
+ .colorButton1 ,.colorButton3 ,.colorButton2 ,.colorButton4 {
+margin-right: 15px;
+ }
+ .colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5 {
+    width: 12%;
+    padding: 4% 0%;
+}
+}
+
+@media screen and (max-width:360px) {
+    .nazVan {
+        margin-bottom: -40px;
+    }
+  
+
+}
+@media screen and (max-width:340px) {
+ .ayagg{
+   margin-right: 10%;
+ }
+
+} 
+input ,
+input::placeholder{
+    font-family: "Montserrat";
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:black
+ /* margin-left: -10px; */
+}
+
+.reng{
+    font-family: "Cormorant";
+font-size: 24px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
 
 }

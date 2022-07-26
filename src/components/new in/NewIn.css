@@ -146,6 +146,7 @@ margin-right: 5px;
 }
 .NewIn-footer {
     margin-top: 10%;
+    padding: 5% 10%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
@@ -427,7 +428,10 @@ margin-right: 5px;
         margin-top: 8%;
         align-items: center;
     }
-
+    .NewIn-footer {
+  
+        padding: 0;
+    }
     .newIn-heading-first {
         width: 31.5%;
 
@@ -739,6 +743,8 @@ margin-right: 5px;
 
     }
 }
+
+
 @media only screen and (max-width: 405px) {
     .newIn-heading-first {
         width: 140.5%;
@@ -747,9 +753,12 @@ margin-right: 5px;
         margin-top: 9%;
       }
 }
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 400px) {
     .newIn-heading-first {
         width: 148.5%;
+    }
+    .newIn-heading-line{
+        width: 143.5%;
     }
     .newIn-body-row{
         margin-left: -20px;

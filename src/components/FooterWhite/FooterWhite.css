@@ -442,7 +442,7 @@ ul li {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 27%;
+        width: 40%;
     }
 
     .lastPart {

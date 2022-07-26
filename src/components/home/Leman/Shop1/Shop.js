@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 import { Pagination } from "swiper";
 import { Navigation } from "swiper";
 
-function Shop() {
+function Shop({olcu}) {
 
     const [dimensions, setDimensions] = useState({
         height: window.innerHeight,
@@ -69,7 +69,7 @@ function Shop() {
 
 
             <div className='swiper-mob-cont'>
-                <img src={mobline} className="mob-line"></img>
+                <img src={mobline} className={`mob-line ${olcu && 'activeLine'} `}></img>
                 <Swiper navigation={true} modules={[Navigation]} loop={true} noSwiping={true} onlyExternal={true} noSwipingClass="swiper-slide" className="mySwiper">
 
                     <SwiperSlide> <div className='Fcard'>

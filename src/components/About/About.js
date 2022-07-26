@@ -43,6 +43,7 @@ const About = ({setWitdhh})=>{
     }
       })
     return(
+      <>
         <div> 
          <HeaderBlack dimensions={dimensions} />
           <div className="about-header">
@@ -75,7 +76,7 @@ const About = ({setWitdhh})=>{
                    <div className="about-main">
                      <div className="about-text1">
                        <p  className="p1">Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna</p>
-                       <p className="p2">
+                       <p className="p2 eget">
                         Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non.
                         Tortor sapien purus massa neque nibh quis tempus natoque in. Eget est amet tellus justo faucibus.
                         </p>
@@ -109,10 +110,9 @@ const About = ({setWitdhh})=>{
                        <p>Vitae, odio adipiscing aenean tortor diam, vitae amet volutpat urna. Id aliquam ante eu tellus tristique quam magna non.</p>
 
                      </div>
-
-                     <div className="about-mob-slider">
-                          <MobileSwiper/>
-                     </div>
+                         <MobileSwiper/>
+                      
+                        
 
                      <div className="about-mob-texts">
 
@@ -141,10 +141,12 @@ const About = ({setWitdhh})=>{
            </div>
            
            <div className="about-footer">
-             <Footer/>
+            
            </div>
-           
+        
         </div>
+           <Footer/>
+           </>
     )
 }
 export default About

@@ -60,7 +60,7 @@ const Footer = () => {
                     </ul>
                     </div>   
                 </div>
-                <div className="lastPart">
+                <div className="lastPart" >
                     <ul>
                         <li>@ 2022 All Rights Reserved</li>
                         <a href="https://claradix.com/#/welcome" target="_blank">

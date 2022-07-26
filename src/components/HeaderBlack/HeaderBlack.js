@@ -15,7 +15,7 @@ import Data from "../../Data.json"
 import loglogo from "../../Images/shirin/loglogo.svg"
 import useOutsideClick from "../useOutsideClick"
 import HamMenu from "../Hamburger/HamMenu";
-const HeaderBlack = ({ dimensions }) => {
+const HeaderBlack = ({ dimensions,menuOpen }) => {
 
     const searchRef = useRef();
     const inputRef = useRef();
@@ -192,7 +192,7 @@ const HeaderBlack = ({ dimensions }) => {
                 </div>
 
             </div>}
-        {(dimensions.width <= 800) && <div className="headerBlack">
+        {(dimensions.width <= 800) && <div className={`headerBlack ${menuOpen && 'sss'}`}>
 
             <div className="hamburger" ref={hamburgerRef} onClick={openMenu}>
                 <div className="header_ul_one">
