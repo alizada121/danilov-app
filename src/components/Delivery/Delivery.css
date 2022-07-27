@@ -4,14 +4,30 @@
     padding-right: 10%;
     margin-top: 2%;
 }
-
+.collection-heading-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.birbir{
+    text-align: left;
+   
+}
+.spanbir{
+    font-family: "Cormorant";
+font-size: 70px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+border: 1px solid black;
+margin-right: 5%;
+padding: 0% 0.5%;
+}
 .delivery-header {
     margin-top: 2%;
 }
 
-/* .contact-header-copy .collection-heading-cont .collection-heading .collection-heading-text{
-    display: flex;
-} */
 .delivery-heading-nav {
     display: flex;
     flex-direction: row;
@@ -535,6 +551,7 @@ input[type=checkbox] {
 
     .contact-header-copy-del .collection-heading .collection-heading-text {
         width: 30%;
+   margin-bottom: -1%;
     }
 
     .contact-header-copy-del {
@@ -588,6 +605,12 @@ input[type=checkbox] {
     .contact-header-copy-del .collection-heading-cont {
         margin-left: 5%;
         width: 95%;
+    }
+    .birbir{
+        height: 25px;
+    }
+    .spanbir{
+        /* display: none; */
     }
 
 }
@@ -833,6 +856,13 @@ input[type=checkbox] {
         padding-left: 10%;
         padding-right: 0%;
     }
+.hihi{
+    /* margin-top: 9%; */
+}
+.spanbir{
+    font-size: 42px;
+ 
+}
 
     .deliveryDiv {
         padding: 3% 10%;

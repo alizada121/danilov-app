@@ -88,7 +88,8 @@ const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
 
                     <div className='collection-heading'>
                         <div className='collection-heading-text'>
-                            <h1>Delivery <span className="birbir">1</span></h1>
+                            <h1 className="hihi">Delivery</h1>
+                           <span className="spanbir">1</span>
                         </div>
 
                         <div className='collection-line-cont'>
