@@ -2,13 +2,16 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 2%;
 }
 
 .delivery-header {
     margin-top: 2%;
 }
 
-
+/* .contact-header-copy .collection-heading-cont .collection-heading .collection-heading-text{
+    display: flex;
+} */
 .delivery-heading-nav {
     display: flex;
     flex-direction: row;
@@ -113,12 +116,17 @@
 .contact11 {
     text-align: left;
     margin-bottom: 40px;
-    margin-top: 40px;
+
     font-family: 'Cormorant';
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0em;
+}
+
+.birbir {
+    border: 1px solid black;
+
 }
 
 .acc {
@@ -328,6 +336,10 @@ input[type=checkbox] {
     margin-right: 1%;
 }
 
+.contact-header-copy-del {
+    padding: 0% 10%;
+}
+
 .differenAdres input {
     border: 1px solid gray;
 }
@@ -338,6 +350,51 @@ input[type=checkbox] {
 
 .rightAsideBag {
     width: 100%;
+}
+
+@media only screen and (max-width: 1900px) {
+    .contact-header-copy-del .collection-heading .collection-line-cont {
+        width: 87%;
+    }
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1820px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 1450px) {
@@ -356,6 +413,10 @@ input[type=checkbox] {
     .elave {
         margin-top: 4%;
     }
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 32%;
+    }
 }
 
 @media only screen and (max-width: 1315px) {
@@ -364,10 +425,243 @@ input[type=checkbox] {
     }
 }
 
+@media only screen and (max-width: 1270px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 34%;
+    }
+}
+
+@media only screen and (max-width: 1215px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .deliveryDiv .flexDelivery .Order-summary-container {
+        margin-top: 10%;
+    }
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 40%;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     .elave {
         margin-top: 3%;
     }
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 44%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 34%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 38%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .add22 {
+        display: none;
+    }
+
+    .ashagidaki {
+        text-align: right;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: right;
+
+    }
+
+    .ashagidaki-login {
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
+
+@media only screen and (max-width: 790px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 44%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        /* width: 38%;/ */
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 43%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 30%;
+    }
+
+    .contact-header-copy-del {
+        padding: 0% 0%;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 32%;
+    }
+
+}
+
+@media only screen and (max-width: 690px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 36%;
+    }
+
+}
+
+@media only screen and (max-width: 625px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 46%;
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 52%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .contact-header-copy-del .collection-heading-cont {
+        margin-left: 5%;
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 58%;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 64%;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 74%;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 48%;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 330px) {
+
+    .contact-header-copy-del .collection-heading .collection-heading-text {
+        width: 54%;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
@@ -533,6 +827,40 @@ input[type=checkbox] {
 
 }
 
+@media only screen and (max-width: 768px) {
+    .delivery-heading-container {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 0%;
+    }
+
+    .deliveryDiv {
+        padding: 3% 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .delivery-heading-container {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+
+    .deliveryDiv {
+        padding: 3% 5%;
+    }
+
+
+
+    .deliveryDiv .flexDelivery .Order-summary-container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+}
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .flexDelivery {
         flex-direction: column;
@@ -542,9 +870,7 @@ input[type=checkbox] {
         width: 100%;
     }
 
-    .deliveryDiv {
-        padding: 3% 5%;
-    }
+
 
     .inputSide1 {
         width: 100%;
@@ -573,11 +899,7 @@ input[type=checkbox] {
         width: 100%;
     }
 
-    .delivery-heading-container {
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 0%;
-    }
+
 
     .delivery-heading-nav {
         display: none;

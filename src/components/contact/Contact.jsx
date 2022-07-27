@@ -46,27 +46,27 @@ function Contact() {
         </div>
       </div> */}
       <div className='contact-header-copy'>
-      <div className='collection-heading-cont'>
-        <div className='collection-nav'>
-          <p>Home </p>
-          <p> / Contact</p>
-        </div>
-
-        <div className='collection-heading'>
-          <div className='collection-heading-text'>
-            <h1>Contact us</h1>
+        <div className='collection-heading-cont'>
+          <div className='collection-nav'>
+            <p>Home </p>
+            <p> / Contact</p>
           </div>
 
-          <div className='collection-line-cont'>
-            <div className='collection-line'></div>
-          </div>
-        </div>
+          <div className='collection-heading'>
+            <div className='collection-heading-text'>
+              <h1>Contact us</h1>
+            </div>
 
+            <div className='collection-line-cont'>
+              <div className='collection-line'></div>
+            </div>
+          </div>
+
+
+        </div>
 
       </div>
 
-      </div>
-      
 
       <div className='contact-general'>
 

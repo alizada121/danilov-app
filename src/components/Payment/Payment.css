@@ -1,10 +1,15 @@
-.Payment-container{
+.Payment-container {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.Payment-info{
+.subtotal-row h5,
+.normal {
+    font-weight: 600;
+}
+
+.Payment-info {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -14,39 +19,39 @@
     transition: 1s;
 }
 
-.Payment-header{
+.Payment-header {
     margin-top: 2%;
 }
 
-.Payment{
+.Payment {
     width: 100%;
 }
 
-.Payment-heading-nav{
+.Payment-heading-nav {
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.Payment-heading-nav p{
+.Payment-heading-nav p {
     margin: 0;
     margin-right: 5px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 25px;      
+    line-height: 25px;
     color: #000000;
     margin-bottom: 2%;
 
 }
 
-.Payment-heading{
+.Payment-heading {
     display: flex;
     flex-direction: row;
 }
 
-.Payment-heading{
+.Payment-heading {
     width: 100%;
     position: relative;
 }
@@ -60,19 +65,19 @@
     text-align: left;
 }
 
-.Payment-heading-first h1{
+.Payment-heading-first h1 {
     margin: 0;
     font-weight: 500;
     line-height: 50px;
-    
+
 }
 
-.Payment-heading-line-container{
+.Payment-heading-line-container {
     position: relative;
     width: 83%;
 }
 
-.Payment-heading-line{
+.Payment-heading-line {
     width: 100%;
     border: 0.5px solid #000000;
     height: 0;
@@ -80,15 +85,15 @@
     position: absolute;
     margin-top: 4%;
     bottom: 6%;
-    
+
 }
 
 
-.Payment-details{
+.Payment-details {
     width: 60%;
 }
 
-.Payment-details h1{
+.Payment-details h1 {
     text-align: left;
     margin-bottom: 5%;
     font-family: 'Cormorant';
@@ -99,12 +104,12 @@
     color: #1B1B1B;
 }
 
-.Payment-Card{
+.Payment-Card {
     display: flex;
     flex-direction: column;
 }
 
-.Payment-Card-row{
+.Payment-Card-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -112,7 +117,7 @@
     margin-bottom: 3%;
 }
 
-.Payment-Card-row p{
+.Payment-Card-row p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -122,36 +127,37 @@
 
 }
 
-.Card-input{
+.Card-input {
     width: 69%;
 }
 
-.Card-input-s{
+.Card-input-s {
     width: 29%;
 }
 
-.Card-input p{
+.Card-input p {
     margin: 0;
     padding-left: 2%;
 }
 
-.Card-input-s p{
+.Card-input-s p {
     margin: 0;
     padding-left: 2%;
 }
-.Card-input-s input{
+
+.Card-input-s input {
     width: 100%;
     padding: 5% 2%;
     font-family: 'Montserrat';
 }
 
-.Card-input input{
+.Card-input input {
     width: 100%;
     padding: 2% 2%;
     font-family: 'Montserrat';
 }
 
-.Payment-Card-row-submit{
+.Payment-Card-row-submit {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -161,7 +167,7 @@
     align-items: center;
 }
 
-.Payment-Card-row-submit p{
+.Payment-Card-row-submit p {
     width: 20%;
     font-family: 'Montserrat';
     font-style: normal;
@@ -173,13 +179,13 @@
 
 }
 
-.Card-input-submit{
+.Card-input-submit {
     width: 50%;
-   
-    
+
+
 }
 
-.Card-input-submit input{
+.Card-input-submit input {
     width: 98%;
     font-family: 'Cormorant';
     font-style: normal;
@@ -196,34 +202,35 @@
 
 }
 
-.normal{
+/* .normal{
     font-family: 'Montserrat' !important; 
     font-size: 16px  !important;
     font-weight: 500  !important;
+} */
+
+.Card-input-submit input:hover {
+    background-color: #F0F0F0;
+    color: #463227;
+    transition: 0.6s;
+
 }
 
-.Card-input-submit input:hover{
-     background-color: #F0F0F0;
-   color: #463227;
-   transition: 0.6s;
-
-}
-.Order-summary-container{
+.Order-summary-container {
     width: 30%;
     display: flex;
     flex-direction: column;
     margin-top: 5%;
 }
 
-.Order-summary{
+.Order-summary {
     width: 100%;
     text-align: left;
 
     border: 1px solid black;
-    padding: 10% 5%;
+    padding: 10% 5% 7% 5%;
 }
 
-.Order-summary-container h1{
+.Order-summary-container h1 {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 600;
@@ -234,34 +241,48 @@
     margin: 0;
 
 }
-.Order-delivery{
+
+.Order-delivery {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid black;
 }
 
-.delivery-choices{
+.delivery-choices {
     display: flex;
     flex-direction: row;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 5%;
-    
+
 }
 
-.Order-delivery h4{
-    font-family: 'Cormorant';
-    font-style: normal;
-    font-weight: 500;
+.Order-delivery h4 {
+    font-family: "Cormorant";
     font-size: 22px;
+    font-weight: 600;
     line-height: 25px;
-    /* identical to box height, or 114% */
+    letter-spacing: 0em;
+    text-align: left;
+
 
     margin: 0;
     color: #000000;
 }
 
-.delivery-choices p{
-    margin-right: 5%;
+.normal {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    color: #000;
+
+}
+
+.delivery-choices p {
+    /* margin-right: 5%; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -270,22 +291,22 @@
     color: #1B1B1B;
 }
 
-.Order-subtotal{
+.Order-subtotal {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
-   padding-bottom: 10%;
+    margin-top: 6%;
+    padding-bottom: 10%;
     border-bottom: 1px solid black;
 }
 
-.subtotal-row{
+.subtotal-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+
 }
 
-.subtotal-row p{
+.subtotal-row p {
     margin: 0;
     margin-bottom: 2%;
     font-family: 'Cormorant';
@@ -296,34 +317,34 @@
     line-height: 23px;
     color: #1B1B1B;
 
-    
+
 }
 
-.subtotal-row h5{
+.subtotal-row h5 {
     margin: 0;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 
     font-family: 'Cormorant';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
     line-height: 25px;
     /* identical to box height, or 114% */
 
 
     color: #000000;
-    
+
 
 }
 
-.Order-total{
+.Order-total {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 3%;
+    margin-top: 7%;
 }
 
-.Order-total h4{
+.Order-total h4 {
     font-family: 'Cormorant';
     font-weight: 700;
     font-size: 22px;
@@ -333,23 +354,23 @@
     color: #1B1B1B;
 }
 
-.Payment-success-container{
-   width: 100%;
-   margin-top: 5%;
-   margin-bottom: 15%;
-   transition: 1s;
-   display: none;
-    
+.Payment-success-container {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    transition: 1s;
+    display: none;
+
 }
 
-.Payment-success{
+.Payment-success {
     width: 70%;
     margin-left: 25%;
     margin-right: 5%;
     border: 1px solid #463227;
 }
 
-.Payment-success h1{
+.Payment-success h1 {
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 600;
@@ -359,7 +380,7 @@
     color: #1B1B1B;
 }
 
-.Payment-success p{
+.Payment-success p {
     width: 70%;
     margin-left: 15%;
     font-family: 'Montserrat';
@@ -372,7 +393,7 @@
     margin-bottom: 5%;
 }
 
-.Payment-success button{
+.Payment-success button {
     width: 30%;
 
 }
@@ -387,10 +408,10 @@
     line-height: 22px;
     text-align: center;
     color: #F0F0F0;
-    
+
 }
 
-.payment-success-button{
+.payment-success-button {
     color: #F0F0F0;
     background-color: #463227;
     border: none;
@@ -398,7 +419,7 @@
 
 }
 
-.payment-success-button:hover{
+.payment-success-button:hover {
     background-color: #F0F0F0;
     color: #463227;
     transition: 0.6s;
@@ -420,7 +441,7 @@
 
 }
 
-.payment-receipt p:hover{
+.payment-receipt p:hover {
     text-decoration-line: underline;
     transition: 0.4s;
 
@@ -432,33 +453,39 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    .Payment-heading-nav{
+
+    .Payment-heading-nav {
         display: none;
     }
-    .Payment-details{
+
+    .Payment-details {
         width: 100%;
     }
+
     .Payment-info {
         flex-direction: column;
     }
 
-    .Payment-Card-row{
+    .Payment-Card-row {
         flex-direction: column;
     }
 
-    .Card-input{
+    .Card-input {
         width: 100%;
         margin-bottom: 5%;
     }
+
     .Card-input-s input {
         width: 100%;
         padding: 3% 2%;
     }
-    .Card-input-s{
+
+    .Card-input-s {
         width: 100%;
         margin-bottom: 5%;
     }
-    .Payment-Card-row-submit{
+
+    .Payment-Card-row-submit {
         flex-direction: column;
         width: 100%;
     }
@@ -467,13 +494,13 @@
         width: 100%;
     }
 
-    .Payment-Card-row-submit p{
+    .Payment-Card-row-submit p {
         width: 100%;
         margin-bottom: 7%;
         font-weight: 600;
     }
 
-    .Card-input-submit{
+    .Card-input-submit {
         width: 100%;
     }
 
@@ -488,7 +515,7 @@
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .Payment-success p {
         width: 90%;
         margin-left: 5%;
@@ -500,31 +527,36 @@
         width: 80%;
     }
 
-    .Order-summary-container{
+    .Order-summary-container {
         margin-top: 20%;
         margin-bottom: 10%;
     }
-    .Payment-Card-row-submit p{
+
+    .Payment-Card-row-submit p {
         display: none;
     }
 }
+
 @media screen and (min-width: 370px) and (max-width: 415px) {
     .Payment-container {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .Payment-heading-nav{
+
+    .Payment-heading-nav {
         display: none;
     }
-    .Payment-details{
+
+    .Payment-details {
         width: 100%;
     }
+
     .Payment-info {
         flex-direction: column;
     }
 
-    .Payment-Card-row{
+    .Payment-Card-row {
         flex-direction: column;
     }
 
@@ -533,15 +565,17 @@
         padding: 3% 2%;
     }
 
-    .Card-input{
+    .Card-input {
         width: 100%;
         margin-bottom: 5%;
     }
-    .Card-input-s{
+
+    .Card-input-s {
         width: 100%;
         margin-bottom: 5%;
     }
-    .Payment-Card-row-submit{
+
+    .Payment-Card-row-submit {
         flex-direction: column;
         width: 100%;
     }
@@ -550,13 +584,13 @@
         width: 100%;
     }
 
-    .Payment-Card-row-submit p{
+    .Payment-Card-row-submit p {
         width: 100%;
         margin-bottom: 7%;
         font-weight: 600;
     }
 
-    .Card-input-submit{
+    .Card-input-submit {
         width: 100%;
     }
 
@@ -569,7 +603,7 @@
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .Payment-success p {
         width: 90%;
         margin-left: 5%;
@@ -581,17 +615,19 @@
         width: 80%;
     }
 
-    .Order-summary-container{
+    .Order-summary-container {
         margin-top: 20%;
         margin-bottom: 10%;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .Payment-Card-row-submit p{
+
+    .Payment-Card-row-submit p {
         display: none;
     }
 }
+
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .Payment-container {
         width: 90%;
@@ -599,17 +635,19 @@
         margin-right: 5%;
     }
 
-    .Payment-heading-nav{
+    .Payment-heading-nav {
         display: none;
     }
-    .Payment-details{
+
+    .Payment-details {
         width: 100%;
     }
+
     .Payment-info {
         flex-direction: column;
     }
 
-    .Payment-Card-row{
+    .Payment-Card-row {
         flex-direction: column;
     }
 
@@ -618,15 +656,18 @@
         width: 100%;
         padding: 3% 2%;
     }
-    .Card-input{
+
+    .Card-input {
         width: 100%;
         margin-bottom: 5%;
     }
-    .Card-input-s{
+
+    .Card-input-s {
         width: 100%;
         margin-bottom: 5%;
     }
-    .Payment-Card-row-submit{
+
+    .Payment-Card-row-submit {
         flex-direction: column;
         width: 100%;
     }
@@ -635,26 +676,28 @@
         width: 100%;
     }
 
-    .Payment-Card-row-submit p{
+    .Payment-Card-row-submit p {
         width: 80%;
         margin-bottom: 7%;
         font-weight: 600;
     }
 
-    .Card-input-submit{
+    .Card-input-submit {
         width: 100%;
     }
+
     .Order-summary-container {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
+
     .Payment-success {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .Payment-success p {
         width: 90%;
         margin-left: 5%;
@@ -668,16 +711,17 @@
     }
 
 
-    .Order-summary-container{
+    .Order-summary-container {
         margin-top: 20%;
         margin-bottom: 10%;
     }
 
-    .Payment-Card-row-submit p{
+    .Payment-Card-row-submit p {
         display: none;
     }
-    
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .Card-input-s {
         width: 30%;
@@ -691,26 +735,56 @@
         font-size: 28px;
     }
 
-    .Order-summary-container{
+    .Order-summary-container {
         margin-top: 20%;
         margin-bottom: 10%;
     }
 
-    .Payment-footer{
+    .Payment-footer {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
     }
 }
 
-@media screen and (min-width: 1024px){
-    .Payment-footer{
+@media screen and (min-width: 1024px) {
+    .Payment-footer {
 
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
 
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    .subtotal-row p {
+
+        font-weight: 700;
+
+
+    }
+
+    .delivery-choices p {
+
+        font-weight: 700;
+
+
+    }
+#normal{
+    font-weight: 600;
 }
+    .subtotal-row h5 {
 
 
+        font-weight: 400;
+
+
+    }
+.Order-delivery h4{
+    font-weight: 400;
+}
+    .Order-total h4 {
+        font-weight: 400;
+    }
+}

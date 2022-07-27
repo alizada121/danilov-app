@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import './Delivery.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
@@ -9,57 +9,97 @@ import Footer from "../../components/Footer/Footer";
 function debounce(fn, ms) {
     let timer
     return _ => {
-      clearTimeout(timer)
-      timer = setTimeout(_ => {
-        timer = null
-        fn.apply(this, arguments)
-      }, ms)
+        clearTimeout(timer)
+        timer = setTimeout(_ => {
+            timer = null
+            fn.apply(this, arguments)
+        }, ms)
     };
-  }
-const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
-  
+}
+const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
+
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
-      })
-      useEffect(() => {
+    })
+    useEffect(() => {
         const debouncedHandleResize = debounce(function handleResize() {
-          setDimensions({
-            height: window.innerHeight,
-            width: window.innerWidth
-          })
+            setDimensions({
+                height: window.innerHeight,
+                width: window.innerWidth
+            })
         }, 1000)
-    
+
         window.addEventListener('resize', debouncedHandleResize)
-    
+
         return _ => {
-          window.removeEventListener('resize', debouncedHandleResize)
-    
+            window.removeEventListener('resize', debouncedHandleResize)
+
         }
-      })
-    
+    })
+
     return (
         <div >
-             <HeaderBlack dimensions={dimensions}/> 
-             <div className='delivery-heading-container'>
+            <HeaderBlack dimensions={dimensions} />
+            {/* <div className='delivery-heading-container'>
                 <div className='delivery-heading-nav'>
-                  <p>Home</p>
-                 <p>  / Contact</p>
-              </div>
-             <div className='delivery-heading'>
-                  <div className='delivery-heading-first'>
-                   <h1>Delivery</h1>
+                    <p>Home</p>
+                    <p>  / Contact</p>
+                </div>
+                <div className='delivery-heading'>
+                    <div className='delivery-heading-first'>
+                        <h1>Delivery</h1>
 
-                   </div>  
+                    </div>
 
-                 <div className='delivery-heading-line'>
+                    <div className='delivery-heading-line'>
 
-                     </div>
-                  </div>
+                    </div>
+                </div>
 
 
 
-        </div>
+            </div> */}
+
+            {/* <div className='delivery-heading-container'>
+                <div className='collection-nav'>
+                    <p>Home </p>
+                    <p> / Collection</p>
+                </div>
+
+                <div className='collection-heading'>
+                    <div className='collection-heading-text'>
+                        <h1>Delivery 1</h1>
+                    </div>
+                    
+                    <div className='collection-line-cont'>
+                        <div className='collection-line'></div>
+                    </div>
+                </div>
+                
+
+            </div> */}
+            <div className='contact-header-copy-del'>
+                <div className='collection-heading-cont'>
+                    <div className='collection-nav'>
+                        <p>Home </p>
+                        <p> / Contact</p>
+                    </div>
+
+                    <div className='collection-heading'>
+                        <div className='collection-heading-text'>
+                            <h1>Delivery <span className="birbir">1</span></h1>
+                        </div>
+
+                        <div className='collection-line-cont'>
+                            <div className='collection-line'></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
             <div className="deliveryDiv">
                 <div className="flexDelivery">
                     <div className="leftDeliver" >
@@ -69,28 +109,33 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                                 <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                     <div className="acc">
                                         <p className="add">Email address {showing ? '/Number' : ""}</p>
-                                        {!showing &&  <p className="add22">Do you have an account?<span className="add1">Login</span></p>
+                                        {!showing && <p className="add22">Do you have an account?<span className="add1">Login</span></p>
                                         }
-                                      
+
                                     </div>
+
                                     <div className="email">
                                         <label htmlFor="email"></label>
                                         <input type="email" className={`${editInput && 'lastEdit'} `} placeholder="namesurname@email.com" id="email" name="email"></input>
                                     </div>
+                                    {dimensions.width < 800 &&
+                                        <p className="ashagidaki">Do you have an account?<span className="ashagidaki-login" >Login</span></p>
+                                    }
                                 </div>
+
                                 {showPassword &&
                                     <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                         <div className="acc">
-                                        <p className="add">Password </p>
-                                        {
-                                           !showing && <p className="add " >Do you have an account?<span className="add1">Login</span></p>
-                                        }
-                                       
-                                          
+                                            <p className="add">Password </p>
+                                            {
+                                                !showing && <p className="add " >Do you have an account?<span className="add1">Login</span></p>
+                                            }
+
+
                                         </div>
                                         <div className="email">
                                             <label htmlFor="password"></label>
-                                            <input type="password" className={`${editInput && 'lastEdit'} `}  placeholder="***********" id="email" name="password"></input>
+                                            <input type="password" className={`${editInput && 'lastEdit'} `} placeholder="***********" id="email" name="password"></input>
                                         </div>
                                     </div>
                                 }
@@ -102,7 +147,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                                 <div className="name">
                                     <p className="same">Name</p>
                                     <label htmlFor="name"></label>
-                                    <input type="name" placeholder="name" id="name"name="name"></input>
+                                    <input type="name" placeholder="name" id="name" name="name"></input>
                                 </div>
                                 <div className="surname">
                                     <p className="same">Surname</p>
@@ -128,7 +173,7 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                                     {
                                         !showPassword && <p className="addred">*Error</p>
                                     }
-                                    
+
                                 </div>
                                 <div className={`email1 ${showPassword && 'differenAdres'} `}>
                                     <label htmlFor="email1"></label>
@@ -151,53 +196,56 @@ const Delivery = ({  showPassword ,textHeader1 ,showing , editInput }) => {
                             <Button btnclass={true} />
                         </div>
                     </div>
-                    
+
 
                     <div className='Order-summary-container'>
                         <h1>Order summary</h1>
                         <div className='Order-summary'>
-                  
-                     <div className='Order-delivery'>
-                         <h4> Delivery</h4>
-                         <div className='delivery-choices'>
-                             <p>Free</p>
-                             <p>Express: 10$</p>
-                         </div>
-                      </div>
+
+                            <div className='Order-delivery'>
+                                <h4> Delivery</h4>
+                                <div className='delivery-choices'>
+                                    <p>Free</p>
+                                    <div className="div2">
+                                        <p className="ghgh">Express: 10$</p>
+                                        <div className="bottomxet"></div>
+                                    </div>
+                                </div>
+                            </div>
 
 
-                        <div className='Order-subtotal'>
-                            <div className='subtotal-row'>
-                                <h5 style={{fontWeight:600}}>Subtotal</h5>
-                                <h5   className='normal' style={{fontWeight:600}}>1 466$</h5>
+                            <div className='Order-subtotal'>
+                                <div className='subtotal-row'>
+                                    <h5>Subtotal</h5>
+                                    <h4 className='normal' id="normal">1 466$</h4>
+                                </div>
+                                <div className='subtotal-row'>
+                                    <p>Discount</p>
+                                    <p>0.00$</p>
+                                </div>
+                                <div className='subtotal-row'>
+                                    <p>Delivery</p>
+                                    <p>10$</p>
+                                </div>
+
                             </div>
-                            <div className='subtotal-row'>
-                                <p>Discount</p>
-                                <p>0.00$</p>
-                            </div>
-                            <div className='subtotal-row'>
-                                <p>Delivery</p>
-                                <p>10$</p>
+
+                            <div className='Order-total'>
+                                <h4>Total</h4>
+                                <h5 className='normal' >1 476$</h5>
+
                             </div>
 
                         </div>
+                    </div>
 
-                     <div className='Order-total'>
-                         <h4>Total</h4>
-                         <h4 className='normal'>1 476$</h4>
 
-                     </div>
-
-              </div>
-              </div>
-                    
-                    
                 </div>
             </div>
             <div className="mesafe">
-             <Footer /> 
+                <Footer />
             </div>
-            
+
         </div>
     )
 }
