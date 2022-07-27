@@ -56,6 +56,7 @@
     font-size: 24px;
     line-height: 20px;
     border: none;
+    text-align: center;
     transition: 0.6s;
 
 width: 100%;
@@ -101,4 +102,9 @@ width: 100%;
     }
 
 
+}
+@media only screen and (max-width: 500px) {
+    .Submit-contact{
+        padding: 4% 0%;
+    }
 }

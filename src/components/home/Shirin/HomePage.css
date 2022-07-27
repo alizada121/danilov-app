@@ -118,16 +118,20 @@
         left: 25%;
     }
 }
+@media only screen and (max-width: 1600px) {
+  
 
+    
+}
 @media only screen and (min-width: 1600px) {
     .middle {
         margin-top: 20%;
     }
-
     .distance_box {
-        top: 60%;
+        top: 50%;
         left: 25%;
     }
+
 }
 
 @media only screen and (max-width: 1140px) {

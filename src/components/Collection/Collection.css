@@ -194,7 +194,7 @@
     .collection-line-cont {
         width: 70%;
         margin-left: 0%;
-        margin-bottom: 2%;
+        margin-bottom: 2.5%;
     }
 
     .collection-heading-text h1 {
@@ -260,11 +260,11 @@
     .collection-line-cont {
         width: 70%;
         margin-left: 0%;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
     }
 
     .collection-heading-text h1 {
-        font-size: 29px;
+        font-size: 42px;
         line-height: 35px;
     }
 
@@ -338,7 +338,7 @@
     }
 
     .collection-heading-text h1 {
-        font-size: 29px;
+        font-size: 42px;
         line-height: 35px;
     }
 
@@ -388,7 +388,7 @@
     .collection-line-cont {
         width: 68%;
         /* margin-left: 12%; */
-        margin-bottom: 2%;
+        margin-bottom: 1.5%;
     }
 
     .collection-heading-text h1 {

@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Header from '../Header/Header'
 import "../contact/Contact.css"
 import ContactForm from './ContactForm'
@@ -25,8 +25,8 @@ function Contact() {
   })
   return (
     <>
-    <HeaderBlack dimensions={dimensions}/>
-    <div className='contact-heading-container'>
+      <HeaderBlack dimensions={dimensions} />
+      {/* <div className='contact-heading-container'>
         <div className='contact-heading-nav'>
           <p>Home</p>
           <p>  / Contact</p>
@@ -44,63 +44,86 @@ function Contact() {
 
 
         </div>
-      </div>
-    <div className='contact-general'>
-      
-      
-     
-
-      
-
-      <div className='contact'>
-
-
-        <div className='contact-form-container'>
-          <ContactForm />
-
+      </div> */}
+      <div className='contact-header-copy'>
+      <div className='collection-heading-cont'>
+        <div className='collection-nav'>
+          <p>Home </p>
+          <p> / Contact</p>
         </div>
 
-        <div className='contact-info'>
-         
-          
-          <h3 style={{ marginTop: "0" }}>Opening hours</h3>
-          <div className='info-part1'>
-          <div className='info1'>
-          <p style={{ margin: "0" }}>Monday-  Saturday</p>
-          <p style={{ marginBottom: "4%" }}>11am - 7pm</p> 
+        <div className='collection-heading'>
+          <div className='collection-heading-text'>
+            <h1>Contact us</h1>
           </div>
 
-          <div className='info2'>
-             <p style={{ marginBottom: "0" }}>Sunday</p>
-          <p style={{ marginBottom: "15%" }}> 12am - 6pm</p>
+          <div className='collection-line-cont'>
+            <div className='collection-line'></div>
           </div>
-          </div>
-
-          
-          
-         
-
-          <h3>Address</h3>
-          <p>Nunc scelerisque diam hac euismod tristique. Nec elit gravida tempor ac nec.</p>
-
-          <h3>Support</h3>
-          <p style={{ marginBottom: "3%" }}>hello@danilov.az</p>
-          <p >(+994 55) 674 66 74</p>
-
-
         </div>
+
 
       </div>
 
-     
+      </div>
+      
+
+      <div className='contact-general'>
 
 
 
 
 
-    </div>
-     <div className='contact-followUs'>
-        <FollowUs/>
+
+        <div className='contact'>
+
+
+          <div className='contact-form-container'>
+            <ContactForm />
+
+          </div>
+
+          <div className='contact-info'>
+
+
+            <h3 style={{ marginTop: "0" }}>Opening hours</h3>
+            <div className='info-part1'>
+              <div className='info1'>
+                <p style={{ margin: "0" }}>Monday-  Saturday</p>
+                <p style={{ marginBottom: "4%" }}>11am - 7pm</p>
+              </div>
+
+              <div className='info2'>
+                <p style={{ marginBottom: "0" }}>Sunday</p>
+                <p style={{ marginBottom: "15%" }}> 12am - 6pm</p>
+              </div>
+            </div>
+
+
+
+
+
+            <h3>Address</h3>
+            <p>Nunc scelerisque diam hac euismod tristique. Nec elit gravida tempor ac nec.</p>
+
+            <h3>Support</h3>
+            <p style={{ marginBottom: "3%" }}>hello@danilov.az</p>
+            <p >(+994 55) 674 66 74</p>
+
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+      <div className='contact-followUs'>
+        <FollowUs />
 
       </div>
 
