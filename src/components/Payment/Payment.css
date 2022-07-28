@@ -324,10 +324,10 @@
     margin: 0;
     margin-bottom: 4%;
 
-    font-family: 'Cormorant';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 114% */
 
@@ -345,9 +345,9 @@
 }
 
 .Order-total h4 {
-    font-family: 'Cormorant';
+    font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     line-height: 23px;
     text-align: right;
@@ -717,7 +717,7 @@
     }
 
     .Payment-Card-row-submit p {
-        display: none;
+        /* display: none; */
     }
 
 }
@@ -736,15 +736,11 @@
     }
 
     .Order-summary-container {
-        margin-top: 20%;
+        /* margin-top: 20%; */
         margin-bottom: 10%;
     }
 
-    .Payment-footer {
-        width: 80%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
+   
 }
 
 @media screen and (min-width: 1024px) {
@@ -755,7 +751,18 @@
         margin-left: 10%;
 
     }
+
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .Card-input-submit input {
+        font-size: 20px;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
     .subtotal-row p {
@@ -765,15 +772,31 @@
 
     }
 
+    .Payment-Card-row-submit p {
+        /* display: none; */
+        width: 100%;
+        text-align: left;
+    }
+
+    .Card-input-submit input {
+        font-size: 28px;
+    }
+
+    .Payment-details {
+        padding: 0 5%;
+    }
+
     .delivery-choices p {
 
         font-weight: 700;
 
 
     }
-#normal{
-    font-weight: 600;
-}
+
+    #normal {
+        font-weight: 600;
+    }
+
     .subtotal-row h5 {
 
 
@@ -781,10 +804,25 @@
 
 
     }
-.Order-delivery h4{
-    font-weight: 400;
-}
+
+    .Order-delivery h4 {
+        font-weight: 400;
+    }
+
     .Order-total h4 {
         font-weight: 400;
     }
 }
+@media screen and (max-width: 500px) {
+   .Payment-details{
+    padding: 0% 0%;
+   }
+   .Order-summary-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+}
+@media screen and (max-width: 370px) {
+
+ }

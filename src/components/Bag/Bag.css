@@ -3,6 +3,10 @@
     justify-content: flex-start;
     padding-bottom: 2%;
 }
+
+.bag-name{
+    margin-bottom: -0.5%;
+}
 .rightColor label{
     font-family: "Cormorant";
 font-size: 22px;
@@ -33,7 +37,7 @@ text-align: left;
 .bag-nav p{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 25px;
 }
@@ -209,12 +213,15 @@ text-align: left;
         margin-left: 0;
       }
   }
+  .contunios{
+    margin-bottom: -3.5%;
+  }
   @media only screen and (max-width: 1330px) {
     .bag-name{
      width: 19%;
     }
     .contunios{
-        margin-bottom: -5%;
+        margin-bottom: -4.5%;
       }
       .bag-line{
         margin-left: 0;
@@ -237,7 +244,7 @@ text-align: left;
         width: 22%;
        }
        .contunios{
-        margin-bottom: -6%;
+        margin-bottom: -5%;
       }
  }
  @media only screen and (max-width: 1125px) {
@@ -416,6 +423,11 @@ text-align: left;
         width: 34%;
     }
  }
+ @media only screen and (max-width: 768px) {
+    .bag-name{
+        margin-bottom: -1.5%;
+    }
+ }
 
  .elave{
     width: 42%;
@@ -584,6 +596,9 @@ text-align: left;
   @media only screen and (max-width: 400px) {
     .rightColor {
         margin-left: 5%;
+    }
+    .bag-name{
+        margin-bottom: -2.5%;
     }
   }
   @media only screen and (max-width: 380px) {

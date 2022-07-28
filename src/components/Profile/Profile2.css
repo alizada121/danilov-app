@@ -4,15 +4,20 @@
     margin-right: 10%;
 }
 
+.Profile2-footer{
+padding: 0 10%;
+}
 
 .Profile2{
     width: 100%;
+    margin-top: 3%;
+    padding: 0 10%;
 }
 
 .Profile2-heading-nav{
     display: flex;
     flex-direction: row;
-    
+    margin-top: 3%;
 }
 
 .Profile2-heading-nav p{
@@ -36,9 +41,11 @@
 .Profile2-heading{
     width: 100%;
     position: relative;
+    align-items: flex-end;
 }
 
 .Profile2-heading-first {
+    margin-bottom: -0.5%;
     width: auto;
     font-family: 'Cormorant';
     font-style: normal;
@@ -54,7 +61,7 @@
 }
 
 .Profile2-heading-line-container{
-    width: 87%;
+    width: 100%;
    
     position: relative;
     margin-top: 4%;
@@ -77,7 +84,7 @@
     width: 75px;
     position: absolute;
     right: 0%;
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
     bottom: 10%;
 }
 
@@ -91,7 +98,7 @@
 
 .Profile2-profile-container{
     width: 60%;
-    margin-bottom: 20%;
+    margin-bottom: 40%;
 }
 
 .Profile2-owner h1{
@@ -102,7 +109,7 @@
     font-size: 30px;
     line-height: 50px;
     color: #1B1B1B;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: 8%;
 }
 
@@ -150,7 +157,7 @@
     .Profile2-profile-container{
         width: 100%;
         /* margin-bottom: 60%; */
-        height: 70vh;
+        height: 40vh;
     }
     .owner-info p {
         font-weight: 600;
@@ -290,7 +297,7 @@
     .Profile2-profile-container{
         width: 100%;
         /* margin-bottom: 60%; */
-        height: 90vh;
+        height: 60vh;
     }
     .owner-info p {
         font-weight: 600;
@@ -343,13 +350,7 @@
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .Profile2-container{
-        width: 90%;
-        margin-left:5%;
-        margin-right: 5%;
-
-
-    }
+    
     .owner-info p {
         font-size: 12px;
     }
@@ -377,4 +378,60 @@
 .Profile2-heading{
     position: static;
 }
+}
+
+
+@media only screen and (min-width: 1900px) {
+   .Profile2-heading{
+    /* width: 103.5%; */
+   }
+    
+}
+    @media only screen and (max-width: 1024px) {
+        .Profile2-footer{
+            padding: 0%;
+            }
+        
+    }
+    
+@media only screen and (max-width: 800px) {
+    .Profile2-container{
+        width: 80%;
+        margin-left:10%;
+        margin-right: 10%;
+    
+    
+    }
+    .Profile2 {
+        width: 100%;
+        margin-top: 3%;
+        padding: 0 0 0 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Profile2-container{
+        width: 100%;
+        margin-left:0%;
+        margin-right: 0%;
+    }
+    .Profile2-heading{
+        margin-top: 5%;
+    }
+    .Profile2{
+       
+        padding: 0 0 0 5%;
+    }
+    .Profile2-profile-container {
+     
+        margin-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 500px) {
+  
+    .Profile2{
+       
+        padding: 0%;
+    }
+   
 }

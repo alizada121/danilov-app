@@ -16,7 +16,7 @@ function debounce(fn, ms) {
         }, ms)
     };
 }
-const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
+const   Delivery = ({ type,showPassword, textHeader1, showing, editInput , loginText , displayDiv}) => {
 
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
@@ -106,10 +106,13 @@ const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
                     <div className="leftDeliver" >
                         <div className="inputSide">
                             <p className="contact11">{textHeader1 ? "Login" : "Contact"}</p>
-                            <div className="emailPass">
+                            <div className={`emailPass ${ displayDiv && "flexDiv"}`}>
                                 <div className={`sameEmail ${showPassword && 'differenPass'} `}>
                                     <div className="acc">
-                                        <p className="add">Email address {showing ? '/Number' : ""}</p>
+                                    {dimensions.width >963 && <p className="add">Email address {(showing && (type==='login')) ? '/Number' : ""}</p> }                                      
+                                    
+                                    {dimensions.width >768 && dimensions.width < 963 &&   <p className="add">Email address {(showing && (type==='login')) ? '' : ""}</p> }   
+                                      {dimensions.width <768 && <p className="add">Email address {(showing && (type==='login')) ? '/Phone number' : ""}</p> }
                                         {!showing && <p className="add22">Do you have an account?<span className="add1">Login</span></p>
                                         }
 
@@ -119,8 +122,8 @@ const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
                                         <label htmlFor="email"></label>
                                         <input type="email" className={`${editInput && 'lastEdit'} `} placeholder="namesurname@email.com" id="email" name="email"></input>
                                     </div>
-                                    {dimensions.width < 800 &&
-                                        <p className="ashagidaki">Do you have an account?<span className="ashagidaki-login" >Login</span></p>
+                                    { dimensions.width < 800 &&
+                                        !loginText && <p className="ashagidaki">Do you have an account?<span className="ashagidaki-login" >Login</span></p>
                                     }
                                 </div>
 
@@ -148,24 +151,24 @@ const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
                                 <div className="name">
                                     <p className="same">Name</p>
                                     <label htmlFor="name"></label>
-                                    <input type="name" placeholder="name" id="name" name="name"></input>
+                                    <input type="name" placeholder="Name" id="name" name="Name"></input>
                                 </div>
                                 <div className="surname">
                                     <p className="same">Surname</p>
                                     <label htmlFor="surname"></label>
-                                    <input type="surname" placeholder="surname" id="surname" name="surname"></input>
+                                    <input type="surname" placeholder="Surname" id="surname" name="Surname"></input>
                                 </div>
                             </div>
                             <div className="nameandsur">
                                 <div className="name">
                                     <p className="same">City</p>
                                     <label htmlFor="name"></label>
-                                    <input type="name" id="name" name="name" placeholder="text here"></input>
+                                    <input type="name" id="name" name="name" placeholder=""></input>
                                 </div>
                                 <div className="surname">
                                     <p className="same">Country</p>
                                     <label htmlFor="surname"></label>
-                                    <input type="surname" id="surname" name="surname" placeholder="text here"></input>
+                                    <input type="surname" id="surname" name="surname" placeholder=""></input>
                                 </div>
                             </div>
                             <div className="inputSide">
@@ -178,7 +181,7 @@ const Delivery = ({ showPassword, textHeader1, showing, editInput }) => {
                                 </div>
                                 <div className={`email1 ${showPassword && 'differenAdres'} `}>
                                     <label htmlFor="email1"></label>
-                                    <input type="adress" placeholder="ADRESS" id="email" name="adress"></input>
+                                    <input type="adress" placeholder="Adress" id="email" name="adress"></input>
                                 </div>
                             </div>
                             <div className="inputSide11">

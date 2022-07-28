@@ -3,7 +3,9 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-
+.Profile1-footer{
+    padding: 0 10%;
+    }
 
 .Profile1{
     width: 100%;
@@ -77,7 +79,7 @@
 
 .Profile1-signUp-container{
     width: 60%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
   
     /* border: 1px solid black; */
 }
@@ -85,7 +87,7 @@
 .Profile1-signUp-heading{
     display: flex;
     flex-direction: row;
-    margin-top: 3%;
+    margin-top: 7%;
 }
 
 .Profile1-signUp-heading p{
@@ -326,7 +328,7 @@
         margin-left: 5%;
     }
 }
-@media screen and (min-width: 415px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 840px) {
     .Profile1-signUp-heading p{
         font-size: 18px;
     }
@@ -392,4 +394,38 @@
         margin-left: 5%;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and  (max-width: 1024px) {
+    .Profile1-footer{
+        padding: 0;
+    }
+}
+@media only screen and  (max-width: 840px) {
+    .Profile1{
+        padding: 0 10%;
+    }
+    .Profile1-signUp-container{
+      padding: 0 5%;
+    }
+}
+@media only screen and  (max-width: 768px) {
+    .Profile1-container .Profile1 .Profile2-heading-container .Profile2-heading{
+        width: 100%;
+        margin-left: 0;
+    }
+    .Profile1 {
+        padding: 0 0 0 10%;
+    }
+}
+@media only screen and  (max-width: 500px) {
+    .Profile1{
+        padding: 0 0 0 5%;
+    }
+    .Profile1-signUp-container{
+        padding: 0%;
+      }
+}
+@media only screen and  (max-width: 370px) {
+    .Profile1-signUp-heading{
+        margin-left: 5%;
+    }
+}

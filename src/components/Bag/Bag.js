@@ -47,7 +47,7 @@ const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
             <div className="bottomBag">
                 <div className="bag-heading-general">
                     <div className="bag-nav">
-                        <p>Home  /  Man  /  SS ‘22 Collection </p>
+                        <p>Home  / Bag </p>
 
                     </div>
                     <div className="bag-name-cont">

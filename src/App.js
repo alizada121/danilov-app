@@ -88,7 +88,7 @@ function App() {
         </Route>
 
         <Route exact path="/delivery">
-          <Delivery/>
+          <Delivery type = 'contact'/>
         </Route>
 
         <Route exact path="/login">

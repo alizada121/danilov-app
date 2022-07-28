@@ -199,7 +199,7 @@ padding: 0% 0.5%;
 }
 
 .add {
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 .add1 {
@@ -476,7 +476,9 @@ input[type=checkbox] {
 }
 
 @media only screen and (max-width: 1025px) {
-
+    .spanbir{
+        font-size: 42px;
+    }
     .contact-header-copy-del .collection-heading .collection-heading-text {
         width: 28%;
     }
@@ -535,6 +537,12 @@ input[type=checkbox] {
 
     .contact-header-copy-del .collection-heading .collection-heading-text {
         /* width: 38%;/ */
+    }
+    .differenPass{
+        margin-top: 5%;
+    }
+    .flexDiv{
+        display: block;
     }
 
 }
@@ -890,7 +898,14 @@ input[type=checkbox] {
 
 
 }
+@media only screen and (max-width: 370px) {
+    
+.spanbir{
+    font-size: 29px;
+ 
+}
 
+}
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .flexDelivery {
         flex-direction: column;
