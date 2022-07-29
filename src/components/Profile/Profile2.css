@@ -7,7 +7,9 @@
 .Profile2-footer{
 padding: 0 10%;
 }
-
+.es{
+    overflow: hidden;
+}
 .Profile2{
     width: 100%;
     margin-top: 3%;
@@ -83,7 +85,7 @@ padding: 0 10%;
     height: 20px;
     width: 75px;
     position: absolute;
-    right: 0%;
+    right: -1%;
     margin-bottom: 0.5%;
     bottom: 10%;
 }
@@ -181,7 +183,7 @@ padding: 0 10%;
     margin-top: 0%;
     border-bottom: 1px solid;
     padding-bottom: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .Profile2-heading-line{
@@ -243,7 +245,7 @@ padding: 0 10%;
      margin-top: 0%;
      border-bottom: 1px solid;
      padding-bottom: 0%;
-     margin-bottom: 2%;
+     margin-bottom: 1%;
  }
  
  .Profile2-heading-line{
@@ -433,5 +435,11 @@ padding: 0 10%;
        
         padding: 0%;
     }
-   
+   .Profile2-heading-first h1{
+    font-size: 42px;
+  
+   }
+   .Profile2-heading-first{
+    margin-bottom: -2%;
+   }
 }

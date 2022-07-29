@@ -145,7 +145,11 @@ const About = ({setWitdhh})=>{
            </div>
         
         </div>
-           <Footer/>
+
+        <div className="single-footer1">
+        <Footer/>
+        </div>
+         
            </>
     )
 }

@@ -6,7 +6,9 @@
     width: 100%;
     padding: 0 10%;
 }
-
+.single-footer1{
+    padding: 0 10%;
+}
 .about-header {
     margin-left: 10%;
     margin-right: 10%;
@@ -717,7 +719,15 @@
  .about-line{
     width: 136%;
  }
+ .single-footer1{
+    padding: 0%;
 }
+}
+@media screen and (max-width:1024px) {
+ 
+   }
+
+
 @media screen and (max-width:1021px) {
     .about-heading-general {
         padding-left: 10%;

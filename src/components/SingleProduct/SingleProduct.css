@@ -2,8 +2,9 @@
     padding: 2% 10%;
     margin: 0 auto;
 }
-
-
+.single-footer{
+    padding: 0 10%;
+}
 .grid {
     /* width: 600px; */
     width: 55%;
@@ -346,6 +347,9 @@
     }
     .single-line{
         width: 86%;
+    }
+    .single-footer{
+        padding: 0%;
     }
 }
 

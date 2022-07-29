@@ -204,8 +204,9 @@ const SingleProduct = ({ setWitdhh, setImgC, setRandom, setDist }) => {
             <FollowUs />
 
              
-             
-<Footer />
+       <div className="single-footer"><Footer />
+        </div>      
+
             <PopUp menuOpen={menuOpen} toggle={toggle} />
         </div>
     )

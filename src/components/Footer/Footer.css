@@ -132,7 +132,7 @@
     }
     .just ul li{
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .lastPart {
@@ -180,7 +180,7 @@
         padding: 0;
     }
     .lastPart ul li {
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 @media screen and (min-width: 370px) and (max-width: 415px) {
@@ -195,7 +195,7 @@
     
     .just ul li{
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .footer-row1{
@@ -249,7 +249,7 @@
     
     .just ul li{
         margin-bottom: 5px;
-        font-size: 16px;
+        font-size: 17px;
     }
     .footer-row1{
         width: 100%;
@@ -285,7 +285,7 @@
         padding: 0;
     }
     .lastPart ul li {
-        font-size: 16px;
+        font-size: 18px;
     } 
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -352,3 +352,17 @@
    }
  
  }
+ @media screen and (max-width:600px) {
+   .footer-row2{
+    margin-left: 36%;
+   }
+  
+  }
+  @media screen and (max-width:500px) {
+    .footer-insta{
+        margin-right: 60%;
+    }
+    .insta{
+        margin-right: 20px;
+    }
+  }
