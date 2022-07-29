@@ -2,7 +2,9 @@
     color: black;
 }
 
-
+.newIn-heading-container{
+    margin-top: 3%;
+}
 .newIn-header {
     margin-top: 2%;
 }
@@ -425,7 +427,7 @@ margin-right: 5px;
 
 @media only screen and (max-width: 1024px) {
     .newIn-heading {
-        margin-top: 8%;
+        /* margin-top: 8%; */
         align-items: center;
     }
     .NewIn-footer {

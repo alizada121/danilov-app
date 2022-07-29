@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import './Bag.css';
 import HeaderBlack from '../HeaderBlack/HeaderBlack';
 import ImageHeader from "../ImageHeader/ImageHeader";
@@ -11,6 +11,8 @@ import sizeHeart from '../../Images/shirin/sizeHeart.svg';
 import sizeDelete from '../../Images/shirin/sizeDelete.svg';
 import Button from "../../component/Button/Button"
 import FollowUs from "../home/Leman/FollowUs/FollowUs";
+import urekqara from  "../../Images/shirin/urekqara.svg"
+
 function debounce(fn, ms) {
     let timer
     return _ => {
@@ -21,7 +23,24 @@ function debounce(fn, ms) {
         }, ms)
     };
 }
-const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
+const Bag = ({ text, border, showButton, setWitdhh, changeStyle  }) => {
+    const urekRef = useRef();
+  
+    const [toggle1, setToggle1] = useState(false);
+  
+    const fillHeart1 = () => {
+      if (!toggle1) {
+       urekRef.current.src= urekqara
+        console.log(sizeDelete)
+  
+        setToggle1(true)
+      } else {
+        urekRef.current.src = sizeHeart
+        setToggle1(false)
+      }
+  
+    }
+  
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);
     const [dimensions, setDimensions] = React.useState({
@@ -108,7 +127,7 @@ const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
                                     <button className="square">1</button>
                                 </div>
                                 <div className="anyway">
-                                    <img className="coldHeart" src={sizeHeart} />
+                                    <img className="coldHeart" src={sizeHeart}  ref={urekRef} onClick={fillHeart1} />
                                     <img src={sizeDelete} />
                                 </div>
                             </div>
@@ -139,7 +158,7 @@ const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
                                     <button className="square">1</button>
                                 </div>
                                 <div className="anyway">
-                                    <img className="coldHeart" src={sizeHeart} />
+                                    <img className="coldHeart" src={sizeHeart} ref={urekRef} onClick={fillHeart1} />
                                     <img src={sizeDelete} />
                                 </div>
                             </div>

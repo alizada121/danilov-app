@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef , useState} from "react";
 import '../ShoppingBag/ShoppingBag.css';
 import removeBag from '../../Images/removeBag.png';
 import bottomLine from '../../Images/bottomLine.png';
@@ -6,7 +6,24 @@ import sizeHeart from '../../Images/sizeHeart.svg';
 import sizeDelete from '../../Images/sizeDelete.svg';
 import ustegel from '../../Images/ustegel.png';
 import cixilsin from '../../Images/cixilsin.png'
-const ShoppingBag=({setButton ,setLine})=>{
+import urekqara from  "../../Images/shirin/urekqara.svg"
+const ShoppingBag=({setButton ,setLine })=>{
+  const urekRef = useRef();
+  
+  const [toggle1, setToggle1] = useState(false);
+
+  const fillHeart1 = () => {
+    if (!toggle1) {
+     urekRef.current.src= urekqara
+      console.log(sizeDelete)
+
+      setToggle1(true)
+    } else {
+      urekRef.current.src = sizeHeart
+      setToggle1(false)
+    }
+
+  }
     return(
         <div className="myBag">
         <div className={`leftBag ${setLine && 'borderBtm'} `}>
@@ -58,7 +75,7 @@ const ShoppingBag=({setButton ,setLine})=>{
                          
                     </div>   
                      <div className={`sizePart4 ${!setButton && 'sizePart4distance'} `}>
-                           <img className="hearheart" src={sizeHeart}/>
+                           <img className="hearheart" src={sizeHeart} ref={urekRef}  onClick={fillHeart1}/>
                            <img src={sizeDelete}/>
                     </div>
                     </div>
