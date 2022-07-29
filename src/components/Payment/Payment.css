@@ -359,7 +359,7 @@
     margin-top: 5%;
     margin-bottom: 15%;
     transition: 1s;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -373,6 +373,7 @@
 .Payment-success h1 {
     font-family: 'Cormorant';
     font-style: normal;
+    margin: 5% 0 0 0;
     font-weight: 600;
     font-size: 30px;
     line-height: 50px;
@@ -380,9 +381,10 @@
     color: #1B1B1B;
 }
 
-.Payment-success p {
-    width: 70%;
-    margin-left: 15%;
+.sucessText {
+    width: 80%;
+    /* margin-left: 15%; */
+    margin: 2% auto 7% auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -390,14 +392,30 @@
     line-height: 25px;
     text-align: center;
     color: #463227;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
-
+.payment-receipt{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 3% auto 0 auto;
+    flex-direction: column;
+}
+.brdr1{
+    width: 120px;
+    height: 2px;
+    color: #000;
+    border-bottom: 1px solid black;
+    margin: -0.5% auto 5% auto
+    
+}
 .Payment-success button {
-    width: 30%;
+    width: 40%;
 
 }
-
+.payment-success{
+    text-align: center;
+}
 .Payment-success button {
     padding-top: 1%;
     padding-bottom: 1%;

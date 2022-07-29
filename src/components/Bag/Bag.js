@@ -11,7 +11,7 @@ import sizeHeart from '../../Images/shirin/sizeHeart.svg';
 import sizeDelete from '../../Images/shirin/sizeDelete.svg';
 import Button from "../../component/Button/Button"
 import FollowUs from "../home/Leman/FollowUs/FollowUs";
-import urekqara from  "../../Images/shirin/urekqara.svg"
+import urekqara from "../../Images/shirin/urekqara.svg"
 
 function debounce(fn, ms) {
     let timer
@@ -23,24 +23,42 @@ function debounce(fn, ms) {
         }, ms)
     };
 }
-const Bag = ({ text, border, showButton, setWitdhh, changeStyle  }) => {
+const Bag = ({ text, border, showButton, setWitdhh, changeStyle }) => {
     const urekRef = useRef();
-  
+    const urekRef1 = useRef();
     const [toggle1, setToggle1] = useState(false);
-  
+    const [toggle2, setToggle2] = useState(false);
     const fillHeart1 = () => {
-      if (!toggle1) {
-       urekRef.current.src= urekqara
-        console.log(sizeDelete)
-  
-        setToggle1(true)
-      } else {
-        urekRef.current.src = sizeHeart
-        setToggle1(false)
-      }
-  
+        if (!toggle1) {
+            urekRef.current.src = urekqara
+
+            console.log(sizeDelete)
+
+            setToggle1(true)
+        } else {
+            urekRef.current.src = sizeHeart
+
+
+            setToggle1(false)
+        }
+
     }
-  
+
+    const fillHeart2 = () => {
+        if (!toggle2) {
+            urekRef1.current.src = urekqara
+
+            console.log(sizeDelete)
+
+            setToggle2(true)
+        } else {
+            urekRef1.current.src = sizeHeart
+
+
+            setToggle2(false)
+        }
+
+    }
     const [button, setButton] = useState(false);
     const [line, setLine] = useState(false);
     const [dimensions, setDimensions] = React.useState({
@@ -127,7 +145,7 @@ const Bag = ({ text, border, showButton, setWitdhh, changeStyle  }) => {
                                     <button className="square">1</button>
                                 </div>
                                 <div className="anyway">
-                                    <img className="coldHeart" src={sizeHeart}  ref={urekRef} onClick={fillHeart1} />
+                                    <img className="coldHeart" src={sizeHeart} ref={urekRef1} onClick={fillHeart2} />
                                     <img src={sizeDelete} />
                                 </div>
                             </div>
@@ -202,52 +220,52 @@ const Bag = ({ text, border, showButton, setWitdhh, changeStyle  }) => {
                                
                             </div> */}
                             <div className="rightAsideBag">
-                            <div className="free">
-                                <p className="one">Delivery</p>
+                                <div className="free">
+                                    <p className="one">Delivery</p>
 
-                                <div className="yazilar">
-                                    <div className="div1">
-                                        <p className="two">Free</p>
+                                    <div className="yazilar">
+                                        <div className="div1">
+                                            <p className="two">Free</p>
+                                        </div>
+
+
+
+                                        <div className="div2">
+                                            <p className="ghgh">Express: 10$</p>
+                                            <div className="bottomxet"></div>
+                                        </div>
+
+
+
                                     </div>
 
 
-
-                                    <div className="div2">
-                                        <p className="ghgh">Express: 10$</p>
-                                        <div className="bottomxet"></div>
+                                </div>
+                                <div className="divdiscount">
+                                    <div className="discount" id="iddiscount">
+                                        <p className="one">Subtotal</p>
+                                        <p className="two">1 466$</p>
+                                    </div>
+                                    <div className="discount" id="iddiscount">
+                                        <p className="two">Discount</p>
+                                        <p className="two">0.00$</p>
+                                    </div>
+                                    <div className="discount" id='discount'>
+                                        <p className="two">Delivery</p>
+                                        <p className="two">10$</p>
+                                    </div>
+                                </div>
+                                <div className="discount1">
+                                    <div className="total">
+                                        <p className="oneone">Total</p>
+                                        <p className="threethree" >1 476$</p>
                                     </div>
 
-
-
                                 </div>
 
-
-                            </div>
-                            <div className="divdiscount">
-                                <div className="discount" id="iddiscount">
-                                    <p className="one">Subtotal</p>
-                                    <p className="two">1 466$</p>
-                                </div>
-                                <div className="discount" id="iddiscount">
-                                    <p className="two">Discount</p>
-                                    <p className="two">0.00$</p>
-                                </div>
-                                <div className="discount" id='discount'>
-                                    <p className="two">Delivery</p>
-                                    <p className="two">10$</p>
-                                </div>
-                            </div>
-                            <div className="discount1">
-                                <div className="total">
-                                    <p className="oneone">Total</p>
-                                    <p className="threethree" >1 476$</p>
-                                </div>
-
+                                <Button />
                             </div>
 
-                            <Button/>
-                            </div>
-                            
                         </div>
 
 

@@ -172,14 +172,15 @@ function Payment() {
                     <div className='Payment-success-container' ref={succesRef}>
                         <div className='Payment-success'>
                             <h1>Payment Confirmed</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh condimentum lacus, duis
+                            <p className='sucessText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh condimentum lacus, duis
                                 viverra sit sodales elementum aliquam amet. Est faucibus curabitur nisi tellus ut pharetra,
                                 orci lobortis bibendum.
                             </p>
 
                             <button className='payment-success-button'>Back to shopping</button>
                             <div className='payment-receipt'>
-                                <p>Print receipt</p>
+                                <p>Print receipt </p>
+                                <div className="brdr1"></div> 
                             </div>
 
                         </div>
