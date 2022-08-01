@@ -32,12 +32,12 @@ function Payment() {
                             </div>
 
                             <div className='collection-heading'>
-                                <div className='collection-heading-text'>
-                                    <h1 className="hihi">Payment</h1>
-                                    <span className="spanbir">2</span>
+                                <div className='collection-heading-text' id='collection-heading-text'>
+                                    <h1 className="hihi " id='andAdditional1'>Payment</h1>
+                                    <span className="spanbir andAdditional2">2</span>
                                 </div>
 
-                                <div className='collection-line-cont'>
+                                <div className='collection-line-cont ' id='andAdditional3'>
                                     <div className='collection-line'></div>
                                 </div>
                             </div>

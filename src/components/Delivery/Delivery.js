@@ -87,12 +87,12 @@ const   Delivery = ({ type,showPassword, textHeader1, showing, editInput , login
                     </div>
 
                     <div className='collection-heading'>
-                        <div className='collection-heading-text'>
-                            <h1 className="hihi">Delivery</h1>
+                        <div className='collection-heading-text' id='collection-heading-text'>
+                            <h1 className="hihi"  id='andAdditional1'>Delivery</h1>
                            <span className="spanbir">1</span>
                         </div>
 
-                        <div className='collection-line-cont'>
+                        <div className='collection-line-cont' id='andAdditional3'>
                             <div className='collection-line'></div>
                         </div>
                     </div>

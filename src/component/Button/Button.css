@@ -7,6 +7,14 @@
     background-color:  #463227;
     outline: none;
     border: none;
+    color: #F0F0F0;
+    transition: 0.6s;
+ }
+ .proceed:hover{
+    color: #463227;
+    background-color: #F0F0F0;
+
+    transition: 0.6s;
  }
  .procesDiv{
   padding: 30px 30px 0 10px;
